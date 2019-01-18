@@ -1,7 +1,8 @@
 body {
- background-color:black;
+    background-image: url("https://media.giphy.com/media/l1J3t49Ncr918aboQ/giphy.gif");
+ background-color: black;
 background-repeat: no-repeat;
-background-size: auto;
+background-size: 100%;
 
 }
 #rowone {
