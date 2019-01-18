@@ -2,16 +2,19 @@
 <html>
     <head>
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
         <link rel="stylesheet" href="./styles.css">
     </head>
    
 
     <header>
 
-      <nav class = "navbar bg-dark">
+      <nav class = "navbar bg-dark fixed-top shadow-lg" style = "opacity: .7">
           <ul class = "nav">
               <li class = "nav-item ">
-                  <a class = "nav-link" href="#" style= "color: white">VULCANZY</a>
+                  <a class = "nav-link " href="#" style= "color: white">VULCANZY</a>
 
               </li>
           </ul>
@@ -21,7 +24,7 @@
     <body>
   
 
-  <div class = "container align-items-center">
+  <div class = "container" style = "padding-top: 150px">
            <div class = "row justify-content-md-center " id= "rowone ">
          <div class = "col-xl w-100 coll " >
                 <div class = "card shadow-lg rounded w-75 cardPad" >
@@ -94,7 +97,33 @@
      </div>
 
     </body>
-    <footer>
-     
-    </footer>
+    
+    <style>
+        i{ 
+            color: grey;
+            font-size: 100px;
+        }
+    </style>
+   <footer style = "bottom: 0%">
+ <nav class = "navbar navbar-dark ">
+     <div class="container-inline    rounded-pill " style = "margin-right: auto; margin-left: auto ; margin-top: 50px" >
+     <ul class  = "nav">
+      <li class = "nav-item "> <a href="#" ><span class="fa-stack fa-lg">
+            <i class="fa fa-circle fa-stack-2x"></i>
+            <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+          </span>  </a> </li>
+    
+          <li class = "nav-item "> <a href="#" ><span class="fa-stack fa-lg">
+                <i class="fa fa-circle fa-stack-2x"></i>
+                <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
+              </span>  </a> </li>
+              <li class = "nav-item "> <a href="#" ><span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x" ></i>
+                    <i class="fa fa-instagram fa-stack-1x fa-inverse"></i>
+                  </span>  </a> </li>
+                
+    </ul>
+    </div>
+ </nav>
+   </footer>
 </html>
