@@ -1,6 +1,7 @@
 body {
-    background-color: turquoise;
-    
+  background-image: url("https://bit.ly/2FBle4F");
+background-repeat: no-repeat;
+background-size: auto;
 
 }
 #rowone {
@@ -15,6 +16,6 @@ padding : 20px;
    margin-left: auto;
    margin-right: auto;
   margin-bottom : 25px;
-  margin-top: 50px;;
+  margin-top: -10px;;
    
 }
