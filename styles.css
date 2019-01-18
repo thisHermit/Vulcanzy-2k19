@@ -1,5 +1,5 @@
 body {
-  background-image: url("https://bit.ly/2FBle4F");
+    background-color: black;
 background-repeat: no-repeat;
 background-size: auto;
 
@@ -17,5 +17,10 @@ padding : 20px;
    margin-right: auto;
   margin-bottom : 25px;
   margin-top: -10px;;
-   
+  transition: width 5s, height 5s;
 }
+.cardPad:hover {
+   width: 200px;
+   height: 200px;
+}
+
