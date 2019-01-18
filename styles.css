@@ -1,0 +1,20 @@
+body {
+    background-color: turquoise;
+    
+
+}
+#rowone {
+padding : 20px;
+} 
+.coll {
+     align-content: center;
+     margin-top : auto;
+    margin-bottom: auto;
+    }
+.cardPad {
+   margin-left: auto;
+   margin-right: auto;
+  margin-bottom : 25px;
+  margin-top: 25px;
+   
+}
