@@ -1,9 +1,12 @@
 body {
-   
+   background-image: url("./image4203.png");
  background-color: black;
 background-repeat: no-repeat;
-background-size: 100%;
+background-attachment: fixed;
+background-size: 200rem;
 
+
+  
 }
 .heading {
     transition: color 1s;
