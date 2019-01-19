@@ -5,6 +5,13 @@ background-repeat: no-repeat;
 background-size: 100%;
 
 }
+.heading {
+    transition: color 1s;
+
+}
+.heading:hover {
+    color : red;
+}
 #rowone {
 padding : 20px;
 } 
