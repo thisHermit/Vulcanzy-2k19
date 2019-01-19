@@ -1,12 +1,23 @@
 body {
-    background-color: black;
+   
+ background-color: black;
 background-repeat: no-repeat;
-background-size: auto;
+background-size: 100%;
 
+}
+.heading {
+    transition: color 1s;
+
+}
+.heading:hover {
+    color : red;
 }
 #rowone {
 padding : 20px;
 } 
+p {
+    font-weight: 100;
+}
 .coll {
      align-content: center;
      margin-top : auto;
@@ -16,8 +27,25 @@ padding : 20px;
    margin-left: auto;
    margin-right: auto;
   margin-bottom : 25px;
-  margin-top: -10px;;
-  transition: width 5s, height 5s;
+  margin-top: 0px;
+   transition: height 2s;
+}
+.cardPad:hover {
+  height: 180px;
+}
+span {
+    transition: width 1s, height 1s;
+}
+span:hover {
+    width: 200px;
+    height: 100px;
+}
+i {
+   
+    transition-property: font-size 1s;
+}
+i:hover {
+   font-size: 100px;
 }
 .cardPad:hover {
    width: 200px;
