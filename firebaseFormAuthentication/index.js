@@ -28,6 +28,8 @@ function submitForm(e){
     //save msg to firebase 
     console.log(123);
     saveMessage(name,email,gender,College);
+
+    document.getElementById('test').reset();
 }
 
 function getInputVal(id)
