@@ -12,16 +12,17 @@ background-size: 100%;
 
 }
 .layer1_class{
-  z-index: 1;
+  z-index: 0;
   top: 100px;
   left: 100px;
- 
-position: absolute;
+ position: absolute;
+
   visibility: visible;
 }
 .layer2_class{
-z-index: 2;
+z-index: 1;
 visibility: hidden;
+position: initial;
 }
 .heading:hover {
     color : red;
