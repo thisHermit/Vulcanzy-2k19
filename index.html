@@ -16,9 +16,11 @@
           function waiter() {
             if (document.all){
                 document.all["layer1"].style.visibility="hidden";
+                document.all["layer1"].style.position = "absolute";
                 document.all["layer2"].style.visibility="visible";
             } else if (document.getElementById){
                 node = document.getElementById("layer1").style.visibility='hidden';
+                node = document.getElementById("layer1").style.position='absolute';
                 node = document.getElementById("layer2").style.visibility='visible';
 
             }
@@ -29,7 +31,7 @@
     </head>
 
 
-
+    
 
     <body id= "backBone" onload="waiter()">
             <style>
@@ -44,9 +46,9 @@
                     }
             </style>
             <div id="layer1" class="layer1_class">
-              <img src="200w.webp" alt=" loading ..." style="height:100%; width:100%">
-
-            </div>
+                <img src="200w.webp" alt=" loading ..." style="height:100%; width:100%; margin: auto auto auto auto">
+        
+              </div>
             <div id="layer2" class="animated flash layer2_class">
               <div class = "banner container bg-dark" >
              <a href="./index.html" class = "text-decoration-none heading"><p style = "font-size: 45px; margin-top: 10px; color : white; font-weight: 100" class = " heading text-center  animated pulse slow  delay-2s infinite">
