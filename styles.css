@@ -13,9 +13,13 @@ background-size: 100%;
 }
 .layer1_class{
   z-index: 0;
-  top: 100px;
-  left: 100px;
-  position: static;
+  position: fixed;
+  background-image: url("200w.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+  width: 100%;
 
   visibility: visible;
 }
