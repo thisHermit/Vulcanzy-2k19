@@ -11,12 +11,25 @@ background-size: 100%;
     transition: color 1s;
 
 }
+.layer1_class{
+  z-index: 1;
+  top: 500px;
+  left: 100px;
+  visibility: visible;
+}
+.layer2_class{
+position: absolute;
+z-index: 2;
+top: 10px;
+left: 10px;
+visibility: hidden;
+}
 .heading:hover {
     color : red;
 }
 #rowone {
 padding : 20px;
-} 
+}
 p {
     font-weight: 100;
 }
@@ -43,7 +56,7 @@ span:hover {
     height: 100px;
 }
 i {
-   
+
     transition-property: font-size 1s;
 }
 i:hover {
@@ -53,4 +66,3 @@ i:hover {
    width: 200px;
    height: 200px;
 }
-

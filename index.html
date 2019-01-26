@@ -10,12 +10,28 @@
 
         <link rel="stylesheet" href="./styles.css">
 
+        <script>
+        // strictly for testing purposes
+        // remove this setTimeout wrapper later
+          function waiter() {
+            if (document.all){
+                document.all["layer1"].style.visibility="hidden";
+                document.all["layer2"].style.visibility="visible";
+            } else if (document.getElementById){
+                node = document.getElementById("layer1").style.visibility='hidden';
+                node = document.getElementById("layer2").style.visibility='visible';
+
+            }
+          }
+
+        </script>
+
     </head>
 
 
 
 
-    <body class = "animated flipInY " id= "backBone">
+    <body id= "backBone" onload="waiter()">
             <style>
                      .banner {
 
@@ -26,21 +42,25 @@
 
 
                     }
-                    </style>
-        <div class = "banner container bg-dark" >
-       <a href="./index.html" class = "text-decoration-none heading"><p style = "font-size: 45px; margin-top: 10px; color : white; font-weight: 100" class = " heading text-center  animated pulse slow  delay-2s infinite">
-             V U L C A N Z Y - 2 K 1 9
-        </p> </a>
-        <p style = "font-size: 24px; color : grey ; font-weight: 200" class = "text-center  animated pulse delay-1s">
-                NIT-ANDHRA PRADESH
+            </style>
+            <div id="layer1" class="layer1_class">
+              <img src="200w.webp" alt="">
+            </div>
+            <div id="layer2" class="animated flipInY layer2_class">
+              <div class = "banner container bg-dark" >
+             <a href="./index.html" class = "text-decoration-none heading"><p style = "font-size: 45px; margin-top: 10px; color : white; font-weight: 100" class = " heading text-center  animated pulse slow  delay-2s infinite">
+                   V U L C A N Z Y - 2 K 1 9
+              </p> </a>
+              <p style = "font-size: 24px; color : grey ; font-weight: 200" class = "text-center  animated pulse delay-1s">
+                      NIT-ANDHRA PRADESH
 
-           </p>
+                 </p>
 
-           <p style = "font-size: 18px; color : grey ; font-weight: 200" class = "text-center  animated pulse delay-1s ">
-              MARCH 12 - MARCH 15
+                 <p style = "font-size: 18px; color : grey ; font-weight: 200" class = "text-center  animated pulse delay-1s ">
+                    MARCH 12 - MARCH 15
 
-           </p>
-        </div>
+                 </p>
+              </div>
 
   <div class = "container" style = "padding-top: 150px">
            <div class = "row justify-content-md-center " id= "rowone ">
@@ -146,7 +166,7 @@
 
 
       </div>
-
+    </div>
     </body>
 
     <style>
