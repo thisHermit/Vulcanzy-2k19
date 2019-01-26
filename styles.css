@@ -14,7 +14,7 @@ background-size: 100%;
 .layer1_class{
   z-index: 0;
   position: fixed;
-  background-image: url("200w.webp");
+  background-image: url("./loading.gif");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
