@@ -24,9 +24,27 @@ img {
 }
 
 </style>
-    
+      <script>
+        // strictly for testing purposes
+        // remove this setTimeout wrapper later
+       
+        
+          function waiter() {
+            if (document.all){
+                document.all["layer1"].style.visibility="hidden";
+                document.all["layer1"].style.position = "absolute";
+                document.all["layer2"].style.visibility="visible";
+            } else if (document.getElementById){
+                node = document.getElementById("layer1").style.visibility='hidden';
+                node = document.getElementById("layer1").style.position='absolute';
+                node = document.getElementById("layer2").style.visibility='visible';
+
+            }
+          }
+
+        </script>
    
-    <body class = "animated flash    ">
+    <body onload="waiter()">
           
             <style>
                      .banner {
@@ -39,8 +57,12 @@ img {
                       
                     }
                     </style>
+                     <div id="layer1" class="layer1_class">
+               
+                    </div>
+                    <div id="layer2" class="animated flash layer2_class">
         <div class = "banner container bg-dark" >
-        <a href="./index.html" class = "text-decoration-none" style = "text-decoration: none"><p style = "font-size: 45px; margin-top: 10px; color : white; font-weight: 100" class = " heading text-center  animated pulse slow  delay-2s infinite ">
+        <a href="./index.html" class = "text-decoration-none" style = "text-decoration: none"><p style = "font-size: 60px; margin-top: 10px; color : white; font-weight: 100" class = " heading text-center  animated pulse slow  delay-2s infinite ">
             V U L C A N Z Y - 2 K 1 9
        </p> </a>
        
@@ -55,9 +77,12 @@ img {
       </p>
             </div>
 
-           <div class = "container box animated fadeIn delay-1s"> 
-               <div class= "row ">
-                    <div class= "col colm">
+           <div class = "container box animated fadeIn delay-1s" id = "data"> 
+                <br>
+                <p class = "text text-center" style= "color:white; font-size:60px; font-weight: 100"> C I V I L</p>
+                <br>
+               <div class= "row" id = "data">
+                    <div class= "col colm" id = "data">
                        <a href = "http://www.nitandhra.ac.in/main/images/VULCANZY/2017/TECH/civil/01.jpg"> <img  src="http://www.nitandhra.ac.in/main/images/VULCANZY/2017/TECH/civil/01.jpg" class = " rounded fadeIn" alt=""> </a>
                     </div>
                     <div class= "col colm" >
@@ -65,12 +90,50 @@ img {
                         <div class= "col colm" >
                                 <a href = "http://www.nitandhra.ac.in/main/images/VULCANZY/2017/TECH/civil/03.jpg"> <img  src="http://www.nitandhra.ac.in/main/images/VULCANZY/2017/TECH/civil/03.jpg" class = " rounded fadeIn" alt=""> </a>                                </div>
                         
-
+                                <div class= "col colm" id = "data">
+                                    <a href = "http://www.nitandhra.ac.in/main/images/VULCANZY/2017/TECH/civil/04.jpg"> <img  src="http://www.nitandhra.ac.in/main/images/VULCANZY/2017/TECH/civil/04.jpg" class = " rounded fadeIn" alt=""> </a>
+                                 </div>
+                                 <div class= "col colm" id = "data">
+                                    <a href = "http://www.nitandhra.ac.in/main/images/VULCANZY/2017/TECH/civil/05.jpg"> <img  src="http://www.nitandhra.ac.in/main/images/VULCANZY/2017/TECH/civil/05.jpg" class = " rounded fadeIn" alt=""> </a>
+                                 </div>
+                                 <div class= "col colm" id = "data">
+                                    <a href = "http://www.nitandhra.ac.in/main/images/VULCANZY/2017/TECH/civil/06.jpg"> <img  src="http://www.nitandhra.ac.in/main/images/VULCANZY/2017/TECH/civil/06.jpg" class = " rounded fadeIn" alt=""> </a>
+                                 </div>
+                                 <div class= "col colm" id = "data">
+                                    <a href = "http://www.nitandhra.ac.in/main/images/VULCANZY/2017/TECH/civil/07.jpg"> <img  src="http://www.nitandhra.ac.in/main/images/VULCANZY/2017/TECH/civil/07.jpg" class = " rounded fadeIn" alt=""> </a>
+                                 </div>
                </div>
+               <br>
+               <br>
+               <p class = "text text-center" style= "color:white; font-size:60px; font-weight: 100"> C S E</p>
+               <br>
+               <div class= "row" id = "data">
+                <div class= "col colm" id = "data">
+                   <a href = "http://www.nitandhra.ac.in/main/images/VULCANZY/2017/TECH/cse/01.jpg"> <img  src="http://www.nitandhra.ac.in/main/images/VULCANZY/2017/TECH/cse/01.jpg" class = " rounded fadeIn" alt=""> </a>
+                </div>
+                <div class= "col colm" >
+                        <a href = "http://www.nitandhra.ac.in/main/images/VULCANZY/2017/TECH/cse/02.jpg"> <img  src="http://www.nitandhra.ac.in/main/images/VULCANZY/2017/TECH/cse/02.jpg" class = " rounded fadeIn" alt=""> </a>                        </div>
+                    <div class= "col colm" >
+                            <a href = "http://www.nitandhra.ac.in/main/images/VULCANZY/2017/TECH/cse/03.jpg"> <img  src="http://www.nitandhra.ac.in/main/images/VULCANZY/2017/TECH/cse/03.jpg" class = " rounded fadeIn" alt=""> </a>                                </div>
+                    
+                            <div class= "col colm" id = "data">
+                                <a href = "http://www.nitandhra.ac.in/main/images/VULCANZY/2017/TECH/cse/04.jpg"> <img  src="http://www.nitandhra.ac.in/main/images/VULCANZY/2017/TECH/cse/04.jpg" class = " rounded fadeIn" alt=""> </a>
+                             </div>
+                             <div class= "col colm" id = "data">
+                                <a href = "http://www.nitandhra.ac.in/main/images/VULCANZY/2017/TECH/cse/05.jpg"> <img  src="http://www.nitandhra.ac.in/main/images/VULCANZY/2017/TECH/cse/05.jpg" class = " rounded fadeIn" alt=""> </a>
+                             </div>
+                             <div class= "col colm" id = "data">
+                                <a href = "http://www.nitandhra.ac.in/main/images/VULCANZY/2017/TECH/cse/06.jpg"> <img  src="http://www.nitandhra.ac.in/main/images/VULCANZY/2017/TECH/cse/06.jpg" class = " rounded fadeIn" alt=""> </a>
+                             </div>
+                             <div class= "col colm" id = "data">
+                                <a href = "http://www.nitandhra.ac.in/main/images/VULCANZY/2017/TECH/cse/07.jpg"> <img  src="http://www.nitandhra.ac.in/main/images/VULCANZY/2017/TECH/cse/07.jpg" class = " rounded fadeIn" alt=""> </a>
+                             </div>
+           </div>
+
 
            
            </div>
-
+</
     </body>
     
     <style>

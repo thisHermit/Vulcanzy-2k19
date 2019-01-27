@@ -9,7 +9,7 @@ background-size: 100%;
 }
 .heading {
     transition: color 1s;
-
+  
 }
 .layer1_class{
   z-index: 0;
@@ -45,6 +45,7 @@ p {
 .cardPad {
    margin-left: auto;
    margin-right: auto;
+   display: flex;
   margin-bottom : 25px;
   margin-top: 0px;
    transition: height 2s;
