@@ -11,8 +11,6 @@
         <link rel="stylesheet" href="./styles.css">
 
         <script>
-        // strictly for testing purposes
-        // remove this setTimeout wrapper later
           function waiter() {
             if (document.all){
                 document.all["layer1"].style.visibility="hidden";
@@ -31,7 +29,7 @@
     </head>
 
 
-    
+
 
     <body id= "backBone" onload="waiter()">
             <style>
@@ -45,10 +43,11 @@
 
                     }
             </style>
-            <div id="layer1" class="layer1_class">
-               
-              </div>
+            <div id="layer1" class="layer1_class glitch-filter-example glitch-filter-example__filtered-text">
+              Vulcanzy
+            </div>
             <div id="layer2" class="animated flash layer2_class">
+              <button type="button" name="button" class="sidenav_button" onclick="openNav()">image here</button>
               <div class = "banner container bg-dark" >
              <a href="./index.html" class = "text-decoration-none heading"><p style = "font-size: 60px; margin-top: 10px; color : white; font-weight: 100" class = " heading text-center  animated pulse slow  delay-2s infinite">
                    V U L C A N Z Y - 2 K 1 9
@@ -63,6 +62,21 @@
 
                  </p>
               </div>
+
+              <!-- Put this in a decorated container -->
+              <a href="./firebaseFormAuthentication/index.html">Registration Link</a>
+
+
+              <div id="side_nav" class="sidenav">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <a href="#">About</a>
+                <a href="#">Services</a>
+                <a href="#">Clients</a>
+                <a href="#">Contact</a>
+                <a href="#">Please Fix Me</a>
+              </div>
+
+
 
   <div class = "container" style = "padding-top: 150px">
            <div class = "row justify-content-md-center " id= "rowone ">
@@ -199,4 +213,15 @@
     </div>
  </nav>
    </footer>
+   <script type="text/javascript">
+    function openNav() {
+      // 250px can be changed later
+      document.getElementById("side_nav").style.width = "250px";
+    }
+
+      /* Set the width of the side navigation to 0 */
+    function closeNav() {
+      document.getElementById("side_nav").style.width = "0";
+    }
+   </script>
 </html>

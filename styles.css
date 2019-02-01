@@ -1,3 +1,9 @@
+@font-face {
+  /* font credit goes to II year cse guys */
+  font-family: 'harry';
+  src: URL('./harry.ttf') format('truetype');
+}
+
 body {
    background-image: url("./bg.png");
  background-color: black;
@@ -9,20 +15,59 @@ background-size: 100%;
 }
 .heading {
     transition: color 1s;
-  
+
 }
 .layer1_class{
+  font-family: harry;
+  font-size: 1000%;
+  text-align: center;
   z-index: 0;
+  color: white;
   position: fixed;
-  background-image: url("./loading.gif");
+  /* background-image: url("./loading.gif"); */
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   height: 100%;
   width: 100%;
-
   visibility: visible;
+
+  /* putting in middle vertically */
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+
+  /* animation section here (easter egg: bashar) */
+  white-space: nowrap;
+  overflow: hidden;
 }
+
+/* Typing animation */
+.glitch-filter-example__filtered-text {
+    filter: url(#filter);
+    fill: white;
+    font-family: 'Share Tech Mono', sans-serif;
+    font-size: 100px;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    display: block;
+}
+.anim-typewriter{
+  width: 7.3em;
+  -webkit-animation: type 2s steps(40, end);
+  animation: type 2s steps(40, end);
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}
+
+@keyframes typewriter{
+  from{width: 0;}
+  to{width: 24em;}
+}
+
+
 .layer2_class{
 z-index: 1;
 visibility: hidden;
@@ -70,4 +115,46 @@ i:hover {
 .cardPad:hover {
    width: 200px;
    height: 200px;
+}
+
+/* The side navigation menu */
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  padding-top: 60px;
+  transition: 0.5s;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+.sidenav_button {
+  display: block;
+  float: left;
+  top: 1px;
+  z-index: 10;
 }
