@@ -25,6 +25,7 @@ background-size: 100%;
   color: white;
   position: fixed;
   /* background-image: url("./loading.gif"); */
+  background-color: black;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -134,15 +135,13 @@ i:hover {
 .sidenav a {
   padding: 8px 8px 8px 32px;
   text-decoration: none;
-  font-size: 25px;
+  
   color: #818181;
   display: block;
-  transition: 0.3s;
+  
 }
 
-.sidenav a:hover {
-  color: #f1f1f1;
-}
+
 
 .sidenav .closebtn {
   position: absolute;
@@ -154,9 +153,17 @@ i:hover {
 
 .sidenav_button {
   display: block;
+  font-size: 50px;
+  font-weight: 100;
+  color: white;
+  border: none;
+  background-color: transparent;
+  text-decoration: none;
   float: left;
+  opacity: 80%;
   top: 1px;
-  z-index: 10;
+  left: 2px;
+  z-index: 0;
   position: fixed;
   top:0;
 }
