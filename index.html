@@ -286,7 +286,7 @@ window.onscroll = function() {
 function scrollFunction() {
   
   if (document.body.scrollTop > 2 || document.documentElement.scrollTop > 2 ) {
-   window.scrollTo(0,3);
+    window.scrollBy(0,1);
     document.getElementById("layer2").style.visibility = "hidden";
     document.getElementById("layer2").style.position = "absolute";
     document.getElementById("layer3").style.visibility = "visible";
@@ -299,6 +299,7 @@ function scrollFunction() {
     var layerthree = document.getElementById("layer3").classList.remove("fadeInUp");
     var layerthree = document.getElementById("layer2").classList.add("fadeIn");
   }
+  
  
 }
   function openNav() {
