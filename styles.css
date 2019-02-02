@@ -119,7 +119,9 @@ z-index: 20;
   background-repeat: no-repeat;
 }
 
-
+p {
+  font-family: sans-serif;
+}
 
 
 .layer2_class{

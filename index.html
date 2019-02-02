@@ -22,12 +22,12 @@
   
     function waiter() {
             if (document.all){
-                document.all["layer1"].style.visibility="hidden";
-                document.all["layer1"].style.position = "absolute";
+                document.all["layer1"].style.display="none";
+        
                 document.all["layer2"].style.visibility="visible";
             } else if (document.getElementById){
-                node = document.getElementById("layer1").style.visibility='hidden';
-                node = document.getElementById("layer1").style.position='absolute';
+                node = document.getElementById("layer1").style.display='none';
+               
                 node = document.getElementById("layer2").style.visibility='visible';
 
             }
@@ -314,7 +314,7 @@ function scrollFunction() {
 }
   function openNav() {
     // 250px can be changed later
-    document.getElementById("side_nav").style.width = "380px";
+    document.getElementById("side_nav").style.width = "100%";
     document.getElementById("layer2").style.display = "none";
     document.getElementById("layer3").style.display = "none";
 
