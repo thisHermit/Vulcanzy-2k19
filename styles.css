@@ -145,7 +145,7 @@ i:hover {
 
 
 .sidenav .closebtn {
-  position: absolute;
+  position: fixed;
   top: 0;
   right: 25px;
   font-size: 36px;
