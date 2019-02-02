@@ -191,8 +191,18 @@
 
       </p>-->
     </div>
-    <div class= "container  justify-content-center text-center  animated fadeIn slow " id= "">
-      <p style="font-weight: 100; font-size: 40px; color: white; " id="clock"> </p>
+    <div class= "container  justify-content-center text-center  animated fadeIn slow  " id= "">
+      <p style="font-weight: 100; font-size: 40px; color: white; display: inline; padding: 10px " class= " border text-center " id="days"></p>
+      <p style="font-weight: 100; font-size: 40px; color: white; display: inline; padding: 10px " class= "  text-center " id="">d </p>
+      <p style="font-weight: 100; font-size: 40px; color: white; display: inline; padding: 10px  " class= " border text-center " id="hours"> </p>
+      <p style="font-weight: 100; font-size: 40px; color: white; display: inline; padding: 10px " class= "  text-center " id="">h </p>
+
+      <p style="font-weight: 100; font-size: 40px; color: white; display: inline;  padding: 10px"  class= " border text-center " id="min"> </p>
+      <p style="font-weight: 100; font-size: 40px; color: white; display: inline; padding: 10px " class= "  text-center " id="">m </p>
+
+      <p style="font-weight: 100; font-size: 40px; color: white;  display: inline; padding: 10px" class= " border text-center" id="seconds"> </p>
+      <p style="font-weight: 100; font-size: 40px; color: white; display: inline; padding: 10px " class= "  text-center " id="">s </p>
+
       </div>
     <!-- Put this in a decorated container   -->
     <div class= "container  justify-content-center text-center animated flash infinite delay-1s  " style=" animation-duration: 2s; margin-top: 40px " >
@@ -366,8 +376,11 @@ var x = setInterval(function() {
   var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
   var seconds = Math.floor((distance % (1000 * 60)) / 1000);
     
-  document.getElementById("clock").innerHTML =  days + "D " + hours + "H "
-  + minutes + "M " + seconds + "S ";
+  document.getElementById("days").innerHTML =  days ;
+  document.getElementById("hours").innerHTML =  hours;
+  document.getElementById("min").innerHTML =  minutes;
+  document.getElementById("seconds").innerHTML = seconds;
+
     
   if (distance < 0) {
     clearInterval(x);
