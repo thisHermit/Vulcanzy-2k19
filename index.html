@@ -284,15 +284,16 @@ window.onscroll = function() {
   scrollFunction()};
 
 function scrollFunction() {
-  
-  if (document.body.scrollTop > 2 || document.documentElement.scrollTop > 2 ) {
-    window.scrollBy(0,1);
+  var value = window.scrollY;
+
+  if (value > 2 || value > 2 ) {
+    
     document.getElementById("layer2").style.visibility = "hidden";
     document.getElementById("layer2").style.position = "absolute";
     document.getElementById("layer3").style.visibility = "visible";
     var layerthree = document.getElementById("layer3").classList.add("fadeInUp");
     var layerthree = document.getElementById("layer2").classList.remove("fadeIn");
-  } else if (document.body.scrollTop > -2 || document.documentElement.scrollTop > -2 )  {
+  } else if (value > -2 || value > -2 )  {
     document.getElementById("layer2").style.visibility = "visible";
     document.getElementById("layer3").style.visibility = "hidden";
     document.getElementById("layer2").style.position =  null;
