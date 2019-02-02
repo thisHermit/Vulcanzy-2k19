@@ -19,9 +19,7 @@
 
   
   <script>
-    new fullpage('#fullpage', {
-  sectionsColor: ['yellow', 'orange', '#C0C0C0', '#ADD8E6'],
-});
+  
     function waiter() {
             if (document.all){
                 document.all["layer1"].style.visibility="hidden";
@@ -197,12 +195,12 @@
     Vulcanzy
     
   </div>
-  <div id="fullpage" style="width: 100%; height: 100%;"  >
+  <div id="fullpage" style="width: 100%; height: 50%;"  >
      <div id= "particle-container">
   <div id="layer2" class="animated flash layer2_class align-self-center" >
       
     <button type="button" name="button" class="sidenav_button fa fa-bars shadow-lg rounded" onclick="openNav()"></button>
-    <div class="banner container heading" style = "margin-top: 80px">
+    <div class="banner container heading" style = "margin-top: 50px">
       <a href="./index.html" class="text-decoration-none ">
         <p style="padding-top: 20px; margin-top: 50px; color : black; font-family: harry; font-weight: 100" class=" heading   text-center  animated pulse slow  delay-2s infinite">
           V U L C A N Z Y
@@ -232,7 +230,7 @@
 
       </div>
     <!-- Put this in a decorated container   -->
-    <div class= "container  justify-content-center text-center animated flash infinite delay-1s fixed-bottom " style=" animation-duration: 2s; margin-bottom: 160px " >
+    <div class= "container  justify-content-center text-center animated flash infinite delay-1s fixed-bottom " style=" animation-duration: 2s; margin-bottom: 80px " >
     <a href="./auth/registerVulcanzy.html" style= " text-decoration: none; color:black; font-weight:80 ;font-size: 30px; margin-left: auto; margin-right: auto; padding-left: 10px; padding-right: 10px; padding-top: 10px; padding-bottom: 10px" class= "registerAnim border border-dark"> REGISTER</a>
   </div>
 
@@ -248,7 +246,7 @@
             font-size: 100px;
         }
     </style>
-<footer style="bottom: 0; margin-bottom: 5px; opacity: .8;" class="fixed-bottom" >
+<footer style="bottom: 0; margin-bottom: 5px; opacity: .8;" class="fixed-bottom" id="footer" >
   <nav class="navbar navbar-dark ">
     <div class="container-inline    rounded-pill " style="margin-right: auto; margin-left: auto ; margin-top: 60px">
       <ul class="nav">
@@ -270,7 +268,18 @@
     </div>
   </nav>
 </footer>
+
 <script type="text/javascript">
+window.onscroll = function() {
+  scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 2 || document.documentElement.scrollTop > 2 ) {
+    document.getElementById("footer").style.visibility = "hidden";
+  } else if (document.body.scrollTop > -2 || document.documentElement.scrollTop > -2 )  {
+    document.getElementById("footer").style.visibility = "visible";
+  }
+}
   function openNav() {
     // 250px can be changed later
     document.getElementById("side_nav").style.width = "380px";
