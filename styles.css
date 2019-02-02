@@ -125,6 +125,7 @@ i:hover {
   position: fixed;
   z-index: 1;
   top: 0;
+  opacity: 70%;
   left: 0;
   background-color: #111;
   overflow-x: hidden;
@@ -144,7 +145,7 @@ i:hover {
 
 
 .sidenav .closebtn {
-  position: absolute;
+  position: fixed;
   top: 0;
   right: 25px;
   font-size: 36px;
