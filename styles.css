@@ -1,3 +1,4 @@
+
 @font-face {
   /* font credit goes to II year cse guys */
   font-family: 'harry';
@@ -13,6 +14,7 @@ height: 100%;
 width: 100%;
 /*position: fixed;*/
 }
+
 
 .layer1_class{
   font-family: harry;
