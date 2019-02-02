@@ -4,9 +4,12 @@
   font-family: 'harry';
   src: URL('./harry.ttf') format('truetype');
 }
-
+body::-webkit-scrollbar {
+  width: 0px; /* remove scrollbar space /
+  background: transparent; / optional: just make scrollbar invisible /
+  */}
 body {
- background-color: #ffb3b3;
+ background-color: #edc7b7;
 background-repeat: no-repeat;
 background-attachment: fixed;
 background-size: 100%;
@@ -21,10 +24,11 @@ width: 100%;
   font-size: 1000%;
   text-align: center;
   z-index: 0;
-  color: white;
+  top:0;
+  color: #05386b;
   position: fixed;
   /* background-image: url("./loading.gif"); */
-  background-color: #00ffcc;
+  background-color: #edc7b7;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -166,17 +170,19 @@ i:hover {
    font-size: 100px;
 }
 
-
-/* The side navigation menu */
+.sidenav::-webkit-scrollbar {
+  width: 0px; /* remove scrollbar space /
+  background: transparent; / optional: just make scrollbar invisible /
+  */}
 .sidenav {
   height: 100%;
   width: 0;
   position: fixed;
   z-index: 1;
   top: 0;
-  opacity: 70%;
+  opacity: .9;
   left: 0;
-  background-color: #80bfff;
+  background-color: #eee2dc;
   overflow-x: hidden;
   padding-top: 60px;
   transition: 0.5s;
