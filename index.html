@@ -232,6 +232,7 @@
             
             
           </div>
+          <button class="btn" onclick="home()"><p class="fa fa-arrow-circle-up animated fadeInUp fast infinite" style= "font-size: 80px;"></p></button>
           <div class ="container ">
             <img src="./vullogo.png" style=" height: 220px; width: 300px" >
           </div>
@@ -280,6 +281,13 @@
 </footer>
 
 <script type="text/javascript">
+function home () {
+  document.getElementById("layer2").style.visibility = "visible";
+   document.getElementById("layer3").style.visibility = "hidden";
+ document.getElementById("layer2").style.position =  null;
+var layerthree = document.getElementById("layer3").classList.remove("fadeInUp");
+  var layerthree = document.getElementById("layer2").classList.add("fadeIn");
+}
 window.onscroll = function() {
   scrollFunction()};
 
@@ -294,13 +302,9 @@ function scrollFunction() {
     var layerthree = document.getElementById("layer3").classList.add("fadeInUp");
     var layerthree = document.getElementById("layer2").classList.remove("fadeIn");
   } 
-  //else if (value > -2 || value > -2 )  {
-    //document.getElementById("layer2").style.visibility = "visible";
-  //  document.getElementById("layer3").style.visibility = "hidden";
-  //  document.getElementById("layer2").style.position =  null;
-  //  var layerthree = document.getElementById("layer3").classList.remove("fadeInUp");
-  //  var layerthree = document.getElementById("layer2").classList.add("fadeIn");
- // }
+  
+    
+
   
  
 }
