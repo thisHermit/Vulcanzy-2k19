@@ -227,25 +227,18 @@
     </div>
   
 
-    <div class = "container text-center animated " id= "layer3" style="visibility: hidden" >
-        <div class="banner container heading" style = "margin-top: 50px">
-            <a href="./index.html" class="text-decoration-none ">
-              <p style="padding-top: 20px; margin-top: 50px; color : black; font-family: harry; font-weight: 100" class=" heading   text-center  animated pulse slow  delay-2s infinite">
-                V U L C A N Z Y
-              </p>
-            </a>
-            <p style="font-size: 20px; color : black ; font-weight: 100;" class="text-center  animated pulse delay-1s">
-              NIT - ANDHRA PRADESH
-      
-            </p>
-            <!--
-            <p style="font-size: 20px; color : whitesmoke ; font-weight: 200" class="text-center  animated pulse delay-1s ">
-              MARCH 12 - MARCH 15
-      
-            </p>-->
+    <div class = "container text-center animated " id= "layer3" style="visibility: hidden; height: 100%; margin-bottom: 60px;" >
+        <div class="banner container heading" style = "margin-top: 10%">
+            
+            
           </div>
-     <p class = "text" style="font-family: harry; font-size: 60px" > A B O U T </p>
-      <p class="text" style="font-weight: 100; font-size: 25px;" >
+          <div class ="container ">
+            <img src="./vullogo.png" style=" height: 220px; width: 300px" >
+          </div>
+          
+     <p class = "text" style="font-family: harry; font-size: 4vw; margin-top: 20px" > A B O U T </p>
+     <div class  = "container" style="" >
+      <p class="text" style="font-weight: 100; font-size: 2vw; " >
           The festive atmosphere mid march was amplified with Vulcancy’18 which spoke out loud with an exciting list of technical events from all the branches namely, Biotechnology, Civil, Chemical, Computer Science, Electrical and Electronics, Electronics and Communication, Mechanical and Metallurgy and materials engineering along with department of Science and Humanities and Innovation club.
           The Fest had been planned in mid-March under the guidance of Resident coordinator, Prof. S. Srinivasa Rao and fest coordinator, Dr.Ahmed along with the faculty of respective departments.
           The events were all well coordinated and hard worked by student organisers which in turn were guided by the faculty members.
@@ -253,6 +246,7 @@
           The Technical part of fest ended up pompfully as a result of dedication of all volunteers, organizers, participants and the student technical conveners Mr. Mukul Patel, 3rd year Mechanical and Ms. Sindhu Kotla,3rd year ECE.
           The fest ended up with a lantern ceremony conducted by Jayanth and team to set the spirits high.
       </p>
+    </div>
     </div>
 </body>
 
@@ -290,19 +284,22 @@ window.onscroll = function() {
   scrollFunction()};
 
 function scrollFunction() {
+  
   if (document.body.scrollTop > 2 || document.documentElement.scrollTop > 2 ) {
+    window.scrollTo(0, 3);
     document.getElementById("layer2").style.visibility = "hidden";
     document.getElementById("layer2").style.position = "absolute";
     document.getElementById("layer3").style.visibility = "visible";
-    var layerthree = document.getElementById("layer3").classList.add("fadeIn");
+    var layerthree = document.getElementById("layer3").classList.add("fadeInUp");
     var layerthree = document.getElementById("layer2").classList.remove("fadeIn");
   } else if (document.body.scrollTop > -2 || document.documentElement.scrollTop > -2 )  {
     document.getElementById("layer2").style.visibility = "visible";
     document.getElementById("layer3").style.visibility = "hidden";
     document.getElementById("layer2").style.position =  null;
-    var layerthree = document.getElementById("layer3").classList.remove("fadeIn");
+    var layerthree = document.getElementById("layer3").classList.remove("fadeInUp");
     var layerthree = document.getElementById("layer2").classList.add("fadeIn");
   }
+ 
 }
   function openNav() {
     // 250px can be changed later
