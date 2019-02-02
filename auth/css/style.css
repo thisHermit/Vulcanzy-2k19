@@ -6,7 +6,9 @@
 body {
   margin: 0;
   padding: 0;
-  background: #DDD;
+  background-image: url("./bg.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
   font-size: 16px;
   color: #222;
   font-family: 'Roboto', sans-serif;
