@@ -24,7 +24,7 @@ width: 100%;
   color: white;
   position: fixed;
   /* background-image: url("./loading.gif"); */
-  background-color: black;
+  background-color: #00ffcc;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
