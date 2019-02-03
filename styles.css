@@ -18,15 +18,15 @@ body {
 
 /* testing color change loop */
 animation-name: color_change;
-animation-duration: 1s;
+animation-duration: 4s;
 animation-iteration-count: infinite;
 animation-direction: alternate;
 /*position: fixed;*/
 }
 
 @keyframes color_change {
-	from { background-color: #edc7b7; }
-	to { background-color: #fdf8c7; }
+	from { background-color: #26c8f0; }
+	to { background-color: #cbf2fb; }
 }
 
 .layer1_class{
@@ -240,5 +240,5 @@ i:hover {
   z-index: 0;
   position: fixed;
   top:0;
-  display: 
+  display:
 }
