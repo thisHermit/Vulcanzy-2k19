@@ -10,14 +10,24 @@ body::-webkit-scrollbar {
   */}
 body {
  background-color: #edc7b7;
-background-repeat: no-repeat;
-background-attachment: fixed;
-background-size: 100%;
-height: 100%;
-width: 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100%;
+  height: 100%;
+  width: 100%;
+
+/* testing color change loop */
+animation-name: color_change;
+animation-duration: 1s;
+animation-iteration-count: infinite;
+animation-direction: alternate;
 /*position: fixed;*/
 }
 
+@keyframes color_change {
+	from { background-color: #edc7b7; }
+	to { background-color: #fdf8c7; }
+}
 
 .layer1_class{
   font-family: harry;
@@ -112,7 +122,7 @@ width: 100%;
 #particles-js{
   width: 100%;
   height: 100%;
-  
+
 z-index: 20;
   background-size: cover;
   background-position: 50% 50%;
@@ -141,7 +151,7 @@ p {
 .coll {
      align-content: center;
      margin-top : auto;
-   
+
     }
 .cardPad {
   height: 240px;
@@ -193,10 +203,10 @@ i:hover {
 .sidenav a {
   padding: 8px 8px 8px 32px;
   text-decoration: none;
-  
+
   color: #818181;
   display: block;
-  
+
 }
 
 
@@ -207,7 +217,7 @@ i:hover {
   right: 25px;
   font-size: 36px;
   margin-left: 50px;
- 
+
 }
 .closebtn{
   position: fixed;
@@ -230,4 +240,5 @@ i:hover {
   z-index: 0;
   position: fixed;
   top:0;
+  display: 
 }
