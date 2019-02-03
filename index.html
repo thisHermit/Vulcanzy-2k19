@@ -12,14 +12,48 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
   <link rel="stylesheet" href="./styles.css">
 
+
   <link rel="stylesheet" href="./styless.css">
+  <script src = "./jquery.min.js" type="text/javascript" ></script>
+
   <script src = "./particles.min.js" type="text/javascript" ></script>
   <script src = "./anim.js" type="text/javascript" ></script>
 
 
 
   <script>
+$(document).ready(function(){
+    animateDiv('.a');
+    animateDiv('.b');
+    animateDiv('.c');
+    animateDiv('.d');
+    animateDiv('.e');
+    animateDiv('.f');
+    animateDiv('.g');
+    animateDiv('.h');
 
+});
+
+function makeNewPosition(){
+    
+    // Get viewport dimensions (remove the dimension of the div)
+    var h = $(window).height() - 50;
+    var w = $(window).width() - 50;
+    
+    var nh = Math.floor(Math.random() * h);
+    var nw = Math.floor(Math.random() * w);
+    
+    return [nh,nw];    
+    
+}
+
+function animateDiv(myclass){
+    var newq = makeNewPosition();
+    $(myclass).animate({ top: newq[0], left: newq[1] }, 1000,   function(){
+      animateDiv(myclass);        
+    });
+    
+};
     function waiter() {
             if (document.all){
                 document.all["layer1"].style.display="none";
@@ -435,9 +469,15 @@
   <div id="layer2" class="animated flash layer2_class align-self-center" >
 
     <!-- nav bar is better in layer 2 -->
-
-
-
+    <div class="a rounded-circle shadow-lg"></div>
+    <div class='b rounded-circle shadow-lg'></div>
+    <div class='c rounded-circle shadow-lg'></div>
+    <div class='d rounded-circle shadow-lg'></div>
+    <div class="e rounded-circle shadow-lg"></div>
+    <div class='f rounded-circle shadow-lg'></div>
+    <div class='g rounded-circle shadow-lg'></div>
+    <div class='h rounded-circle shadow-lg'></div>
+    
     <div class="banner container heading" style = "margin-top: 50px">
       <a href="./index.html" class="text-decoration-none ">
         <p style="padding-top: 20px; margin-top: 50px; color : #05386b; font-family: harry; font-weight: 100" class=" heading   text-center  animated pulse slow  delay-2s infinite">

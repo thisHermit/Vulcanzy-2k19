@@ -168,6 +168,63 @@ p {
 .cardPad:hover {
   opacity: 1;
 }
+div.a {
+  width: 15px;
+  height:15px;
+   background-color:red;
+  position:fixed;
+      
+  }
+  
+  div.b {
+  width: 15px;
+  height:15px;
+   background-color:blue;
+  position:fixed;
+      
+  }
+  div.c {
+  width: 15px;
+  height:15px;
+   background-color:green;
+  position:fixed;
+      
+  }
+  div.d {
+  width: 15px;
+  height:15px;
+   background-color:yellow;
+  position:fixed;
+      
+  }
+  div.f {
+    width: 15px;
+    height:15px;
+     background-color:blue;
+    position:fixed;
+        
+    }
+    div.e {
+      width: 15px;
+      height:15px;
+       background-color:blue;
+      position:fixed;
+          
+      }
+      div.g {
+        width: 15px;
+        height:15px;
+         background-color:blue;
+        position:fixed;
+            
+        }
+        div.h {
+          width: 15px;
+          height:15px;
+           background-color:blue;
+          position:fixed;
+              
+          }
 span {
     transition: width 1s, height 1s;
 }
