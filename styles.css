@@ -9,6 +9,7 @@ body::-webkit-scrollbar {
   background: transparent; / optional: just make scrollbar invisible /
   */}
 body {
+  overflow-y: scroll;
  background-color: #edc7b7;
 background-repeat: no-repeat;
 background-attachment: fixed;

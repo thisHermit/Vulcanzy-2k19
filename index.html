@@ -42,12 +42,13 @@
 
 <body id="backBone " onload="waiter()">
 
-  <div id="layer1" class="layer1_class">
+  <div id="layer1" class="layer1_class"  >
     <style>
     @import url('https://fonts.googleapis.com/css?family=Roboto:700');
 
     .bashar {
-      display: flex;
+     
+      display:flex;
       justify-content: center;
       align-items: center;
       flex-direction: row;
@@ -399,6 +400,9 @@
   .heading {
      font-size: 7vw;
   }
+  .register{
+    font-size: 2vw;
+  }
 
   }
   @media only screen and (min-width: 300px) and (max-width: 600px){
@@ -406,13 +410,18 @@
   .heading {
      font-size: 13vw;
   }
-
+  .register{
+    font-size: 7vw;
+  }
 
   }
   @media only screen and (min-width: 600px) and (max-width: 800px){
 
   .heading {
      font-size: 10vw;
+  }
+  .register{
+    font-size: 6vw;
   }
 
   }
@@ -421,7 +430,7 @@
               </style>
   <div id="fullpage" style="width: 100%; height: 50%;"  >
       <button type="button" name="button" class="sidenav_button fa fa-bars shadow-lg rounded" onclick="openNav()"></button>
-  <div id="layer2" class="animated flash layer2_class align-self-center" >
+  <div id="layer2" class="animated flash layer2_class align-self-center" style="overflow: scroll;">
 
     <!-- nav bar is better in layer 2 -->
 
@@ -448,40 +457,45 @@
       </p>-->
     </div>
     <div class= "container  justify-content-center text-center  animated fadeIn slow  "  style= "margin-top: 70px" id= "">
-      <p style="font-weight: 100; font-size: 25px; color: black; display: inline; padding: 10px; " class= " bg-light border border-dark text-center shadow-lg " id="days"></p>
-      <p style="font-weight: 100; font-size: 20px; color:  black;display: inline; padding: 10px " class= "   text-center " id="">d </p>
-      <p style="font-weight: 100; font-size: 25px; color:  black; display: inline; padding: 10px  " class= "  bg-light border border-dark  text-center shadow-lg " id="hours"> </p>
-      <p style="font-weight: 100; font-size: 20px; color:  black; display: inline; padding: 10px " class= "   text-center " id="">h </p>
+      <p style="font-weight: 100; font-size: 25px; color: black; display: inline; padding: 5px; " class= " bg-light border border-dark text-center shadow-lg " id="days"></p>
+      <p style="font-weight: 100; font-size: 20px; color:  black;display: inline; padding: 5px " class= "   text-center " id="">d </p>
+      <p style="font-weight: 100; font-size: 25px; color:  black; display: inline; padding: 5px  " class= "  bg-light border border-dark  text-center shadow-lg " id="hours"> </p>
+      <p style="font-weight: 100; font-size: 20px; color:  black; display: inline; padding: 5px " class= "   text-center " id="">h </p>
 
-      <p style="font-weight: 100; font-size: 25px; color:  black; display: inline;  padding: 10px"  class= " bg-light border border-dark  text-center shadow-lg" id="min"> </p>
-      <p style="font-weight: 100; font-size: 20px; color:  black; display: inline; padding: 10px " class= "   text-center " id="">m </p>
+      <p style="font-weight: 100; font-size: 25px; color:  black; display: inline;  padding: 5px"  class= " bg-light border border-dark  text-center shadow-lg" id="min"> </p>
+      <p style="font-weight: 100; font-size: 20px; color:  black; display: inline; padding: 5px " class= "   text-center " id="">m </p>
 
-      <p style="font-weight: 100; font-size: 25px; color:  black;  display: inline; padding: 10px" class=  " bg-light border border-dark  text-center shadow-lg" id="seconds"> </p>
-      <p style="font-weight: 100; font-size: 20px; color:  black; display: inline; padding: 10px " class= "   text-center " id="">s </p>
+      <p style="font-weight: 100; font-size: 25px; color:  black;  display: inline; padding: 5px" class=  " bg-light border border-dark  text-center shadow-lg" id="seconds"> </p>
+      <p style="font-weight: 100; font-size: 20px; color:  black; display: inline; padding: 5px " class= "   text-center " id="">s </p>
 
       </div>
       <div class= "container  justify-content-center text-center animated flash infinite delay-1s  " style=" animation-duration: 2s; margin-bottom: 60px ; margin-top: 120px;" >
-          <a href="./auth/registerVulcanzy.html" style= " text-decoration: none; color:black; font-weight:80 ;font-size: 30px; margin-left: auto; margin-right: auto; padding-left: 10px; padding-right: 10px; padding-top: 10px; padding-bottom: 10px" class= " shadow-lg registerAnim border bg-light border-dark"> REGISTER</a>
+          <a href="./auth/registerVulcanzy.html" style= " text-decoration: none; color:black; font-weight:80 ; margin-left: auto; margin-right: auto; padding-left: 10px; padding-right: 10px; padding-top: 10px; padding-bottom: 10px" class= " register shadow-lg registerAnim border bg-light border-dark"> REGISTER</a>
+          <div class= "container  justify-content-center     " style=" animation-duration: 2s; margin-bottom: 60px ; margin-top: 40px;" >
+          </div>
+          <button class="btn" onclick=" about() " style=""><p class="fa fa-arrow-circle-down  " style= "font-size: 60px;"></p></button>
         </div>
+        <div class= "container  justify-content-center text-center animated flash infinite delay-1s  " style=" animation-duration: 2s; margin-bottom: 60px ; margin-top: 120px;" >
+</div>
     <!-- Put this in a decorated container   -->
 
 
     </div>
 
 
-    <div class = "container text-center animated " id= "layer3" style="visibility: hidden; height: 100%; margin-bottom: 60px;" >
+    <div class = "container text-center animated " id= "layer3" style=" display: none; height: 100%; margin-bottom: 60px;" >
         <div class="banner container heading" style = "margin-top: 10%">
 
 
           </div>
-          <button class="btn" onclick="home()"><p class="fa fa-arrow-circle-up animated fadeInUp fast infinite" style= "font-size: 80px;"></p></button>
+          <button class="btn" onclick="home()"><p class="fa fa-arrow-circle-up animated fadeIn fast infinite" style= "font-size: 30px;"></p></button>
           <div class ="container ">
             <img src="./gallery/vullogo.png" class="" style=" height: 220px; width: 300px" >
           </div>
 
      <p class = "text" style="font-family: harry; font-size: 4vw; margin-top: 20px; color: #05386b" > A B O U T </p>
-     <div class  = "container" style="" >
-      <p class="text shadow-lg" style="font-weight: 100; font-size: 2vw;  color: #ac3b61 " >
+     <div  style="" >
+      <p class="  shadow-lg" style="font-weight: 100; font-size: 2vw;  color: #ac3b61 " >
           The festive atmosphere mid march was amplified with Vulcancy’18 which spoke out loud with an exciting list of technical events from all the branches namely, Biotechnology, Civil, Chemical, Computer Science, Electrical and Electronics, Electronics and Communication, Mechanical and Metallurgy and materials engineering along with department of Science and Humanities and Innovation club.
           The Fest had been planned in mid-March under the guidance of Resident coordinator, Prof. S. Srinivasa Rao and fest coordinator, Dr.Ahmed along with the faculty of respective departments.
           The events were all well coordinated and hard worked by student organisers which in turn were guided by the faculty members.
@@ -499,7 +513,7 @@
             font-size: 100px;
         }
     </style>
-<footer style="bottom: 0; margin-bottom: 5px; opacity: .8;" class="fixed-bottom" id="footer" >
+<footer style=" margin-bottom: 5px; opacity: .8;" class="" id="footer" >
   <nav class="navbar navbar-dark ">
     <div class="container-inline    rounded-pill " style="margin-right: auto; margin-left: auto ; margin-top: 60px">
       <ul class="nav">
@@ -522,34 +536,44 @@
   </nav>
 </footer>
 
+
 <script type="text/javascript">
 function home () {
-  document.getElementById("layer2").style.visibility = "visible";
-   document.getElementById("layer3").style.visibility = "hidden";
- document.getElementById("layer2").style.position =  null;
+ 
+  document.getElementById("layer2").style.display = "block";
+    document.getElementById("layer3").style.display = "none";
+
 var layerthree = document.getElementById("layer3").classList.remove("fadeInUp");
   var layerthree = document.getElementById("layer2").classList.add("fadeIn");
 }
-window.onscroll = function() {
+function about () {
+ 
+    document.getElementById("layer3").style.display = "block";
+    document.getElementById("layer2").style.display = "none";
+    
+    var layerthree = document.getElementById("layer3").classList.add("fadeInUp");
+    var layerthree = document.getElementById("layer2").classList.remove("fadeIn");
+}
+/* window.onscroll = function() {
   scrollFunction()};
 
 function scrollFunction() {
   var value = window.scrollY;
 
-  if (value > 2 || value > 2 ) {
+  if (value > 1 || value > 1 ) {
 
-    document.getElementById("layer2").style.visibility = "hidden";
-    document.getElementById("layer2").style.position = "absolute";
-    document.getElementById("layer3").style.visibility = "visible";
+    document.getElementById("layer2").style.display = "none";
+    document.getElementById("layer3").style.display = "block";
+    
     var layerthree = document.getElementById("layer3").classList.add("fadeInUp");
     var layerthree = document.getElementById("layer2").classList.remove("fadeIn");
   }
 
 
+*/
 
 
 
-}
   function openNav() {
     // 250px can be changed later
     document.getElementById("side_nav").style.width = "100%";
@@ -562,7 +586,7 @@ function scrollFunction() {
   function closeNav() {
     document.getElementById("side_nav").style.width = "0";
     document.getElementById("layer2").style.display = "block";
-    document.getElementById("layer3").style.display = "block";
+    document.getElementById("layer3").style.display = "none";
   }
 
  // count down timer for vulcanzy
