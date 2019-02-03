@@ -79,9 +79,9 @@
 
       </p>
     </div>
-
+<!-- add a fading animation along with the mySlides and mySlides1  -->
        <div style="text-align:center">
-         <div style = "display: inline-block">
+         <div style = "display: inline-block; position:relative;">
            <img class="mySlides" src="http://www.nitandhra.ac.in/main/images/VULCANZY/2017/TECH/civil/02.jpg" class=" rounded fadeIn" alt="">
            <img class="mySlides" src="http://www.nitandhra.ac.in/main/images/VULCANZY/2017/TECH/civil/01.jpg" class=" rounded fadeIn" alt="">
            <img class="mySlides" src="http://www.nitandhra.ac.in/main/images/VULCANZY/2017/TECH/civil/03.jpg" class=" rounded fadeIn" alt="">
@@ -89,13 +89,13 @@
            <img class="mySlides" src="http://www.nitandhra.ac.in/main/images/VULCANZY/2017/TECH/civil/05.jpg" class=" rounded fadeIn" alt="">
            <img class="mySlides" src="http://www.nitandhra.ac.in/main/images/VULCANZY/2017/TECH/civil/06.jpg" class=" rounded fadeIn" alt="">
            <img class="mySlides" src="http://www.nitandhra.ac.in/main/images/VULCANZY/2017/TECH/civil/07.jpg" class=" rounded fadeIn" alt="">
-           <div style="float:left;" onclick="plusDivs(-1,'mySlides')">&#10094;</div>
-           <div style="float:right" onclick="plusDivs(1,'mySlides')">&#10095;</div>
+           <div style="left:0 ;position:absolute;bottom:0px;" onclick="plusDivs(-1,'mySlides')">&#10094;</div>
+           <div style="right:0;position:absolute;bottom:0px;" onclick="plusDivs(1,'mySlides')">&#10095;</div>
          </div>
        </div>
 
       <div style="text-align:center">
-        <div style = "display: inline-block">
+        <div style = "display: inline-block; position: relative">
           <img class="mySlides1" src="http://www.nitandhra.ac.in/main/images/VULCANZY/2017/TECH/cse/02.jpg" class=" rounded fadeIn" alt="">
           <img class="mySlides1" src="http://www.nitandhra.ac.in/main/images/VULCANZY/2017/TECH/cse/01.jpg" class=" rounded fadeIn" alt="">
           <img class="mySlides1" src="http://www.nitandhra.ac.in/main/images/VULCANZY/2017/TECH/cse/03.jpg" class=" rounded fadeIn" alt="">
@@ -103,8 +103,8 @@
           <img class="mySlides1" src="http://www.nitandhra.ac.in/main/images/VULCANZY/2017/TECH/cse/05.jpg" class=" rounded fadeIn" alt="">
           <img class="mySlides1" src="http://www.nitandhra.ac.in/main/images/VULCANZY/2017/TECH/cse/06.jpg" class=" rounded fadeIn" alt="">
           <img class="mySlides1" src="http://www.nitandhra.ac.in/main/images/VULCANZY/2017/TECH/cse/07.jpg" class=" rounded fadeIn" alt="">
-          <div style="float:left;" onclick="plusDivs(-1,'mySlides1')">&#10094;</div>
-          <div style="float:right" onclick="plusDivs(1,'mySlides1')">&#10095;</div>
+          <div style="left:0 ;position:absolute;bottom:0px;" onclick="plusDivs(-1,'mySlides1')">&#10094;</div>
+          <div style="right:0;position:absolute;bottom:0px;" onclick="plusDivs(1,'mySlides1')">&#10095;</div>
         </div>
       </div>
 
@@ -155,8 +155,11 @@
       if (n < 1) {slideIndex = x.length} ;
       for (i = 0; i < x.length; i++) {
         x[i].style.display = "none";
+        x[i].style.position = "relative";
+        x[i].style.zIndex = 0;
       }
       x[slideIndex-1].style.display = "block";
+
       }
     </script>
 
