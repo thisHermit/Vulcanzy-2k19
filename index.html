@@ -428,9 +428,11 @@
 
 
               </style>
+              
   <div id="fullpage" style="width: 100%; height: 50%;"  >
-      <button type="button" name="button" class="sidenav_button fa fa-bars shadow-lg rounded" onclick="openNav()"></button>
-  <div id="layer2" class="animated flash layer2_class align-self-center" style="overflow: scroll;">
+    <div class="container">      <button type="button" name="button" onclick="openNav()" class="sidenav_button fa fa-bars shadow-lg rounded" ></button></div>
+
+  <div id="layer2" class="animated flash layer2_class align-self-center" >
 
     <!-- nav bar is better in layer 2 -->
 
@@ -473,7 +475,7 @@
           <a href="./auth/registerVulcanzy.html" style= " text-decoration: none; color:black; font-weight:80 ; margin-left: auto; margin-right: auto; padding-left: 10px; padding-right: 10px; padding-top: 10px; padding-bottom: 10px" class= " register shadow-lg registerAnim border bg-light border-dark"> REGISTER</a>
           <div class= "container  justify-content-center     " style=" animation-duration: 2s; margin-bottom: 60px ; margin-top: 40px;" >
           </div>
-          <button class="btn" onclick=" about() " style=""><p class="fa fa-arrow-circle-down  " style= "font-size: 60px;"></p></button>
+          <button class="btn" onclick=" about() " style=""><p class="fa fa-arrow-circle-down  " style= "font-size: 60px; color: white"></p></button>
         </div>
         <div class= "container  justify-content-center text-center animated flash infinite delay-1s  " style=" animation-duration: 2s; margin-bottom: 60px ; margin-top: 120px;" >
 </div>
@@ -488,7 +490,7 @@
 
 
           </div>
-          <button class="btn" onclick="home()"><p class="fa fa-arrow-circle-up animated fadeIn fast infinite" style= "font-size: 30px;"></p></button>
+          <button class="btn" onclick="home()"><p class="fa fa-arrow-circle-up animated fadeIn fast infinite" style= "font-size: 60px; color: white"></p></button>
           <div class ="container ">
             <img src="./gallery/vullogo.png" class="" style=" height: 220px; width: 300px" >
           </div>
@@ -577,16 +579,14 @@ function scrollFunction() {
   function openNav() {
     // 250px can be changed later
     document.getElementById("side_nav").style.width = "100%";
-    document.getElementById("layer2").style.display = "none";
-    document.getElementById("layer3").style.display = "none";
+    
 
   }
 
   /* Set the width of the side navigation to 0 */
   function closeNav() {
     document.getElementById("side_nav").style.width = "0";
-    document.getElementById("layer2").style.display = "block";
-    document.getElementById("layer3").style.display = "none";
+
   }
 
  // count down timer for vulcanzy
