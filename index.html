@@ -11,23 +11,23 @@
   <link rel="stylesheet" href="./animate.css">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
   <link rel="stylesheet" href="./styles.css">
-  
+
   <link rel="stylesheet" href="./styless.css">
   <script src = "./particles.min.js" type="text/javascript" ></script>
   <script src = "./anim.js" type="text/javascript" ></script>
 
 
-  
+
   <script>
-  
+
     function waiter() {
             if (document.all){
                 document.all["layer1"].style.display="none";
-        
+
                 document.all["layer2"].style.visibility="visible";
             } else if (document.getElementById){
                 node = document.getElementById("layer1").style.display='none';
-               
+
                 node = document.getElementById("layer2").style.visibility='visible';
 
             }
@@ -41,154 +41,392 @@
 
 
 <body id="backBone " onload="waiter()">
-    
 
+  <div id="layer1" class="layer1_class">
+    <style>
+    @import url('https://fonts.googleapis.com/css?family=Roboto:700');
 
+    .bashar {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: row;
+      margin: 0 auto;
+      width: 50%;
+    }
+    @keyframes rotate {
+      0% {
+        transform: rotateX(-37.5deg) rotateY(45deg);
+      }
+      50% {
+        transform: rotateX(-37.5deg) rotateY(405deg);
+      }
+      100% {
+        transform: rotateX(-37.5deg) rotateY(405deg);
+      }
+    }
+    .cube, .cube * {
+      position: absolute;
+      width: 151px;
+      height: 151px;
+    }
+    .sides {
+      animation: rotate 3s ease infinite;
+      animation-delay: 0.8s;
+      transform-style: preserve-3d;
+      transform: rotateX(-37.5deg) rotateY(45deg);
+    }
+    .cube .sides * {
+      box-sizing: border-box;
+      background-color: rgba(242, 119, 119, .5);
+      border: 15px solid white;
+    }
+    .cube .sides .top {
+      animation: top-animation 3s ease infinite;
+      animation-delay: 0ms;
+      transform: rotateX(90deg) translateZ(150px);
+      animation-fill-mode: forwards;
+      transform-origin: 50% 50%;
+    }
+    @keyframes top-animation {
+      0% {
+        opacity: 1;
+        transform: rotateX(90deg) translateZ(150px);
+      }
+      20% {
+        opacity: 1;
+        transform: rotateX(90deg) translateZ(75px);
+      }
+      70% {
+        opacity: 1;
+        transform: rotateX(90deg) translateZ(75px);
+      }
+      90% {
+        opacity: 1;
+        transform: rotateX(90deg) translateZ(150px);
+      }
+      100% {
+        opacity: 1;
+        transform: rotateX(90deg) translateZ(150px);
+      }
+    }
+    .cube .sides .bottom {
+      animation: bottom-animation 3s ease infinite;
+      animation-delay: 0ms;
+      transform: rotateX(-90deg) translateZ(150px);
+      animation-fill-mode: forwards;
+      transform-origin: 50% 50%;
+    }
+    @keyframes bottom-animation {
+      0% {
+        opacity: 1;
+        transform: rotateX(-90deg) translateZ(150px);
+      }
+      20% {
+        opacity: 1;
+        transform: rotateX(-90deg) translateZ(75px);
+      }
+      70% {
+        opacity: 1;
+        transform: rotateX(-90deg) translateZ(75px);
+      }
+      90% {
+        opacity: 1;
+        transform: rotateX(-90deg) translateZ(150px);
+      }
+      100% {
+        opacity: 1;
+        transform: rotateX(-90deg) translateZ(150px);
+      }
+    }
+    .cube .sides .front {
+      animation: front-animation 3s ease infinite;
+      animation-delay: 100ms;
+      transform: rotateY(0deg) translateZ(150px);
+      animation-fill-mode: forwards;
+      transform-origin: 50% 50%;
+    }
+    @keyframes front-animation {
+      0% {
+        opacity: 1;
+        transform: rotateY(0deg) translateZ(150px);
+      }
+      20% {
+        opacity: 1;
+        transform: rotateY(0deg) translateZ(75px);
+      }
+      70% {
+        opacity: 1;
+        transform: rotateY(0deg) translateZ(75px);
+      }
+      90% {
+        opacity: 1;
+        transform: rotateY(0deg) translateZ(150px);
+      }
+      100% {
+        opacity: 1;
+        transform: rotateY(0deg) translateZ(150px);
+      }
+    }
+    .cube .sides .back {
+      animation: back-animation 3s ease infinite;
+      animation-delay: 100ms;
+      transform: rotateY(-180deg) translateZ(150px);
+      animation-fill-mode: forwards;
+      transform-origin: 50% 50%;
+    }
+    @keyframes back-animation {
+      0% {
+        opacity: 1;
+        transform: rotateY(-180deg) translateZ(150px);
+      }
+      20% {
+        opacity: 1;
+        transform: rotateY(-180deg) translateZ(75px);
+      }
+      70% {
+        opacity: 1;
+        transform: rotateY(-180deg) translateZ(75px);
+      }
+      90% {
+        opacity: 1;
+        transform: rotateY(-180deg) translateZ(150px);
+      }
+      100% {
+        opacity: 1;
+        transform: rotateY(-180deg) translateZ(150px);
+      }
+    }
+    .cube .sides .left {
+      animation: left-animation 3s ease infinite;
+      animation-delay: 100ms;
+      transform: rotateY(-90deg) translateZ(150px);
+      animation-fill-mode: forwards;
+      transform-origin: 50% 50%;
+    }
+    @keyframes left-animation {
+      0% {
+        opacity: 1;
+        transform: rotateY(-90deg) translateZ(150px);
+      }
+      20% {
+        opacity: 1;
+        transform: rotateY(-90deg) translateZ(75px);
+      }
+      70% {
+        opacity: 1;
+        transform: rotateY(-90deg) translateZ(75px);
+      }
+      90% {
+        opacity: 1;
+        transform: rotateY(-90deg) translateZ(150px);
+      }
+      100% {
+        opacity: 1;
+        transform: rotateY(-90deg) translateZ(150px);
+      }
+    }
+    .cube .sides .right {
+      animation: right-animation 3s ease infinite;
+      animation-delay: 100ms;
+      transform: rotateY(90deg) translateZ(150px);
+      animation-fill-mode: forwards;
+      transform-origin: 50% 50%;
+    }
+    @keyframes right-animation {
+      0% {
+        opacity: 1;
+        transform: rotateY(90deg) translateZ(150px);
+      }
+      20% {
+        opacity: 1;
+        transform: rotateY(90deg) translateZ(75px);
+      }
+      70% {
+        opacity: 1;
+        transform: rotateY(90deg) translateZ(75px);
+      }
+      90% {
+        opacity: 1;
+        transform: rotateY(90deg) translateZ(150px);
+      }
+      100% {
+        opacity: 1;
+        transform: rotateY(90deg) translateZ(150px);
+      }
+    }
+    .text {
+      margin-top: 450px;
+      color: rgba(242, 119, 119, 1);
+      font-size: 1.5rem;
+      width: 100%;
+      font-weight: 600;
+      text-align: center;
+    }
 
-  <div id="side_nav" class="sidenav">
-<div class="container text-center "  >
-  <p style="font-family:harry; color:#05386b; font-size: 60px" >VULCANZY</p>
-</div>
-    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-    <div class = "container" style=" margin-top: 5% " > 
-      <div class = "row">
-       
-    <div class = "col">
-    <a href="#" style="text-decoration: none ;" class="text-center">
-        <div class="card shadow-lg  bg-dark rounded  cardPad">
-          <img src="./event-icon.jpg" style="height: 180px; width: 240px;" class="card-img-top" />
-          <div class="card-body">
-
-            <p style="color: white ; font-size: 25px">
-
-              EVENTS
-            </p>
-
-          </div>
+    </style>
+    <div class="bashar">
+      <div class="cube">
+        <div class="sides">
+          <div class="top"></div>
+          <div class="right"></div>
+          <div class="bottom"></div>
+          <div class="left"></div>
+          <div class="front"></div>
+          <div class="back"></div>
         </div>
-     </a>
+      </div>
+      <div class="text">Vulcanzy</div>
     </div>
-  
-    <div class = "col">
-      <a href="#" style="text-decoration: none ;" class="text-center">
-        <div class="card shadow-lg  bg-dark rounded  cardPad ">
-          <img src="./sponsors.jpg" style="height:180px; width: 240px;" class="card-img-top" />
-          <div class="card-body">
 
-            <p style="color: white ; font-size: 25px">
-
-              SPONSORS
-            </p>
-
-          </div>
-        </div>
-      </a>
-      </div>
-</div>
-</div>
-<div class = "row" style=" margin-top: 50px">
-    <div class = "col">
-      <a href="./gallery" style="text-decoration: none ;" class="text-center">
-        <div class="card shadow-lg  bg-dark rounded cardPad  ">
-          <img src="./gallery.jpeg" style="height: 180px; width: 240px" class="card-img-top" />
-          <div class="card-body">
-
-            <p style="color: white ; font-size: 25px">
-
-              GALLERY
-            </p>
-
-          </div>
-        </div>
-      </a>
-      </div>
+  </div>
 
 
 
+
+    <div id="side_nav" class="sidenav">
+  <div class="container text-center "  >
+    <p style="font-family:harry; color:#05386b; font-size: 60px" >VULCANZY</p>
+  </div>
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <div class = "container" style=" margin-top: 5% " >
+        <div class = "row">
 
       <div class = "col">
-      <a href="./webteam" style="text-decoration: none ;" class="text-center">
-        <div class="card shadow-lg  bg-dark rounded  cardPad">
-          <img src="./code.jpg" style="height:180px; width: 240px" class="card-img-top" />
-          <div class="card-body">
-
-            <p style="color: white ; font-size: 25px">
-
-              WEB TEAM
-            </p>
-
-          </div>
-        </div>
-      </a>
-      </div>
-      
-
-  
-      <div class = "col">
       <a href="#" style="text-decoration: none ;" class="text-center">
-        <div class="card shadow-lg  bg-dark rounded  cardPad ">
-          <img src="./contact-icon.jpg" style="height: 180px; width: 240px;" class="card-img-top" />
-          <div class="card-body">
+          <div class="card shadow-lg  bg-dark rounded  cardPad">
+            <img src="./gallery/event-icon.jpg" style="height: 180px; width: 240px;" class="card-img-top" />
+            <div class="card-body">
 
-            <p style="color: white ; font-size: 25px">
+              <p style="color: white ; font-size: 25px">
 
-              CONTACT
-            </p>
+                EVENTS
+              </p>
 
+            </div>
           </div>
+       </a>
+      </div>
+
+      <div class = "col">
+        <a href="#" style="text-decoration: none ;" class="text-center">
+          <div class="card shadow-lg  bg-dark rounded  cardPad ">
+            <img src="./gallery/sponsors.jpg" style="height:180px; width: 240px;" class="card-img-top" />
+            <div class="card-body">
+
+              <p style="color: white ; font-size: 25px">
+
+                SPONSORS
+              </p>
+
+            </div>
+          </div>
+        </a>
         </div>
-      </a>
+  </div>
+  </div>
+  <div class = "row" style=" margin-top: 50px">
+      <div class = "col">
+        <a href="./gallery.html" style="text-decoration: none ;" class="text-center">
+          <div class="card shadow-lg  bg-dark rounded cardPad  ">
+            <img src="./gallery/gallery.jpeg" style="height: 180px; width: 240px" class="card-img-top" />
+            <div class="card-body">
+
+              <p style="color: white ; font-size: 25px">
+
+                GALLERY
+              </p>
+
+            </div>
+          </div>
+        </a>
+        </div>
+
+
+
+
+        <div class = "col">
+        <a href="./webteam.html" style="text-decoration: none ;" class="text-center">
+          <div class="card shadow-lg  bg-dark rounded  cardPad">
+            <img src="./gallery/code.jpg" style="height:180px; width: 240px" class="card-img-top" />
+            <div class="card-body">
+
+              <p style="color: white ; font-size: 25px">
+
+                WEB TEAM
+              </p>
+
+            </div>
+          </div>
+        </a>
+        </div>
+
+
+
+        <div class = "col">
+        <a href="#" style="text-decoration: none ;" class="text-center">
+          <div class="card shadow-lg  bg-dark rounded  cardPad ">
+            <img src="./gallery/contact-icon.jpg" style="height: 180px; width: 240px;" class="card-img-top" />
+            <div class="card-body">
+
+              <p style="color: white ; font-size: 25px">
+
+                CONTACT
+              </p>
+
+            </div>
+          </div>
+        </a>
+      </div>
     </div>
-  </div>
-  </div>
+    </div>
 
-  <style>
-     .inner-border::-webkit-scrollbar { 
-                display: none; 
-            } 
-    .banner {
-    /*
-                      border-left: 40px dashed black;
-                      border-right: 40px dashed black;
-                      border-top: 10px groove white;
-                      border-bottom: 10px groove white;
-*/
+    <style>
+       .inner-border::-webkit-scrollbar {
+                  display: none;
+              }
+      .banner {
+      /*
+                        border-left: 40px dashed black;
+                        border-right: 40px dashed black;
+                        border-top: 10px groove white;
+                        border-bottom: 10px groove white;
+  */
 
-                    }
-                    @media only screen and (min-width: 800px) {
+                      }
+                      @media only screen and (min-width: 800px) {
 
-.heading { 
-   font-size: 7vw; 
-}
+  .heading {
+     font-size: 7vw;
+  }
 
-}
-@media only screen and (min-width: 300px) and (max-width: 600px){
+  }
+  @media only screen and (min-width: 300px) and (max-width: 600px){
 
-.heading { 
-   font-size: 13vw; 
-}
+  .heading {
+     font-size: 13vw;
+  }
 
 
-}
-@media only screen and (min-width: 600px) and (max-width: 800px){
+  }
+  @media only screen and (min-width: 600px) and (max-width: 800px){
 
-.heading { 
-   font-size: 10vw; 
-}
+  .heading {
+     font-size: 10vw;
+  }
 
-}
-  
+  }
 
-            </style>
-  <div id="layer1" class="layer1_class glitch-filter-example glitch-filter-example__filtered-text">
-    Vulcanzy
-    
-  </div>
+
+              </style>
   <div id="fullpage" style="width: 100%; height: 50%;"  >
       <button type="button" name="button" class="sidenav_button fa fa-bars shadow-lg rounded" onclick="openNav()"></button>
   <div id="layer2" class="animated flash layer2_class align-self-center" >
-      
-    
+
+    <!-- nav bar is better in layer 2 -->
+
+
+
     <div class="banner container heading" style = "margin-top: 50px">
       <a href="./index.html" class="text-decoration-none ">
         <p style="padding-top: 20px; margin-top: 50px; color : #05386b; font-family: harry; font-weight: 100" class=" heading   text-center  animated pulse slow  delay-2s infinite">
@@ -226,21 +464,21 @@
           <a href="./auth/registerVulcanzy.html" style= " text-decoration: none; color:black; font-weight:80 ;font-size: 30px; margin-left: auto; margin-right: auto; padding-left: 10px; padding-right: 10px; padding-top: 10px; padding-bottom: 10px" class= " shadow-lg registerAnim border bg-light border-dark"> REGISTER</a>
         </div>
     <!-- Put this in a decorated container   -->
-    
+
 
     </div>
-  
+
 
     <div class = "container text-center animated " id= "layer3" style="visibility: hidden; height: 100%; margin-bottom: 60px;" >
         <div class="banner container heading" style = "margin-top: 10%">
-            
-            
+
+
           </div>
           <button class="btn" onclick="home()"><p class="fa fa-arrow-circle-up animated fadeInUp fast infinite" style= "font-size: 80px;"></p></button>
           <div class ="container ">
-            <img src="./vullogo.png" class="" style=" height: 220px; width: 300px" >
+            <img src="./gallery/vullogo.png" class="" style=" height: 220px; width: 300px" >
           </div>
-          
+
      <p class = "text" style="font-family: harry; font-size: 4vw; margin-top: 20px; color: #05386b" > A B O U T </p>
      <div class  = "container" style="" >
       <p class="text shadow-lg" style="font-weight: 100; font-size: 2vw;  color: #ac3b61 " >
@@ -299,18 +537,18 @@ function scrollFunction() {
   var value = window.scrollY;
 
   if (value > 2 || value > 2 ) {
-    
+
     document.getElementById("layer2").style.visibility = "hidden";
     document.getElementById("layer2").style.position = "absolute";
     document.getElementById("layer3").style.visibility = "visible";
     var layerthree = document.getElementById("layer3").classList.add("fadeInUp");
     var layerthree = document.getElementById("layer2").classList.remove("fadeIn");
-  } 
-  
-    
+  }
 
 
- 
+
+
+
 }
   function openNav() {
     // 250px can be changed later
@@ -326,31 +564,31 @@ function scrollFunction() {
     document.getElementById("layer2").style.display = "block";
     document.getElementById("layer3").style.display = "block";
   }
- 
+
  // count down timer for vulcanzy
   var countDownDate = new Date("March 15, 2019").getTime();
 
 
 var x = setInterval(function() {
 
-  
+
   var now = new Date().getTime();
-    
-  
+
+
   var distance = countDownDate - now;
-    
-  
+
+
   var days = Math.floor(distance / (1000 * 60 * 60 * 24));
   var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
   var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
   var seconds = Math.floor((distance % (1000 * 60)) / 1000);
-    
+
   document.getElementById("days").innerHTML =  days ;
   document.getElementById("hours").innerHTML =  hours;
   document.getElementById("min").innerHTML =  minutes;
   document.getElementById("seconds").innerHTML = seconds;
 
-    
+
   if (distance < 0) {
     clearInterval(x);
     document.getElementById("clock").innerHTML = "Vulcanzy-2k19 is up!!";
