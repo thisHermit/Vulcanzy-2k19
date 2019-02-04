@@ -41,11 +41,6 @@ animation: moverGrad 2s ease infinite
     100%{background-position:28% 0%}
 }
 
-@keyframes color_change {
-	from { background-color: white; }
-  to { background-color: white; }
-}
-
 .layer1_class{
   font-family: harry;
   font-size: 1000%;
