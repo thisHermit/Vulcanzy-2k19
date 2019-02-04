@@ -10,7 +10,7 @@ body::-webkit-scrollbar {
   */}
 body {
   overflow-y: scroll;
- background-color: #edc7b7;
+ background-color: white;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: 100%;
@@ -26,8 +26,8 @@ animation-direction: alternate;
 }
 
 @keyframes color_change {
-	from { background-color: #26c8f0; }
-	to { background-color: #cbf2fb; }
+	from { background-color: white; }
+  to { background-color: white; }
 }
 
 .layer1_class{
@@ -230,7 +230,7 @@ i:hover {
   display: block;
   font-size: 40px;
   font-weight: 100;
-  color: white;
+  color: black;
   border: none;
   background-color: transparent;
   text-decoration: none;
@@ -240,7 +240,7 @@ i:hover {
   margin-left: 10px;
   top: 2px;
   left: 2px;
-  z-index: 10;
+  z-index: 20;
   position: fixed;
   top:0;
   
