@@ -240,7 +240,7 @@ i:hover {
   margin-left: 10px;
   top: 2px;
   left: 2px;
-  z-index: 0;
+  z-index: 10;
   position: fixed;
   top:0;
   
