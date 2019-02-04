@@ -169,58 +169,58 @@ p {
   opacity: 1;
 }
 div.a {
-  width: 15px;
-  height:15px;
+  width: 20px;
+  height:20px;
    background-color:red;
   position:fixed;
       opacity: .5;
   }
   
   div.b {
-  width: 15px;
-  height:15px;
+  width: 20px;
+  height:20px;
    background-color:blue;
   position:fixed;
       opacity:.5;
   }
   div.c {
-  width: 15px;
-  height:15px;
+  width: 20px;
+  height:20px;
    background-color:green;
   position:fixed;
       opacity:.5;
   }
   div.d {
-  width: 15px;
-  height:15px;
+  width: 20px;
+  height:20px;
    background-color:yellow;
   position:fixed;
       opacity:.5;
   }
   div.f {
-    width: 15px;
-    height:15px;
+    width: 20px;
+    height:20px;
      background-color:blue;
     position:fixed;
     opacity:.5;    
     }
     div.e {
-      width: 15px;
-      height:15px;
+      width: 20px;
+      height:20px;
        background-color:blue;
       position:fixed;
           opacity:.5;
       }
       div.g {
-        width: 15px;
-        height:15px;
+        width: 20px;
+        height:20px;
          background-color:blue;
         position:fixed;
             opacity:.5;
         }
         div.h {
-          width: 15px;
-          height:15px;
+          width: 20px;
+          height:20px;
            background-color:blue;
           position:fixed;
               opacity:.5;
