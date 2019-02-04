@@ -197,7 +197,7 @@ i:hover {
   top: 0;
   opacity: .9;
   left: 0;
-  background-color: #eee2dc;
+  background-color: grey;
   overflow-x: hidden;
   padding-top: 60px;
   transition: 0.5s;
@@ -220,11 +220,9 @@ i:hover {
   right: 25px;
   font-size: 36px;
   margin-left: 50px;
+color: white;
+}
 
-}
-.closebtn{
-  position: fixed;
-}
 
 .sidenav_button {
   display: block;
