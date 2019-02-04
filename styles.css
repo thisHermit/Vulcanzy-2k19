@@ -36,7 +36,7 @@ animation-direction: alternate;
   font-family: harry;
   font-size: 1000%;
   text-align: center;
-  z-index: 0;
+  z-index: 40;
   top:0;
   color: #05386b;
   position: fixed;
