@@ -336,7 +336,7 @@
     uniform vec3 predator;
 
     const float width = resolution.x;
-    const float height = resolution.y;
+    const float height = resolution.y  ;
 
     const float PI = 3.141592653589793;
     const float PI_2 = PI * 2.0;
@@ -359,7 +359,7 @@
 
     void main() {
 
-      zoneRadius = seperationDistance + alignmentDistance + cohesionDistance;
+      zoneRadius =  10.0 * (seperationDistance + alignmentDistance + cohesionDistance);
       separationThresh = seperationDistance / zoneRadius;
       alignmentThresh = ( seperationDistance + alignmentDistance ) / zoneRadius;
       zoneRadiusSquared = zoneRadius * zoneRadius;
