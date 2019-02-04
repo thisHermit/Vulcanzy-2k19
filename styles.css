@@ -10,7 +10,7 @@ body::-webkit-scrollbar {
   */}
 body {
   overflow-y: scroll;
- background-color: white;
+ background-color: #05386b;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: 100%;
