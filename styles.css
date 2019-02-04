@@ -10,21 +10,35 @@ body::-webkit-scrollbar {
   */}
 body {
   overflow-y: scroll;
- background-color: #05386b;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: 100%;
   height: 100%;
   width: 100%;
 
-  background-image: linear-gradient( 45deg, rgb(242, 254, 13), #f06d06);
+  background: linear-gradient(277deg, #effc00, #ff6300);
 
-/* testing color change loop */
-animation-name: color_change;
-animation-duration: 4s;
-animation-iteration-count: infinite;
-animation-direction: alternate;
+
 /*position: fixed;*/
+-webkit-animation: moverGrad 2s ease infinite;
+-moz-animation: moverGrad 2s ease infinite;
+animation: moverGrad 2s ease infinite
+}
+
+@-webkit-keyframes moverGrad {
+    0%{background-position:28% 0%}
+    50%{background-position:73% 100%}
+    100%{background-position:28% 0%}
+}
+@-moz-keyframes moverGrad {
+    0%{background-position:28% 0%}
+    50%{background-position:73% 100%}
+    100%{background-position:28% 0%}
+}
+@keyframes moverGrad {
+    0%{background-position:28% 0%}
+    50%{background-position:73% 100%}
+    100%{background-position:28% 0%}
 }
 
 @keyframes color_change {
