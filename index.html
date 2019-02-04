@@ -47,13 +47,24 @@
 
 
 <body id="backBone " onload="waiter()">
-   
+    <script src="./build/three.js"></script>
+    <script src="js/WebGL.js"></script>
+    <script src="js/libs/stats.min.js"></script>
+
+    <script src="js/GPUComputationRenderer.js"></script>
+
+
+
+
+
+
+
   <div id="layer1" class="layer1_class"  >
     <style>
     @import url('https://fonts.googleapis.com/css?family=Roboto:700');
 
     .bashar {
-     
+
       display:flex;
       justify-content: center;
       align-items: center;
@@ -288,16 +299,6 @@
 
   </div>
 
-  <script src="./build/three.js"></script>
-  <script src="js/WebGL.js"></script>
-  <script src="js/libs/stats.min.js"></script>
-
-  <script src="js/GPUComputationRenderer.js"></script>
-
-  
-
-
-  
   <script id="fragmentShaderPosition" type="x-shader/x-fragment">
 
     uniform float time;
@@ -408,7 +409,7 @@
 
 
       // Attract flocks to the center
-      vec3 central = vec3( 0 , 100 , 0 );
+      vec3 central = vec3( 0., 0., 0. );
       dir = selfPosition - central;
       dist = length( dir );
 
@@ -424,7 +425,7 @@
           dir = birdPosition - selfPosition;
           dist = length(dir);
 
-          if (dist < 0.001) continue;
+          if (dist < 0.0001) continue;
 
           distSquared = dist * dist;
 
@@ -577,7 +578,7 @@
     if ( hash ) hash = parseInt( hash, 0 );
 
     /* TEXTURE WIDTH FOR SIMULATION */
-    var WIDTH = hash || 8;
+    var WIDTH = hash || 32;
 
     var BIRDS = WIDTH * WIDTH;
 
@@ -612,7 +613,7 @@
 
   }
 
-}
+  }
 
       var wingsSpan = 20;
 
@@ -648,8 +649,8 @@
         var y = ~ ~ ( i / WIDTH ) / WIDTH;
 
         var c = new THREE.Color(
-          0x000000 +
-          ~ ~ ( v / 9 ) / BIRDS * 0x474747
+          0x444444 +
+          ~ ~ ( v / 9 ) / BIRDS * 0x666666
         );
 
         birdColors.array[ v * 3 + 0 ] = c.r;
@@ -679,7 +680,7 @@
 
     var BOUNDS = 800, BOUNDS_HALF = BOUNDS / 2;
 
-  
+
 
     function change( n ) {
 
@@ -687,11 +688,11 @@
       location.reload();
       return false;
 
-}
+  }
 
 
-  
-    
+
+
 
     var last = performance.now();
 
@@ -711,17 +712,16 @@
       document.body.appendChild( container );
       container.style.position = "fixed";
       container.style.height = "100%";
-      container.style.width  = "100%"; 
+      container.style.width  = "100%";
       container.style.top = "0";
-     
              camera = new THREE.PerspectiveCamera( 75, window.innerWidth / window.innerHeight, 1, 3000 );
       camera.position.z = 350;
 
       scene = new THREE.Scene();
-      scene.background = new THREE.Color( "#f9d342" );
-      scene.fog = new THREE.Fog( 0xffffff, 1000, 1000 );
+      // scene.background = new THREE.Color( 0xffffff );
+      // scene.fog = new THREE.Fog( 0xffffff, 100, 1000 );
 
-      renderer = new THREE.WebGLRenderer();
+      renderer = new THREE.WebGLRenderer({alpha:true});
       renderer.setPixelRatio( window.devicePixelRatio );
       renderer.setSize( window.innerWidth, window.innerHeight );
       container.appendChild( renderer.domElement );
@@ -784,7 +784,7 @@
 
         console.error( error );
 
-}
+  }
 
     }
 
@@ -946,7 +946,6 @@
   </script>
 
 
-
     <div id="side_nav" class="sidenav">
   <div class="container text-center "  >
     <p style="font-family:harry; color:#05386b; font-size: 60px" >VULCANZY</p>
@@ -1090,19 +1089,19 @@
 
 
               </style>
-              
+
   <div id="fullpage" style="width: 100%; height: 50%;"  >
+    <div class="container">      <button type="button" name="button" onclick="openNav()" class="sidenav_button fa fa-bars shadow-lg rounded" ></button></div>
 
   <div id="layer2" class="animated flash layer2_class align-self-center" >
-      
-      <div class="container">      <button type="button" name="button" onclick="openNav()" class="sidenav_button fa fa-bars shadow-lg rounded" ></button></div>
+
 
     <!-- nav bar is better in layer 2 -->
-  
-    
+
+
     <div class="banner container heading" style = "margin-top: 50px">
       <a href="./index.html" class="text-decoration-none ">
-        <p style="padding-top: 20px; color : #000000; font-family: harry; font-weight: 100" class=" heading   text-center  animated pulse slow  delay-2s infinite">
+        <p style="padding-top: 20px; color : #05386b; font-family: harry; font-weight: 100" class=" heading   text-center  animated pulse slow  delay-2s infinite">
           V U L C A N Z Y
         </p>
       </a>
@@ -1110,7 +1109,7 @@
         NIT - ANDHRA PRADESH
 
       </p>
-      <p style="font-size: 30px; color : #000000 ; font-weight: 300;" class="text-center  animated pulse delay-1s">
+      <p style="font-size: 30px; color : #ac3b61 ; font-weight: 300;" class="text-center  animated pulse delay-1s">
          We will be live in
         </p>
 
@@ -1121,23 +1120,23 @@
       </p>-->
     </div>
     <div class= "container  justify-content-center text-center  animated fadeIn slow  "  style= "margin-top: 70px" id= "">
-      <p style="font-weight: 100; font-size: 25px; color: #f9d342; display: inline; padding: 5px; " class= " bg-dark border border-dark text-center shadow-lg " id="days"></p>
-      <p style="font-weight: 100; font-size: 20px; color:  #000000;display: inline; padding: 5px " class= "   text-center " id="">d </p>
-      <p style="font-weight: 100; font-size: 25px; color:  #f9d342; display: inline; padding: 5px  " class= "  bg-dark border border-dark  text-center shadow-lg " id="hours"> </p>
-      <p style="font-weight: 100; font-size: 20px; color:  #000000; display: inline; padding: 5px " class= "   text-center " id="">h </p>
+      <p style="font-weight: 100; font-size: 25px; color: black; display: inline; padding: 5px; " class= " bg-light border border-dark text-center shadow-lg " id="days"></p>
+      <p style="font-weight: 100; font-size: 20px; color:  black;display: inline; padding: 5px " class= "   text-center " id="">d </p>
+      <p style="font-weight: 100; font-size: 25px; color:  black; display: inline; padding: 5px  " class= "  bg-light border border-dark  text-center shadow-lg " id="hours"> </p>
+      <p style="font-weight: 100; font-size: 20px; color:  black; display: inline; padding: 5px " class= "   text-center " id="">h </p>
 
-      <p style="font-weight: 100; font-size: 25px; color:  #f9d342; display: inline;  padding: 5px"  class= " bg-dark border border-dark  text-center shadow-lg" id="min"> </p>
-      <p style="font-weight: 100; font-size: 20px; color:  #000000; display: inline; padding: 5px " class= "   text-center " id="">m </p>
+      <p style="font-weight: 100; font-size: 25px; color:  black; display: inline;  padding: 5px"  class= " bg-light border border-dark  text-center shadow-lg" id="min"> </p>
+      <p style="font-weight: 100; font-size: 20px; color:  black; display: inline; padding: 5px " class= "   text-center " id="">m </p>
 
-      <p style="font-weight: 100; font-size: 25px; color:  #f9d342;  display: inline; padding: 5px" class=  " bg-dark border border-dark  text-center shadow-lg" id="seconds"> </p>
-      <p style="font-weight: 100; font-size: 20px; color:  #000000; display: inline; padding: 5px " class= "   text-center " id="">s </p>
+      <p style="font-weight: 100; font-size: 25px; color:  black;  display: inline; padding: 5px" class=  " bg-light border border-dark  text-center shadow-lg" id="seconds"> </p>
+      <p style="font-weight: 100; font-size: 20px; color:  black; display: inline; padding: 5px " class= "   text-center " id="">s </p>
 
       </div>
       <div class= "container  justify-content-center text-center animated flash infinite delay-1s  " style=" animation-duration: 2s; margin-bottom: 60px ; margin-top: 120px;" >
-          <a href="./auth/registerVulcanzy.html" style= " text-decoration: none; color:#f9d342; font-weight:80 ; margin-left: auto; margin-right: auto; padding-left: 10px; padding-right: 10px; padding-top: 10px; padding-bottom: 10px" class= " register shadow-lg registerAnim border bg-dark border-dark"> REGISTER</a>
+          <a href="./auth/registerVulcanzy.html" style= " text-decoration: none; color:black; font-weight:80 ; margin-left: auto; margin-right: auto; padding-left: 10px; padding-right: 10px; padding-top: 10px; padding-bottom: 10px" class= " register shadow-lg registerAnim border bg-light border-dark"> REGISTER</a>
           <div class= "container  justify-content-center     " style=" animation-duration: 2s; margin-bottom: 60px ; margin-top: 40px;" >
           </div>
-          <button class="btn" onclick=" about() " style=""><p class="fa fa-arrow-circle-down  " style= "font-size: 60px; color: #595959"></p></button>
+          <button class="btn" onclick=" about() " style=""><p class="fa fa-arrow-circle-down  " style= "font-size: 60px; color: white"></p></button>
         </div>
         <div class= "container  justify-content-center text-center animated flash infinite delay-1s  " style=" animation-duration: 2s; margin-bottom: 60px ; margin-top: 120px;" >
 </div>
@@ -1152,14 +1151,14 @@
 
 
           </div>
-          <button class="btn" onclick="home()"><p class="fa fa-arrow-circle-up animated fadeIn fast infinite" style= "font-size: 60px; color: #595959"></p></button>
+          <button class="btn" onclick="home()"><p class="fa fa-arrow-circle-up animated fadeIn fast infinite" style= "font-size: 60px; color: white"></p></button>
           <div class ="container ">
             <img src="./gallery/vullogo.png" class="" style=" height: 220px; width: 300px" >
           </div>
 
-     <p class = "text" style="font-family: harry; font-size: 4vw; margin-top: 20px; color: black" > A B O U T </p>
+     <p class = "text" style="font-family: harry; font-size: 4vw; margin-top: 20px; color: #05386b" > A B O U T </p>
      <div  style="" >
-      <p class="  shadow-lg" style="font-weight: 100; font-size: 2vw;  color: black " >
+      <p class="  shadow-lg" style="font-weight: 100; font-size: 2vw;  color: #ac3b61 " >
           The festive atmosphere mid march was amplified with Vulcancy’18 which spoke out loud with an exciting list of technical events from all the branches namely, Biotechnology, Civil, Chemical, Computer Science, Electrical and Electronics, Electronics and Communication, Mechanical and Metallurgy and materials engineering along with department of Science and Humanities and Innovation club.
           The Fest had been planned in mid-March under the guidance of Resident coordinator, Prof. S. Srinivasa Rao and fest coordinator, Dr.Ahmed along with the faculty of respective departments.
           The events were all well coordinated and hard worked by student organisers which in turn were guided by the faculty members.
@@ -1203,7 +1202,7 @@
 
 <script type="text/javascript">
 function home () {
- 
+
   document.getElementById("layer2").style.display = "block";
     document.getElementById("layer3").style.display = "none";
 
@@ -1211,10 +1210,10 @@ var layerthree = document.getElementById("layer3").classList.remove("fadeInUp");
   var layerthree = document.getElementById("layer2").classList.add("fadeIn");
 }
 function about () {
- 
+
     document.getElementById("layer3").style.display = "block";
     document.getElementById("layer2").style.display = "none";
-    
+
     var layerthree = document.getElementById("layer3").classList.add("fadeInUp");
     var layerthree = document.getElementById("layer2").classList.remove("fadeIn");
 }
@@ -1228,7 +1227,7 @@ function scrollFunction() {
 
     document.getElementById("layer2").style.display = "none";
     document.getElementById("layer3").style.display = "block";
-    
+
     var layerthree = document.getElementById("layer3").classList.add("fadeInUp");
     var layerthree = document.getElementById("layer2").classList.remove("fadeIn");
   }
@@ -1241,7 +1240,7 @@ function scrollFunction() {
   function openNav() {
     // 250px can be changed later
     document.getElementById("side_nav").style.width = "100%";
-    
+
 
   }
 
