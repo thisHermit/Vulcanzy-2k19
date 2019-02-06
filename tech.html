@@ -510,7 +510,7 @@ $(".csea").click(function(){
   $.getJSON("./eventData.json",function (d) {
     for (var i =0; i<4; i++)
   {
-  $(".information").append('<div class="jumbotron"> <h1 class="display-4">' +d.CSEA[i].event+ '</h1>' + '<p class=""> ROUNDS: '+d.CSEA[i].noOfLevels+'          FEE:'+d.CSEA[i].regFee+ '          DURATION:'+d.CSEA[i].duration +'  </p>'+'<p class="lead"> ORGANIZERS: '+d.CSEA[i].organizers+'          CONTACT:'+d.CSEA[i].contact+'          EMAIL:'+d.CSEA[i].emailid+'  </p> </div>');
+  $(".information").append('<div class="jumbotron"> <h1 class="display-4">' +d.CSEA[i].event+ '</h1><br/>' + '<p class=""> ROUNDS: '+d.CSEA[i].noOfLevels+' &nbsp; FEE:'+d.CSEA[i].regFee+ ' &nbsp; DURATION:'+d.CSEA[i].duration +'  </p>'+'<p class="lead"> &nbsp; ORGANIZERS: '+d.CSEA[i].organizers+' &nbsp; CONTACT:'+d.CSEA[i].contact+'   &nbsp;   EMAIL:'+d.CSEA[i].emailid+'  </p> </div>');
 
 }
   });
