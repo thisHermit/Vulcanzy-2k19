@@ -20,7 +20,7 @@ body {
 
 
 /*position: fixed;*/
--webkit-animation: moverGrad 2s ease infinite;
+-webkit-animation: moverGrad 2s ease infinite;  
 -moz-animation: moverGrad 2s ease infinite;
 animation: moverGrad 2s ease infinite
 }
