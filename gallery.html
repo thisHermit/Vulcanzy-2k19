@@ -839,48 +839,49 @@
         .jssort101 .t {position:absolute;top:0;left:0;width:100%;height:100%;border:none;opacity:.6;}
         .jssort101 .pav .t, .jssort101 .p:hover .t{opacity:1;}
     </style>
-      <div style="float: left; width: 70%;">
-        <div id="jssor_1" style="position:relative;margin:0 auto;top:45px;left:0px;width:1500px;height:800px;overflow:hidden;visibility:hidden;border-top-left-radius: 80px;border-bottom-right-radius: 80px;border: 1px solid;
+      <div style="display: flex">
+        <div style="float: left; width: 70%; display: inline-bl">
+          <div id="jssor_1" style="position:relative;margin:0 auto;top:45px;left:0px;width:1500px;height:800px;overflow:hidden;visibility:hidden;border-top-left-radius: 80px;border-bottom-right-radius: 80px;border: 1px solid;
     padding: 8px;
     box-shadow: 6px 10px 6px #e57300;">
-          <!-- Loading Screen -->
-          <div data-u="loading" class="jssorl-009-spin" style="position:absolute;top:10px;left:0px;width:100%;height:100%;text-align:center;background-color:rgba(0,0,0,0.7);">
-            <img style="margin-top:-19px;position:relative;top:50%;widows: 80px;height:60px;" src="img/spin.svg" />
-          </div>
-          <div data-u="slides" style="cursor:default;position:relative;top:0px;left:0px;width:1500px;height:1000px;overflow:hidden;">
-            <div>
-              <img data-u="image" src="img/1.jpg" />
-              <img data-u="thumb" src="img2/1.jpg" />
+            <!-- Loading Screen -->
+            <div data-u="loading" class="jssorl-009-spin" style="position:absolute;top:10px;left:0px;width:100%;height:100%;text-align:center;background-color:rgba(0,0,0,0.7);">
+              <img style="margin-top:-19px;position:relative;top:50%;widows: 80px;height:60px;" src="img/spin.svg" />
             </div>
-            <div>
-              <img data-u="image" src="img/2.jpg" />
-              <img data-u="thumb" src="img2/2.jpg" />
-            </div>
-            <div>
-              <img data-u="image" src="img/3.jpg" />
-              <img data-u="thumb" src="img2/3.jpg" />
-            </div>
-            <div>
-              <img data-u="image" src="img/4.jpg" />
-              <img data-u="thumb" src="img2/4.jpg" />
-            </div>
-            <div>
-              <img data-u="image" src="img/5.jpg" />
-              <img data-u="thumb" src="img2/5.jpg" />
-            </div>
-            <div>
-              <img data-u="image" src="img/9.jpg" />
-              <img data-u="thumb" src="img2/9.jpg" />
-            </div>
-            <div>
-              <img data-u="image" src="img/7.jpg" />
-              <img data-u="thumb" src="img2/7.jpg" />
-            </div>
-            <div>
-              <img data-u="image" src="img/8.jpg" />
-              <img data-u="thumb" src="img2/8.jpg" />
-            </div>
-            <!--
+            <div data-u="slides" style="cursor:default;position:relative;top:0px;left:0px;width:1500px;height:1000px;overflow:hidden;">
+              <div>
+                <img data-u="image" src="img/1.jpg" />
+                <img data-u="thumb" src="img2/1.jpg" />
+              </div>
+              <div>
+                <img data-u="image" src="img/2.jpg" />
+                <img data-u="thumb" src="img2/2.jpg" />
+              </div>
+              <div>
+                <img data-u="image" src="img/3.jpg" />
+                <img data-u="thumb" src="img2/3.jpg" />
+              </div>
+              <div>
+                <img data-u="image" src="img/4.jpg" />
+                <img data-u="thumb" src="img2/4.jpg" />
+              </div>
+              <div>
+                <img data-u="image" src="img/5.jpg" />
+                <img data-u="thumb" src="img2/5.jpg" />
+              </div>
+              <div>
+                <img data-u="image" src="img/9.jpg" />
+                <img data-u="thumb" src="img2/9.jpg" />
+              </div>
+              <div>
+                <img data-u="image" src="img/7.jpg" />
+                <img data-u="thumb" src="img2/7.jpg" />
+              </div>
+              <div>
+                <img data-u="image" src="img/8.jpg" />
+                <img data-u="thumb" src="img2/8.jpg" />
+              </div>
+              <!--
             <div>
                 <img data-u="image" src="img/9.jpg" />
                 <img data-u="thumb" src="img2/9.jpg" />
@@ -889,9 +890,9 @@
                 <img data-u="image" src="img/10.jpg" />
                 <img data-u="thumb" src="img2/10.jpg" />
             </div> -->
-          </div>
-          <!-- Thumbnail Navigator -->
-          <!-- <div data-u="thumbnavigator" class="jssort101" style="position:absolute;left:0px;bottom:0px;width:1500px;height:200px;background-color:#000; opacity: .9;" data-autocenter="1" data-scale-bottom="0.75" >
+            </div>
+            <!-- Thumbnail Navigator -->
+            <!-- <div data-u="thumbnavigator" class="jssort101" style="position:absolute;left:0px;bottom:0px;width:1500px;height:200px;background-color:#000; opacity: .9;" data-autocenter="1" data-scale-bottom="0.75" >
             <div data-u="slides">
                 <div data-u="prototype" class="p" style="width:400px;height:200px;">
                     <div data-u="thumbnailtemplate" class="t"></div>
@@ -903,32 +904,39 @@
                 </div>
             </div>
         </div> -->
-          <!-- Arrow Navigator -->
-          <div data-u="arrowleft" class="jssora106" style="width:55px;height:55px;top:450px;left:30px;" data-scale="0.75">
-            <svg viewbox="0 0 16000 16000" style="position:relative;top:0;left:0;width:100%;height:100%;">
-              <circle class="c" cx="8000" cy="8000" r="6260.9"></circle>
-              <polyline class="a" points="7930.4,5495.7 5426.1,8000 7930.4,10504.3 "></polyline>
-              <line class="a" x1="10573.9" y1="8000" x2="5426.1" y2="8000"></line>
-            </svg>
+            <!-- Arrow Navigator -->
+            <div data-u="arrowleft" class="jssora106" style="width:55px;height:55px;top:450px;left:30px;" data-scale="0.75">
+              <svg viewbox="0 0 16000 16000" style="position:relative;top:0;left:0;width:100%;height:100%;">
+                <circle class="c" cx="8000" cy="8000" r="6260.9"></circle>
+                <polyline class="a" points="7930.4,5495.7 5426.1,8000 7930.4,10504.3 "></polyline>
+                <line class="a" x1="10573.9" y1="8000" x2="5426.1" y2="8000"></line>
+              </svg>
+            </div>
+            <div data-u="arrowright" class="jssora106" style="width:55px;height:55px;top:450px;right:30px;" data-scale="0.75">
+              <svg viewbox="0 0 16000 16000" style="position:relative;top:0;left:0;width:100%;height:100%;">
+                <circle class="c" cx="8000" cy="8000" r="6260.9"></circle>
+                <polyline class="a" points="8069.6,5495.7 10573.9,8000 8069.6,10504.3 "></polyline>
+                <line class="a" x1="5426.1" y1="8000" x2="10573.9" y2="8000"></line>
+              </svg>
+            </div>
           </div>
-          <div data-u="arrowright" class="jssora106" style="width:55px;height:55px;top:450px;right:30px;" data-scale="0.75">
-            <svg viewbox="0 0 16000 16000" style="position:relative;top:0;left:0;width:100%;height:100%;">
-              <circle class="c" cx="8000" cy="8000" r="6260.9"></circle>
-              <polyline class="a" points="8069.6,5495.7 10573.9,8000 8069.6,10504.3 "></polyline>
-              <line class="a" x1="5426.1" y1="8000" x2="10573.9" y2="8000"></line>
-            </svg>
-          </div>
+
+
+        </div>
+        <div id="descText" style = "position: relative;display: flex; top: 45px; width: 150%; background-color: rgb(42, 37, 33, 0.85)">
+
         </div>
       </div>
-      <script type="text/javascript">
-        jssor_1_slider_init();
-      </script>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
+    </div>
+    <script type="text/javascript">
+      jssor_1_slider_init();
+    </script>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
 </body>
 
 <style>
