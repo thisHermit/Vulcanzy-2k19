@@ -11,7 +11,9 @@
 			"roomCapacity": "160",
 			"emailid": "411667@student.nitandhra.ac.in",
 			"event": "COLLOQUIUM",
-			"noOfLevels": "3"
+            "noOfLevels": "3"
+            
+    
 		},
 		{
 			"organizers": "A.Bhargav, Nikhila",
@@ -728,7 +730,7 @@
 			"noOfLevels": ""
 		}
 	],
-	"DND": [{
+	"DND": [ {
 			"organizers": "Shreyas, Akhilesh",
 			"yearBranch": "1st yr, 2nd yr",
 			"contact": "6204828580, 8367229807",

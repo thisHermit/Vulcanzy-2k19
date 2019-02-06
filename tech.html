@@ -175,7 +175,7 @@
     <div class = "row">
   
       <div class = "col">
-        <button class = "btn bg-transparent" onclick="data(1)">
+        <button class = "btn bg-transparent csea" >
   
             <div class="card border-0   bg-transparent rounded  cardPad animated  infinite delay-1s" style="animation-duration:1s" >
               <img src="./icons/Eventsy2.jpg" style="height: 210px ;border-radius:50%" class="card-img-top" />
@@ -198,7 +198,7 @@
        
        </div>
        <div class = "col">
-          <button class = "btn bg-transparent" onclick="data(2)">
+          <button class = "btn bg-transparent ecea">
               <div class="card border-0   bg-transparent rounded  cardPad animated  infinite delay-1s" style="animation-duration:1s" >
               <img src="./icons/Eventsy2.jpg" style="height: 210px ;border-radius:50%" class="card-img-top" />
               <div class="card-body  ">
@@ -214,7 +214,7 @@
 
        </div>
          <div class = "col">
-            <button class = "btn bg-transparent" onclick="data(3)">
+            <button class = "btn bg-transparent eeea" >
                 <div class="card border-0   bg-transparent rounded  cardPad animated  infinite delay-1s" style="animation-duration:1s" >
                 <img src="./icons/Eventsy2.jpg" style="height: 210px ;border-radius:50%" class="card-img-top" />
                 <div class="card-body  ">
@@ -245,7 +245,7 @@
     <div class = "row">
   
       <div class = "col">
-          <button class = "btn bg-transparent" onclick="data(4)">
+          <button class = "btn bg-transparent cea" >
               <div class="card border-0   bg-transparent rounded  cardPad animated  infinite delay-1s" style="animation-duration:1s" >
               <img src="./icons/Eventsy2.jpg" style="height: 210px ;border-radius:50%" class="card-img-top" />
               <div class="card-body  ">
@@ -265,7 +265,7 @@
        
        </div>
        <div class = "col">
-          <button class = "btn bg-transparent" onclick="data(5)">
+          <button class = "btn bg-transparent mea" >
               <div class="card border-0   bg-transparent rounded  cardPad animated  infinite delay-1s" style="animation-duration:1s" >
               <img src="./icons/Eventsy2.jpg" style="height: 210px ;border-radius:50%" class="card-img-top" />
               <div class="card-body  ">
@@ -280,7 +280,7 @@
           </button>
        </div>
          <div class = "col">
-            <button class = "btn bg-transparent" onclick="data(6)">
+            <button class = "btn bg-transparent bio" >
                 <div class="card border-0   bg-transparent rounded  cardPad animated  infinite delay-1s" style="animation-duration:1s" >
                 <img src="./icons/Eventsy2.jpg" style="height: 210px ;border-radius:50%" class="card-img-top" />
                 <div class="card-body  ">
@@ -311,7 +311,7 @@
     <div class = "row">
   
       <div class = "col">
-          <button class = "btn bg-transparent" onclick="data(7)">
+          <button class = "btn bg-transparent mech" >
               <div class="card border-0   bg-transparent rounded  cardPad animated  infinite delay-1s" style="animation-duration:1s" >
               <img src="./icons/Eventsy2.jpg" style="height: 210px ;border-radius:50%" class="card-img-top" />
               <div class="card-body  ">
@@ -332,7 +332,7 @@
        
        </div>
        <div class = "col">
-          <button class = "btn bg-transparent" onclick="data(8)">
+          <button class = "btn bg-transparent music" >
 
             <div class="card border-0   bg-transparent rounded  cardPad animated  infinite delay-1s" style="animation-duration:1s" >
               <img src="./icons/Eventsy2.jpg" style="height: 210px ;border-radius:50%" class="card-img-top" />
@@ -348,7 +348,7 @@
           </button>
         </div>
          <div class = "col">
-            <button class = "btn bg-transparent" onclick="data(9)">
+            <button class = "btn bg-transparent pnp" >
 
               <div class="card border-0   bg-transparent rounded  cardPad animated  infinite delay-1s" style="animation-duration:1s" >
                 <img src="./icons/Eventsy2.jpg" style="height: 210px ;border-radius:50%" class="card-img-top" />
@@ -380,7 +380,7 @@
     <div class = "row" >
   
       <div class = "col">
-          <button class = "btn bg-transparent" onclick="data(10)">
+          <button class = "btn bg-transparent mag" >
 
             <div class="card border-0   bg-transparent rounded  cardPad animated  infinite delay-1s" style="animation-duration:1s" >
               <img src="./icons/Eventsy2.jpg" style="height: 210px ;border-radius:50%" class="card-img-top" />
@@ -404,7 +404,7 @@
   
     
        <div class = "col">
-          <button class = "btn bg-transparent" onclick="data(11)">
+          <button class = "btn bg-transparent snh" >
               <div class="card border-0   bg-transparent rounded  cardPad animated  infinite delay-1s" style="animation-duration:1s" >
               <img src="./icons/Eventsy2.jpg" style="height: 210px ;border-radius:50%" class="card-img-top" />
               <div class="card-body  ">
@@ -425,7 +425,7 @@
        
        </div>
        <div class = "col">
-          <button class = "btn bg-transparent" onclick="data(12)">
+          <button class = "btn bg-transparent dnd" >
               <div class="card border-0   bg-transparent rounded  cardPad animated  infinite delay-1s" style="animation-duration:1s" >
               <img src="./icons/Eventsy2.jpg" style="height: 210px ;border-radius:50%" class="card-img-top" />
               <div class="card-body  ">
@@ -454,7 +454,9 @@
     </div>
     </div>
  <div class=" container align-self-center bg-transparent " id = "eventList">
-   <p id = ""> here is the data</p>
+  <ul>
+  
+  </ul>
  </div>
     </div>
  
@@ -492,12 +494,54 @@
 </footer>
 
 <script type="text/javascript">
-var mainData;
- $.getJSON('./eventData.js', function(d) {
-  console.log("worked");
-  mainData = d;
+
+$(".csea").click(function(){
+  $.getJSON("./eventData.json",function (d) {
+    for (var i =0; i<4; i++)
+  {
+  $("ul").append("<li> ORGANIZERS:"+ d.CSEA[i].organizers+"</li>");
+}
+  });
+ 
+});
+$(".ecea").click(function(){
+  
+});
+$(".eeea").click(function(){
+  
+});
+$(".mech").click(function(){
+});
+$(".pnp").click(function(){
+});
+$(".dnd").click(function(){
+});
+$(".bio").click(function(){
+  $("p").append("<b>Appended text</b>");
+});
+$(".cea").click(function(){
+  $("p").append("<b>Appended text</b>");
+});
+$(".snh").click(function(){
+  $("p").append("<b>Appended text</b>");
+});
+$(".mag").click(function(){
+  $("p").append("<b>Appended text</b>");
+});
+$(".music").click(function(){
+  $("p").append("<b>Appended text</b>");
+});
+$(".mea").click(function(){
+  $("p").append("<b>Appended text</b>");
+});
+    var i = arguments[0];
+    $.getJSON('./eventData.js', function(d) {
+ 
+
+
  });
-   console.log(mainData);
+
+
   function openNav() {
     // 250px can be changed later
     document.getElementById("side_nav").style.width = "100%";
