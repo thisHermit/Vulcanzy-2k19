@@ -576,5 +576,55 @@
     </div>
   </nav>
 </footer>
+<script type="text/javascript">
+  function home() {
 
+    document.getElementById("layer2").style.display = "block";
+    document.getElementById("layer3").style.display = "none";
+
+    var layerthree = document.getElementById("layer3").classList.remove("fadeInUp");
+    var layerthree = document.getElementById("layer2").classList.add("fadeIn");
+  }
+
+  function about() {
+
+    document.getElementById("layer3").style.display = "block";
+    document.getElementById("layer2").style.display = "none";
+
+    var layerthree = document.getElementById("layer3").classList.add("fadeInUp");
+    var layerthree = document.getElementById("layer2").classList.remove("fadeIn");
+  }
+  /* window.onscroll = function() {
+    scrollFunction()};
+
+  function scrollFunction() {
+    var value = window.scrollY;
+
+    if (value > 1 || value > 1 ) {
+
+      document.getElementById("layer2").style.display = "none";
+      document.getElementById("layer3").style.display = "block";
+
+      var layerthree = document.getElementById("layer3").classList.add("fadeInUp");
+      var layerthree = document.getElementById("layer2").classList.remove("fadeIn");
+    }
+
+
+  */
+
+
+
+  function openNav() {
+    // 250px can be changed later
+    document.getElementById("side_nav").style.width = "100%";
+
+
+  }
+
+  /* Set the width of the side navigation to 0 */
+  function closeNav() {
+    document.getElementById("side_nav").style.width = "0";
+
+  }
+</script>
 </html>
