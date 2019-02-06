@@ -2,13 +2,40 @@
 <html>
 
 <head>
-  <link rel="stylesheet" href="./bootstrap-4.0.0-dist/css/bootstrap.css">
-  <script src="./bootstrap-4.0.0-dist/js/bootstrap.js"></script>
-  <script src="./bootstrap-4.0.0-dist/js/bootstrap.bundle.js"></script>
 
+  <link rel="stylesheet" href="https://raw.githubusercontent.com/daneden/animate.css/master/animate.css">
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="./jquery.min.js" type="text/javascript"></script>
+  <script src="./bootstrap.min.js" type="text/javascript"></script>
+  <script src="./bootstrap-4.0.0-dist/js/bootstrap.js" type="text/javascript"></script>
+
   <link rel="stylesheet" href="./animate.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
   <link rel="stylesheet" href="./styles.css">
+
+  <link rel="stylesheet" href="./styless.css">
+  <script src="./particles.min.js" type="text/javascript"></script>
+  <script src="./anim.js" type="text/javascript"></script>
+
+
+
+  <script>
+    function waiter() {
+      if (document.all) {
+        document.all["layer1"].style.visibility = "hidden";
+        document.all["layer1"].style.position = "absolute";
+        document.all["layer2"].style.visibility = "visible";
+      } else if (document.getElementById) {
+        node = document.getElementById("layer1").style.visibility = 'hidden';
+        node = document.getElementById("layer1").style.position = 'absolute';
+        node = document.getElementById("layer2").style.visibility = 'visible';
+
+      }
+    }
+  </script>
+  <title> VULCANZY-2K19</title>
 </head>
 
 <style>
@@ -58,9 +85,9 @@
 
     }
   </style>
-  <div id="layer1" class="layer1_class"  >
+  <div id="layer1" class="layer1_class">
     <style>
-    @import url('https://fonts.googleapis.com/css?family=Roboto:700');
+      @import url('https://fonts.googleapis.com/css?family=Roboto:700');
 
     .bashar {
 
@@ -298,7 +325,45 @@
 
   </div>
   <div id="layer2" class="animated flash layer2_class">
-    <div class="banner container heading" style = "margin-top: 50px">
+    <style>
+      .inner-border::-webkit-scrollbar {
+                  display: none;
+              }
+      .banner {
+      /*
+      border-left: 40px dashed black;
+      border-right: 40px dashed black;
+      border-top: 10px groove white;
+      border-bottom: 10px groove white;
+*/
+
+    }
+    @media only screen and (min-width: 800px) {
+
+  .heading {
+     font-size: 7vw;
+  }
+
+  }
+  @media only screen and (min-width: 300px) and (max-width: 600px){
+
+  .heading {
+     font-size: 13vw;
+  }
+
+
+  }
+  @media only screen and (min-width: 600px) and (max-width: 800px){
+
+  .heading {
+     font-size: 10vw;
+  }
+
+  }
+
+
+              </style>
+    <div class="banner container heading" style="margin-top: 50px">
       <a href="./index" class="text-decoration-none ">
         <p style="padding-top: 20px; margin-top: 30px; color : #05386b; font-family: harry; font-weight: 100" class=" heading   text-center  animated pulse slow  delay-2s infinite">
           V U L C A N Z Y
@@ -310,88 +375,92 @@
       </p>
 
     </div>
-<!-- add a fading animation along with the mySlides and mySlides1  -->
-       <div style="text-align:center">
-         <div style = "display: inline-block; position:relative;">
-           <img class="mySlides" src="http://www.nitandhra.ac.in/main/images/VULCANZY/2017/TECH/civil/02.jpg" class=" rounded fadeIn" alt="">
-           <img class="mySlides" src="http://www.nitandhra.ac.in/main/images/VULCANZY/2017/TECH/civil/01.jpg" class=" rounded fadeIn" alt="">
-           <img class="mySlides" src="http://www.nitandhra.ac.in/main/images/VULCANZY/2017/TECH/civil/03.jpg" class=" rounded fadeIn" alt="">
-           <img class="mySlides" src="http://www.nitandhra.ac.in/main/images/VULCANZY/2017/TECH/civil/04.jpg" class=" rounded fadeIn" alt="">
-           <img class="mySlides" src="http://www.nitandhra.ac.in/main/images/VULCANZY/2017/TECH/civil/05.jpg" class=" rounded fadeIn" alt="">
-           <img class="mySlides" src="http://www.nitandhra.ac.in/main/images/VULCANZY/2017/TECH/civil/06.jpg" class=" rounded fadeIn" alt="">
-           <img class="mySlides" src="http://www.nitandhra.ac.in/main/images/VULCANZY/2017/TECH/civil/07.jpg" class=" rounded fadeIn" alt="">
-           <div style="left:0 ;position:absolute;bottom:0px;" onclick="plusDivs(-1,'mySlides')">&#10094;</div>
-           <div style="right:0;position:absolute;bottom:0px;" onclick="plusDivs(1,'mySlides')">&#10095;</div>
-         </div>
-       </div>
-
-      <div style="text-align:center">
-        <div style = "display: inline-block; position: relative">
-          <img class="mySlides1" src="http://www.nitandhra.ac.in/main/images/VULCANZY/2017/TECH/cse/02.jpg" class=" rounded fadeIn" alt="">
-          <img class="mySlides1" src="http://www.nitandhra.ac.in/main/images/VULCANZY/2017/TECH/cse/01.jpg" class=" rounded fadeIn" alt="">
-          <img class="mySlides1" src="http://www.nitandhra.ac.in/main/images/VULCANZY/2017/TECH/cse/03.jpg" class=" rounded fadeIn" alt="">
-          <img class="mySlides1" src="http://www.nitandhra.ac.in/main/images/VULCANZY/2017/TECH/cse/04.jpg" class=" rounded fadeIn" alt="">
-          <img class="mySlides1" src="http://www.nitandhra.ac.in/main/images/VULCANZY/2017/TECH/cse/05.jpg" class=" rounded fadeIn" alt="">
-          <img class="mySlides1" src="http://www.nitandhra.ac.in/main/images/VULCANZY/2017/TECH/cse/06.jpg" class=" rounded fadeIn" alt="">
-          <img class="mySlides1" src="http://www.nitandhra.ac.in/main/images/VULCANZY/2017/TECH/cse/07.jpg" class=" rounded fadeIn" alt="">
-          <div style="left:0 ;position:absolute;bottom:0px;" onclick="plusDivs(-1,'mySlides1')">&#10094;</div>
-          <div style="right:0;position:absolute;bottom:0px;" onclick="plusDivs(1,'mySlides1')">&#10095;</div>
-        </div>
+    <!-- add a fading animation along with the mySlides and mySlides1  -->
+    <div style="text-align:center">
+      <div style="display: inline-block; position:relative;">
+        <img class="mySlides" src="http://www.nitandhra.ac.in/main/images/VULCANZY/2017/TECH/civil/02.jpg" class=" rounded fadeIn" alt="">
+        <img class="mySlides" src="http://www.nitandhra.ac.in/main/images/VULCANZY/2017/TECH/civil/01.jpg" class=" rounded fadeIn" alt="">
+        <img class="mySlides" src="http://www.nitandhra.ac.in/main/images/VULCANZY/2017/TECH/civil/03.jpg" class=" rounded fadeIn" alt="">
+        <img class="mySlides" src="http://www.nitandhra.ac.in/main/images/VULCANZY/2017/TECH/civil/04.jpg" class=" rounded fadeIn" alt="">
+        <img class="mySlides" src="http://www.nitandhra.ac.in/main/images/VULCANZY/2017/TECH/civil/05.jpg" class=" rounded fadeIn" alt="">
+        <img class="mySlides" src="http://www.nitandhra.ac.in/main/images/VULCANZY/2017/TECH/civil/06.jpg" class=" rounded fadeIn" alt="">
+        <img class="mySlides" src="http://www.nitandhra.ac.in/main/images/VULCANZY/2017/TECH/civil/07.jpg" class=" rounded fadeIn" alt="">
+        <div style="left:0 ;position:absolute;bottom:0px;" onclick="plusDivs(-1,'mySlides')">&#10094;</div>
+        <div style="right:0;position:absolute;bottom:0px;" onclick="plusDivs(1,'mySlides')">&#10095;</div>
       </div>
-
-
     </div>
-    </ </body> <style>
-    i{
-    color: grey;
-    font-size: 100px;
-    }
-    </style>
-    <footer style="bottom: 0%">
-      <nav class="navbar navbar-dark ">
-        <div class="container-inline    rounded-pill " style="margin-right: auto; margin-left: auto ; margin-top: 50px">
-          <ul class="nav">
-            <li class="nav-item "> <a href="#"><span class="fa-stack fa-lg">
-                  <i class="fa fa-circle fa-stack-2x animated fadeIn "></i>
-                  <i class="fa fa-twitter fa-stack-1x fa-inverse animted fadeIn"></i>
-                </span> </a> </li>
 
-            <li class="nav-item "> <a href="#"><span class="fa-stack fa-lg">
-                  <i class="fa fa-circle fa-stack-2x animated fadeIn "></i>
-                  <i class="fa fa-facebook fa-stack-1x fa-inverse animated fadeIn"></i>
-                </span> </a> </li>
-            <li class="nav-item "> <a href="#"><span class="fa-stack fa-lg">
-                  <i class="fa fa-circle fa-stack-2x animated fadeIn"></i>
-                  <i class="fa fa-instagram fa-stack-1x fa-inverse animated fadeIn"></i>
-                </span> </a> </li>
+    <div style="text-align:center">
+      <div style="display: inline-block; position: relative">
+        <img class="mySlides1" src="http://www.nitandhra.ac.in/main/images/VULCANZY/2017/TECH/cse/02.jpg" class=" rounded fadeIn" alt="">
+        <img class="mySlides1" src="http://www.nitandhra.ac.in/main/images/VULCANZY/2017/TECH/cse/01.jpg" class=" rounded fadeIn" alt="">
+        <img class="mySlides1" src="http://www.nitandhra.ac.in/main/images/VULCANZY/2017/TECH/cse/03.jpg" class=" rounded fadeIn" alt="">
+        <img class="mySlides1" src="http://www.nitandhra.ac.in/main/images/VULCANZY/2017/TECH/cse/04.jpg" class=" rounded fadeIn" alt="">
+        <img class="mySlides1" src="http://www.nitandhra.ac.in/main/images/VULCANZY/2017/TECH/cse/05.jpg" class=" rounded fadeIn" alt="">
+        <img class="mySlides1" src="http://www.nitandhra.ac.in/main/images/VULCANZY/2017/TECH/cse/06.jpg" class=" rounded fadeIn" alt="">
+        <img class="mySlides1" src="http://www.nitandhra.ac.in/main/images/VULCANZY/2017/TECH/cse/07.jpg" class=" rounded fadeIn" alt="">
+        <div style="left:0 ;position:absolute;bottom:0px;" onclick="plusDivs(-1,'mySlides1')">&#10094;</div>
+        <div style="right:0;position:absolute;bottom:0px;" onclick="plusDivs(1,'mySlides1')">&#10095;</div>
+      </div>
+    </div>
 
-          </ul>
-        </div>
-      </nav>
-    </footer>
 
-    <script type="text/javascript">
-      var slideIndex = 1;
-      showDivs(slideIndex, "mySlides");
-      showDivs(slideIndex, "mySlides1");
+  </div>
+  </ </body> <style>
+  i{
+  color: grey;
+  font-size: 100px;
+  }
+  </style>
+  <footer style="bottom: 0%">
+    <nav class="navbar navbar-dark ">
+      <div class="container-inline    rounded-pill " style="margin-right: auto; margin-left: auto ; margin-top: 50px">
+        <ul class="nav">
+          <li class="nav-item "> <a href="#"><span class="fa-stack fa-lg">
+                <i class="fa fa-circle fa-stack-2x animated fadeIn "></i>
+                <i class="fa fa-twitter fa-stack-1x fa-inverse animted fadeIn"></i>
+              </span> </a> </li>
 
-      function plusDivs(n, slides) {
+          <li class="nav-item "> <a href="#"><span class="fa-stack fa-lg">
+                <i class="fa fa-circle fa-stack-2x animated fadeIn "></i>
+                <i class="fa fa-facebook fa-stack-1x fa-inverse animated fadeIn"></i>
+              </span> </a> </li>
+          <li class="nav-item "> <a href="#"><span class="fa-stack fa-lg">
+                <i class="fa fa-circle fa-stack-2x animated fadeIn"></i>
+                <i class="fa fa-instagram fa-stack-1x fa-inverse animated fadeIn"></i>
+              </span> </a> </li>
+
+        </ul>
+      </div>
+    </nav>
+  </footer>
+
+  <script type="text/javascript">
+    var slideIndex = 1;
+    showDivs(slideIndex, "mySlides");
+    showDivs(slideIndex, "mySlides1");
+
+    function plusDivs(n, slides) {
       showDivs(slideIndex += n, slides);
-      }
+    }
 
-      function showDivs(n, slides) {
+    function showDivs(n, slides) {
       var i;
       var x = document.getElementsByClassName(slides);
-      if (n > x.length) {slideIndex = 1}
-      if (n < 1) {slideIndex = x.length} ;
+      if (n > x.length) {
+        slideIndex = 1
+      }
+      if (n < 1) {
+        slideIndex = x.length
+      };
       for (i = 0; i < x.length; i++) {
         x[i].style.display = "none";
         x[i].style.position = "relative";
         x[i].style.zIndex = 0;
       }
-      x[slideIndex-1].style.display = "block";
+      x[slideIndex - 1].style.display = "block";
 
-      }
-    </script>
+    }
+  </script>
 
 </html>
