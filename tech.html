@@ -453,7 +453,7 @@
       
     </div>
     </div>
- <div class="   information" id = "eventList">
+ <div class="  container information " style=" opacity: .9"  id = "eventList">
    
  </div>
     </div>
@@ -504,7 +504,7 @@ $(".csea").click(function(){
   $.getJSON("./eventData.json",function (d) {
     for (var i =0; i<4; i++)
   {
-  $(".information").append('<div class="jumbotron"> <h1 class="display-4">' +d.CSEA[i].event+ '</h1><br/>' + '<p class=""> ROUNDS: '+d.CSEA[i].noOfLevels+' &nbsp; FEE:'+d.CSEA[i].regFee+ ' &nbsp; DURATION:'+d.CSEA[i].duration +'  </p>'+'<p class="lead"> &nbsp; ORGANIZERS: '+d.CSEA[i].organizers+' &nbsp; CONTACT:'+d.CSEA[i].contact+'   &nbsp;   EMAIL:'+d.CSEA[i].emailid+'  </p> </div>');
+  $(".information").append('<div class="jumbotron rounded  text-center" style= "color: lightblue" > <h1 class="display-2">' +d.CSEA[i].event+ '</h1> <hr class="my-4">' + '<p class=""> ROUNDS: '+d.CSEA[i].noOfLevels+' &nbsp; FEE:'+d.CSEA[i].regFee+ ' &nbsp; DURATION:'+d.CSEA[i].duration +'  </p>'+'<p class="lead"> <br/> ORGANIZERS: '+d.CSEA[i].organizers+' <br/>; CONTACT:'+d.CSEA[i].contact+'   <br/> EMAIL:'+d.CSEA[i].emailid+'  </p> </div>');
 
 }
   });
@@ -523,30 +523,19 @@ $(".pnp").click(function(){
 $(".dnd").click(function(){
 });
 $(".bio").click(function(){
-  $("p").append("<b>Appended text</b>");
+ 
 });
 $(".cea").click(function(){
-  $("p").append("<b>Appended text</b>");
 });
 $(".snh").click(function(){
-  $("p").append("<b>Appended text</b>");
 });
 $(".mag").click(function(){
-  $("p").append("<b>Appended text</b>");
 });
 $(".music").click(function(){
-  $("p").append("<b>Appended text</b>");
 });
 $(".mea").click(function(){
-  $("p").append("<b>Appended text</b>");
 });
-    var i = arguments[0];
-    $.getJSON('./eventData.js', function(d) {
  
-
-
- });
-
 
   function openNav() {
     // 250px can be changed later
