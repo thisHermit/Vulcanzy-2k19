@@ -325,6 +325,7 @@
 
   </div>
   <div id="layer2" class="animated flash layer2_class">
+    <button type="button" name="button" class="sidenav_button fa fa-bars shadow-lg rounded" onclick="openNav()"></button>
     <style>
       .inner-border::-webkit-scrollbar {
                   display: none;
@@ -371,96 +372,156 @@
       </a>
       <p style="font-size: 20px; color : #22344d ; font-weight: 200;" class="text-center  animated pulse delay-1s">
         NIT - ANDHRA PRADESH
-
       </p>
-
-    </div>
-    <!-- add a fading animation along with the mySlides and mySlides1  -->
-    <div style="text-align:center">
-      <div style="display: inline-block; position:relative;">
-        <img class="mySlides" src="http://www.nitandhra.ac.in/main/images/VULCANZY/2017/TECH/civil/02.jpg" class=" rounded fadeIn" alt="">
-        <img class="mySlides" src="http://www.nitandhra.ac.in/main/images/VULCANZY/2017/TECH/civil/01.jpg" class=" rounded fadeIn" alt="">
-        <img class="mySlides" src="http://www.nitandhra.ac.in/main/images/VULCANZY/2017/TECH/civil/03.jpg" class=" rounded fadeIn" alt="">
-        <img class="mySlides" src="http://www.nitandhra.ac.in/main/images/VULCANZY/2017/TECH/civil/04.jpg" class=" rounded fadeIn" alt="">
-        <img class="mySlides" src="http://www.nitandhra.ac.in/main/images/VULCANZY/2017/TECH/civil/05.jpg" class=" rounded fadeIn" alt="">
-        <img class="mySlides" src="http://www.nitandhra.ac.in/main/images/VULCANZY/2017/TECH/civil/06.jpg" class=" rounded fadeIn" alt="">
-        <img class="mySlides" src="http://www.nitandhra.ac.in/main/images/VULCANZY/2017/TECH/civil/07.jpg" class=" rounded fadeIn" alt="">
-        <div style="left:0 ;position:absolute;bottom:0px;" onclick="plusDivs(-1,'mySlides')">&#10094;</div>
-        <div style="right:0;position:absolute;bottom:0px;" onclick="plusDivs(1,'mySlides')">&#10095;</div>
-      </div>
     </div>
 
-    <div style="text-align:center">
-      <div style="display: inline-block; position: relative">
-        <img class="mySlides1" src="http://www.nitandhra.ac.in/main/images/VULCANZY/2017/TECH/cse/02.jpg" class=" rounded fadeIn" alt="">
-        <img class="mySlides1" src="http://www.nitandhra.ac.in/main/images/VULCANZY/2017/TECH/cse/01.jpg" class=" rounded fadeIn" alt="">
-        <img class="mySlides1" src="http://www.nitandhra.ac.in/main/images/VULCANZY/2017/TECH/cse/03.jpg" class=" rounded fadeIn" alt="">
-        <img class="mySlides1" src="http://www.nitandhra.ac.in/main/images/VULCANZY/2017/TECH/cse/04.jpg" class=" rounded fadeIn" alt="">
-        <img class="mySlides1" src="http://www.nitandhra.ac.in/main/images/VULCANZY/2017/TECH/cse/05.jpg" class=" rounded fadeIn" alt="">
-        <img class="mySlides1" src="http://www.nitandhra.ac.in/main/images/VULCANZY/2017/TECH/cse/06.jpg" class=" rounded fadeIn" alt="">
-        <img class="mySlides1" src="http://www.nitandhra.ac.in/main/images/VULCANZY/2017/TECH/cse/07.jpg" class=" rounded fadeIn" alt="">
-        <div style="left:0 ;position:absolute;bottom:0px;" onclick="plusDivs(-1,'mySlides1')">&#10094;</div>
-        <div style="right:0;position:absolute;bottom:0px;" onclick="plusDivs(1,'mySlides1')">&#10095;</div>
+    <div class="container-fluid">
+      <div class="">
+        test
       </div>
     </div>
 
 
+    <div id="side_nav" class="sidenav">
+      <div class="container text-center ">
+        <p style="font-family:harry; color:#05386b; font-size: 60px">VULCANZY</p>
+      </div>
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <div class="container" style=" margin-top: 5% ">
+        <div class="row">
+
+          <div class="col">
+            <a href="#" style="text-decoration: none ;" class="text-center">
+              <div class="card shadow-lg  bg-dark rounded  cardPad">
+                <img src="./icons/Eventsy2.jpg" style="height: 210px ;border-radius:50%" class="card-img-top" />
+                <div class="card-body">
+
+                  <p style="color: white ; font-size: 25px;font-family: 'Courier New', Courier, monospace; font-weight: bold">
+
+                    EVENTS
+                  </p>
+
+                </div>
+              </div>
+            </a>
+          </div>
+
+          <div class="col">
+            <a href="#" style="text-decoration: none ;" class="text-center">
+              <div class="card shadow-lg  bg-dark rounded  cardPad ">
+                <img src="./icons/Sponsory2.jpg" style="height:210px; " class="card-img-top" />
+                <div class="card-body">
+
+                  <p style="color: white ; font-size: 25px;font-family: 'Courier New', Courier, monospace; font-weight: bold">
+
+                    SPONSORS
+                  </p>
+
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="row" style=" margin-top: 50px">
+        <div class="col">
+          <a href="./gallery" style="text-decoration: none ;" class="text-center">
+            <div class="card shadow-lg  bg-dark rounded cardPad  ">
+              <img src="./icons/galleryy2.jpg" style="height: 210px" class="card-img-top" />
+              <div class="card-body">
+
+                <p style="color: white ; font-size: 25px;font-family: 'Courier New', Courier, monospace; font-weight: bold">
+
+                  GALLERY
+                </p>
+
+              </div>
+            </div>
+          </a>
+        </div>
+
+
+
+
+        <div class="col">
+          <a href="./webteam" style="text-decoration: none ;" class="text-center">
+            <div class="card shadow-lg  bg-dark rounded  cardPad">
+              <img src="./icons/webTeamy2.jpg" style="height:210px" class="card-img-top" />
+              <div class="card-body">
+
+                <p style="color: white ; font-size: 25px;font-family: 'Courier New', Courier, monospace; font-weight: bold">
+
+                  WEB TEAM
+                </p>
+
+              </div>
+            </div>
+          </a>
+        </div>
+
+
+
+        <div class="col">
+          <a href="#" style="text-decoration: none ;" class="text-center">
+            <div class="card shadow-lg  bg-dark rounded  cardPad ">
+              <img src="./icons/Contacty2.jpg" style="height: 210px" class="card-img-top" />
+              <div class="card-body">
+
+                <p style="color: white ; font-size: 25px; font-family: 'Courier New', Courier, monospace; font-weight: bold">
+
+                  Contact
+                </p>
+
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
   </div>
-  </ </body> <style>
+
+  <script type="text/javascript">
+    function openNav() {
+      // 250px can be changed later
+      document.getElementById("side_nav").style.width = "100%";
+
+
+    }
+
+    /* Set the width of the side navigation to 0 */
+    function closeNav() {
+      document.getElementById("side_nav").style.width = "0";
+
+    }
+  </script>
+</body>
+<style>
   i{
   color: grey;
   font-size: 100px;
   }
   </style>
-  <footer style="bottom: 0%">
-    <nav class="navbar navbar-dark ">
-      <div class="container-inline    rounded-pill " style="margin-right: auto; margin-left: auto ; margin-top: 50px">
-        <ul class="nav">
-          <li class="nav-item "> <a href="#"><span class="fa-stack fa-lg">
-                <i class="fa fa-circle fa-stack-2x animated fadeIn "></i>
-                <i class="fa fa-twitter fa-stack-1x fa-inverse animted fadeIn"></i>
-              </span> </a> </li>
+<footer style="bottom: 0%">
+  <nav class="navbar navbar-dark ">
+    <div class="container-inline    rounded-pill " style="margin-right: auto; margin-left: auto ; margin-top: 50px">
+      <ul class="nav">
+        <li class="nav-item "> <a href="#"><span class="fa-stack fa-lg">
+              <i class="fa fa-circle fa-stack-2x animated fadeIn "></i>
+              <i class="fa fa-twitter fa-stack-1x fa-inverse animted fadeIn"></i>
+            </span> </a> </li>
 
-          <li class="nav-item "> <a href="#"><span class="fa-stack fa-lg">
-                <i class="fa fa-circle fa-stack-2x animated fadeIn "></i>
-                <i class="fa fa-facebook fa-stack-1x fa-inverse animated fadeIn"></i>
-              </span> </a> </li>
-          <li class="nav-item "> <a href="#"><span class="fa-stack fa-lg">
-                <i class="fa fa-circle fa-stack-2x animated fadeIn"></i>
-                <i class="fa fa-instagram fa-stack-1x fa-inverse animated fadeIn"></i>
-              </span> </a> </li>
+        <li class="nav-item "> <a href="#"><span class="fa-stack fa-lg">
+              <i class="fa fa-circle fa-stack-2x animated fadeIn "></i>
+              <i class="fa fa-facebook fa-stack-1x fa-inverse animated fadeIn"></i>
+            </span> </a> </li>
+        <li class="nav-item "> <a href="#"><span class="fa-stack fa-lg">
+              <i class="fa fa-circle fa-stack-2x animated fadeIn"></i>
+              <i class="fa fa-instagram fa-stack-1x fa-inverse animated fadeIn"></i>
+            </span> </a> </li>
 
-        </ul>
-      </div>
-    </nav>
-  </footer>
-
-  <script type="text/javascript">
-    var slideIndex = 1;
-    showDivs(slideIndex, "mySlides");
-    showDivs(slideIndex, "mySlides1");
-
-    function plusDivs(n, slides) {
-      showDivs(slideIndex += n, slides);
-    }
-
-    function showDivs(n, slides) {
-      var i;
-      var x = document.getElementsByClassName(slides);
-      if (n > x.length) {
-        slideIndex = 1
-      }
-      if (n < 1) {
-        slideIndex = x.length
-      };
-      for (i = 0; i < x.length; i++) {
-        x[i].style.display = "none";
-        x[i].style.position = "relative";
-        x[i].style.zIndex = 0;
-      }
-      x[slideIndex - 1].style.display = "block";
-
-    }
-  </script>
+      </ul>
+    </div>
+  </nav>
+</footer>
 
 </html>
