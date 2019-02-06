@@ -492,11 +492,12 @@
 </footer>
 
 <script type="text/javascript">
+var mainData;
  $.getJSON('./eventData.js', function(d) {
   console.log("worked");
-  console.log (d);
+  mainData = d;
  });
-   
+   console.log(mainData);
   function openNav() {
     // 250px can be changed later
     document.getElementById("side_nav").style.width = "100%";
