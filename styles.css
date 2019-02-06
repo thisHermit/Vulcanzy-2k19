@@ -20,7 +20,7 @@ body {
 
 
 /*position: fixed;*/
--webkit-animation: moverGrad 2s ease infinite;
+-webkit-animation: moverGrad 2s ease infinite;  
 -moz-animation: moverGrad 2s ease infinite;
 animation: moverGrad 2s ease infinite
 }
@@ -39,11 +39,6 @@ animation: moverGrad 2s ease infinite
     0%{background-position:28% 0%}
     50%{background-position:73% 100%}
     100%{background-position:28% 0%}
-}
-
-@keyframes color_change {
-	from { background-color: white; }
-  to { background-color: white; }
 }
 
 .layer1_class{
