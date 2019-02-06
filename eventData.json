@@ -74,83 +74,80 @@
 			}
 		}
 	],
-	"ECEA": [{
-			"organizers": "4",
-			"": "ece4c.vulcanzy19@gmail.com",
-			"yearBranch": "Haritha",
-			"contact": " ECE / II",
-			"regFee": "100",
-			"Sno": "5",
-			"max_registrations": "300 on Day 1, 18 on Day2",
-			"place": "FORESEE - the 4C 's",
-			"duration": "BOTH",
-			"roomCapacity": "3 hrs on Day 1, 2.5 hrs on Day 2",
-			"emailid": "7842655559",
-			"event": "",
-			"noOfLevels": "-",
-			"description": {
-				"small": "random text",
-				"big": "lot of random text"
-			}
-		},
-		{
-			"organizers": "-",
-			"": "ecewsvulcanzy19@gmail.com",
-			"yearBranch": "Praisy, Pavani",
-			"contact": "ECE / IV",
-			"regFee": "150",
-			"Sno": "6",
-			"max_registrations": "200",
-			"place": "WORKSHOP ",
-			"duration": "INDOOR",
-			"roomCapacity": "3.5 hrs ",
-			"emailid": "8106065197",
-			"event": "",
-			"noOfLevels": "-",
-			"description": {
-				"small": "random text",
-				"big": "lot of random text"
-			}
-		},
-		{
-			"organizers": "-",
-			"": "eceanitandhra@gmail.com",
-			"yearBranch": "Aravind",
-			"contact": "ECE / II",
-			"regFee": "-",
-			"Sno": "7",
-			"max_registrations": "86 EDC Lab",
-			"place": "ELECTRO WIZARD ",
-			"duration": "INDOOR",
-			"roomCapacity": "3 hrs ",
-			"emailid": "9440705192",
-			"event": "",
-			"noOfLevels": "-",
-			"description": {
-				"small": "random text",
-				"big": "lot of random text"
-			}
-		},
-		{
-			"organizers": "-",
-			"": "eceanitandhra@gmail.com",
-			"yearBranch": "Karisma",
-			"contact": "ECE / II",
-			"regFee": "-",
-			"Sno": "8",
-			"max_registrations": "-",
-			"place": "PAPER PRESENTATION",
-			"duration": "INDOOR",
-			"roomCapacity": "-",
-			"emailid": "7656947854",
-			"event": "",
-			"noOfLevels": "-",
-			"description": {
-				"small": "random text",
-				"big": "lot of random text"
-			}
-		}
-	],
+	"ECEA": [
+    {
+        "organizers": "Haritha",
+        "yearBranch": " ECE / II",
+        "contact": "7842655559",
+        "regFee": "-",
+        "Sno": "5",
+        "max_registrations": "100",
+        "place": "BOTH",
+        "duration": "3 hrs on Day 1, 2.5 hrs on Day 2",
+        "roomCapacity": "300 on Day 1, 18 on Day2",
+        "emailid": "ece4c.vulcanzy19@gmail.com",
+        "event": "FORESEE - the 4C 's",
+        "noOfLevels": "4",
+				"description": {
+					"small": "random text",
+					"big": "lot of random text"
+				}
+    },
+    {
+        "organizers": "Praisy, Pavani",
+        "yearBranch": "ECE / IV",
+        "contact": "8106065197",
+        "regFee": "-",
+        "Sno": "6",
+        "max_registrations": "150",
+        "place": "INDOOR",
+        "duration": "3.5 hrs ",
+        "roomCapacity": "200",
+        "emailid": "ecewsvulcanzy19@gmail.com",
+        "event": "WORKSHOP ",
+        "noOfLevels": "-",
+				"description": {
+					"small": "random text",
+					"big": "lot of random text"
+				}
+    },
+    {
+        "organizers": "Aravind",
+        "yearBranch": "ECE / II",
+        "contact": "9440705192",
+        "regFee": "-",
+        "Sno": "7",
+        "max_registrations": "-",
+        "place": "INDOOR",
+        "duration": "3 hrs ",
+        "roomCapacity": "86 EDC Lab",
+        "emailid": "eceanitandhra@gmail.com",
+        "event": "ELECTRO WIZARD ",
+        "noOfLevels": "-",
+				"description": {
+					"small": "random text",
+					"big": "lot of random text"
+				}
+    },
+    {
+        "organizers": "Karisma",
+        "yearBranch": "ECE / II",
+        "contact": "7656947854",
+        "regFee": "-",
+        "Sno": "8",
+        "max_registrations": "-",
+        "place": "INDOOR",
+        "duration": "-",
+        "roomCapacity": "-",
+        "emailid": "eceanitandhra@gmail.com",
+        "event": "PAPER PRESENTATION",
+        "noOfLevels": "-",
+				"description": {
+					"small": "random text",
+					"big": "lot of random text"
+				}
+    }
+],
 	"EEEA": [{
 			"organizers": "Sahithi",
 			"yearBranch": "EEE/3rd",
