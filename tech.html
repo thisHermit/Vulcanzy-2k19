@@ -500,26 +500,256 @@
 
 
 
-$(".csea").click(function(){
-  document.getElementById("menuList").style.display = "none";
-  document.getElementById("eventList").style.display = "block";
-  $.getJSON("./eventData.json",function (d) {
-    for (var i =0; i<4; i++)
-  {
-  $(".information").append('<div class="jumbotron rounded  text-center" style= "background-color: lightblue" > <h1 class="display-8">' +d.CSEA[i].event+ '</h1> <hr class="my-4">' + '<p class=""> ROUNDS: '+d.CSEA[i].noOfLevels+' &nbsp; FEE:'+d.CSEA[i].regFee+ ' &nbsp; DURATION:'+d.CSEA[i].duration +'  </p>'+'<p class="lead"> <br/> ORGANIZERS: '+d.CSEA[i].organizers+' <br/> CONTACT:'+d.CSEA[i].contact+'   <br/> EMAIL:'+d.CSEA[i].emailid+'  </p> </div>');
+  $(".csea").click(function() {
+    document.getElementById("menuList").style.display = "none";
+    document.getElementById("eventList").style.display = "block";
+    $.getJSON("./eventData.json", function(d) {
+      for (var i = 0; i < 4; i++) {
+        $(".information").append('<div class="jumbotron rounded  text-center" style= "background-color: lightblue" > <h1 class="display-8">' +
+          d.CSEA[i].event +
+          '</h1> <hr class="my-4">' +
+          '<p class=""> ROUNDS: ' +
+          d.CSEA[i].noOfLevels +
+          ' &nbsp; FEE:' +
+          d.CSEA[i].regFee +
+          ' &nbsp; DURATION:' +
+          d.CSEA[i].duration +
+          '  </p>' + '<p class="lead"> <br/> ORGANIZERS: ' +
+          d.CSEA[i].organizers +
+          ' <br/> CONTACT:' +
+          d.CSEA[i].contact +
+          '   <br/> EMAIL:' +
+          d.CSEA[i].emailid +
+          '  </p> </div>');
 
-  }});
-  $(".mech").click(function() {});
-  $(".pnp").click(function() {});
-  $(".dnd").click(function() {});
-  $(".bio").click(function() {
-
+      }
+    });
   });
-  $(".cea").click(function() {});
-  $(".snh").click(function() {});
-  $(".mag").click(function() {});
-  $(".music").click(function() {});
-  $(".mea").click(function() {});
+  $(".mech").click(function() {
+    document.getElementById("menuList").style.display = "none";
+    document.getElementById("eventList").style.display = "block";
+    $.getJSON("./eventData.json", function(d) {
+      for (var i = 0; i < 4; i++) {
+        $(".information").append('<div class="jumbotron rounded  text-center" style= "background-color: lightblue" > <h1 class="display-8">' +
+          d.CSEA[i].event +
+          '</h1> <hr class="my-4">' +
+          '<p class=""> ROUNDS: ' +
+          d.CSEA[i].noOfLevels +
+          ' &nbsp; FEE:' +
+          d.CSEA[i].regFee +
+          ' &nbsp; DURATION:' +
+          d.CSEA[i].duration +
+          '  </p>' + '<p class="lead"> <br/> ORGANIZERS: ' +
+          d.CSEA[i].organizers +
+          ' <br/> CONTACT:' +
+          d.CSEA[i].contact +
+          '   <br/> EMAIL:' +
+          d.CSEA[i].emailid +
+          '  </p> </div>');
+
+      }
+    });
+  });
+  $(".pnp").click(function() {
+    document.getElementById("menuList").style.display = "none";
+    document.getElementById("eventList").style.display = "block";
+    $.getJSON("./eventData.json", function(d) {
+      for (var i = 0; i < 4; i++) {
+        $(".information").append('<div class="jumbotron rounded  text-center" style= "background-color: lightblue" > <h1 class="display-8">' +
+          d.CSEA[i].event +
+          '</h1> <hr class="my-4">' +
+          '<p class=""> ROUNDS: ' +
+          d.CSEA[i].noOfLevels +
+          ' &nbsp; FEE:' +
+          d.CSEA[i].regFee +
+          ' &nbsp; DURATION:' +
+          d.CSEA[i].duration +
+          '  </p>' + '<p class="lead"> <br/> ORGANIZERS: ' +
+          d.CSEA[i].organizers +
+          ' <br/> CONTACT:' +
+          d.CSEA[i].contact +
+          '   <br/> EMAIL:' +
+          d.CSEA[i].emailid +
+          '  </p> </div>');
+
+      }
+    });
+  });
+  $(".dnd").click(function() {
+    document.getElementById("menuList").style.display = "none";
+    document.getElementById("eventList").style.display = "block";
+    $.getJSON("./eventData.json", function(d) {
+      for (var i = 0; i < 4; i++) {
+        $(".information").append('<div class="jumbotron rounded  text-center" style= "background-color: lightblue" > <h1 class="display-8">' +
+          d.CSEA[i].event +
+          '</h1> <hr class="my-4">' +
+          '<p class=""> ROUNDS: ' +
+          d.CSEA[i].noOfLevels +
+          ' &nbsp; FEE:' +
+          d.CSEA[i].regFee +
+          ' &nbsp; DURATION:' +
+          d.CSEA[i].duration +
+          '  </p>' + '<p class="lead"> <br/> ORGANIZERS: ' +
+          d.CSEA[i].organizers +
+          ' <br/> CONTACT:' +
+          d.CSEA[i].contact +
+          '   <br/> EMAIL:' +
+          d.CSEA[i].emailid +
+          '  </p> </div>');
+
+      }
+    });
+  });
+  $(".bio").click(function() {
+    document.getElementById("menuList").style.display = "none";
+    document.getElementById("eventList").style.display = "block";
+    $.getJSON("./eventData.json", function(d) {
+      for (var i = 0; i < 4; i++) {
+        $(".information").append('<div class="jumbotron rounded  text-center" style= "background-color: lightblue" > <h1 class="display-8">' +
+          d.CSEA[i].event +
+          '</h1> <hr class="my-4">' +
+          '<p class=""> ROUNDS: ' +
+          d.CSEA[i].noOfLevels +
+          ' &nbsp; FEE:' +
+          d.CSEA[i].regFee +
+          ' &nbsp; DURATION:' +
+          d.CSEA[i].duration +
+          '  </p>' + '<p class="lead"> <br/> ORGANIZERS: ' +
+          d.CSEA[i].organizers +
+          ' <br/> CONTACT:' +
+          d.CSEA[i].contact +
+          '   <br/> EMAIL:' +
+          d.CSEA[i].emailid +
+          '  </p> </div>');
+
+      }
+    });
+  });
+  $(".cea").click(function() {
+    document.getElementById("menuList").style.display = "none";
+    document.getElementById("eventList").style.display = "block";
+    $.getJSON("./eventData.json", function(d) {
+      for (var i = 0; i < 4; i++) {
+        $(".information").append('<div class="jumbotron rounded  text-center" style= "background-color: lightblue" > <h1 class="display-8">' +
+          d.CSEA[i].event +
+          '</h1> <hr class="my-4">' +
+          '<p class=""> ROUNDS: ' +
+          d.CSEA[i].noOfLevels +
+          ' &nbsp; FEE:' +
+          d.CSEA[i].regFee +
+          ' &nbsp; DURATION:' +
+          d.CSEA[i].duration +
+          '  </p>' + '<p class="lead"> <br/> ORGANIZERS: ' +
+          d.CSEA[i].organizers +
+          ' <br/> CONTACT:' +
+          d.CSEA[i].contact +
+          '   <br/> EMAIL:' +
+          d.CSEA[i].emailid +
+          '  </p> </div>');
+
+      }
+    });
+  });
+  $(".snh").click(function() {
+    document.getElementById("menuList").style.display = "none";
+    document.getElementById("eventList").style.display = "block";
+    $.getJSON("./eventData.json", function(d) {
+      for (var i = 0; i < 4; i++) {
+        $(".information").append('<div class="jumbotron rounded  text-center" style= "background-color: lightblue" > <h1 class="display-8">' +
+          d.CSEA[i].event +
+          '</h1> <hr class="my-4">' +
+          '<p class=""> ROUNDS: ' +
+          d.CSEA[i].noOfLevels +
+          ' &nbsp; FEE:' +
+          d.CSEA[i].regFee +
+          ' &nbsp; DURATION:' +
+          d.CSEA[i].duration +
+          '  </p>' + '<p class="lead"> <br/> ORGANIZERS: ' +
+          d.CSEA[i].organizers +
+          ' <br/> CONTACT:' +
+          d.CSEA[i].contact +
+          '   <br/> EMAIL:' +
+          d.CSEA[i].emailid +
+          '  </p> </div>');
+
+      }
+    });
+  });
+  $(".mag").click(function() {
+    document.getElementById("menuList").style.display = "none";
+    document.getElementById("eventList").style.display = "block";
+    $.getJSON("./eventData.json", function(d) {
+      for (var i = 0; i < 4; i++) {
+        $(".information").append('<div class="jumbotron rounded  text-center" style= "background-color: lightblue" > <h1 class="display-8">' +
+          d.CSEA[i].event +
+          '</h1> <hr class="my-4">' +
+          '<p class=""> ROUNDS: ' +
+          d.CSEA[i].noOfLevels +
+          ' &nbsp; FEE:' +
+          d.CSEA[i].regFee +
+          ' &nbsp; DURATION:' +
+          d.CSEA[i].duration +
+          '  </p>' + '<p class="lead"> <br/> ORGANIZERS: ' +
+          d.CSEA[i].organizers +
+          ' <br/> CONTACT:' +
+          d.CSEA[i].contact +
+          '   <br/> EMAIL:' +
+          d.CSEA[i].emailid +
+          '  </p> </div>');
+
+      }
+    });
+  });
+  $(".music").click(function() {
+    document.getElementById("menuList").style.display = "none";
+    document.getElementById("eventList").style.display = "block";
+    $.getJSON("./eventData.json", function(d) {
+      for (var i = 0; i < 4; i++) {
+        $(".information").append('<div class="jumbotron rounded  text-center" style= "background-color: lightblue" > <h1 class="display-8">' +
+          d.CSEA[i].event +
+          '</h1> <hr class="my-4">' +
+          '<p class=""> ROUNDS: ' +
+          d.CSEA[i].noOfLevels +
+          ' &nbsp; FEE:' +
+          d.CSEA[i].regFee +
+          ' &nbsp; DURATION:' +
+          d.CSEA[i].duration +
+          '  </p>' + '<p class="lead"> <br/> ORGANIZERS: ' +
+          d.CSEA[i].organizers +
+          ' <br/> CONTACT:' +
+          d.CSEA[i].contact +
+          '   <br/> EMAIL:' +
+          d.CSEA[i].emailid +
+          '  </p> </div>');
+
+      }
+    });
+  });
+  $(".mea").click(function() {
+    document.getElementById("menuList").style.display = "none";
+    document.getElementById("eventList").style.display = "block";
+    $.getJSON("./eventData.json", function(d) {
+      for (var i = 0; i < 4; i++) {
+        $(".information").append('<div class="jumbotron rounded  text-center" style= "background-color: lightblue" > <h1 class="display-8">' +
+          d.CSEA[i].event +
+          '</h1> <hr class="my-4">' +
+          '<p class=""> ROUNDS: ' +
+          d.CSEA[i].noOfLevels +
+          ' &nbsp; FEE:' +
+          d.CSEA[i].regFee +
+          ' &nbsp; DURATION:' +
+          d.CSEA[i].duration +
+          '  </p>' + '<p class="lead"> <br/> ORGANIZERS: ' +
+          d.CSEA[i].organizers +
+          ' <br/> CONTACT:' +
+          d.CSEA[i].contact +
+          '   <br/> EMAIL:' +
+          d.CSEA[i].emailid +
+          '  </p> </div>');
+
+      }
+    });
+  });
 
 
   function openNav() {
