@@ -453,10 +453,8 @@
       
     </div>
     </div>
- <div class=" container align-self-center bg-transparent " id = "eventList">
-  <ul>
-  
-  </ul>
+ <div class=" container align-self-center bg-transparent information" id = "eventList">
+   
  </div>
     </div>
  
@@ -492,14 +490,30 @@
     </div>
   </nav>
 </footer>
-
+<div class="jumbotron">
+    <h1 class="display-4">Hello, world!</h1>
+    <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
+    <hr class="my-4">
+    <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
+    <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+  </div>
 <script type="text/javascript">
+function disableevnts() {
+  document.getElementById("eventList").style.display = "none";
+
+}
+disableevnts();
 
 $(".csea").click(function(){
+  document.getElementById("menuList").style.display = "none";
+  document.getElementById("eventList").style.display = "block";
   $.getJSON("./eventData.json",function (d) {
     for (var i =0; i<4; i++)
   {
-  $("ul").append("<li> ORGANIZERS:"+ d.CSEA[i].organizers+"</li>");
+  $(".information").append('<div class="jumbotron"> <h1 class="display-4">' +d.CSEA[i].event+ '</h1>');
+    $(".information").append('<p class=""> ROUNDS: '+d.CSEA[i].noOfLevels+'          FEE:'+d.CSEA[i].regFee+ '          DURATION:'+d.CSEA[i].duration +'  </p>');
+    $(".information").append('<p class="lead"> ORGANIZERS: '+d.CSEA[i].organizers+'          CONTACT:'+d.CSEA[i].contact+'          EMAIL:'+d.CSEA[i].emailid+'  </p> </div>');
+
 }
   });
  
