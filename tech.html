@@ -525,6 +525,58 @@
       }
     });
   });
+  $(".ecea").click(function() {
+    document.getElementById("menuList").style.display = "none";
+    document.getElementById("eventList").style.display = "block";
+    $.getJSON("./eventData.json", function(d) {
+      for (var i = 0; i < 4; i++) {
+        $(".information").append('<div class="jumbotron rounded  text-center" style= "background-color: lightblue" > <h1 class="display-8">' +
+          d.ECEA[i].event +
+          '</h1> <hr class="my-4">' +
+          '<p class=""> ROUNDS: ' +
+          d.ECEA[i].noOfLevels +
+          ' &nbsp; FEE:' +
+          d.ECEA[i].regFee +
+          ' &nbsp; DURATION:' +
+          d.ECEA[i].duration +
+          '  </p>' + '<p class="lead"> <br/> ORGANIZERS: ' +
+          d.ECEA[i].organizers +
+          ' <br/> CONTACT:' +
+          d.ECEA[i].contact +
+          '   <br/> EMAIL:' +
+          d.ECEA[i].emailid +
+          '  </p> </div>');
+
+      }
+    });
+  });
+
+  $(".eeea").click(function() {
+    document.getElementById("menuList").style.display = "none";
+    document.getElementById("eventList").style.display = "block";
+    $.getJSON("./eventData.json", function(d) {
+      for (var i = 0; i < 4; i++) {
+        $(".information").append('<div class="jumbotron rounded  text-center" style= "background-color: lightblue" > <h1 class="display-8">' +
+          d.EEEA[i].event +
+          '</h1> <hr class="my-4">' +
+          '<p class=""> ROUNDS: ' +
+          d.EEEA[i].noOfLevels +
+          ' &nbsp; FEE:' +
+          d.EEEA[i].regFee +
+          ' &nbsp; DURATION:' +
+          d.EEEA[i].duration +
+          '  </p>' + '<p class="lead"> <br/> ORGANIZERS: ' +
+          d.EEEA[i].organizers +
+          ' <br/> CONTACT:' +
+          d.EEEA[i].contact +
+          '   <br/> EMAIL:' +
+          d.EEEA[i].emailid +
+          '  </p> </div>');
+
+      }
+    });
+  });
+
   $(".mech").click(function() {
     document.getElementById("menuList").style.display = "none";
     document.getElementById("eventList").style.display = "block";
