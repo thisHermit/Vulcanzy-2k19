@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+
+  <link rel="stylesheet" href="https://raw.githubusercontent.com/daneden/animate.css/master/animate.css">
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="./jquery.min.js" type="text/javascript"></script>
+  <script src="./bootstrap.min.js" type="text/javascript"></script>
+  <script src="./bootstrap-4.0.0-dist/js/bootstrap.js" type="text/javascript"></script>
+
+  <link rel="stylesheet" href="./animate.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <link rel="stylesheet" href="./styles.css">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+  <link rel="stylesheet" href="./styless.css">
+  <script src="./particles.min.js" type="text/javascript"></script>
+  <script src="./anim.js" type="text/javascript"></script>
+
+
+
+  <script>
+    function waiter() {
+      if (document.all) {
+        document.all["layer1"].style.visibility = "hidden";
+        document.all["layer1"].style.position = "absolute";
+        document.all["layer2"].style.visibility = "visible";
+      } else if (document.getElementById) {
+        node = document.getElementById("layer1").style.visibility = 'hidden';
+        node = document.getElementById("layer1").style.position = 'absolute';
+        node = document.getElementById("layer2").style.visibility = 'visible';
+
+      }
+    }
+  </script>
+  <title> VULCANZY-2K19</title>
+</head>
+
+<style>
+  img {
+    width: 400px;
+    height: 250px;
+  }
+
+  .colm {
+    margin-top: 30px;
+  }
+
+  .box {
+    margin-left: auto;
+    margin-right: auto;
+  }
+</style>
+
+<body onload="waiter()">
+  <div id="layer1" class="layer1_class">
+    <style>
+      @import url('https://fonts.googleapis.com/css?family=Roboto:700');
+
+    .bashar {
+
+      display:flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: row;
+      margin: 0 auto;
+      width: 50%;
+    }
+    @keyframes rotate {
+      0% {
+        transform: rotateX(-37.5deg) rotateY(45deg);
+      }
+      50% {
+        transform: rotateX(-37.5deg) rotateY(405deg);
+      }
+      100% {
+        transform: rotateX(-37.5deg) rotateY(405deg);
+      }
+    }
+    .cube, .cube * {
+      position: absolute;
+      width: 151px;
+      height: 151px;
+    }
+    .sides {
+      animation: rotate 3s ease infinite;
+      animation-delay: 0.8s;
+      transform-style: preserve-3d;
+      transform: rotateX(-37.5deg) rotateY(45deg);
+    }
+    .cube .sides * {
+      box-sizing: border-box;
+      background-color: #f9d342;
+      border: 15px solid white;
+    }
+    .cube .sides .top {
+      animation: top-animation 3s ease infinite;
+      animation-delay: 0ms;
+      transform: rotateX(90deg) translateZ(150px);
+      animation-fill-mode: forwards;
+      transform-origin: 50% 50%;
+    }
+    @keyframes top-animation {
+      0% {
+        opacity: 1;
+        transform: rotateX(90deg) translateZ(150px);
+      }
+      20% {
+        opacity: 1;
+        transform: rotateX(90deg) translateZ(75px);
+      }
+      70% {
+        opacity: 1;
+        transform: rotateX(90deg) translateZ(75px);
+      }
+      90% {
+        opacity: 1;
+        transform: rotateX(90deg) translateZ(150px);
+      }
+      100% {
+        opacity: 1;
+        transform: rotateX(90deg) translateZ(150px);
+      }
+    }
+    .cube .sides .bottom {
+      animation: bottom-animation 3s ease infinite;
+      animation-delay: 0ms;
+      transform: rotateX(-90deg) translateZ(150px);
+      animation-fill-mode: forwards;
+      transform-origin: 50% 50%;
+    }
+    @keyframes bottom-animation {
+      0% {
+        opacity: 1;
+        transform: rotateX(-90deg) translateZ(150px);
+      }
+      20% {
+        opacity: 1;
+        transform: rotateX(-90deg) translateZ(75px);
+      }
+      70% {
+        opacity: 1;
+        transform: rotateX(-90deg) translateZ(75px);
+      }
+      90% {
+        opacity: 1;
+        transform: rotateX(-90deg) translateZ(150px);
+      }
+      100% {
+        opacity: 1;
+        transform: rotateX(-90deg) translateZ(150px);
+      }
+    }
+    .cube .sides .front {
+      animation: front-animation 3s ease infinite;
+      animation-delay: 100ms;
+      transform: rotateY(0deg) translateZ(150px);
+      animation-fill-mode: forwards;
+      transform-origin: 50% 50%;
+    }
+    @keyframes front-animation {
+      0% {
+        opacity: 1;
+        transform: rotateY(0deg) translateZ(150px);
+      }
+      20% {
+        opacity: 1;
+        transform: rotateY(0deg) translateZ(75px);
+      }
+      70% {
+        opacity: 1;
+        transform: rotateY(0deg) translateZ(75px);
+      }
+      90% {
+        opacity: 1;
+        transform: rotateY(0deg) translateZ(150px);
+      }
+      100% {
+        opacity: 1;
+        transform: rotateY(0deg) translateZ(150px);
+      }
+    }
+    .cube .sides .back {
+      animation: back-animation 3s ease infinite;
+      animation-delay: 100ms;
+      transform: rotateY(-180deg) translateZ(150px);
+      animation-fill-mode: forwards;
+      transform-origin: 50% 50%;
+    }
+    @keyframes back-animation {
+      0% {
+        opacity: 1;
+        transform: rotateY(-180deg) translateZ(150px);
+      }
+      20% {
+        opacity: 1;
+        transform: rotateY(-180deg) translateZ(75px);
+      }
+      70% {
+        opacity: 1;
+        transform: rotateY(-180deg) translateZ(75px);
+      }
+      90% {
+        opacity: 1;
+        transform: rotateY(-180deg) translateZ(150px);
+      }
+      100% {
+        opacity: 1;
+        transform: rotateY(-180deg) translateZ(150px);
+      }
+    }
+    .cube .sides .left {
+      animation: left-animation 3s ease infinite;
+      animation-delay: 100ms;
+      transform: rotateY(-90deg) translateZ(150px);
+      animation-fill-mode: forwards;
+      transform-origin: 50% 50%;
+    }
+    @keyframes left-animation {
+      0% {
+        opacity: 1;
+        transform: rotateY(-90deg) translateZ(150px);
+      }
+      20% {
+        opacity: 1;
+        transform: rotateY(-90deg) translateZ(75px);
+      }
+      70% {
+        opacity: 1;
+        transform: rotateY(-90deg) translateZ(75px);
+      }
+      90% {
+        opacity: 1;
+        transform: rotateY(-90deg) translateZ(150px);
+      }
+      100% {
+        opacity: 1;
+        transform: rotateY(-90deg) translateZ(150px);
+      }
+    }
+    .cube .sides .right {
+      animation: right-animation 3s ease infinite;
+      animation-delay: 100ms;
+      transform: rotateY(90deg) translateZ(150px);
+      animation-fill-mode: forwards;
+      transform-origin: 50% 50%;
+    }
+    @keyframes right-animation {
+      0% {
+        opacity: 1;
+        transform: rotateY(90deg) translateZ(150px);
+      }
+      20% {
+        opacity: 1;
+        transform: rotateY(90deg) translateZ(75px);
+      }
+      70% {
+        opacity: 1;
+        transform: rotateY(90deg) translateZ(75px);
+      }
+      90% {
+        opacity: 1;
+        transform: rotateY(90deg) translateZ(150px);
+      }
+      100% {
+        opacity: 1;
+        transform: rotateY(90deg) translateZ(150px);
+      }
+    }
+    .text {
+      margin-top: 450px;
+
+      font-size: 1.5rem;
+      width: 100%;
+      font-weight: 600;
+      text-align: center;
+    }
+
+    </style>
+    <div class="bashar">
+      <div class="cube">
+        <div class="sides">
+          <div class="top"></div>
+          <div class="right"></div>
+          <div class="bottom"></div>
+          <div class="left"></div>
+          <div class="front"></div>
+          <div class="back"></div>
+        </div>
+      </div>
+      <div class="text" style="color:white">Loading...</div>
+    </div>
+
+  </div>
+</body>
+
+</html>
