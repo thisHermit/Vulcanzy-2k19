@@ -7,11 +7,15 @@
 			"Sno": "1",
 			"max_registrations": "80",
 			"place": "INDOOR",
-			"duration": "3 hrs",
+			"duration ": "3 hrs",
 			"roomCapacity": "160",
 			"emailid": "411667@student.nitandhra.ac.in",
 			"event": "COLLOQUIUM",
-            "noOfLevels": "3"
+      "noOfLevels": "3",
+			"description": {
+				"small": "random text",
+				"big": "lot of random text"
+			}
 
 
 		},
@@ -23,11 +27,15 @@
 			"Sno": "2",
 			"max_registrations": "70",
 			"place": "BOTH",
-			"duration": "2 hrs",
+			"duration ": "2 hrs",
 			"roomCapacity": "PSCP LAB and DBMS LAB",
 			"emailid": "411619@student.nitandhra.ac.in",
 			"event": "CRYPTACTAEON",
-			"noOfLevels": "1"
+			"noOfLevels": "1",
+			"description": {
+				"small": "random text",
+				"big": "lot of random text"
+			}
 		},
 		{
 			"organizers": "CHANDU.B",
@@ -37,11 +45,15 @@
 			"Sno": "3",
 			"max_registrations": "100",
 			"place": "INDOOR",
-			"duration": "3 hrs",
+			"duration ": "3 hrs",
 			"roomCapacity": "PSCP LAB and DBMS LAB",
 			"emailid": "411606@student.nitandhra.ac.in",
 			"event": "CODE SPRINT",
-			"noOfLevels": "3"
+			"noOfLevels": "3",
+			"description": {
+				"small": "random text",
+				"big": "lot of random text"
+			}
 		},
 		{
 			"organizers": "SHUBHAM",
@@ -51,11 +63,15 @@
 			"Sno": "4",
 			"max_registrations": "100",
 			"place": "BOTH",
-			"duration": "ONE DAY",
+			"duration ": "ONE DAY",
 			"roomCapacity": "150",
 			"emailid": "subhamnitap@gmail.com",
 			"event": "VIRTUALLY TRUE",
-			"noOfLevels": "       - "
+			"noOfLevels": "       - ",
+			"description": {
+				"small": "random text",
+				"big": "lot of random text"
+			}
 		}
 	],
 	"ECEA": [{
@@ -67,11 +83,15 @@
 			"Sno": "5",
 			"max_registrations": "300 on Day 1, 18 on Day2",
 			"place": "FORESEE - the 4C 's",
-			"duration": "BOTH",
+			"duration ": "BOTH",
 			"roomCapacity": "3 hrs on Day 1, 2.5 hrs on Day 2",
 			"emailid": "7842655559",
 			"event": "",
-			"noOfLevels": "-"
+			"noOfLevels": "-",
+			"description": {
+				"small": "random text",
+				"big": "lot of random text"
+			}
 		},
 		{
 			"organizers": "-",
@@ -82,11 +102,15 @@
 			"Sno": "6",
 			"max_registrations": "200",
 			"place": "WORKSHOP ",
-			"duration": "INDOOR",
+			"duration ": "INDOOR",
 			"roomCapacity": "3.5 hrs ",
 			"emailid": "8106065197",
 			"event": "",
-			"noOfLevels": "-"
+			"noOfLevels": "-",
+			"description": {
+				"small": "random text",
+				"big": "lot of random text"
+			}
 		},
 		{
 			"organizers": "-",
@@ -97,11 +121,15 @@
 			"Sno": "7",
 			"max_registrations": "86 EDC Lab",
 			"place": "ELECTRO WIZARD ",
-			"duration": "INDOOR",
+			"duration ": "INDOOR",
 			"roomCapacity": "3 hrs ",
 			"emailid": "9440705192",
 			"event": "",
-			"noOfLevels": "-"
+			"noOfLevels": "-",
+			"description": {
+				"small": "random text",
+				"big": "lot of random text"
+			}
 		},
 		{
 			"organizers": "-",
@@ -112,11 +140,15 @@
 			"Sno": "8",
 			"max_registrations": "-",
 			"place": "PAPER PRESENTATION",
-			"duration": "INDOOR",
+			"duration ": "INDOOR",
 			"roomCapacity": "-",
 			"emailid": "7656947854",
 			"event": "",
-			"noOfLevels": "-"
+			"noOfLevels": "-",
+			"description": {
+				"small": "random text",
+				"big": "lot of random text"
+			}
 		}
 	],
 	"EEEA": [{
@@ -127,11 +159,15 @@
 			"Sno": "9",
 			"max_registrations": "50",
 			"place": "INDOOR",
-			"duration": "3hrs",
+			"duration ": "3hrs",
 			"roomCapacity": "150",
 			"emailid": "ksahithi1999@gmail.com",
 			"event": "ALL ABOUT CIRCUITS",
-			"noOfLevels": ""
+			"noOfLevels": "",
+			"description": {
+				"small": "random text",
+				"big": "lot of random text"
+			}
 		},
 		{
 			"organizers": "Tanvi",
@@ -141,11 +177,15 @@
 			"Sno": "10",
 			"max_registrations": "30",
 			"place": "INDOOR",
-			"duration": "4hrs",
+			"duration ": "4hrs",
 			"roomCapacity": "100",
 			"emailid": "tanvigudapati@gmail.com",
 			"event": "ARCHIPELAGO",
-			"noOfLevels": ""
+			"noOfLevels": "",
+			"description": {
+				"small": "random text",
+				"big": "lot of random text"
+			}
 		},
 		{
 			"organizers": "Himaja",
@@ -155,11 +195,15 @@
 			"Sno": "11",
 			"max_registrations": "50",
 			"place": "INDOOR &OUTDOOR",
-			"duration": "3hrs",
+			"duration ": "3hrs",
 			"roomCapacity": "100",
 			"emailid": "himajayamasani@gmail.com",
 			"event": "BACK TO THE ORIGINS",
-			"noOfLevels": ""
+			"noOfLevels": "",
+			"description": {
+				"small": "random text",
+				"big": "lot of random text"
+			}
 		},
 		{
 			"organizers": "Sravya",
@@ -169,11 +213,15 @@
 			"Sno": "12",
 			"max_registrations": "60",
 			"place": "INDOOR",
-			"duration": "3hrs",
+			"duration ": "3hrs",
 			"roomCapacity": "100",
 			"emailid": "agsravya@gmail.com",
 			"event": "AMALGAMATE",
-			"noOfLevels": ""
+			"noOfLevels": "",
+			"description": {
+				"small": "random text",
+				"big": "lot of random text"
+			}
 		},
 		{
 			"organizers": "Vishnu ",
@@ -183,11 +231,15 @@
 			"Sno": "13",
 			"max_registrations": "50",
 			"place": "INDOOR",
-			"duration": "4hrs",
+			"duration ": "4hrs",
 			"roomCapacity": "100",
 			"emailid": "vishnu.ajayan08@gmail.com",
 			"event": "DECEPTION",
-			"noOfLevels": ""
+			"noOfLevels": "",
+			"description": {
+				"small": "random text",
+				"big": "lot of random text"
+			}
 		},
 		{
 			"organizers": "Satish",
@@ -197,11 +249,15 @@
 			"Sno": "14",
 			"max_registrations": "",
 			"place": "INDOOR",
-			"duration": "….",
+			"duration ": "….",
 			"roomCapacity": "",
 			"emailid": "sgaur016@gmail.com",
 			"event": "PROJECT EXPO",
-			"noOfLevels": ""
+			"noOfLevels": "",
+			"description": {
+				"small": "random text",
+				"big": "lot of random text"
+			}
 		},
 		{
 			"organizers": "Surendra",
@@ -211,11 +267,15 @@
 			"Sno": "15",
 			"max_registrations": "",
 			"place": "INDOOR",
-			"duration": "….",
+			"duration ": "….",
 			"roomCapacity": "",
 			"emailid": "surendrasrinivasmali@gmail.com",
 			"event": "PAPER PRESENTATION",
-			"noOfLevels": ""
+			"noOfLevels": "",
+			"description": {
+				"small": "random text",
+				"big": "lot of random text"
+			}
 		}
 	],
 	"CEA": [{
@@ -226,11 +286,15 @@
 			"Sno": "16",
 			"max_registrations": "20",
 			"place": "INDOOR",
-			"duration": "24x3",
+			"duration ": "24x3",
 			"roomCapacity": "100+",
 			"emailid": "vikshayrao@gmail.com",
 			"event": "Civilopedia",
-			"noOfLevels": "1"
+			"noOfLevels": "1",
+			"description": {
+				"small": "random text",
+				"big": "lot of random text"
+			}
 		},
 		{
 			"organizers": "V Arundhathi",
@@ -240,11 +304,15 @@
 			"Sno": "17",
 			"max_registrations": "40",
 			"place": "DBMS Lab",
-			"duration": "2hrs",
+			"duration ": "2hrs",
 			"roomCapacity": "40",
 			"emailid": "arundhathivantepaka@gmail.com",
 			"event": "Crack The Structure",
-			"noOfLevels": "1"
+			"noOfLevels": "1",
+			"description": {
+				"small": "random text",
+				"big": "lot of random text"
+			}
 		},
 		{
 			"organizers": "K.Vindhya",
@@ -254,11 +322,15 @@
 			"Sno": "18",
 			"max_registrations": "40",
 			"place": "Concrete lab/Outdoor",
-			"duration": "3hrs",
+			"duration ": "3hrs",
 			"roomCapacity": "30",
 			"emailid": "vindhya.vamsy@gmail.com",
 			"event": "Con-Create",
-			"noOfLevels": "1"
+			"noOfLevels": "1",
+			"description": {
+				"small": "random text",
+				"big": "lot of random text"
+			}
 		},
 		{
 			"organizers": "S Manasa",
@@ -268,11 +340,15 @@
 			"Sno": "19",
 			"max_registrations": "30",
 			"place": "INDOOR",
-			"duration": "3hrs",
+			"duration ": "3hrs",
 			"roomCapacity": "70+",
 			"emailid": "sreeram.n.l.manasa@gmail.com",
 			"event": "Paperesento",
-			"noOfLevels": "1"
+			"noOfLevels": "1",
+			"description": {
+				"small": "random text",
+				"big": "lot of random text"
+			}
 		},
 		{
 			"organizers": "J Sri Harika",
@@ -282,11 +358,15 @@
 			"Sno": "20",
 			"max_registrations": "Not Restricted",
 			"place": "INDOOR",
-			"duration": "2hrs",
+			"duration ": "2hrs",
 			"roomCapacity": "100+",
 			"emailid": "jajulasriharika08@gmail.com",
 			"event": "Ask me Anything",
-			"noOfLevels": "3"
+			"noOfLevels": "3",
+			"description": {
+				"small": "random text",
+				"big": "lot of random text"
+			}
 		},
 		{
 			"organizers": "Y Satyavani",
@@ -296,11 +376,15 @@
 			"Sno": "21",
 			"max_registrations": "30",
 			"place": "INDOOR",
-			"duration": "3hrs",
+			"duration ": "3hrs",
 			"roomCapacity": "40",
 			"emailid": "satyavaniyerra33@gmail.com",
 			"event": "Ville Intelligente",
-			"noOfLevels": "1"
+			"noOfLevels": "1",
+			"description": {
+				"small": "random text",
+				"big": "lot of random text"
+			}
 		}
 	],
 	"MEA": [{
@@ -311,11 +395,15 @@
 			"Sno": "22",
 			"max_registrations": "50",
 			"place": "OUTDOOR  ",
-			"duration": " 3 hrs",
+			"duration ": " 3 hrs",
 			"roomCapacity": "open lawn",
 			"emailid": "raushanlki98@gmail.com",
 			"event": "One Thrust 2.0",
-			"noOfLevels": "3"
+			"noOfLevels": "3",
+			"description": {
+				"small": "random text",
+				"big": "lot of random text"
+			}
 		},
 		{
 			"organizers": "O.Praneeth ",
@@ -325,11 +413,15 @@
 			"Sno": "23",
 			"max_registrations": "80",
 			"place": "indoor",
-			"duration": "day 1 : 1 hour\nday 2:   1 hour",
+			"duration ": "day 1 : 1 hour\nday 2:   1 hour",
 			"roomCapacity": "~100",
 			"emailid": "opraneethreddy@gmail.com",
 			"event": "Riddle hurdles",
-			"noOfLevels": "3"
+			"noOfLevels": "3",
+			"description": {
+				"small": "random text",
+				"big": "lot of random text"
+			}
 		},
 		{
 			"organizers": "M Sritejaswini",
@@ -339,11 +431,15 @@
 			"Sno": "24",
 			"max_registrations": "30, for outsiders: 20",
 			"place": "OUTDOOR",
-			"duration": "4 hrs",
+			"duration ": "4 hrs",
 			"roomCapacity": "open lawn",
 			"emailid": "msritejaswini@gmail.com ",
 			"event": "Wax mock-up",
-			"noOfLevels": "1"
+			"noOfLevels": "1",
+			"description": {
+				"small": "random text",
+				"big": "lot of random text"
+			}
 		},
 		{
 			"organizers": "S.Vinod Kumar",
@@ -353,11 +449,15 @@
 			"Sno": "25",
 			"max_registrations": "40",
 			"place": "indoor",
-			"duration": "day 1,2: 1 hr",
+			"duration ": "day 1,2: 1 hr",
 			"roomCapacity": "room ~ 80",
 			"emailid": "sabavathvinodkumar60@gmail.com",
 			"event": "What's beyond",
-			"noOfLevels": "2"
+			"noOfLevels": "2",
+			"description": {
+				"small": "random text",
+				"big": "lot of random text"
+			}
 		}
 	],
 	"BIOTECH": [{
@@ -368,11 +468,15 @@
 			"Sno": "26",
 			"max_registrations": "200",
 			"place": "Indoor",
-			"duration": "4 hrs",
+			"duration ": "4 hrs",
 			"roomCapacity": "700+",
 			"emailid": "bea.nitap@gmail.com ",
 			"event": "Forensics v2",
-			"noOfLevels": "3"
+			"noOfLevels": "3",
+			"description": {
+				"small": "random text",
+				"big": "lot of random text"
+			}
 		},
 		{
 			"organizers": "Sree Raj Akhil",
@@ -382,11 +486,15 @@
 			"Sno": "27",
 			"max_registrations": "100",
 			"place": "outdoor ",
-			"duration": "2 hours",
+			"duration ": "2 hours",
 			"roomCapacity": "nill",
 			"emailid": "bea.nitap@gmail.com",
 			"event": "Garden scavengers ",
-			"noOfLevels": "1"
+			"noOfLevels": "1",
+			"description": {
+				"small": "random text",
+				"big": "lot of random text"
+			}
 		},
 		{
 			"organizers": "J. Roshini",
@@ -396,11 +504,15 @@
 			"Sno": "28",
 			"max_registrations": "50",
 			"place": "Indoor",
-			"duration": "2 hours",
+			"duration ": "2 hours",
 			"roomCapacity": "100+",
 			"emailid": "bea.nitap@gmail.com",
 			"event": "Lumiere",
-			"noOfLevels": "2"
+			"noOfLevels": "2",
+			"description": {
+				"small": "random text",
+				"big": "lot of random text"
+			}
 		}
 	],
 	"MECH": [{
@@ -411,11 +523,15 @@
 			"Sno": "29",
 			"max_registrations": "8 teams",
 			"place": "Outdoor",
-			"duration": "4 hrs",
+			"duration ": "4 hrs",
 			"roomCapacity": "      _",
 			"emailid": "anshusingh21198@gmail.com",
 			"event": "AMMC(Aircraft Modelling and Maneuvering Challange)",
-			"noOfLevels": ""
+			"noOfLevels": "",
+			"description": {
+				"small": "random text",
+				"big": "lot of random text"
+			}
 		},
 		{
 			"organizers": "N.B.R Kaushik",
@@ -425,11 +541,15 @@
 			"Sno": "30",
 			"max_registrations": "       -",
 			"place": "Indoor",
-			"duration": "4 hrs",
+			"duration ": "4 hrs",
 			"roomCapacity": "60",
 			"emailid": "kkaushi7@gmail.com",
 			"event": "GISS(Godavari Innovation for Society Summit)",
-			"noOfLevels": ""
+			"noOfLevels": "",
+			"description": {
+				"small": "random text",
+				"big": "lot of random text"
+			}
 		},
 		{
 			"organizers": "Yogesh",
@@ -439,11 +559,15 @@
 			"Sno": "31",
 			"max_registrations": "15 teams",
 			"place": "Indoor",
-			"duration": "4 hrs",
+			"duration ": "4 hrs",
 			"roomCapacity": "50-60",
 			"emailid": "Patilmapari@gmail.com",
 			"event": "MARC(Mechanism and Robotics Championship)",
-			"noOfLevels": ""
+			"noOfLevels": "",
+			"description": {
+				"small": "random text",
+				"big": "lot of random text"
+			}
 		},
 		{
 			"organizers": "M.Saikiran",
@@ -453,11 +577,15 @@
 			"Sno": "32",
 			"max_registrations": "15 teams",
 			"place": "indoor",
-			"duration": "4 hrs",
+			"duration ": "4 hrs",
 			"roomCapacity": "50-60",
 			"emailid": "saikiranmallembakam15@gmail.com",
 			"event": "Robo-War",
-			"noOfLevels": ""
+			"noOfLevels": "",
+			"description": {
+				"small": "random text",
+				"big": "lot of random text"
+			}
 		},
 		{
 			"organizers": "K.Spandan",
@@ -467,11 +595,15 @@
 			"Sno": "33",
 			"max_registrations": "        -",
 			"place": "Indoor",
-			"duration": "3 hrs",
+			"duration ": "3 hrs",
 			"roomCapacity": "50-60",
 			"emailid": "spandan2344@gmail.com",
 			"event": "Workshop&Quizzes",
-			"noOfLevels": ""
+			"noOfLevels": "",
+			"description": {
+				"small": "random text",
+				"big": "lot of random text"
+			}
 		}
 	],
 	"MUSIC": [{
@@ -482,11 +614,15 @@
 			"Sno": "34",
 			"max_registrations": "100",
 			"place": "indoor",
-			"duration": "3 hours /2days",
+			"duration ": "3 hours /2days",
 			"roomCapacity": "70-80 people ",
 			"emailid": "swaroopawendly37@gmail.com",
 			"event": "Talent hunt ",
-			"noOfLevels": ""
+			"noOfLevels": "",
+			"description": {
+				"small": "random text",
+				"big": "lot of random text"
+			}
 		},
 		{
 			"organizers": "Kiranmayi ",
@@ -496,11 +632,15 @@
 			"Sno": "35",
 			"max_registrations": "80",
 			"place": "indoor",
-			"duration": "3hours ",
+			"duration ": "3hours ",
 			"roomCapacity": "70-80",
 			"emailid": "kiranmaipulya@gmail.com ",
 			"event": "lyrical maestro ",
-			"noOfLevels": ""
+			"noOfLevels": "",
+			"description": {
+				"small": "random text",
+				"big": "lot of random text"
+			}
 		},
 		{
 			"organizers": "Uday ",
@@ -510,11 +650,15 @@
 			"Sno": "36",
 			"max_registrations": "70",
 			"place": "indoor ",
-			"duration": "3hours ",
+			"duration ": "3hours ",
 			"roomCapacity": "50-60",
 			"emailid": "udaykumarteegala@gmail.com",
 			"event": "Guess it Win it ",
-			"noOfLevels": ""
+			"noOfLevels": "",
+			"description": {
+				"small": "random text",
+				"big": "lot of random text"
+			}
 		},
 		{
 			"organizers": "Unnathi ",
@@ -524,11 +668,15 @@
 			"Sno": "37",
 			"max_registrations": "70",
 			"place": "online ",
-			"duration": "one level ",
+			"duration ": "one level ",
 			"roomCapacity": "",
 			"emailid": "unnathi.c@gmail.com",
 			"event": "Instagram vedios ",
-			"noOfLevels": ""
+			"noOfLevels": "",
+			"description": {
+				"small": "random text",
+				"big": "lot of random text"
+			}
 		}
 	],
 	"PNP": [{
@@ -539,11 +687,15 @@
 			"Sno": "38",
 			"max_registrations": "100",
 			"place": "INDOOR",
-			"duration": "3 hours",
+			"duration ": "3 hours",
 			"roomCapacity": "150-200",
 			"emailid": "pnpnitap@gmail.com",
 			"event": "Hand Painting",
-			"noOfLevels": "0"
+			"noOfLevels": "0",
+			"description": {
+				"small": "random text",
+				"big": "lot of random text"
+			}
 		},
 		{
 			"organizers": "Santhoshi,Praneesh,Ramya",
@@ -553,11 +705,15 @@
 			"Sno": "39",
 			"max_registrations": "60",
 			"place": "INDOOR",
-			"duration": "3 hours",
+			"duration ": "3 hours",
 			"roomCapacity": "50-60",
 			"emailid": "pnpnitap@gmail.com",
 			"event": "Art in Line",
-			"noOfLevels": "0"
+			"noOfLevels": "0",
+			"description": {
+				"small": "random text",
+				"big": "lot of random text"
+			}
 		},
 		{
 			"organizers": "Khyathi Aneesha,Tanmayi",
@@ -567,11 +723,15 @@
 			"Sno": "40",
 			"max_registrations": "50",
 			"place": "INDOOR",
-			"duration": "3 hours ",
+			"duration ": "3 hours ",
 			"roomCapacity": "50-60",
 			"emailid": "pnpnitap@gmail.com",
 			"event": "ART-A-THON",
-			"noOfLevels": "2"
+			"noOfLevels": "2",
+			"description": {
+				"small": "random text",
+				"big": "lot of random text"
+			}
 		},
 		{
 			"organizers": "Nivas,Vani,Navya",
@@ -581,11 +741,15 @@
 			"Sno": "41",
 			"max_registrations": "60",
 			"place": "INDOOR",
-			"duration": "3 hours",
+			"duration ": "3 hours",
 			"roomCapacity": "50-60",
 			"emailid": "pnpnitap@gmail.com",
 			"event": "Paint Without Brush",
-			"noOfLevels": "0"
+			"noOfLevels": "0",
+			"description": {
+				"small": "random text",
+				"big": "lot of random text"
+			}
 		},
 		{
 			"organizers": "Nitin,Tarun,Aman rao",
@@ -595,11 +759,15 @@
 			"Sno": "42",
 			"max_registrations": "",
 			"place": "INDOOR",
-			"duration": "1 hour( for showing ads)",
+			"duration ": "1 hour( for showing ads)",
 			"roomCapacity": "150-200",
 			"emailid": "pnpnitap@gmail.com",
 			"event": "Ad making competition",
-			"noOfLevels": "0"
+			"noOfLevels": "0",
+			"description": {
+				"small": "random text",
+				"big": "lot of random text"
+			}
 		},
 		{
 			"organizers": "Nuthan,Jithendreswar,Azharuddin",
@@ -609,11 +777,15 @@
 			"Sno": "43",
 			"max_registrations": "",
 			"place": "",
-			"duration": "ONLINE event",
+			"duration ": "ONLINE event",
 			"roomCapacity": "",
 			"emailid": "pnpnitap@gmail.com",
 			"event": "Photo contest",
-			"noOfLevels": "0"
+			"noOfLevels": "0",
+			"description": {
+				"small": "random text",
+				"big": "lot of random text"
+			}
 		},
 		{
 			"organizers": "Vikas,Bhardwaj,Shiva",
@@ -623,11 +795,15 @@
 			"Sno": "44",
 			"max_registrations": "",
 			"place": "",
-			"duration": "ONLINE event",
+			"duration ": "ONLINE event",
 			"roomCapacity": "",
 			"emailid": "pnpnitap@gmail.com",
 			"event": "mannequin_challenge",
-			"noOfLevels": "0"
+			"noOfLevels": "0",
+			"description": {
+				"small": "random text",
+				"big": "lot of random text"
+			}
 		}
 	],
 	"MAGAZINE": [{
@@ -638,11 +814,15 @@
 			"Sno": "46",
 			"max_registrations": "unlimited",
 			"place": "online",
-			"duration": "-",
+			"duration ": "-",
 			"roomCapacity": "-",
 			"emailid": "monicamatta999@gmail.com",
 			"event": "Bookfie",
-			"noOfLevels": "1"
+			"noOfLevels": "1",
+			"description": {
+				"small": "random text",
+				"big": "lot of random text"
+			}
 		},
 		{
 			"organizers": "Mubeen, Manjunadh, Srilekha ",
@@ -652,11 +832,15 @@
 			"Sno": "47",
 			"max_registrations": "100-120",
 			"place": "indoor",
-			"duration": "30 min ",
+			"duration ": "30 min ",
 			"roomCapacity": "100-120",
 			"emailid": "manjunadhreddyjampana@gmail.com",
 			"event": "Illusion",
-			"noOfLevels": "1"
+			"noOfLevels": "1",
+			"description": {
+				"small": "random text",
+				"big": "lot of random text"
+			}
 		}
 	],
 	"SNH": [{
@@ -667,11 +851,15 @@
 			"Sno": "48",
 			"max_registrations": "25",
 			"place": "INDOOR",
-			"duration": "4 hrs",
+			"duration ": "4 hrs",
 			"roomCapacity": "100",
 			"emailid": "ketan.bansal255@gmail.com",
 			"event": "BEST OUT OF WASTE",
-			"noOfLevels": ""
+			"noOfLevels": "",
+			"description": {
+				"small": "random text",
+				"big": "lot of random text"
+			}
 		},
 		{
 			"organizers": "UMESH YADAV",
@@ -681,11 +869,15 @@
 			"Sno": "49",
 			"max_registrations": "50",
 			"place": "OUTDOOR",
-			"duration": "3-4 hrs",
+			"duration ": "3-4 hrs",
 			"roomCapacity": "NOT REQUIRED",
 			"emailid": "umeshyadav1997@gmail.com",
 			"event": "LAZY HOVER V1.0",
-			"noOfLevels": ""
+			"noOfLevels": "",
+			"description": {
+				"small": "random text",
+				"big": "lot of random text"
+			}
 		},
 		{
 			"organizers": "RITURAJ SINGH SUJAWAT",
@@ -695,11 +887,15 @@
 			"Sno": "50",
 			"max_registrations": "Nil",
 			"place": "INDOOR",
-			"duration": "1 day",
+			"duration ": "1 day",
 			"roomCapacity": "25",
 			"emailid": "riturajsinghsujawat@gmail.com",
 			"event": "Van De Graff Generator",
-			"noOfLevels": ""
+			"noOfLevels": "",
+			"description": {
+				"small": "random text",
+				"big": "lot of random text"
+			}
 		},
 		{
 			"organizers": "P N S MEGHANA",
@@ -709,11 +905,15 @@
 			"Sno": "51",
 			"max_registrations": "100",
 			"place": "INDOOR",
-			"duration": "2-3 hrs",
+			"duration ": "2-3 hrs",
 			"roomCapacity": "200",
 			"emailid": "pnsmeghana@gmail.com",
 			"event": "LANTERN MAKING",
-			"noOfLevels": ""
+			"noOfLevels": "",
+			"description": {
+				"small": "random text",
+				"big": "lot of random text"
+			}
 		},
 		{
 			"organizers": "SRAVYA D",
@@ -723,11 +923,15 @@
 			"Sno": "52",
 			"max_registrations": "100",
 			"place": "BOTH",
-			"duration": "1 day",
+			"duration ": "1 day",
 			"roomCapacity": "200",
 			"emailid": "d.v.s.s.bhuvanasravya@gmail.com",
 			"event": "RUN TO WIN",
-			"noOfLevels": ""
+			"noOfLevels": "",
+			"description": {
+				"small": "random text",
+				"big": "lot of random text"
+			}
 		}
 	],
 	"DND": [ {
@@ -738,11 +942,15 @@
 			"Sno": "53",
 			"max_registrations": "no limit",
 			"place": "indoor(online)",
-			"duration": "-",
+			"duration ": "-",
 			"roomCapacity": "-",
 			"emailid": "ssahay3105@gmail.com, boinapallyabhi@gmail.com",
 			"event": "MEME-finity war",
-			"noOfLevels": ""
+			"noOfLevels": "",
+			"description": {
+				"small": "random text",
+				"big": "lot of random text"
+			}
 		},
 		{
 			"organizers": "Supriya, Akash",
@@ -752,11 +960,15 @@
 			"Sno": "54",
 			"max_registrations": "no limit",
 			"place": "indoor(online)",
-			"duration": "4-8sec",
+			"duration ": "4-8sec",
 			"roomCapacity": "",
 			"emailid": ", akashsuryawanshi328@gmail.com",
 			"event": "Boomerang",
-			"noOfLevels": ""
+			"noOfLevels": "",
+			"description": {
+				"small": "random text",
+				"big": "lot of random text"
+			}
 		},
 		{
 			"organizers": "Sai pavan, Sandeep gajula",
@@ -766,11 +978,15 @@
 			"Sno": "55",
 			"max_registrations": "no limit",
 			"place": "indoor",
-			"duration": "-",
+			"duration ": "-",
 			"roomCapacity": "",
 			"emailid": "saipavanraja99@gmail.com, sangajula20@gmail.com",
 			"event": "Tell a Tale",
-			"noOfLevels": ""
+			"noOfLevels": "",
+			"description": {
+				"small": "random text",
+				"big": "lot of random text"
+			}
 		},
 		{
 			"organizers": "Divya Ashish, Gayatri",
@@ -780,11 +996,15 @@
 			"Sno": "56",
 			"max_registrations": "no limit",
 			"place": "indoor",
-			"duration": "10-15 min",
+			"duration ": "10-15 min",
 			"roomCapacity": "",
 			"emailid": "divyaashishkat@gmail.com, vlpg98@yahoo.in",
 			"event": "Short film",
-			"noOfLevels": ""
+			"noOfLevels": "",
+			"description": {
+				"small": "random text",
+				"big": "lot of random text"
+			}
 		},
 		{
 			"organizers": "Komali, Lahari",
@@ -794,11 +1014,15 @@
 			"Sno": "57",
 			"max_registrations": "no limit",
 			"place": "indoor",
-			"duration": "first round (12-03-19) - 3hrs , second round (14-03-19) - 1hr",
+			"duration ": "first round (12-03-19) - 3hrs , second round (14-03-19) - 1hr",
 			"roomCapacity": "",
 			"emailid": "komalip97@gmail.com, laharigadili@gmail.com",
 			"event": "Dance competition",
-			"noOfLevels": ""
+			"noOfLevels": "",
+			"description": {
+				"small": "random text",
+				"big": "lot of random text"
+			}
 		},
 		{
 			"organizers": "Charan , Utkarsh",
@@ -808,11 +1032,15 @@
 			"Sno": "58",
 			"max_registrations": "no limit",
 			"place": "indoor",
-			"duration": "first round (11-03-19) - 3hrs , second round (14-03-19) - 1hr",
+			"duration ": "first round (11-03-19) - 3hrs , second round (14-03-19) - 1hr",
 			"roomCapacity": "",
 			"emailid": "yeddulacharankumarreddy1999@gmail.com,",
 			"event": "Drama competition",
-			"noOfLevels": ""
+			"noOfLevels": "",
+			"description": {
+				"small": "random text",
+				"big": "lot of random text"
+			}
 		}
 	]
 }
