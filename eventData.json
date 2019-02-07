@@ -14,7 +14,8 @@
       "noOfLevels": "3",
 			"description": {
 				"small": "random text",
-				"big": "lot of random text"
+				"big": "     It is an amusing event filled with bliss whose maxim is revive your light and realize your worth. This includes
+questions with lateral and rational thinking, Pictionary and many other fillers."
 			}
 
 
@@ -34,7 +35,7 @@
 			"noOfLevels": "1",
 			"description": {
 				"small": "random text",
-				"big": "lot of random text"
+				"big": "It is an exemplary platform for exhibiting your understanding of Cryptography. Encrypted code snippets have to be converted into a decrypted one using some algorithms and a key. Each decrypted clue will lead you to another snippet. The final snippet is the same for all which is the destination point."
 			}
 		},
 		{
@@ -52,7 +53,7 @@
 			"noOfLevels": "3",
 			"description": {
 				"small": "random text",
-				"big": "lot of random text"
+				"big": "Talk is ephemeral, code is perpetual. So, this Code sprint offers you with the best endeavours which consists of 3 rounds. The screening assessment is done using TestQ. The other sub events are blind coding and debugging."
 			}
 		},
 		{
