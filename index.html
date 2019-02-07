@@ -48,16 +48,6 @@
 
 
 <body id="backBone " onload="waiter()">
-  <script src="./build/three.js"></script>
-  <script src="js/WebGL.js"></script>
-  <script src="js/libs/stats.min.js"></script>
-
-  <script src="js/GPUComputationRenderer.js"></script>
-
-
-
-
-
 
 
   <div id="layer1" class="layer1_class">
@@ -299,6 +289,12 @@
     </div>
 
   </div>
+
+  <script src="./build/three.js"></script>
+  <script src="js/WebGL.js"></script>
+  <script src="js/libs/stats.min.js"></script>
+
+  <script src="js/GPUComputationRenderer.js"></script>
 
   <script id="fragmentShaderPosition" type="x-shader/x-fragment">
 
@@ -948,12 +944,26 @@
 
 
   <div id="side_nav" class="sidenav">
-    <div class="container text-center ">
-      <p style="font-family:harry; color: #f9d342; font-size: 60px">VULCANZY</p>
-    </div>
+  
     <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
     <div class="container" style=" margin-top: 5% ">
       <div class="row">
+
+        <div class="col">
+          <a href="./index.html" style="text-decoration: none ;" class="text-center">
+            <div class="card border-0   bg-transparent rounded  cardPad">
+              <img src="./icons/Eventsy2.jpg" style="height: 210px ;border-radius:50%" class="card-img-top" />
+              <div class="card-body">
+
+                <p style="color: white ; font-size: 25px;font-family: 'Courier New', Courier, monospace; font-weight: bold">
+
+                  HOME
+                </p>
+
+              </div>
+            </div>
+          </a>
+        </div>
 
         <div class="col">
           <a href="./events.html" style="text-decoration: none ;" class="text-center">
@@ -1191,7 +1201,7 @@
                 </div>
               </div>
             </div>
-          
+
             <div class="row">
               <div class="card shadow-lg  bg-transparent rounded  cardPad">
                 <div class="w3-card-4 w3-teal">
@@ -1210,9 +1220,9 @@
                 </div>
               </div>
             </div>
-         
-  
-  
+
+
+
           </div>
         </div>
 
