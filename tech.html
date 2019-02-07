@@ -649,8 +649,9 @@
       for (var i = 0; i < 4; i++) {
         $(".information").append('<div class="jumbotron rounded  text-center" style= "background-color: lightblue" > <h1 class="display-8">' +
           d.CSEA[i].event +
-          '</h1> <hr class="my-4">' +
-          '<p class=""> ROUNDS: ' +
+          '</h1> <hr class="my-4"> <p>' +
+            d.ECEA[i].description.small + 
+            '</p>  <br />'+
           d.CSEA[i].noOfLevels +
           ' &nbsp; FEE:' +
           d.CSEA[i].regFee +
@@ -674,7 +675,9 @@
       for (var i = 0; i < 4; i++) {
         $(".information").append('<div class="jumbotron rounded  text-center" style= "background-color: lightblue" > <h1 class="display-8">' +
           d.ECEA[i].event +
-          '</h1> <hr class="my-4">' +
+          '</h1> <hr class="my-4"> <p>' +
+            d.ECEA[i].description.small + 
+            '</p> <br />'+
           '<p class=""> ROUNDS: ' +
           d.ECEA[i].noOfLevels +
           ' &nbsp; FEE:' +
@@ -700,8 +703,7 @@
       for (var i = 0; i < 4; i++) {
         $(".information").append('<div class="jumbotron rounded  text-center" style= "background-color: lightblue" > <h1 class="display-8">' +
           d.EEEA[i].event +
-          '</h1> <hr class="my-4">' +
-          '<p class=""> ROUNDS: ' +
+          '</h1> <hr class="my-4"><p>' + d.EEEA[i].description.small + '</p> <br /><p class=""> ROUNDS: ' +
           d.EEEA[i].noOfLevels +
           ' &nbsp; FEE:' +
           d.EEEA[i].regFee +
@@ -726,8 +728,7 @@
       for (var i = 0; i < 4; i++) {
         $(".information").append('<div class="jumbotron rounded  text-center" style= "background-color: lightblue" > <h1 class="display-8">' +
           d.MECH[i].event +
-          '</h1> <hr class="my-4">' +
-          '<p class=""> ROUNDS: ' +
+          '</h1> <hr class="my-4"><p>' + d.MECH[i].description.small + '</p> <br /><p class=""> ROUNDS: ' +
           d.MECH[i].noOfLevels +
           ' &nbsp; FEE:' +
           d.MECH[i].regFee +
@@ -751,8 +752,7 @@
       for (var i = 0; i < 4; i++) {
         $(".information").append('<div class="jumbotron rounded  text-center" style= "background-color: lightblue" > <h1 class="display-8">' +
           d.BIOTECH[i].event +
-          '</h1> <hr class="my-4">' +
-          '<p class=""> ROUNDS: ' +
+          '</h1> <hr class="my-4"><p>' + d.BIOTECH[i].description.small + '</p> <br /><p class=""> ROUNDS: ' +
           d.BIOTECH[i].noOfLevels +
           ' &nbsp; FEE:' +
           d.BIOTECH[i].regFee +
@@ -776,8 +776,7 @@
       for (var i = 0; i < 4; i++) {
         $(".information").append('<div class="jumbotron rounded  text-center" style= "background-color: lightblue" > <h1 class="display-8">' +
           d.CEA[i].event +
-          '</h1> <hr class="my-4">' +
-          '<p class=""> ROUNDS: ' +
+          '</h1> <hr class="my-4"><p>' + d.CEA[i].description.small + '</p> <br /><p class=""> ROUNDS: ' +
           d.CEA[i].noOfLevels +
           ' &nbsp; FEE:' +
           d.CEA[i].regFee +
@@ -801,7 +800,9 @@
       for (var i = 0; i < 4; i++) {
         $(".information").append('<div class="jumbotron rounded  text-center" style= "background-color: lightblue" > <h1 class="display-8">' +
           d.MEA[i].event +
-          '</h1> <hr class="my-4">' +
+          '</h1> <hr class="my-4"> <p>' +
+            d.ECEA[i].description.small + 
+            '</p> <br />'+
           '<p class=""> ROUNDS: ' +
           d.MEA[i].noOfLevels +
           ' &nbsp; FEE:' +
