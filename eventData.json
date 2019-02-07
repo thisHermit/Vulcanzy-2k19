@@ -11,7 +11,7 @@
 			"roomCapacity": "160",
 			"emailid": "411667@student.nitandhra.ac.in",
 			"event": "COLLOQUIUM",
-      "noOfLevels": "3",
+			"noOfLevels": "3",
 			"description": {
 				"small": "random text",
 				"big": "     It is an amusing event filled with bliss whose maxim is revive your light and realize your worth. This includes questions with lateral and rational thinking, Pictionary and many other fillers."
@@ -74,80 +74,79 @@
 			}
 		}
 	],
-	"ECEA": [
-    {
-        "organizers": "Haritha",
-        "yearBranch": " ECE / II",
-        "contact": "7842655559",
-        "regFee": "-",
-        "Sno": "5",
-        "max_registrations": "100",
-        "place": "BOTH",
-        "duration": "3 hrs on Day 1, 2.5 hrs on Day 2",
-        "roomCapacity": "300 on Day 1, 18 on Day2",
-        "emailid": "ece4c.vulcanzy19@gmail.com",
-        "event": "FORESEE - the 4C 's",
-        "noOfLevels": "4",
-				"description": {
-					"small": "random text",
-					"big": "lot of random text"
-				}
-    },
-    {
-        "organizers": "Praisy, Pavani",
-        "yearBranch": "ECE / IV",
-        "contact": "8106065197",
-        "regFee": "-",
-        "Sno": "6",
-        "max_registrations": "150",
-        "place": "INDOOR",
-        "duration": "3.5 hrs ",
-        "roomCapacity": "200",
-        "emailid": "ecewsvulcanzy19@gmail.com",
-        "event": "WORKSHOP ",
-        "noOfLevels": "-",
-				"description": {
-					"small": "random text",
-					"big": "lot of random text"
-				}
-    },
-    {
-        "organizers": "Aravind",
-        "yearBranch": "ECE / II",
-        "contact": "9440705192",
-        "regFee": "-",
-        "Sno": "7",
-        "max_registrations": "-",
-        "place": "INDOOR",
-        "duration": "3 hrs ",
-        "roomCapacity": "86 EDC Lab",
-        "emailid": "eceanitandhra@gmail.com",
-        "event": "ELECTRO WIZARD ",
-        "noOfLevels": "-",
-				"description": {
-					"small": "random text",
-					"big": "lot of random text"
-				}
-    },
-    {
-        "organizers": "Karisma",
-        "yearBranch": "ECE / II",
-        "contact": "7656947854",
-        "regFee": "-",
-        "Sno": "8",
-        "max_registrations": "-",
-        "place": "INDOOR",
-        "duration": "-",
-        "roomCapacity": "-",
-        "emailid": "eceanitandhra@gmail.com",
-        "event": "PAPER PRESENTATION",
-        "noOfLevels": "-",
-				"description": {
-					"small": "random text",
-					"big": "lot of random text"
-				}
-    }
-],
+	"ECEA": [{
+			"organizers": "Haritha",
+			"yearBranch": " ECE / II",
+			"contact": "7842655559",
+			"regFee": "-",
+			"Sno": "5",
+			"max_registrations": "100",
+			"place": "BOTH",
+			"duration": "3 hrs on Day 1, 2.5 hrs on Day 2",
+			"roomCapacity": "300 on Day 1, 18 on Day2",
+			"emailid": "ece4c.vulcanzy19@gmail.com",
+			"event": "FORESEE - the 4C 's",
+			"noOfLevels": "4",
+			"description": {
+				"small": "random text",
+				"big": "lot of random text"
+			}
+		},
+		{
+			"organizers": "Praisy, Pavani",
+			"yearBranch": "ECE / IV",
+			"contact": "8106065197",
+			"regFee": "-",
+			"Sno": "6",
+			"max_registrations": "150",
+			"place": "INDOOR",
+			"duration": "3.5 hrs ",
+			"roomCapacity": "200",
+			"emailid": "ecewsvulcanzy19@gmail.com",
+			"event": "WORKSHOP ",
+			"noOfLevels": "-",
+			"description": {
+				"small": "random text",
+				"big": "lot of random text"
+			}
+		},
+		{
+			"organizers": "Aravind",
+			"yearBranch": "ECE / II",
+			"contact": "9440705192",
+			"regFee": "-",
+			"Sno": "7",
+			"max_registrations": "-",
+			"place": "INDOOR",
+			"duration": "3 hrs ",
+			"roomCapacity": "86 EDC Lab",
+			"emailid": "eceanitandhra@gmail.com",
+			"event": "ELECTRO WIZARD ",
+			"noOfLevels": "-",
+			"description": {
+				"small": "random text",
+				"big": "lot of random text"
+			}
+		},
+		{
+			"organizers": "Karisma",
+			"yearBranch": "ECE / II",
+			"contact": "7656947854",
+			"regFee": "-",
+			"Sno": "8",
+			"max_registrations": "-",
+			"place": "INDOOR",
+			"duration": "-",
+			"roomCapacity": "-",
+			"emailid": "eceanitandhra@gmail.com",
+			"event": "PAPER PRESENTATION",
+			"noOfLevels": "-",
+			"description": {
+				"small": "random text",
+				"big": "lot of random text"
+			}
+		}
+	],
 	"EEEA": [{
 			"organizers": "Sahithi",
 			"yearBranch": "EEE/3rd",
@@ -931,7 +930,7 @@
 			}
 		}
 	],
-	"DND": [ {
+	"DND": [{
 			"organizers": "Shreyas, Akhilesh",
 			"yearBranch": "1st yr, 2nd yr",
 			"contact": "6204828580, 8367229807",
