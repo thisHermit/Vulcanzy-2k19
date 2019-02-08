@@ -14,7 +14,7 @@
 			"noOfLevels": "3",
 			"description": {
 				"small": "random text",
-				"big": "     It is an amusing event filled with bliss whose maxim is revive your light and realize your worth. This includes questions with lateral and rational thinking, Pictionary and many other fillers."
+				"big": " It is an amusing event filled with bliss whose maxim is revive your light and realize your worth. This includes questions with lateral and rational thinking, Pictionary and many other fillers."
 			}
 
 
@@ -854,7 +854,7 @@
 			"noOfLevels": "",
 			"description": {
 				"small": "random text",
-				"big": "lot of random text"
+				"big": "Engineering can be simply defined as SMART WORK. Create the best of out nothing so that it can ease our life. In this event you need to use easily available, household items to make an output related to science or something which will make our life simple. We will provide everyone with some basic tools and equipment but you have to make the best out of it. Can you be the most creative person and win this event? "
 			}
 		},
 		{
@@ -872,7 +872,7 @@
 			"noOfLevels": "",
 			"description": {
 				"small": "random text",
-				"big": "lot of random text"
+				"big": "Have you ever fantasized about riding on a cool hover board like in Back to the Future 2? Were you ever mad that such a technology had not been created yet, or had been faked as a prank (yes, Back to the Future fans, I know you know what I am talking about)? Well, wait no longer! Remember those blot planks that everybody hangs around? In the upcoming Vulcanzy we are going to build our own electric hover board using a 12V DC motor, a small tire, and a household item at home that you can trip. Do you think you have what it takes to drive your own hoverboard? "
 			}
 		},
 		{
@@ -890,7 +890,13 @@
 			"noOfLevels": "",
 			"description": {
 				"small": "random text",
-				"big": "lot of random text"
+				"big": "A Van de Graaff generator is an electrostatic generator which uses a moving belt to accumulate electric charge on a hollow metal globe on the top of an insulated column, creating very high electric potentials. It produces very high voltage direct current electricity at low current levels. 
+This event includes the demonstration and application of Van De Graff Generator.
+Fun Activities in store for you:-
+    1. Rising of hairs due to movement of electrons.
+    2. Sparking effect by movement of electrons between discharge ball and van der graff generator in dark.
+    3. Also flying of rice crispe over the van De graff generator due to electric field of van De graff generator.
+		4. Movement of fur over van der graff generator."
 			}
 		},
 		{
@@ -908,7 +914,7 @@
 			"noOfLevels": "",
 			"description": {
 				"small": "random text",
-				"big": "lot of random text"
+				"big": "Have you ever dreamt about being a designer? Well, here is your chance! What you need is nothing but imagination skills to showcase your talents. This event is about designing hanging lanterns using paper. Just tell us how many papers and what colours you require. The most wonderful thing is that these lanterns will be hanging all over the campus during the fest! "
 			}
 		},
 		{
@@ -926,7 +932,18 @@
 			"noOfLevels": "",
 			"description": {
 				"small": "random text",
-				"big": "lot of random text"
+				"big": "This event is a combination of 5 games. Teams which win each round will be given a hint at the end of each game. They have to follow the hints to find the treasure.
+    1. Coin collector
+A chess board is given to a player with each box consisting of one coin and a knight. The player should be starting from a box(of his interest) and the knight should be moved in ‘L’ shape and the coins should be collected. Player could collect as many coins of his wish. The knight cannot be moved to a box without a coin. Whoever collects the most number of coins wins.
+    2. Pin the tail
+A team of two are selected. The player is shown a picture of an animal without a tail. The player's eyes are blind folded with a cloth and he should pin the tail at the correct place with the instructions of other team mate.The teammate who gives instructions should tell only left,right,top,bottom only.
+    3. Swing Hit
+A bob is tied to a string and is given to the player. The player must be holding the string and with that bob he has to swing the pendulum to hit the glasses which are numbered.The glasses should be hit in the order of numbers given.
+    4. Tag-Two
+A team of two are selected and one team mate is given a radium ball to throw into a open-close type dustbin. The other team mate should stand at the dustbin and he should tap the button of dustbin at the time of throw.
+    5. Rubik’s cube
+A 3*3 rubik’s cube is to be solved. No time limit. The team which solves it the fastest will be considered the  winner.
+"
 			}
 		}
 	],
