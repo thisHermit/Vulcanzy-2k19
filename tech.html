@@ -597,7 +597,7 @@
         <center>
             <div class="w3-container" style="margin-top:30px; margin-bottom: 5px; text-decoration: none"><a href="./tech.html" class="w3-button w3-khaki">Back To Tech Events</a></div>
           </center>
-    
+
     </div>
     </div>
 
@@ -648,9 +648,9 @@
     document.getElementById("eventList").style.display = "block";
     $.getJSON("./eventData.json", function(d) {
       for (var i = 0; i < 4; i++) {
-        $(".information").append('<div class="jumbotron rounded  text-center" style= "background-color: lightblue" > <h1 class="display-8">' +
+        $(".information").append('<div class="jumbotron rounded  text-center" style= "background-color: lightblue" > <div class="display-8">' +
           d.CSEA[i].event +
-          '</h1> <hr class="my-4"> <p>' +
+          '</div> <hr class="my-4"> <p>' +
             d.ECEA[i].description.small +
             '</p>  <br /> <p class=""> ROUNDS:'+
           d.CSEA[i].noOfLevels +
