@@ -48,9 +48,9 @@
 
 <body id="backBone " onload="waiter()">
 
-    <center>
-        <div class="w3-container" style="margin-top:30px; margin-bottom: 5px; text-decoration: none"><a href="./events.html" class="w3-button w3-khaki">Back To Events</a></div>
-      </center>
+  <center>
+    <div class="w3-container" style="margin-top:30px; margin-bottom: 5px; text-decoration: none"><a href="./events.html" class="w3-button w3-khaki">Back To Events</a></div>
+  </center>
   <div id="side_nav" class="sidenav">
     <div class="container text-center ">
       <p style="font-family:harry; color: #f9d342; font-size: 60px">VULCANZY</p>
@@ -156,15 +156,15 @@
 
 
             </style>
-            
-  
 
-            <div id="layer1" class="layer1_class">
-              <style>
-                @import url('https://fonts.googleapis.com/css?family=Roboto:700');
-          
+
+
+  <div id="layer1" class="layer1_class">
+    <style>
+      @import url('https://fonts.googleapis.com/css?family=Roboto:700');
+
               .bashar {
-          
+
                 display:flex;
                 justify-content: center;
                 align-items: center;
@@ -375,29 +375,29 @@
               }
               .text {
                 margin-top: 450px;
-          
+
                 font-size: 1.5rem;
                 width: 100%;
                 font-weight: 600;
                 text-align: center;
               }
-          
+
               </style>
-              <div class="bashar">
-                <div class="cube">
-                  <div class="sides">
-                    <div class="top"></div>
-                    <div class="right"></div>
-                    <div class="bottom"></div>
-                    <div class="left"></div>
-                    <div class="front"></div>
-                    <div class="back"></div>
-                  </div>
-                </div>
-                <div class="text" style="color:white">Loading...</div>
-              </div>
-          
-            </div>
+    <div class="bashar">
+      <div class="cube">
+        <div class="sides">
+          <div class="top"></div>
+          <div class="right"></div>
+          <div class="bottom"></div>
+          <div class="left"></div>
+          <div class="front"></div>
+          <div class="back"></div>
+        </div>
+      </div>
+      <div class="text" style="color:white">Loading...</div>
+    </div>
+
+  </div>
   <div id="fullpage" style="width: 100%; height: 50%;">
     <button type="button" name="button" class="sidenav_button fa fa-bars shadow-lg rounded" onclick="openNav()"></button>
     <div id="layer2" class="animated flash layer2_class align-self-center">
@@ -414,7 +414,7 @@
       <div class="container align-self-center bg-transparent text-center align-items-center " id="menuList" style="margin-top: 12%">
 
 
-   
+
         <div class="row">
 
           <div class="col">
@@ -528,10 +528,10 @@
         </div>
       </div>
       <div class="  container information " style=" opacity: .9" id="eventList">
-          <center>
-              <div class="w3-container" style="margin-top:30px; margin-bottom: 5px; text-decoration: none"><a href="./cult.html" class="w3-button w3-khaki">Back To Cult Events</a></div>
-            </center>
-      
+        <center>
+          <div class="w3-container" style="margin-top:30px; margin-bottom: 5px; text-decoration: none"><a href="./cult.html" class="w3-button w3-khaki">Back To Cult Events</a></div>
+        </center>
+
       </div>
     </div>
 
@@ -577,7 +577,7 @@
 
 
 
- 
+
   $(".pnp").click(function() {
     document.getElementById("menuList").style.display = "none";
     document.getElementById("eventList").style.display = "block";
@@ -597,7 +597,10 @@
           d.PNP[i].contact +
           '   <br/> EMAIL:' +
           d.PNP[i].emailid +
-          '  </p> <button type="button" class="btn btn-secondary" data-container="body" data-toggle="popover" data-placement="top" data-content="'+ d.PNP[i].description.big + '">MORE </button></div>');
+          '  </p> <button type="button" class="btn btn-secondary" data-container="body" data-toggle="popover" data-placement="top" data-content="' +
+          d.PNP[i].description.big +
+          '">MORE </button></div>' +
+          '<a class="btn btn-primary btn-lg" style="top:0;right:0;position:absolute" href="./authIndividual/pnp/PNP_register.html" role="button">Register</a>');
 
       }
     });
@@ -621,12 +624,15 @@
           d.DND[i].contact +
           '   <br/> EMAIL:' +
           d.DND[i].emailid +
-          '  </p> <button type="button" class="btn btn-secondary" data-container="body" data-toggle="popover" data-placement="top" data-content="'+ d.DND[i].description.big + '">MORE </button></div>');
+          '  </p> <button type="button" class="btn btn-secondary" data-container="body" data-toggle="popover" data-placement="top" data-content="' +
+          d.DND[i].description.big +
+          '">MORE </button></div>' +
+          '<a class="btn btn-primary btn-lg" style="top:0;right:0;position:absolute" href="./authIndividual/pnp/PNP_register.html" role="button">Register</a>');
 
       }
     });
   });
-   $(".snh").click(function() {
+  $(".snh").click(function() {
     document.getElementById("menuList").style.display = "none";
     document.getElementById("eventList").style.display = "block";
     $.getJSON("./eventData.json", function(d) {
@@ -645,7 +651,9 @@
           d.SNH[i].contact +
           '   <br/> EMAIL:' +
           d.SNH[i].emailid +
-          '  </p> <button type="button" class="btn btn-secondary" data-container="body" data-toggle="popover" data-placement="top" data-content="'+ d.SNH[i].description.big + '">MORE </button></div>');
+          '  </p> <button type="button" class="btn btn-secondary" data-container="body" data-toggle="popover" data-placement="top" data-content="' +
+          d.SNH[i].description.big +
+          '">MORE </button></div>');
       }
     });
   });
@@ -668,7 +676,8 @@
           d.MAGAZINE[i].contact +
           '   <br/> EMAIL:' +
           d.MAGAZINE[i].emailid +
-          '  </p> <button type="button" class="btn btn-secondary" data-container="body" data-toggle="popover" data-placement="top" data-content="'+ d.MAGAZINE[i].description.big + '">MORE </button></div>');
+          '  </p> <button type="button" class="btn btn-secondary" data-container="body" data-toggle="popover" data-placement="top" data-content="' +
+          d.MAGAZINE[i].description.big + '">MORE </button></div>');
       }
     });
   });
@@ -691,12 +700,14 @@
           d.MUSIC[i].contact +
           '   <br/> EMAIL:' +
           d.MUSIC[i].emailid +
-          '  </p> <button type="button" class="btn btn-secondary" data-container="body" data-toggle="popover" data-placement="top" data-content="'+ d.MUSIC[i].description.big + '">MORE </button></div>');
+          '  </p> <button type="button" class="btn btn-secondary" data-container="body" data-toggle="popover" data-placement="top" data-content="' +
+          d.MUSIC[i].description.big +
+          '">MORE </button></div>');
 
       }
     });
   });
- 
+
   function openNav() {
     // 250px can be changed later
     document.getElementById("side_nav").style.width = "100%";
