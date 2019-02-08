@@ -679,7 +679,7 @@
       for (var i = 0; i < 4; i++) {
         $(".information").append('<div class="jumbotron rounded  text-center" style= "background-color: lightyellow" > <h1 class="display-8">' +
           d.MUSIC[i].event +
-          '</h1> <hr class="my-4"><p>' + d.MEA[i].description.small + '</p><p class=""> ROUNDS: ' +
+          '</h1> <hr class="my-4"><p>' + d.MUSIC[i].description.small + '</p><p class=""> ROUNDS: ' +
           d.MUSIC[i].noOfLevels +
           ' &nbsp; FEE:' +
           d.MUSIC[i].regFee +
@@ -691,7 +691,7 @@
           d.MUSIC[i].contact +
           '   <br/> EMAIL:' +
           d.MUSIC[i].emailid +
-          '  </p>  <p class="lead"> <a class="btn btn-light btn-lg" href="./authIndividual/music/MUSIC_register.html" role="button">MORE </a> </p> </div>');
+          '  </p> <div class="dropdown"><a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> MORE </a> <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">  <p class="dropdown-item" >'+ d.MUSIC[i].description.big+'</p> </div></div></div>');
 
       }
     });
@@ -712,5 +712,6 @@
     document.getElementById("layer3").style.display = "block";
   }
 </script>
+
 
 </html>
