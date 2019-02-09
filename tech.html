@@ -26,17 +26,16 @@
   <script>
 
     function waiter() {
-            if (document.all){
-                document.all["layer1"].style.visibility="hidden";
-                document.all["layer1"].style.position = "absolute";
-                document.all["layer2"].style.visibility="visible";
-            } else if (document.getElementById){
-                node = document.getElementById("layer1").style.visibility='hidden';
-                node = document.getElementById("layer1").style.position='absolute';
-                node = document.getElementById("layer2").style.visibility='visible';
-
-            }
-          }
+      if (document.all){
+          document.all["layer1"].style.visibility="hidden";
+          document.all["layer1"].style.position = "absolute";
+          document.all["layer2"].style.visibility="visible";
+      } else if (document.getElementById){
+          node = document.getElementById("layer1").style.visibility='hidden';
+          node = document.getElementById("layer1").style.position='absolute';
+          node = document.getElementById("layer2").style.visibility='visible';
+      }
+    }
 
         </script>
   <title> VULCANZY-2K19</title>
