@@ -677,9 +677,11 @@
   $(".ecea").click(function() {
     document.getElementById("menuList").style.display = "none";
     document.getElementById("eventList").style.display = "block";
-    $.getJSON(
-      "./eventData.json",
-      function(d) {
+    $.ajax(
+      url: "./eventData.json",
+      dataType: 'json',
+      async: false,
+      success: function(d) {
         for (var i = 0; i < 10; i++) {
           $(".information").append('<div class="jumbotron rounded  text-center" style= "background-color: lightyellow" > <h1 style="position: relative;" class="display-8">' +
             d.ECEA[i].event +
