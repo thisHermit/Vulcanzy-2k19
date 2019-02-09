@@ -31,7 +31,7 @@
                 document.all["layer1"].style.position = "absolute";
                 document.all["layer2"].style.visibility="visible";
             } else if (document.getElementById){
-                // node = document.getElementById("layer1").style.visibility='hidden';
+                node = document.getElementById("layer1").style.visibility='hidden';
                 node = document.getElementById("layer1").style.position='absolute';
                 node = document.getElementById("layer2").style.visibility='visible';
 
@@ -665,7 +665,7 @@
             '   <br/> EMAIL:' +
             d.CSEA[i].emailid +
             '  </p>  <p class="lead"> <button onclick="(function(){document.getElementById("more").style.visibility = true;})();">More</a></button> </div>' +
-            '<p id = "more" class = "lead" style="visibility:true">' +
+            '<p id = "more" class = "lead" style="visibility:false">' +
             '</p>' +
             '<a class="btn btn-primary btn-lg" style="top:0;right:0;position:absolute" href="./authIndividual/csea/CSEA_register.html" role="button">Register</a>'
           );
