@@ -1,9 +1,14 @@
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script defer src="https://use.fontawesome.com/releases/v5.7.1/js/all.js" integrity="sha384-eVEQC9zshBn0rFj4+TU78eNA19HMNigMviK/PU/FFjLXqa/GKPgX58rvt5Z8PLs7" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/1.5.3/jspdf.debug.js"></script>    
+</head>>
 <style>
     html {
       /*background-image: linear-gradient(to bottom right, rgba(255,0,0,0), rgba(255,0,0,1));#89f7fe → #66a6ff*/
-      background-image: linear-gradient(to top right, #14D3FE, #3794FD);
-      background-image: linear-gradient(to top right, #7E35EF, #F20AC3);
-      background-image: linear-gradient(to top right, #FFFB00, #FF4900);
+      /* background-image: linear-gradient(to top right, #14D3FE, #3794FD); */
+      background-image: linear-gradient(to top right, #7E35EF, #F20AC3); 
+      /* background-image: linear-gradient(to top right, #FFFB00, #FF4900); */
       /*background-image: linear-gradient(to top right, #EFFF1F, #FFA200);*/
       /*background-color: #fc9842;
         background-image: linear-gradient(315deg, #fc9842 0%, #fe5f75 74%);
@@ -59,32 +64,40 @@
     select {
       font-family: 'Open Sans', sans-serif;
       font-size: 16px;
-      color: #3d3d3d;
+      color: #0004ff;
     }
     
     p {
-      font-size: 12px;
+      font-size: 10px;
       width: 150px;
       display: inline-block;
-      margin-left: 18px;
+      margin-left: 30px;
     }
-    
+        
     h1 {
-      font-size: 32px;
+      font-size: 40px;
       font-weight: bold;
-      color: #ee0000;
+      color: #ffffff;
       text-align: center;
-      padding-top: 25px;
+      padding-top: 15px;
       margin-bottom: 25px;
     }
     
     h2 {
-      font-size: 19px;
+      font-size: 35px;
       font-weight: bold;
-      color: #ee0000;
+      color: #ffffff;
       text-align: center;
       padding-top: 10px;
       margin-bottom: 10px;
+    }
+    
+    h3 {
+      font-size: 20px;
+      font-weight: bold;
+      color: #ffffff;
+      padding-left: 10px;
+      text-align:center;
     }
     
     html {
@@ -92,17 +105,16 @@
     }
     
     .testbox {
-      /*background-color: #000000;*/
-      margin:10vh auto;
-      width: 30vw;
-      height: 125vh;
+      margin: auto;
+      width: 100vw;
+      height: 100vh;
       -webkit-border-radius: 8px/7px;
       -moz-border-radius: 8px/7px;
       border-radius: 8px/7px;
       background-color: rgba(0, 0, 0, 0);
-      -webkit-box-shadow: 1px 2px 5px rgba(0,0,0,.31); 
+      /*-webkit-box-shadow: 1px 2px 5px rgba(0,0,0,.31); 
       -moz-box-shadow: 1px 2px 5px rgba(0,0,0,.31); 
-      box-shadow: 1px 2px 5px rgba(0,0,0,.31); 
+      box-shadow: 1px 2px 5px rgba(0,0,0,.31); */
       border: transparent 1px #000000;
       
     }
@@ -163,18 +175,25 @@
     
     hr {
       background-color: #30FF00;
-      opacity: 0.3;
+      opacity: 0.2;
     }
     
     label {
-      color: #ff9456;
+      font-size:23px;
+      color: #ffffff;
       opacity: 1;
     }
-    
+    input {
+      border-radius: 36px;
+      position: relative;
+      width: 50vw;
+      height: 64px;
+      transition: all 0.5s cubic-bezier(.87, -.41, .19, 1.44);
+    }
     .input {
       position: relative;
       font-size: 16px;
-      background: linear-gradient(21deg,#7E35EF, #F20AC3);
+      background: linear-gradient(21deg,#F20AC3,  #7E35EF );
       margin-left: 0.5vw;
       margin-right: 0.5vw;
       margin-bottom: 10px;
@@ -213,10 +232,9 @@
       bottom: 0;
       border-radius: inherit;
       pointer-events: none;
-      box-shadow: inset 0 0 0 3px #fff, 0 0 0 4px #fff, 3px -3px 30px #dc78e9, -3px 3px 30px #dc78e9;
+      box-shadow: inset 0 0 0 3px #fff, 0 0 0 4px #fff, 3px -3px 30px #d56efd, -3px 3px 30px #d56efd;
     }
-    
-    
+        
     /*html {
        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
        line-height: 1.5;
@@ -224,7 +242,6 @@
     }
      body {
        text-align: center;*/
-    
     
     /*input[type=text],input[type=password]{
       width: 200px; 
@@ -239,9 +256,7 @@
       border: solid 1px #cbc9c9;
       margin-left: -5px;
       margin-top: 13px; 
-      padding-left: 10px;
-      
-     
+      padding-left: 10px; 
     }
     
     input[type=password]{
@@ -249,19 +264,18 @@
     }*/
     
     #icon {
-      margin-left:0.5vh;
-      border-radius: 50%;
+      margin-left:0.5vw;
+      border-radius: 20%;
       text-align: center;
-      line-height: 100px;
       vertical-align: middle;
       display: inline-block;
-      width: 25px;
-      background-color: #ff2010;
+      width: 24px;
+      height: 24px;
+      background-color: transparent;
       color: white;
-      padding: 8px 8px 8px 8px;
-      box-shadow: 1px 2px 5px rgba(0, 0, 0, .09);
-      border: solid 0px #cbc9c9;
-      border-radius: 50%
+      padding: 24px 28px 30px 24px;
+      box-shadow: 1px 2px 5px rgba(0, 0, 0, 0);
+      border: transparent 0px #cbc9c9;
     }
     
     
@@ -274,12 +288,12 @@
     }*/
     
     .check {
+      text-align: center;
       cursor: pointer;
       position: relative;
       margin: auto;
-      width: 18px;
-      text-align: center;
-      height: 18px;
+      width: 20px;
+      height: 20px;
       -webkit-tap-highlight-color: transparent;
       transform: translate3d(0, 0, 0);
     }
@@ -303,8 +317,8 @@
       fill: none;
       stroke-linecap: round;
       stroke-linejoin: round;
-      stroke: #10abff;
-      stroke-width: 1.5;
+      stroke: #000000;
+      stroke-width: 3;
       transform: translate3d(0, 0, 0);
       transition: all 0.2s ease;
     }
@@ -324,7 +338,7 @@
     }
     
     .check:hover svg {
-      stroke: #10abff;
+      stroke: #eeff00;
     }
     
     #cbx1:checked + .check svg {
@@ -356,7 +370,7 @@
       transition: all 0.2s linear;
       transition-delay: 0.15s;
     }
-	#cbx3:checked + .check svg {
+    #cbx3:checked + .check svg {
       stroke: #2fff05;
     }
     
@@ -384,7 +398,8 @@
       transition: all 0.2s linear;
       transition-delay: 0.15s;
     }
-	#cbx5:checked + .check svg {
+    
+    #cbx5:checked + .check svg {
       stroke: #2fff05;
     }
     
@@ -497,23 +512,26 @@
       transform: rotate(45deg);
     }*/
     
-    .gender {
-      margin: auto;
+    /* .gender {
+      margin: relative;
       text-align: center;
-    }
+    } */
     
-    .accounttype {
+    /* .accounttype {
       margin-left: 8px;
       margin-top: 20px;
-    }
+    } */
     
     div{
       text-align:center;
     }
 
     input[type="submit"] {
-      padding-bottom: 2px;
-      font-size: 16px;
+      vertical-align: middle;
+      text-align: center;
+      padding-right:0.5vw;
+      font-size:0.8vm;
+      font-size-adjust:0.5; 
       font-weight: 600;
       color: white;
       padding: 6px 25px 0px 20px;
@@ -521,8 +539,8 @@
       display: inline-block;
       float: right;
       text-decoration: none;
-      width: 5vw;
-      height: vh;
+      width: 120px;
+      height: 35px;
       -webkit-border-radius: 5px;
       -moz-border-radius: 5px;
       border-radius: 5px;
@@ -545,13 +563,53 @@
       -moz-box-shadow: none;
       box-shadow: none;
     }
+    .gender input{
+      width:10%;
+    margin:0;padding:0;
+    
+    -webkit-appearance:none;
+       -moz-appearance:none;
+            appearance:none;
+    }
+.male{background-image:url(https://images.vexels.com/media/users/3/145319/isolated/preview/393319492615023cc5864b50aed98bb5-boy-hands-in-pockets-illustration-by-vexels.png);}
+.female{background-image:url(https://images.vexels.com/media/users/3/145192/isolated/preview/b71f7906bde87103aa47803c71f6566a-woman-illustration-by-vexels.png);}
+
+.gender input:active +.drinkgender-cc{opacity: .9;}
+.gender input:checked +.drinkgender-cc{
+    -webkit-filter: none;
+       -moz-filter: none;
+            filter: none;
+}
+.drinkgender-cc{
+    cursor:pointer;
+    background-size:contain;
+    background-repeat:no-repeat;
+    display:inline-block;
+    width:200px;height:140px;
+    -webkit-transition: all 100ms ease-in;
+       -moz-transition: all 100ms ease-in;
+            transition: all 100ms ease-in;
+    -webkit-filter: brightness(1.8) grayscale(1) opacity(.7);
+       -moz-filter: brightness(1.8) grayscale(1) opacity(.7);
+            filter: brightness(1.8) grayscale(1) opacity(.7);
+}
+.drinkgender-cc:hover{
+    -webkit-filter: brightness(1.2) grayscale(.5) opacity(.9);
+       -moz-filter: brightness(1.2) grayscale(.5) opacity(.9);
+            filter: brightness(1.2) grayscale(.5) opacity(.9);
+}
+
+/* Extras */
+a:visited{color:#888}
+a{color:#444;text-decoration:none;}
+p{margin-bottom:.3em;}
     </style>
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" href="C:\Users\Raghu Chandan\Downloads\fontawesome-free-5.7.1-web\css\font-awesome.min.css">
+    <link rel="stylesheet" href="C:\Users\Raghu Chandan\Downloads\fontawesome-free-5.7.1-web\css\all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
     <div class="testbox">
       <h1>Registration</h1>
-      <form action="/" id="eeea"><!--Place the Branch Name Here-->
+      <form id="csea"><!--Place the Branch Name Here-->
         <hr>
         <br>
         <!--<div class="accounttype">
@@ -560,33 +618,41 @@
           <input type="radio" value="None" id="radioTwo" name="account" />
           <label for="radioTwo" class="radio">Company</label>
         </div>-->
-        <label id="icon" for="name"><i class="fas fa-user "></i></label> <span class="input">
-          <input type="text" placeholder="First Name" id="firstname">
+        <label id="icon" for="name"><i class="fas fa-user fa-2x"></i></label> <span class="input">
+          <input type="text" placeholder="First Name" id="firstname" style="padding-left:1vw" required>
           <span></span> </span>
           <br>
           <br>
-        <label id="icon" for="name"><i class="fas fa-user "></i></label> <span class="input">
-          <input type="text" placeholder="Last Name" id="lastname">
+        <label id="icon" for="name"><i class="fas fa-user fa-2x"></i></label> <span class="input">
+          <input type="text" placeholder="Last Name" id="lastname" style="padding-left:1vw">
           <span></span> </span>
           <br>
           <br>
-        <label id="icon" for="name"><i class="fas fa-envelope-open "></i></label> <span class="input">
-          <input type="text" placeholder="Email Address" id="email">
+        <label id="icon" for="name"><i class="fas fa-envelope-open fa-2x"></i></label> <span class="input">
+          <input type="email" placeholder="Email Address" id="email" style="padding-left:1vw" required>
           <span></span> </span>
           <br>
           <br>
-        <label id="icon" for="name"><i class="fas fa-phone"></i></label> <span class="input">
-          <input type="text" placeholder="Mobile Number" id="mobile">
+        <label id="icon" for="name"><i class="fas fa-phone fa-2x"></i></label> <span class="input">
+          <input type="text" placeholder="Mobile Number" id="mobile" style="padding-left:1vw" required>
           <span></span> </span>
           <br>
           <br>
-        <label id="icon" for="name"><i class="fas fa-university"></i></label> <span class="input">
-          <input type="text" placeholder="College Name" id="college">
+        <label id="icon" for="name"><i class="fas fa-university fa-2x"></i></label> <span class="input">
+          <input type="text" placeholder="College Name" id="college" style="padding-left:1vw" required>
           <span></span> </span>
           <br>
           <br>
+          <br>
+        <p style="margin-left:1%; font-size:20px; color:#ffffff">You are?</p>
+        <div class="gender" style="text-align: center;">
+          <input id="female" type="radio" name="gender" value="female" style="margin-left:-6%"/>
+          <label class="drinkgender-cc female"for="female"></label>
+          <input id="male" type="radio" name="gender" value="male" style="margin-left:-6%"/>
+          <label class="drinkgender-cc male" for="male"></label>  
+        </div>
         <br>  
-        <div>
+        <!-- <div>
           <div class="gender" align="center">
             <input type="radio" value="None" id="male" name="gender" />
             <label for="male" class="radio" chec>Male </label>
@@ -594,9 +660,10 @@
             <label for="female" class="radio">Female</label>
           </div>
         </div>
+         -->
         <br>
         <hr>
-        <h2>List of Events</h2>
+        <h2 style="text-align: center">List of Events</h2>
         <br>
         <!--<label class="container">One
             <input type="checkbox" checked="checked">
@@ -617,71 +684,86 @@
             <input type="checkbox">
             <span class="checkmark"></span>
           </label>-->
-        <div style="text-align:left; margin-left:8vw" >  
-          <input type="checkbox" id="cbx1" style="display: none;">
-          <label for="cbx1" class="check">
-            <!--<label for="Checkbox1">AdminUser</label>-->
-            <svg width="18px" height="18px" viewBox="0 0 18 18">
-              <path d="M1,9 L1,3.5 C1,2 2,1 3.5,1 L14.5,1 C16,1 17,2 17,3.5 L17,14.5 C17,16 16,17 14.5,17 L3.5,17 C2,17 1,16 1,14.5 L1,9 Z"></path>
-              <polyline points="1 9 7 14 15 4"></polyline>
-            </svg>ALL ABOUT CIRCUITS</label>
-        </div>
-        <div style="text-align:left; margin-left:8vw">  
-          <input type="checkbox" id="cbx2" style="display: none;">
-          <label for="cbx2" class="check">
-            <!--<label for="Checkbox1">AdminUser</label>-->
-            <svg width="18px" height="18px" viewBox="0 0 18 18">
-              <path d="M1,9 L1,3.5 C1,2 2,1 3.5,1 L14.5,1 C16,1 17,2 17,3.5 L17,14.5 C17,16 16,17 14.5,17 L3.5,17 C2,17 1,16 1,14.5 L1,9 Z"></path>
-              <polyline points="1 9 7 14 15 4"></polyline>
-            </svg>ARCHIPELAGO</label>
-        </div>
-		<div style="text-align:left; margin-left:8vw">  
-          <input type="checkbox" id="cbx3" style="display: none;">
-          <label for="cbx3" class="check">
-            <!--<label for="Checkbox1">AdminUser</label>-->
-            <svg width="18px" height="18px" viewBox="0 0 18 18">
-              <path d="M1,9 L1,3.5 C1,2 2,1 3.5,1 L14.5,1 C16,1 17,2 17,3.5 L17,14.5 C17,16 16,17 14.5,17 L3.5,17 C2,17 1,16 1,14.5 L1,9 Z"></path>
-              <polyline points="1 9 7 14 15 4"></polyline>
-            </svg>BACK TO THE ORIGIN</label>
-        </div>		
-		<div style="text-align:left; margin-left:8vw">  
-          <input type="checkbox" id="cbx4" style="display: none;">
-          <label for="cbx4" class="check">
-            <!--<label for="Checkbox1">AdminUser</label>-->
-            <svg width="18px" height="18px" viewBox="0 0 18 18">
-              <path d="M1,9 L1,3.5 C1,2 2,1 3.5,1 L14.5,1 C16,1 17,2 17,3.5 L17,14.5 C17,16 16,17 14.5,17 L3.5,17 C2,17 1,16 1,14.5 L1,9 Z"></path>
-              <polyline points="1 9 7 14 15 4"></polyline>
-            </svg>AMALGAMATE</label>
-        </div>
-		<div style="text-align:left; margin-left:8vw">  
-          <input type="checkbox" id="cbx5" style="display: none;">
-          <label for="cbx5" class="check">
-            <!--<label for="Checkbox1">AdminUser</label>-->
-            <svg width="18px" height="18px" viewBox="0 0 18 18">
-              <path d="M1,9 L1,3.5 C1,2 2,1 3.5,1 L14.5,1 C16,1 17,2 17,3.5 L17,14.5 C17,16 16,17 14.5,17 L3.5,17 C2,17 1,16 1,14.5 L1,9 Z"></path>
-              <polyline points="1 9 7 14 15 4"></polyline>
-            </svg>DECEPTION</label>
-        </div>
-		<div style="text-align:left; margin-left:8vw">  
-          <input type="checkbox" id="cbx6" style="display: none;">
-          <label for="cbx6" class="check">
-            <!--<label for="Checkbox1">AdminUser</label>-->
-            <svg width="18px" height="18px" viewBox="0 0 18 18">
-              <path d="M1,9 L1,3.5 C1,2 2,1 3.5,1 L14.5,1 C16,1 17,2 17,3.5 L17,14.5 C17,16 16,17 14.5,17 L3.5,17 C2,17 1,16 1,14.5 L1,9 Z"></path>
-              <polyline points="1 9 7 14 15 4"></polyline>
-            </svg>PROJECT EXPO</label>
-        </div>
-		<div style="text-align:left; margin-left:8vw">  
-          <input type="checkbox" id="cbx7" style="display: none;">
-          <label for="cbx7" class="check">
-            <!--<label for="Checkbox1">AdminUser</label>-->
-            <svg width="18px" height="18px" viewBox="0 0 18 18">
-              <path d="M1,9 L1,3.5 C1,2 2,1 3.5,1 L14.5,1 C16,1 17,2 17,3.5 L17,14.5 C17,16 16,17 14.5,17 L3.5,17 C2,17 1,16 1,14.5 L1,9 Z"></path>
-              <polyline points="1 9 7 14 15 4"></polyline>
-            </svg>PAPER PRESENTATION</label>
-        </div>
+          <div style="text-align:left; margin-left:27%" >  
+              <input type="checkbox" id="cbx1" style="display: none;" class="checkbox" value="COLLOQUIUM">
+              <label for="cbx1" class="check">
+                <!--<label for="Checkbox1">AdminUser</label>-->
+                <svg width="18px" height="18px" viewBox="0 0 18 18">
+                  <path d="M1,9 L1,3.5 C1,2 2,1 3.5,1 L14.5,1 C16,1 17,2 17,3.5 L17,14.5 C17,16 16,17 14.5,17 L3.5,17 C2,17 1,16 1,14.5 L1,9 Z"></path>
+                  <polyline points="1 9 7 14 15 4"></polyline>
+                </svg> ALL ABOUT CIRCUITS</label>
+            </div>
+            <hr style="margin-top: 1px;margin-bottom: 1px;opacity:0">
+            <hr style="margin-top: 1px;margin-bottom: 1px;opacity:0">
+            <div style="text-align:left; margin-left:27%">  
+              <input type="checkbox" id="cbx2" style="display: none;" class="checkbox" value="CODE SPRINT">
+              <label for="cbx2" class="check">
+                <!--<label for="Checkbox1">AdminUser</label>-->
+                <svg width="18px" height="18px" viewBox="0 0 18 18">
+                  <path d="M1,9 L1,3.5 C1,2 2,1 3.5,1 L14.5,1 C16,1 17,2 17,3.5 L17,14.5 C17,16 16,17 14.5,17 L3.5,17 C2,17 1,16 1,14.5 L1,9 Z"></path>
+                  <polyline points="1 9 7 14 15 4"></polyline>
+                </svg> ARCHIPELAGO</label>
+            </div>
+            <hr style="margin-top: 1px;margin-bottom: 1px;opacity:0">
+            <hr style="margin-top: 1px;margin-bottom: 1px;opacity:0">
+          <div style="text-align:left; margin-left:27%">  
+              <input type="checkbox" id="cbx3" style="display: none;" class="checkbox" value="CRYPTOCEON">
+              <label for="cbx3" class="check">
+                <!--<label for="Checkbox1">AdminUser</label>-->
+                <svg width="18px" height="18px" viewBox="0 0 18 18">
+                  <path d="M1,9 L1,3.5 C1,2 2,1 3.5,1 L14.5,1 C16,1 17,2 17,3.5 L17,14.5 C17,16 16,17 14.5,17 L3.5,17 C2,17 1,16 1,14.5 L1,9 Z"></path>
+                  <polyline points="1 9 7 14 15 4"></polyline>
+                </svg> BACK TO THE ORIGIN</label>
+            </div>
+            <hr style="margin-top: 1px;margin-bottom: 1px;opacity:0">
+            <hr style="margin-top: 1px;margin-bottom: 1px;opacity:0">		
+        <div style="text-align:left; margin-left:27%">  
+              <input type="checkbox" id="cbx4" style="display: none;" class="checkbox" value="VIRTUE">
+              <label for="cbx4" class="check">
+                <!--<label for="Checkbox1">AdminUser</label>-->
+                <svg width="18px" height="18px" viewBox="0 0 18 18">
+                  <path d="M1,9 L1,3.5 C1,2 2,1 3.5,1 L14.5,1 C16,1 17,2 17,3.5 L17,14.5 C17,16 16,17 14.5,17 L3.5,17 C2,17 1,16 1,14.5 L1,9 Z"></path>
+                  <polyline points="1 9 7 14 15 4"></polyline>
+                </svg> AMALGAMATE</label>
+            </div> 
+            <hr style="margin-top: 1px;margin-bottom: 1px;opacity:0">  
+            <hr style="margin-top: 1px;margin-bottom: 1px;opacity:0">		
+        <div style="text-align:left; margin-left:27%">  
+              <input type="checkbox" id="cbx5" style="display: none;" class="checkbox" value="VIRTUE">
+              <label for="cbx5" class="check">
+                <!--<label for="Checkbox1">AdminUser</label>-->
+                <svg width="18px" height="18px" viewBox="0 0 18 18">
+                  <path d="M1,9 L1,3.5 C1,2 2,1 3.5,1 L14.5,1 C16,1 17,2 17,3.5 L17,14.5 C17,16 16,17 14.5,17 L3.5,17 C2,17 1,16 1,14.5 L1,9 Z"></path>
+                  <polyline points="1 9 7 14 15 4"></polyline>
+                </svg> DECEPTION</label>
+            </div> 
+            <hr style="margin-top: 1px;margin-bottom: 1px;opacity:0">  
+            <hr style="margin-top: 1px;margin-bottom: 1px;opacity:0">		
+        <div style="text-align:left; margin-left:27%">  
+              <input type="checkbox" id="cbx6" style="display: none;" class="checkbox" value="VIRTUE">
+              <label for="cbx6" class="check">
+                <!--<label for="Checkbox1">AdminUser</label>-->
+                <svg width="18px" height="18px" viewBox="0 0 18 18">
+                  <path d="M1,9 L1,3.5 C1,2 2,1 3.5,1 L14.5,1 C16,1 17,2 17,3.5 L17,14.5 C17,16 16,17 14.5,17 L3.5,17 C2,17 1,16 1,14.5 L1,9 Z"></path>
+                  <polyline points="1 9 7 14 15 4"></polyline>
+                </svg> PROJECT EXPO</label>
+            </div> 
+            <hr style="margin-top: 1px;margin-bottom: 1px;opacity:0"> 
+            <hr style="margin-top: 1px;margin-bottom: 1px;opacity:0">		
+        <div style="text-align:left; margin-left:27%">  
+              <input type="checkbox" id="cbx7" style="display: none;" class="checkbox" value="VIRTUE">
+              <label for="cbx7" class="check">
+                <!--<label for="Checkbox1">AdminUser</label>-->
+                <svg width="18px" height="18px" viewBox="0 0 18 18">
+                  <path d="M1,9 L1,3.5 C1,2 2,1 3.5,1 L14.5,1 C16,1 17,2 17,3.5 L17,14.5 C17,16 16,17 14.5,17 L3.5,17 C2,17 1,16 1,14.5 L1,9 Z"></path>
+                  <polyline points="1 9 7 14 15 4"></polyline>
+                </svg> PAPER PRESENTATION</label>
+            </div> 
+            <hr style="margin-top: 1px;margin-bottom: 1px;opacity:0"> 
         <br>
         <br>
-        <p style="float:left;">By clicking Register, you agree on our <a href="#">terms and condition</a>.</p> <input class="button" type="submit"></input> </form>
+        <p style="float:left;">By clicking Register, you agree on our <a href="./index.html">terms and condition</a>.</p> <input class="button" type="submit"></input> </form>
         <!-- <button class="button" type="submit"  form="csea" value="Submit">Register</button> -->
     </div>
+    <script src="https://www.gstatic.com/firebasejs/5.8.0/firebase.js"></script>
+<script src="csea.js"></script>
