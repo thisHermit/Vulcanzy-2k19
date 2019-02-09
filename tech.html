@@ -703,7 +703,7 @@
     document.getElementById("menuList").style.display = "none";
     document.getElementById("eventList").style.display = "block";
     $.getJSON("./eventData.json", function(d) {
-      for (var i = 0; i < d.length; i++) {
+      for (var i = 0; i < 10; i++) {
         $(".information").append('<div class="jumbotron rounded  text-center" style= "background-color: lightyellow" > <h1 style="position: relative;" class="display-8">' +
           d.EEEA[i].event +
           '</h1> <hr class="my-4"><p>' + d.EEEA[i].description.small + '</p> <br /><p class=""> ROUNDS: ' +
