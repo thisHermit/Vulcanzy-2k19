@@ -666,7 +666,7 @@
             '<p id = "more" class = "lead" style="visibility:false">' +
             d.CSEA[i].description.big +
             '</p>' +
-            '  </p>  <p class="lead"> <button onclick="(function(){document.getElementById("' + 'more' + '").style.visibility = true;})();">More</a></button> </div>' +
+            '  </p>  <p class="lead"> <button onclick="moreButton()">More</a></button> </div>' +
             '<a class="btn btn-primary btn-lg" style="top:0;right:0;position:absolute" href="./authIndividual/csea/CSEA_register.html" role="button">Register</a>'
           );
 
@@ -836,6 +836,9 @@
     document.getElementById("side_nav").style.width = "0";
     document.getElementById("layer2").style.display = "block";
     document.getElementById("layer3").style.display = "block";
+  }
+  function moreButton() {
+    document.getElementById("more").style.visibility = true;
   }
 </script>
 
