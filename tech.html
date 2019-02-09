@@ -677,34 +677,31 @@
   $(".ecea").click(function() {
     document.getElementById("menuList").style.display = "none";
     document.getElementById("eventList").style.display = "block";
-    $.ajaxSetup({
-      async: false
-    });
     $.ajax(
       url: "./eventData.json",
       dataType: 'json',
-      async :false,
-        success: function(d) {
-          for (var i = 0; i < 10; i++) {
-            $(".information").append('<div class="jumbotron rounded  text-center" style= "background-color: lightyellow" > <h1 style="position: relative;" class="display-8">' +
-              d.ECEA[i].event +
-              '</h1> <hr class="my-4"><p>' + d.ECEA[i].description.small + '</p> <br /><p class=""> ROUNDS: ' +
-              d.ECEA[i].noOfLevels +
-              ' &nbsp; FEE:' +
-              d.ECEA[i].regFee +
-              ' &nbsp; DURATION:' +
-              d.ECEA[i].duration +
-              '  </p>' + '<p class="lead"> <br/> ORGANIZERS: ' +
-              d.ECEA[i].organizers +
-              ' <br/> CONTACT:' +
-              d.ECEA[i].contact +
-              '   <br/> EMAIL:' +
-              d.ECEA[i].emailid +
-              '  </p> <p class="lead"> <a class="btn btn-primary btn-lg" href="./authIndividual/ecea/ECEA_register.html" role="button">More</a></p> </div>' +
-              '<a class="btn btn-primary btn-lg" style="top:0;right:0;position:absolute" href="./authIndividual/ecea/ECEA_register.html" role="button">Register</a>');
+      async: false,
+      success: function(d) {
+        for (var i = 0; i < 10; i++) {
+          $(".information").append('<div class="jumbotron rounded  text-center" style= "background-color: lightyellow" > <h1 style="position: relative;" class="display-8">' +
+            d.ECEA[i].event +
+            '</h1> <hr class="my-4"><p>' + d.ECEA[i].description.small + '</p> <br /><p class=""> ROUNDS: ' +
+            d.ECEA[i].noOfLevels +
+            ' &nbsp; FEE:' +
+            d.ECEA[i].regFee +
+            ' &nbsp; DURATION:' +
+            d.ECEA[i].duration +
+            '  </p>' + '<p class="lead"> <br/> ORGANIZERS: ' +
+            d.ECEA[i].organizers +
+            ' <br/> CONTACT:' +
+            d.ECEA[i].contact +
+            '   <br/> EMAIL:' +
+            d.ECEA[i].emailid +
+            '  </p> <p class="lead"> <a class="btn btn-primary btn-lg" href="./authIndividual/ecea/ECEA_register.html" role="button">More</a></p> </div>' +
+            '<a class="btn btn-primary btn-lg" style="top:0;right:0;position:absolute" href="./authIndividual/ecea/ECEA_register.html" role="button">Register</a>');
 
-          }
-        });
+        }
+      });
   });
 
   $(".eeea").click(function() {
