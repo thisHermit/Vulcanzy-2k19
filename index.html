@@ -577,7 +577,8 @@
     /* TEXTURE WIDTH FOR SIMULATION */
     var WIDTH = hash || 16;
 
-    var BIRDS = 200;
+    var BIRDS = screen.width / 20;
+    console.log(screen.width / 20);
 
     // Custom Geometry - using 3 triangles each. No UVs, no normals currently.
     THREE.BirdGeometry = function () {
