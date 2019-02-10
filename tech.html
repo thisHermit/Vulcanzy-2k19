@@ -696,7 +696,9 @@
           d.ECEA[i].contact +
           '   <br/> EMAIL:' +
           d.ECEA[i].emailid +
-          '<div id = "more" style="display:none;">' +
+          '<div id = "more' +
+          i +
+          '" style="display:none;">' +
           d.ECEA[i].description.big +
           '</div>' +
           '<p class="lead"> <button onclick="moreButton(' +
@@ -727,7 +729,9 @@
           d.EEEA[i].contact +
           '   <br/> EMAIL:' +
           d.EEEA[i].emailid +
-          '<div id = "more" style="display:none;">' +
+          '<div id = "more' +
+          i +
+          '" style="display:none;">' +
           d.EEEA[i].description.big +
           '</div>' +
           '<p class="lead"> <button onclick="moreButton(' +
@@ -757,7 +761,9 @@
           d.MECH[i].contact +
           '   <br/> EMAIL:' +
           d.MECH[i].emailid +
-          '<div id = "more" style="display:none;">' +
+          '<div id = "more' +
+          i +
+          '" style="display:none;">' +
           d.MECH[i].description.big +
           '</div>' +
           '<p class="lead"> <button onclick="moreButton(' +
@@ -786,7 +792,9 @@
           d.BIOTECH[i].contact +
           '   <br/> EMAIL:' +
           d.BIOTECH[i].emailid +
-          '<div id = "more" style="display:none;">' +
+          '<div id = "more' +
+          i +
+          '" style="display:none;">' +
           d.BIOTECH[i].description.big +
           '</div>' +
           '<p class="lead"> <button onclick="moreButton(' +
@@ -815,7 +823,9 @@
           d.CEA[i].contact +
           '   <br/> EMAIL:' +
           d.CEA[i].emailid +
-          '<div id = "more" style="display:none;">' +
+          '<div id = "more' +
+          i +
+          '" style="display:none;">' +
           d.CEA[i].description.big +
           '</div>' +
           '<p class="lead"> <button onclick="moreButton(' +
@@ -845,7 +855,9 @@
           d.MEA[i].contact +
           '   <br/> EMAIL:' +
           d.MEA[i].emailid +
-          '<div id = "more" style="display:none;">' +
+          '<div id = "more' +
+          i +
+          '" style="display:none;">' +
           d.MEA[i].description.big +
           '</div>' +
           '<p class="lead"> <button onclick="moreButton(' +
@@ -874,7 +886,6 @@
 
   function moreButton(i) {
     var x = document.getElementById("more" + i);
-    console.log(i);
     if (x.style.display === "none") {
       x.style.display = "block";
       this.innerHTML = "Less";
