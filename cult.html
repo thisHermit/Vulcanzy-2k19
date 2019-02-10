@@ -623,7 +623,7 @@
           '</div>' +
           '<p class="lead"> <button onclick="moreButton(' +
           i +
-          ')">More</a></button> </div>' +
+          ', this)">More</a></button> </div>' +
           '<a class="btn btn-primary btn-lg" style="top:0;right:0;position:absolute" href="./authIndividual/mtlrgy/MEA_register.html" role="button">Register</a>'
         );
 
@@ -776,15 +776,15 @@
     document.getElementById("layer3").style.display = "block";
   }
 
-  function moreButton(i) {
+  function moreButton(i, elem) {
     var x = document.getElementById("more" + i);
     console.log(this);
     if (x.style.display === "none") {
       x.style.display = "block";
-      this.innerHTML = "Less";
+      elem.innerHTML = "Less";
     } else {
       x.style.display = "none";
-      this.innerHTML = "More";
+      elem.innerHTML = "More";
     }
   }
 
