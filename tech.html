@@ -666,7 +666,7 @@
             '<div id = "more" onclick="moreButton()" style="display:none;">' +
             d.CSEA[i].description.big +
             '</div>' +
-            '  </p>  <p class="lead"> <button onclick="moreButton('+i+')">More</a></button> </div>' +
+            '  </p>  <p class="lead"> <button onclick="moreButton()">More</a></button> </div>' +
             '<a class="btn btn-primary btn-lg" style="top:0;right:0;position:absolute" href="./authIndividual/csea/CSEA_register.html" role="button">Register</a>'
           );
 
@@ -855,9 +855,8 @@
     document.getElementById("layer2").style.display = "block";
     document.getElementById("layer3").style.display = "block";
   }
-  function moreButton(i) {
+  function moreButton() {
   var x = document.getElementById("more");
-  console.log(i);
   if (x.style.display === "none") {
     x.style.display = "block";
     x.innerHTML = "More";
