@@ -619,9 +619,7 @@
           '<div id = "more" onclick="moreButton()" style="display:none;">' +
           d.PNP[i].description.big +
           '</div>' +
-          '  </p> <button type="button" class="btn btn-secondary" data-container="body" data-toggle="popover" data-placement="top" data-content="' +
-          d.PNP[i].description.big +
-          '">MORE </button></div>' +
+          '<p class="lead"> <button onclick="moreButton()">More</a></button> </div>' +
           '<a class="btn btn-primary btn-lg" style="top:0;right:0;position:absolute" href="./authIndividual/pnp/PNP_register.html" role="button">Register</a>');
 
       }
@@ -649,10 +647,8 @@
           '<div id = "more" onclick="moreButton()" style="display:none;">' +
           d.DND[i].description.big +
           '</div>' +
-          '  </p> <button type="button" class="btn btn-secondary" data-container="body" data-toggle="popover" data-placement="top" data-content="' +
-          d.DND[i].description.big +
-          '">MORE </button></div>' +
-          '<a class="btn btn-primary btn-lg" style="top:0;right:0;position:absolute" href="./authIndividual/pnp/PNP_register.html" role="button">Register</a>');
+          '<p class="lead"> <button onclick="moreButton()">More</a></button> </div>' +
+          '<a class="btn btn-primary btn-lg" style="top:0;right:0;position:absolute" href="./authIndividual/dance.md/DND_register.html" role="button">Register</a>');
 
       }
     });
@@ -678,10 +674,8 @@
           d.SNH[i].emailid +
           '<div id = "more" onclick="moreButton()" style="display:none;">' +
           d.SNH[i].description.big +
-          '</div>' +
-          '  </p> <button type="button" class="btn btn-secondary" data-container="body" data-toggle="popover" data-placement="top" data-content="' +
-          d.SNH[i].description.big +
-          '">MORE </button></div>');
+          '<p class="lead"> <button onclick="moreButton()">More</a></button> </div>' +
+          '<a class="btn btn-primary btn-lg" style="top:0;right:0;position:absolute" href="./authIndividual/SNH/SNH_register.html" role="button">Register</a>');
       }
     });
   });
@@ -707,8 +701,9 @@
           '<div id = "more" onclick="moreButton()" style="display:none;">' +
           d.MAGAZINE[i].description.big +
           '</div>' +
-          '  </p> <button type="button" class="btn btn-secondary" data-container="body" data-toggle="popover" data-placement="top" data-content="' +
-          d.MAGAZINE[i].description.big + '">MORE </button></div>');
+          '<p class="lead"> <button onclick="moreButton()">More</a></button> </div>' +
+          '<a class="btn btn-primary btn-lg" style="top:0;right:0;position:absolute" href="./authIndividual/magazine/MAGAZINE_register.html" role="button">Register</a>'
+         );
       }
     });
   });
@@ -734,9 +729,8 @@
           '<div id = "more" onclick="moreButton()" style="display:none;">' +
           d.MUSIC[i].description.big +
           '</div>' +
-          '  </p> <button type="button" class="btn btn-secondary" data-container="body" data-toggle="popover" data-placement="top" data-content="' +
-          d.MUSIC[i].description.big +
-          '">MORE </button></div>');
+          '<p class="lead"> <button onclick="moreButton()">More</a></button> </div>' +
+        '<a class="btn btn-primary btn-lg" style="top:0;right:0;position:absolute" href="./authIndividual/music/MUSIC_register.html" role="button">Register</a>');
 
       }
     });
@@ -755,6 +749,13 @@
     document.getElementById("side_nav").style.width = "0";
     document.getElementById("layer2").style.display = "block";
     document.getElementById("layer3").style.display = "block";
+  }
+  function moreButton() {
+  var x = document.getElementById("more");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
   }
 </script>
 
