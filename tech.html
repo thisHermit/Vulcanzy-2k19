@@ -663,10 +663,12 @@
             d.CSEA[i].contact +
             '   <br/> EMAIL:' +
             d.CSEA[i].emailid +
-            '<div id = "more" onclick="moreButton('+i+')" style="display:none;">' +
+            '<div id = "more" style="display:none;">' +
             d.CSEA[i].description.big +
             '</div>' +
-            '  </p>  <p class="lead"> <button onclick="moreButton()">More</a></button> </div>' +
+            '<p class="lead"> <button onclick="moreButton(' +
+            i +
+            ')">More</a></button> </div>' +
             '<a class="btn btn-primary btn-lg" style="top:0;right:0;position:absolute" href="./authIndividual/csea/CSEA_register.html" role="button">Register</a>'
           );
 
@@ -692,15 +694,17 @@
           d.ECEA[i].contact +
           '   <br/> EMAIL:' +
           d.ECEA[i].emailid +
-          '<div id = "more" onclick="moreButton()" style="display:none;">' +
+          '<div id = "more" style="display:none;">' +
           d.ECEA[i].description.big +
           '</div>' +
-          '  </p>  <p class="lead"> <button onclick="moreButton()">More</a></button> </div>'+
+          '<p class="lead"> <button onclick="moreButton(' +
+          i +
+          ')">More</a></button> </div>' +
           '<a class="btn btn-primary btn-lg" style="top:0;right:0;position:absolute" href="./authIndividual/ecea/ECEA_register.html" role="button">Register</a>');
 
       }
     });
-  });/* Ravi was here.*/
+  }); /* Ravi was here.*/
 
   $(".eeea").click(function() {
     document.getElementById("menuList").style.display = "none";
@@ -721,10 +725,12 @@
           d.EEEA[i].contact +
           '   <br/> EMAIL:' +
           d.EEEA[i].emailid +
-          '<div id = "more" onclick="moreButton()" style="display:none;">' +
+          '<div id = "more" style="display:none;">' +
           d.EEEA[i].description.big +
           '</div>' +
-          '  </p>  <p class="lead"> <button onclick="moreButton()">More</a></button> </div>'+
+          '<p class="lead"> <button onclick="moreButton(' +
+          i +
+          ')">More</a></button> </div>' +
           '<a class="btn btn-primary btn-lg" style="top:0;right:0;position:absolute" href="./authIndividual/eeea/EEEA_register.html" role="button">Register</a>');
 
       }
@@ -749,10 +755,12 @@
           d.MECH[i].contact +
           '   <br/> EMAIL:' +
           d.MECH[i].emailid +
-          '<div id = "more" onclick="moreButton()" style="display:none;">' +
+          '<div id = "more" style="display:none;">' +
           d.MECH[i].description.big +
           '</div>' +
-          '  </p>  <p class="lead"> <button onclick="moreButton()">More</a></button> </div>' +
+          '<p class="lead"> <button onclick="moreButton(' +
+          i +
+          ')">More</a></button> </div>' +
           '<a class="btn btn-primary btn-lg" style="top:0;right:0;position:absolute" href="./authIndividual/mech/MECEA_register.html" role="button">Register</a>');
 
       }
@@ -776,10 +784,12 @@
           d.BIOTECH[i].contact +
           '   <br/> EMAIL:' +
           d.BIOTECH[i].emailid +
-          '<div id = "more" onclick="moreButton()" style="display:none;">' +
+          '<div id = "more" style="display:none;">' +
           d.BIOTECH[i].description.big +
           '</div>' +
-          '  </p>  <p class="lead"> <button onclick="moreButton()">More</a></button> </div>'+
+          '<p class="lead"> <button onclick="moreButton(' +
+          i +
+          ')">More</a></button> </div>' +
           '<a class="btn btn-primary btn-lg" style="top:0;right:0;position:absolute" href="./authIndividual/biot/BEA_register.html" role="button">Register</a>');
 
       }
@@ -803,10 +813,12 @@
           d.CEA[i].contact +
           '   <br/> EMAIL:' +
           d.CEA[i].emailid +
-          '<div id = "more" onclick="moreButton()" style="display:none;">' +
+          '<div id = "more" style="display:none;">' +
           d.CEA[i].description.big +
           '</div>' +
-          '  </p>  <p class="lead"> <button onclick="moreButton()">More</a></button> </div>'+
+          '<p class="lead"> <button onclick="moreButton(' +
+          i +
+          ')">More</a></button> </div>' +
           '<a class="btn btn-primary btn-lg" style="top:0;right:0;position:absolute" href="./authIndividual/cea/CEA_register.html" role="button">Register</a>');
 
       }
@@ -831,10 +843,12 @@
           d.MEA[i].contact +
           '   <br/> EMAIL:' +
           d.MEA[i].emailid +
-          '<div id = "more" onclick="moreButton()" style="display:none;">' +
+          '<div id = "more" style="display:none;">' +
           d.MEA[i].description.big +
           '</div>' +
-          '  </p>  <p class="lead"> <button onclick="moreButton()">More</a></button> </div>' +
+          '<p class="lead"> <button onclick="moreButton(' +
+          i +
+          ')">More</a></button> </div>' +
           '<a class="btn btn-primary btn-lg" style="top:0;right:0;position:absolute" href="./authIndividual/mtlrgy/MEA_register.html" role="button">Register</a>');
 
       }
@@ -855,15 +869,16 @@
     document.getElementById("layer2").style.display = "block";
     document.getElementById("layer3").style.display = "block";
   }
+
   function moreButton(i) {
-  var x = document.getElementById("more");
-  console.log(i);
-  if (x.style.display === "none") {
-    x.style.display = "block";
-  } else {
-    x.style.display = "none";
+    var x = document.getElementById("more");
+    console.log(i);
+    if (x.style.display === "none") {
+      x.style.display = "block";
+    } else {
+      x.style.display = "none";
+    }
   }
-}
 </script>
 
 </html>
