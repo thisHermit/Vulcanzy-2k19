@@ -663,14 +663,10 @@
             d.CSEA[i].contact +
             '   <br/> EMAIL:' +
             d.CSEA[i].emailid +
-            '<div id = "more' +
-            i +
-            '" onclick="moreButton()" style="display:none;">' +
+            `<div id = "more" onclick="moreButton()" style="display:none;">` +
             d.CSEA[i].description.big +
             '</div>' +
-            '</p>  <p class="lead"> <button onclick="moreButton(' +
-            i +
-            ')">More</a></button> </div>' +
+            '  </p>  <p class="lead"> <button onclick="moreButton()">More</a></button> </div>' +
             '<a class="btn btn-primary btn-lg" style="top:0;right:0;position:absolute" href="./authIndividual/csea/CSEA_register.html" role="button">Register</a>'
           );
 
