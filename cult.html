@@ -616,10 +616,16 @@
           d.PNP[i].contact +
           '   <br/> EMAIL:' +
           d.PNP[i].emailid +
-          '  </p> <button type="button" class="btn btn-secondary" data-container="body" data-toggle="popover" data-placement="top" data-content="' +
-          d.PNP[i].description.big +
-          '">MORE </button></div>' +
-          '<a class="btn btn-primary btn-lg" style="top:0;right:0;position:absolute" href="./authIndividual/pnp/PNP_register.html" role="button">Register</a>');
+          '<div id = "more' +
+          i +
+          '" style="display:none;">' +
+          d.MEA[i].description.big +
+          '</div>' +
+          '<p class="lead"> <button onclick="moreButton(' +
+          i +
+          ')">More</a></button> </div>' +
+          '<a class="btn btn-primary btn-lg" style="top:0;right:0;position:absolute" href="./authIndividual/mtlrgy/MEA_register.html" role="button">Register</a>'
+        );
 
       }
     });
@@ -646,7 +652,8 @@
           '  </p> <button type="button" class="btn btn-secondary" data-container="body" data-toggle="popover" data-placement="top" data-content="' +
           d.DND[i].description.big +
           '">MORE </button></div>' +
-          '<a class="btn btn-primary btn-lg" style="top:0;right:0;position:absolute" href="./authIndividual/pnp/PNP_register.html" role="button">Register</a>');
+          '<a class="btn btn-primary btn-lg" style="top:0;right:0;position:absolute" href="./authIndividual/pnp/PNP_register.html" role="button">Register</a>'
+        );
 
       }
     });
@@ -672,7 +679,8 @@
           d.SNH[i].emailid +
           '  </p> <button type="button" class="btn btn-secondary" data-container="body" data-toggle="popover" data-placement="top" data-content="' +
           d.SNH[i].description.big +
-          '">MORE </button></div>');
+          '">MORE </button></div>'
+        );
       }
     });
   });
@@ -696,7 +704,8 @@
           '   <br/> EMAIL:' +
           d.MAGAZINE[i].emailid +
           '  </p> <button type="button" class="btn btn-secondary" data-container="body" data-toggle="popover" data-placement="top" data-content="' +
-          d.MAGAZINE[i].description.big + '">MORE </button></div>');
+          d.MAGAZINE[i].description.big + '">MORE </button></div>'
+        );
       }
     });
   });
@@ -721,7 +730,8 @@
           d.MUSIC[i].emailid +
           '  </p> <button type="button" class="btn btn-secondary" data-container="body" data-toggle="popover" data-placement="top" data-content="' +
           d.MUSIC[i].description.big +
-          '">MORE </button></div>');
+          '">MORE </button></div>'
+        );
 
       }
     });
