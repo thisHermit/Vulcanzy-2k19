@@ -663,7 +663,7 @@
             d.CSEA[i].contact +
             '   <br/> EMAIL:' +
             d.CSEA[i].emailid +
-            '<div id = "more" onclick="moreButton()" style="display:none;">' +
+            '<div id = "more" onclick="moreButton('+i+')" style="display:none;">' +
             d.CSEA[i].description.big +
             '</div>' +
             '  </p>  <p class="lead"> <button onclick="moreButton()">More</a></button> </div>' +
@@ -855,14 +855,13 @@
     document.getElementById("layer2").style.display = "block";
     document.getElementById("layer3").style.display = "block";
   }
-  function moreButton() {
+  function moreButton(i) {
   var x = document.getElementById("more");
+  console.log(i);
   if (x.style.display === "none") {
     x.style.display = "block";
-    x.innerHTML = "More";
   } else {
     x.style.display = "none";
-    x.innerHTML = "Less";
   }
 }
 </script>
