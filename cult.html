@@ -751,6 +751,19 @@
     document.getElementById("layer2").style.display = "block";
     document.getElementById("layer3").style.display = "block";
   }
+  
+  function moreButton(i) {
+    var x = document.getElementById("more" + i);
+    console.log(this);
+    if (x.style.display === "none") {
+      x.style.display = "block";
+      this.innerHTML = "Less";
+    } else {
+      x.style.display = "none";
+      this.innerHTML = "More";
+    }
+  }
+
 </script>
 
 
