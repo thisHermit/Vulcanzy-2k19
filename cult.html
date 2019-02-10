@@ -619,7 +619,7 @@
           '<div id = "more' +
           i +
           '" style="display:none;">' +
-          d.MEA[i].description.big +
+          d.PNP[i].description.big +
           '</div>' +
           '<p class="lead"> <button onclick="moreButton(' +
           i +
@@ -649,10 +649,15 @@
           d.DND[i].contact +
           '   <br/> EMAIL:' +
           d.DND[i].emailid +
-          '  </p> <button type="button" class="btn btn-secondary" data-container="body" data-toggle="popover" data-placement="top" data-content="' +
+          '<div id = "more' +
+          i +
+          '" style="display:none;">' +
           d.DND[i].description.big +
-          '">MORE </button></div>' +
-          '<a class="btn btn-primary btn-lg" style="top:0;right:0;position:absolute" href="./authIndividual/pnp/PNP_register.html" role="button">Register</a>'
+          '</div>' +
+          '<p class="lead"> <button onclick="moreButton(' +
+          i +
+          ')">More</a></button> </div>' +
+          '<a class="btn btn-primary btn-lg" style="top:0;right:0;position:absolute" href="./authIndividual/mtlrgy/MEA_register.html" role="button">Register</a>'
         );
 
       }
@@ -677,9 +682,15 @@
           d.SNH[i].contact +
           '   <br/> EMAIL:' +
           d.SNH[i].emailid +
-          '  </p> <button type="button" class="btn btn-secondary" data-container="body" data-toggle="popover" data-placement="top" data-content="' +
+          '<div id = "more' +
+          i +
+          '" style="display:none;">' +
           d.SNH[i].description.big +
-          '">MORE </button></div>'
+          '</div>' +
+          '<p class="lead"> <button onclick="moreButton(' +
+          i +
+          ')">More</a></button> </div>' +
+          '<a class="btn btn-primary btn-lg" style="top:0;right:0;position:absolute" href="./authIndividual/mtlrgy/MEA_register.html" role="button">Register</a>'
         );
       }
     });
@@ -703,8 +714,15 @@
           d.MAGAZINE[i].contact +
           '   <br/> EMAIL:' +
           d.MAGAZINE[i].emailid +
-          '  </p> <button type="button" class="btn btn-secondary" data-container="body" data-toggle="popover" data-placement="top" data-content="' +
-          d.MAGAZINE[i].description.big + '">MORE </button></div>'
+          '<div id = "more' +
+          i +
+          '" style="display:none;">' +
+          d.MAGAZINE[i].description.big +
+          '</div>' +
+          '<p class="lead"> <button onclick="moreButton(' +
+          i +
+          ')">More</a></button> </div>' +
+          '<a class="btn btn-primary btn-lg" style="top:0;right:0;position:absolute" href="./authIndividual/mtlrgy/MEA_register.html" role="button">Register</a>'
         );
       }
     });
@@ -728,9 +746,15 @@
           d.MUSIC[i].contact +
           '   <br/> EMAIL:' +
           d.MUSIC[i].emailid +
-          '  </p> <button type="button" class="btn btn-secondary" data-container="body" data-toggle="popover" data-placement="top" data-content="' +
+          '<div id = "more' +
+          i +
+          '" style="display:none;">' +
           d.MUSIC[i].description.big +
-          '">MORE </button></div>'
+          '</div>' +
+          '<p class="lead"> <button onclick="moreButton(' +
+          i +
+          ')">More</a></button> </div>' +
+          '<a class="btn btn-primary btn-lg" style="top:0;right:0;position:absolute" href="./authIndividual/mtlrgy/MEA_register.html" role="button">Register</a>'
         );
 
       }
@@ -751,7 +775,7 @@
     document.getElementById("layer2").style.display = "block";
     document.getElementById("layer3").style.display = "block";
   }
-  
+
   function moreButton(i) {
     var x = document.getElementById("more" + i);
     console.log(this);
