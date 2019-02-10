@@ -663,7 +663,9 @@
             d.CSEA[i].contact +
             '   <br/> EMAIL:' +
             d.CSEA[i].emailid +
-            '<div id = "more" style="display:none;">' +
+            '<div id = "more' +
+            i +
+            '" style="display:none;">' +
             d.CSEA[i].description.big +
             '</div>' +
             '<p class="lead"> <button onclick="moreButton(' +
@@ -875,8 +877,10 @@
     console.log(i);
     if (x.style.display === "none") {
       x.style.display = "block";
+      this.innerHTML = "Less";
     } else {
       x.style.display = "none";
+      this.innerHTML = "More";
     }
   }
 </script>
