@@ -656,7 +656,7 @@
           '</div>' +
           '<p class="lead"> <button onclick="moreButton(' +
           i +
-          ')">More</a></button> </div>' +
+          ',this)">More</a></button> </div>' +
           '<a class="btn btn-primary btn-lg" style="top:0;right:0;position:absolute" href="./authIndividual/mtlrgy/MEA_register.html" role="button">Register</a>'
         );
 
@@ -689,7 +689,7 @@
           '</div>' +
           '<p class="lead"> <button onclick="moreButton(' +
           i +
-          ')">More</a></button> </div>' +
+          ',this)">More</a></button> </div>' +
           '<a class="btn btn-primary btn-lg" style="top:0;right:0;position:absolute" href="./authIndividual/mtlrgy/MEA_register.html" role="button">Register</a>'
         );
       }
@@ -721,7 +721,7 @@
           '</div>' +
           '<p class="lead"> <button onclick="moreButton(' +
           i +
-          ')">More</a></button> </div>' +
+          ',this)">More</a></button> </div>' +
           '<a class="btn btn-primary btn-lg" style="top:0;right:0;position:absolute" href="./authIndividual/mtlrgy/MEA_register.html" role="button">Register</a>'
         );
       }
@@ -753,7 +753,7 @@
           '</div>' +
           '<p class="lead"> <button onclick="moreButton(' +
           i +
-          ')">More</a></button> </div>' +
+          ',this)">More</a></button> </div>' +
           '<a class="btn btn-primary btn-lg" style="top:0;right:0;position:absolute" href="./authIndividual/mtlrgy/MEA_register.html" role="button">Register</a>'
         );
 
@@ -778,7 +778,6 @@
 
   function moreButton(i, elem) {
     var x = document.getElementById("more" + i);
-    console.log(this);
     if (x.style.display === "none") {
       x.style.display = "block";
       elem.innerHTML = "Less";
