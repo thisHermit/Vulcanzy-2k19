@@ -93,9 +93,9 @@
 		}
 	],
 	"ECEA": [{
-			"organizers": "Haritha",
+			"organizers": "Anusha",
 			"yearBranch": " ECE / II",
-			"contact": "7842655559",
+			"contact": "8008032476",
 			"regFee": "-",
 			"Sno": "5",
 			"max_registrations": "100",
@@ -121,7 +121,7 @@
 			"duration": "3.5 hrs ",
 			"roomCapacity": "200",
 			"emailid": "ecewsvulcanzy19@gmail.com",
-			"event": "WORKSHOP ",
+			"event": " IMAGE PROCESSING WORKSHOP ",
 			"noOfLevels": "-",
 			"description": {
 				"small": "Ever wondered how does an auto tag on facebook work?\n\nEver wondered how a third empire decision is given?\n\nDon’t worry we can give an answer to your multitude of queries!!\n\nAll you have to do is.",
@@ -158,6 +158,42 @@
 			"roomCapacity": "-",
 			"emailid": "eceanitandhra@gmail.com",
 			"event": "PAPER PRESENTATION",
+			"noOfLevels": "-",
+			"description": {
+				"small": "random text",
+				"big": "lot of random text"
+			}
+		},
+		 {
+			"organizers": "Karisma",
+			"yearBranch": "ECE / II",
+			"contact": "7656947854",
+			"regFee": "-",
+			"Sno": "8",
+			"max_registrations": "-",
+			"place": "INDOOR",
+			"duration": "-",
+			"roomCapacity": "-",
+			"emailid": "eceanitandhra@gmail.com",
+			"event": "CAZZLE",
+			"noOfLevels": "-",
+			"description": {
+				"small": "random text",
+				"big": "lot of random text"
+			}
+		},
+		 {
+			"organizers": "Karisma",
+			"yearBranch": "ECE / II",
+			"contact": "7656947854",
+			"regFee": "-",
+			"Sno": "8",
+			"max_registrations": "-",
+			"place": "INDOOR",
+			"duration": "-",
+			"roomCapacity": "-",
+			"emailid": "eceanitandhra@gmail.com",
+			"event": "MURKY MAZE",
 			"noOfLevels": "-",
 			"description": {
 				"small": "random text",
