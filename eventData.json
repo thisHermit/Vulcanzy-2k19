@@ -1,6 +1,6 @@
 {
 	"CSEA": [{
-			"organizers": "SAI TEJA.A",
+			"organizers": "SAITEJA. A",
 			"yearBranch": "3RD CSE",
 			"contact": "9441831645",
 			"regFee": "30/-",
@@ -13,7 +13,7 @@
 			"event": "COLLOQUIUM",
 			"noOfLevels": "3",
 			"description": {
-				"small": "random text",
+				"small": "It is an amusing event filled with bliss whose maxim is revive your light and realize your worth. This includes questions with lateral and rational thinking, Pictionary and many other fillers.",
 				"big": " It is an amusing event filled with bliss whose maxim is revive your light and realize your worth. This includes questions with lateral and rational thinking, Pictionary and many other fillers."
 			}
 
@@ -33,7 +33,7 @@
 			"event": "CRYPTACTAEON",
 			"noOfLevels": "1",
 			"description": {
-				"small": "random text",
+				"small": "It is an exemplary platform for exhibiting your understanding of Cryptography. Encrypted code snippets have to be converted into a decrypted one using some algorithms and a key. Each decrypted clue will lead you to another snippet. The final snippet is the same for all which is the destination point.",
 				"big": "It is an exemplary platform for exhibiting your understanding of Cryptography. Encrypted code snippets have to be converted into a decrypted one using some algorithms and a key. Each decrypted clue will lead you to another snippet. The final snippet is the same for all which is the destination point."
 			}
 		},
@@ -51,8 +51,26 @@
 			"event": "CODE SPRINT",
 			"noOfLevels": "3",
 			"description": {
-				"small": "random text",
+				"small": "Talk is ephemeral, code is perpetual. So, this Code sprint offers you with the best endeavours which consists of 3 rounds. The screening assessment is done using TestQ. The other sub events are blind coding and debugging.",
 				"big": "Talk is ephemeral, code is perpetual. So, this Code sprint offers you with the best endeavours which consists of 3 rounds. The screening assessment is done using TestQ. The other sub events are blind coding and debugging."
+			}
+		},
+		{
+			"organizers": "SHUBHAM",
+			"yearBranch": "2ND CSE",
+			"contact": "9441848336",
+			"regFee": "NO",
+			"Sno": "4",
+			"max_registrations": "100",
+			"place": "BOTH",
+			"duration": "ONE DAY",
+			"roomCapacity": "150",
+			"emailid": "subhamnitap@gmail.com",
+			"event": "VIRTUALLY TRUE",
+			"noOfLevels": "       - ",
+			"description": {
+				"small": "It is a combination of perky events which rejuvenates our creativity along with brain busters on contemporary technologies. For instance, mini games like objects are provided in a bulk related to specific entity in CS World which have to be picked by participants based on the given keyword",
+				"big": "lot of random text"
 			}
 		},
 		{
@@ -88,8 +106,8 @@
 			"event": "FORESEE - the 4C 's",
 			"noOfLevels": "4",
 			"description": {
-				"small": "random text",
-				"big": "lot of random text"
+				"small": "Do you have the practical knowledge on electronics?\n\nDid you find circuit building as fun?\n\nHere we are to show you how fascinating it is!!",
+				"big": "Foresee is a captivating event that enhances a individual’s pragmatic approach towards electronics and changes your opinion on how interesting it is to build or solve a circuit . The event 4’c will help you explore the fun behind circuits in four rounds by testing the way you  connect, correct , chase for the components and build the circuit. "
 			}
 		},
 		{
@@ -106,8 +124,8 @@
 			"event": "WORKSHOP ",
 			"noOfLevels": "-",
 			"description": {
-				"small": "random text",
-				"big": "lot of random text"
+				"small": "Ever wondered how does an auto tag on facebook work?\n\nEver wondered how a third empire decision is given?\n\nDon’t worry we can give an answer to your multitude of queries!!\n\nAll you have to do is.",
+				"big": "join us in a knowledge enhancing workshop for the students of all engineering disciplines.  This workshop is to equip students with the concepts of Image analysis and serve as a platform to deliver hands-on experience to the students on Image processing techniques using MATLAB for real time applications. This also helps photographers to enhance their image by passing through various processing tools."
 			}
 		},
 		{
@@ -124,8 +142,8 @@
 			"event": "ELECTRO WIZARD ",
 			"noOfLevels": "-",
 			"description": {
-				"small": "random text",
-				"big": "lot of random text"
+				"small": "Here we are with a Project Expo where u can showcase your innovative solutions to the real world problems.\n\nWe are ready to give you a platform which showcases your talent!! Are you ready to prove yourself?",
+				"big": "We, the engineers, are known to be the WIZARDS of the real world because we create many wonders.  It does not take much strength to do things, but it requires a great deal of strength to decide what to do. Use your brain as your magical wand and come up with your innovative ideas as your spells. “Our Excellence lies in the way we push our limits”. Push your limits and create magical and electro logical solutions that can solve complex real world problems."
 			}
 		},
 		{
@@ -276,7 +294,7 @@
 	],
 	"CEA": [{
 			"organizers": "N Vikshay rao",
-			"yearBranch": "",
+			"yearBranch": "MATA/3rd",
 			"contact": "9491657359",
 			"regFee": "250/-",
 			"Sno": "16",
@@ -616,7 +634,7 @@
 			"event": "Vulcanzy idol",
 			"noOfLevels": "",
 			"description": {
-				"small": "random text",
+				"small": "Get ready to unleash the musician in you as the Music Club presents the Vulcanzy Idol, a platform for you to showcase your talent in the field of music, be it singing or playing instruments. You can either rock it solo or perform in a band of maximum 4 members with instruments.",
 				"big": "Get ready to unleash the musician in you as the Music Club presents the Vulcanzy Idol, a platform for you to showcase your talent in the field of music, be it singing or playing instruments. You can either rock it solo or perform in a band of maximum 4 members with instruments."
 			}
 		},
@@ -634,7 +652,7 @@
 			"event": "lyrical maestro ",
 			"noOfLevels": "",
 			"description": {
-				"small": "random text",
+				"small": "Are you the kind of person who knows the lines to any song that every random person hums? You might be a source of irritation to others but your talent could be worth calling yourself the 'Lyrical Maestro' of NIT Andhra Pradesh! Show off your knowledge in the exciting rounds of this event. ",
 				"big": "Are you the kind of person who knows the lines to any song that every random person hums? You might be a source of irritation to others but your talent could be worth calling yourself the 'Lyrical Maestro' of NIT Andhra Pradesh! Show off your knowledge in the exciting rounds of this event. "
 			}
 		},
@@ -652,7 +670,7 @@
 			"event": "Guess it Win it ",
 			"noOfLevels": "",
 			"description": {
-				"small": "random text",
+				"small": "Think you are an ardent music fan? You might have to rethink now. Guess it.. win it.. is a fun but competitive event which is purely based on the quick response of the participants and their knowledge about music in general. So grab a partner and test yourself!",
 				"big": "Think you are an ardent music fan? You might have to rethink now. Guess it.. win it.. is a fun but competitive event which is purely based on the quick response of the participants and their knowledge about music in general. So grab a partner and test yourself! "
 			}
 		},
@@ -670,7 +688,7 @@
 			"event": "Song slam",
 			"noOfLevels": "",
 			"description": {
-				"small": "random text",
+				"small": "Enough of our college, it's time others get to know your potential in singing. We bring to you Song Slam, an online singing event. Let's see how much everyone admires your talent and watch your popularity on Instagram shoot up! Sing a song (without karaoke) and post it in the Instagram by tagging it with our Instagram account(_musicclub_nitandhra), based on the number of likes winner will be decided. Songs of any language are allowed. You can even sing in a group of two or three people. Get double-taps and be the champion!",
 				"big": "Enough of our college, it's time others get to know your potential in singing. We bring to you Song Slam, an online singing event. Let's see how much everyone admires your talent and watch your popularity on Instagram shoot up! Sing a song (without karaoke) and post it in the Instagram by tagging it with our Instagram account(_musicclub_nitandhra), based on the number of likes winner will be decided. Songs of any language are allowed. You can even sing in a group of two or three people. Get double-taps and be the champion!"
 			}
 		}
@@ -853,7 +871,7 @@
 			"event": "BEST OUT OF WASTE",
 			"noOfLevels": "",
 			"description": {
-				"small": "random text",
+				"small": "Engineering can be simply defined as SMART WORK. Create the best of out nothing so that it can ease our life. In this event you need to use easily available, household items to make an output related to science or something which will make our life simple. We will provide everyone with some basic tools and equipment but you have to make the best out of it. Can you be the most creative person and win this event? ",
 				"big": "Engineering can be simply defined as SMART WORK. Create the best of out nothing so that it can ease our life. In this event you need to use easily available, household items to make an output related to science or something which will make our life simple. We will provide everyone with some basic tools and equipment but you have to make the best out of it. Can you be the most creative person and win this event? "
 			}
 		},
@@ -871,7 +889,7 @@
 			"event": "LAZY HOVER V1.0",
 			"noOfLevels": "",
 			"description": {
-				"small": "random text",
+				"small": "Have you ever fantasized about riding on a cool hover board like in Back to the Future 2? Were you ever mad that such a technology had not been created yet, or had been faked as a prank (yes, Back to the Future fans, I know you know what I am talking about)? Well, wait no longer! Remember those blot planks that everybody hangs around? In the upcoming Vulcanzy we are going to build our own electric hover board using a 12V DC motor, a small tire, and a household item at home that you can trip. Do you think you have what it takes to drive your own hoverboard?",
 				"big": "Have you ever fantasized about riding on a cool hover board like in Back to the Future 2? Were you ever mad that such a technology had not been created yet, or had been faked as a prank (yes, Back to the Future fans, I know you know what I am talking about)? Well, wait no longer! Remember those blot planks that everybody hangs around? In the upcoming Vulcanzy we are going to build our own electric hover board using a 12V DC motor, a small tire, and a household item at home that you can trip. Do you think you have what it takes to drive your own hoverboard? "
 			}
 		},
@@ -889,7 +907,7 @@
 			"event": "Van De Graff Generator",
 			"noOfLevels": "",
 			"description": {
-				"small": "random text",
+				"small": "A Van de Graaff generator is an electrostatic generator which uses a moving belt to accumulate electric charge on a hollow metal globe on the top of an insulated column, creating very high electric potentials. It produces very high voltage direct current electricity at low current levels.",
 				"big": "A Van de Graaff generator is an electrostatic generator which uses a moving belt to accumulate electric charge on a hollow metal globe on the top of an insulated column, creating very high electric potentials. It produces very high voltage direct current electricity at low current levels. This event includes the demonstration and application of Van De Graff Generator. Fun Activities in store for you:- 1. Rising of hairs due to movement of electrons. 2. Sparking effect by movement of electrons between discharge ball and van der graff generator in dark. 3. Also flying of rice crispe over the van De graff generator due to electric field of van De graff generator. 4. Movement of fur over van der graff generator."
 			}
 		},
@@ -907,7 +925,7 @@
 			"event": "LANTERN MAKING",
 			"noOfLevels": "",
 			"description": {
-				"small": "random text",
+				"small": "Have you ever dreamt about being a designer? Well, here is your chance! What you need is nothing but imagination skills to showcase your talents. This event is about designing hanging lanterns using paper. Just tell us how many papers and what colours you require. The most wonderful thing is that these lanterns will be hanging all over the campus during the fest!",
 				"big": "Have you ever dreamt about being a designer? Well, here is your chance! What you need is nothing but imagination skills to showcase your talents. This event is about designing hanging lanterns using paper. Just tell us how many papers and what colours you require. The most wonderful thing is that these lanterns will be hanging all over the campus during the fest! "
 			}
 		},
@@ -925,8 +943,8 @@
 			"event": "RUN TO WIN",
 			"noOfLevels": "",
 			"description": {
-				"small": "random text",
-				"big": "Are you the kind of person who knows the lines to any song that every random person hums? You might be a source of irritation to others but your talent could be worth calling yourself the 'Lyrical Maestro' of NIT Andhra Pradesh! Show off your knowledge in the exciting rounds of this event. "
+				"small": "Are you the kind of person who knows the lines to any song that every random person hums? You might be a source of irritation to others but your talent could be worth calling yourself the 'Lyrical Maestro' of NIT Andhra Pradesh! Show off your knowledge in the exciting rounds of this event. ",
+				"big": "This event is a combination of 5 games. Teams which win each round will be given a hint at the end of each game. They have to follow the hints to find the treasure.\n\nCoin collector\n\nA chess board is given to a player with each box consisting of one coin and a knight. The player should be starting from a box(of his interest) and the knight should be moved in ‘L’ shape and the coins should be collected. Player could collect as many coins of his wish. The knight cannot be moved to a box without a coin. Whoever collects the most number of coins wins.\n\nPin the tail\n\nA team of two are selected. The player is shown a picture of an animal without a tail. The player's eyes are blind folded with a cloth and he should pin the tail at the correct place with the instructions of other team mate.The teammate who gives instructions should tell only left,right,top,bottom only.\n\nSwing Hit\n\nA bob is tied to a string and is given to the player. The player must be holding the string and with that bob he has to swing the pendulum to hit the glasses which are numbered.The glasses should be hit in the order of numbers given.\n\nTag-Two\n\nA team of two are selected and one team mate is given a radium ball to throw into a open-close type dustbin. The other team mate should stand at the dustbin and he should tap the button of dustbin at the time of throw.\n\nRubik’s cubeA 3*3 rubik’s cube is to be solved. No time limit. The team which solves it the fastest will be considered the  winner."
 			}
 		}
 	],
@@ -944,7 +962,7 @@
 			"event": "MEME-finity war",
 			"noOfLevels": "",
 			"description": {
-				"small": "random text",
+				"small": "Don't you guys wonder what you get other than followers by sharing and posting memes??\n\nSo the time has come to take your buried treasure of punchlines out in the world. It's an opportunity for you to make silent pictures speak and make the viewers not scroll down without a thumbs up and share.\n\nLoad your meme gun and buckle up for the war.",
 				"big": "lot of random text"
 			}
 		},
@@ -962,7 +980,7 @@
 			"event": "Boomerang",
 			"noOfLevels": "",
 			"description": {
-				"small": "random text",
+				"small": "Have you ever been to past?\n\nPlausibly no right!\n\nHow about a machine rewinding the time for you.\n\nYes its a boomerang challenge guys. Hurry up with the best Boomerang videos of yours let the world acknowledge them.",
 				"big": "lot of random text"
 			}
 		},
@@ -980,7 +998,7 @@
 			"event": "Tell a Tale",
 			"noOfLevels": "",
 			"description": {
-				"small": "random text",
+				"small": "Here comes the most short and sweet event of VULCANZY 2K19. Now all you have to do is accelerate the pedal and run your brain to give out a mini script.So what are you waiting for grab this opportunity and showcase your talent.",
 				"big": "lot of random text"
 			}
 		},
@@ -998,7 +1016,7 @@
 			"event": "Short film",
 			"noOfLevels": "",
 			"description": {
-				"small": "random text",
+				"small": "Ever thought how the Dragons flies in GOT Or how Hobbs and Shaw fascinates the lifes of many, If yes then the time is here for you to make the HULK in you  pop out and Show the world your creativity in the form of a SHORT FILM SHOWDOWN. So get ready to Act,Direct, Compete and Conquer.",
 				"big": "lot of random text"
 			}
 		},
@@ -1016,7 +1034,7 @@
 			"event": "Dance competition",
 			"noOfLevels": "",
 			"description": {
-				"small": "random text",
+				"small": "To all the dancers who fly without wings,\n\nwho dance instead of walking and\n\nWho desire gratification for their loved passion...\n\nHere is the rocking platform for you to rock!\n\nDND once again came to you with a dance competition DANZAMANIO for VULCANZY",
 				"big": "lot of random text"
 			}
 		},
@@ -1034,7 +1052,7 @@
 			"event": "Drama competition",
 			"noOfLevels": "",
 			"description": {
-				"small": "random text",
+				"small": " Xpress Your Heart Out! Ever felt that theatre was your calling? Ever been called a ‘nautankibaaz’ by your friends? Ever felt like going mad on stage? Ever felt like making people cry or laugh with your drama? Ever felt to see your Short stories in a form of movie?\n\nIf yes, well then, Xpressions is the place to be. With a platform amalgamating your talent in acting with a lot of fun and masti, NIT Andhra Pradesh welcomes you for a drama competition.",
 				"big": "lot of random text"
 			}
 		}
