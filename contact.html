@@ -24,18 +24,22 @@
 
 
   <script>
-    function waiter() {
-      if (document.all) {
-        document.all["layer1"].style.visibility = "hidden";
-        document.all["layer1"].style.position = "absolute";
-        document.all["layer2"].style.visibility = "visible";
-      } else if (document.getElementById) {
-        node = document.getElementById("layer1").style.visibility = 'hidden';
-        node = document.getElementById("layer1").style.position = 'absolute';
-        node = document.getElementById("layer2").style.visibility = 'visible';
+  function waiter() {
+            if (document.all){
+               
+               document.all["layer1"].classList.add("animated","fadeOut");
+               document.all["layer1"].style.zIndex = "-100" ; 
+                document.all["layer2"].style.visibility="visible";
+            } else if (document.getElementById){
+                
+                node = document.all["layer1"].classList.add("animated", "fadeOut");
+                document.all["layer1"].style.zIndex = "-100" ; 
+                //node = document.getElementById("layer1").style.display='none';
+                node = document.getElementById("layer2").style.visibility='visible';
 
-      }
-    }
+            }
+          }
+
   </script>
   <title> VULCANZY-2K19</title>
 </head>
@@ -60,18 +64,7 @@
   // remove this setTimeout wrapper later
 
 
-  function waiter() {
-    if (document.all) {
-      document.all["layer1"].style.visibility = "hidden";
-      document.all["layer1"].style.position = "absolute";
-      document.all["layer2"].style.visibility = "visible";
-    } else if (document.getElementById) {
-      node = document.getElementById("layer1").style.visibility = 'hidden';
-      node = document.getElementById("layer1").style.position = 'absolute';
-      node = document.getElementById("layer2").style.visibility = 'visible';
-
-    }
-  }
+  
 </script>
 
 <body onload="waiter()">
