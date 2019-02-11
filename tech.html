@@ -682,7 +682,7 @@
     document.getElementById("eventList").style.display = "block";
     $.getJSON("./eventData.json", function(d) {
       for (var i = 0; i < 10; i++) {
-        $(".information").append('<div class="jumbotron rounded  text-center" style= "background-color: paleyellow" > <h1 style="position: relative;" class="display-8">' +
+        $(".information").append('<div class="jumbotron rounded  text-center" style= "background-color: paleyellow;height:350px;width:1000px" > <h1 style="position: relative;" class="display-8">' +
           d.ECEA[i].event +
           '</h1> <hr class="my-4"><p>' + d.ECEA[i].description.small + '</p> <br /><p class=""> ROUNDS: ' +
           d.ECEA[i].noOfLevels +
