@@ -96,7 +96,7 @@ function generatePDF(name , email,mobile,gender,college,COLLOQ1,CRYPTO1,VIRTUE1,
 		doc.text(21, 105, "Gender : "+gender);
         doc.text(21, 120, "College : "+college);
         doc.setFontSize(18);
-	doc.text(75,140, "EVENTS REGISTERED " );
+	doc.text(73,140, "EVENTS REGISTERED " );
         doc.setFontSize(14);
 	doc.text(21,160, "Colloquim : "+COLLOQ1 );
         doc.text(21,175, "Cryptoteon : "+CRYPTO1 );
