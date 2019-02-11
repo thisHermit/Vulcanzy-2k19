@@ -27,14 +27,14 @@
 
 function waiter() {
             if (document.all){
-               
+
                document.all["layer1"].classList.add("animated","fadeOut");
-               document.all["layer1"].style.zIndex = "-100" ; 
+               document.all["layer1"].style.zIndex = "-100" ;
                 document.all["layer2"].style.visibility="visible";
             } else if (document.getElementById){
-                
+
                 node = document.all["layer1"].classList.add("animated", "fadeOut");
-                document.all["layer1"].style.zIndex = "-100" ; 
+                document.all["layer1"].style.zIndex = "-100" ;
                 //node = document.getElementById("layer1").style.display='none';
                 node = document.getElementById("layer2").style.visibility='visible';
 
@@ -295,7 +295,7 @@ function waiter() {
     <button type="button" name="button" class="sidenav_button fa fa-bars shadow-lg rounded" onclick="openNav()"></button>
 
     <div id="layer2" class="layer2_class align-self-center">
-      
+
 
       <div id="side_nav" class="sidenav">
 
@@ -664,7 +664,7 @@ function waiter() {
             ' <br/> CONTACT: &nbsp;' +
             d.CSEA[i].contact +
             '   <br/> EMAIL: &nbsp;' +
-            d.CSEA[i].emailid 
+            d.CSEA[i].emailid
             //'<div id = "more' +
            // i +
            // '" style="display:none;">' +
@@ -806,7 +806,7 @@ function waiter() {
       }
     });
     $(".layer2_class").append('<a class="btn btn-primary btn-lg" style="top:0;right:0;position:absolute" href="./authIndividual/biot/BEA_register.html" role="button">Register</a>');
-  }); 
+  });
   $(".cea").click(function() {
     document.getElementById("menuList").style.display = "none";
     document.getElementById("eventList").style.display = "block";
@@ -889,7 +889,6 @@ function waiter() {
 
   function moreButton(i, elem) {
     var x = document.getElementById("more" + i);
-    console.log(this);
     if (x.style.display === "none") {
       x.style.display = "block";
       elem.innerHTML = "Less";
