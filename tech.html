@@ -661,14 +661,14 @@
             d.CSEA[i].contact +
             '   <br/> EMAIL:' +
             d.CSEA[i].emailid +
-            '<div id = "more' +
-            i +
-            '" style="display:none;">' +
-            d.CSEA[i].description.big +
-            '</div>' +
-            '<p class="lead"> <button onclick="moreButton(' +
-            i +
-            ', this)">More</a></button> </div>'
+            //'<div id = "more' +
+           // i +
+           // '" style="display:none;">' +
+           // d.CSEA[i].description.big +
+          //  '</div>' +
+          //  '<p class="lead"> <button onclick="moreButton(' +
+          //  i +
+           /// ', this)">More</a></button> </div>'
           );
 
         }
@@ -680,7 +680,7 @@
     document.getElementById("eventList").style.display = "block";
     $.getJSON("./eventData.json", function(d) {
       for (var i = 0; i < 10; i++) {
-        $(".information").append('<div class="jumbotron rounded  text-center" style= "background-color: paleyellow;height:100px;width:250px" > <h1 style="position: relative;" class="display-8">' +
+        $(".information").append('<div class="jumbotron rounded  text-center" style= "background-color: #e9961bf6;" > <h1 style="position: relative;" class="display-8">' +
           d.ECEA[i].event +
           '</h1> <hr class="my-4"><p>' + d.ECEA[i].description.small + '</p> <br /><p class=""> ROUNDS: ' +
           d.ECEA[i].noOfLevels +
