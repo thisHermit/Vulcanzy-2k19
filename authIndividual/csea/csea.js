@@ -80,7 +80,7 @@ function getInputVal(id)
 {
     return document.getElementById(id).value;
 }
-function generatePDF(name , email,mobile,gender,college,COLLOQ,CRYPTO,VIRTUE,CODESP)
+function generatePDF(name , email,mobile,gender,college,COLLOQ1,CRYPTO1,VIRTUE1,CODESP1)
 {
     var doc = new jsPDF('portrait', 'mm', 'a4');
 	var img = new Image();
@@ -98,10 +98,10 @@ function generatePDF(name , email,mobile,gender,college,COLLOQ,CRYPTO,VIRTUE,COD
         doc.setFontSize(18);
 	doc.text(75,140, "EVENTS REGISTERED " );
         doc.setFontSize(14);
-	doc.text(21,160, "Colloquim : "+COLLOQ );
-        doc.text(21,175, "Cryptoteon : "+CRYPTO );
-        doc.text(21,190, "Virtually True : "+VIRTUE );
-        doc.text(21,205, "Code Sprint : "+CODESP );
+	doc.text(21,160, "Colloquim : "+COLLOQ1 );
+        doc.text(21,175, "Cryptoteon : "+CRYPTO1 );
+        doc.text(21,190, "Virtually True : "+VIRTUE1 );
+        doc.text(21,205, "Code Sprint : "+CODESP1 );
         doc.text(21, 280, "CAMPUS AMABASSADOR SIGNATURE :");
 	//doc.addImage(img, 'PNG',42,70, 126, 160);	
 	doc.save(name+"Vulcanzy");
