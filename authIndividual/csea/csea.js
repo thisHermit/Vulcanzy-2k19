@@ -73,8 +73,8 @@ function submitForm(e){
 }
 function checkvalue(val)
 {
-    if(val==1) return "yes";
-    else return "no";
+    if(val==1) return "Yes";
+    else return "No";
 }
 function getInputVal(id)
 {
@@ -94,7 +94,7 @@ function generatePDF(name , email,mobile,gender,college,COLLOQ,CRYPTO,VIRTUE,COD
         doc.text(21, 75, "E-Mail : "+email);
         doc.text(21, 90, "Mobile : "+mobile);
 		doc.text(21, 105, "Gender : "+gender);
-        doc.text(21, 120, "College :"+college);
+        doc.text(21, 120, "College : "+college);
         doc.setFontSize(18);
 	doc.text(75,140, "EVENTS REGISTERED " );
         doc.setFontSize(14);
