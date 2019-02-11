@@ -1,9 +1,4 @@
 
-@font-face {
-  /* font credit goes to II year cse guys */
-  font-family: 'harry';
-  src: URL('./harry.ttf') format('truetype');
-}
 body::-webkit-scrollbar {
   width: 0px; /* remove scrollbar space /
   background: transparent; / optional: just make scrollbar invisible /
@@ -42,7 +37,7 @@ animation: moverGrad 2s ease infinite
 }
 
 .layer1_class{
-  font-family: harry;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   font-size: 1000%;
   text-align: center;
   z-index: 40;
