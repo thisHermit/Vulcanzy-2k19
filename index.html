@@ -578,9 +578,9 @@
     if ( hash ) hash = parseInt( hash, 0 );
 
     /* TEXTURE WIDTH FOR SIMULATION */
-    var WIDTH = hash || 16;
+    var WIDTH = hash || 8;
 
-    var BIRDS = 256;
+    var BIRDS = 128;
 
     // Custom Geometry - using 3 triangles each. No UVs, no normals currently.
     THREE.BirdGeometry = function () {
@@ -1101,19 +1101,19 @@
 
     <div id="layer2" class="layer2_class align-self-center">
 <div class="" style = "position:absolute; right: 0px; top: 0px;">
-  <img src="./logos/Logos/logo vulcanzy final crisp white.png" style = "height:40px; width: 80px;">
+  <img src="./logos/Logos/official task force logo.png" style = "height:80px; width: 160px;">
 </div>
-      <div style= "position: absolute; height: 100%; width: 100%; z-index: -1; left: 0px;" > 
-    <center><img src="./logos/Logos/logo vulcanzy final crisp black.png" style="opacity: .2; height: 40vw; width: 85vw; left: 0px;"  ></center>
+      <div style= "position: absolute; height: 100%; width: 100%; z-index: -1; left: 0px;" >
+    <center><img src="./logos/Logos/logo vulcanzy final crisp black.png" style="opacity: .2; height: 60vw; width: 100vw; left: 0px;"  ></center>
       </div>
 
       <!-- nav bar is better in layer 2 -->
 <style>
 .glow {
-  
- 
-  
-  text-shadow: 0 0 55px #000000, 0 0 20px #141414, 0 0 30px #303030, 0 0 40px #161616, 0 0 50px #111111, 0 0 60px #222222, 0 0 100px #1b1b1b;
+
+
+
+  text-shadow: 0 0 15px #f9d342, 0 0 20px #f8ce24, 0 0 30px #fdd120, 0 0 40px #facb0f, 0 0 50px #fccc0b, 0 0 60px #ffce0c, 0 0 70px #ffce08;
 
 }
 
@@ -1130,10 +1130,10 @@
           NIT - ANDHRA PRADESH
 
         </p>
-        <p style="font-size: 30px; color : black  ; font-weight: 400; " class="text-center  animated pulse delay-1s">
+        <p style="font-size: 30px; color : black ; font-weight: 400;" class="text-center  animated pulse delay-1s">
           We will be live in
         </p>
-    
+
         <!--
       <p style="font-size: 20px; color : whitesmoke ; font-weight: 200" class="text-center  animated pulse delay-1s ">
         MARCH 12 - MARCH 15
@@ -1308,7 +1308,23 @@
     var layerthree = document.getElementById("layer3").classList.add("fadeInUp");
     var layerthree = document.getElementById("layer2").classList.remove("fadeIn");
   }
+  /* window.onscroll = function() {
+    scrollFunction()};
 
+  function scrollFunction() {
+    var value = window.scrollY;
+
+    if (value > 1 || value > 1 ) {
+
+      document.getElementById("layer2").style.display = "none";
+      document.getElementById("layer3").style.display = "block";
+
+      var layerthree = document.getElementById("layer3").classList.add("fadeInUp");
+      var layerthree = document.getElementById("layer2").classList.remove("fadeIn");
+    }
+
+
+  */
 
 
 
@@ -1326,7 +1342,7 @@
   }
 
   // count down timer for vulcanzy
-  var countDownDate = new Date("March 12, 2019").getTime();
+  var countDownDate = new Date("March 15, 2019").getTime();
 
 
   var x = setInterval(function() {
