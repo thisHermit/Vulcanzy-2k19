@@ -25,14 +25,17 @@
 
   <script>
 
-    function waiter() {
+function waiter() {
             if (document.all){
-                document.all["layer1"].style.visibility="hidden";
-                document.all["layer1"].style.position = "absolute";
+               
+               document.all["layer1"].classList.add("animated","fadeOut");
+               document.all["layer1"].style.zIndex = "-100" ; 
                 document.all["layer2"].style.visibility="visible";
             } else if (document.getElementById){
-                node = document.getElementById("layer1").style.visibility='hidden';
-                node = document.getElementById("layer1").style.position='absolute';
+                
+                node = document.all["layer1"].classList.add("animated", "fadeOut");
+                document.all["layer1"].style.zIndex = "-100" ; 
+                //node = document.getElementById("layer1").style.display='none';
                 node = document.getElementById("layer2").style.visibility='visible';
 
             }
