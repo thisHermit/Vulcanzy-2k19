@@ -13,7 +13,7 @@
 			"event": "COLLOQUIUM",
 			"noOfLevels": "3",
 			"description": {
-				"small": " It is an amusing event filled with bliss whose maxim is revive your light and realize your worth. This includes questions with lateral and rational thinking, Pictionary and many other fillers.",
+				"small": "It is an amusing event filled with bliss whose maxim is revive your light and realize your worth. This includes questions with lateral and rational thinking, Pictionary and many other fillers.",
 				"big": " It is an amusing event filled with bliss whose maxim is revive your light and realize your worth. This includes questions with lateral and rational thinking, Pictionary and many other fillers."
 			}
 
@@ -84,10 +84,10 @@
 			"duration": "ONE DAY",
 			"roomCapacity": "150",
 			"emailid": "subhamnitap@gmail.com",
-			"event": "VIRTUALLY TRUE",
+			"event": "WORKSHOP ON CRYPTOGRAPHY",
 			"noOfLevels": "       - ",
 			"description": {
-				"small": "random text",
+				"small": "Do you think your messages can be corrupted?? Well, they can be. Then how to circumvent this? Here we help you in complete understanding of Cryptography",
 				"big": "lot of random text"
 			}
 		}
@@ -179,8 +179,8 @@
 			"event": "ALL ABOUT CIRCUITS",
 			"noOfLevels": "",
 			"description": {
-				"small": "random text",
-				"big": "lot of random text"
+				"small": "Do you wish to be declared as the King of 'The Circuit Throne'? Prove your worth by defeating  your opponents in the field of Circuitry. Form a team of two or three members and rectify faulty circuits, determine outputs and design problems. What are you waiting for? Let the challenge begin!",
+				"big": "Do you wish to be declared as the King of 'The Circuit Throne'? Prove your worth by defeating  your opponents in the field of Circuitry. Form a team of two or three members and rectify faulty circuits, determine outputs and design problems. What are you waiting for? Let the challenge begin!"
 			}
 		},
 		{
@@ -197,8 +197,8 @@
 			"event": "ARCHIPELAGO",
 			"noOfLevels": "",
 			"description": {
-				"small": "random text",
-				"big": "lot of random text"
+				"small": "Ever heard of 'mass extinctions'? During the past 500 million years, there have been 5 mass extinctions due to natural climate changes, huge volcanic eruptions or catastrophic meteor strikes. But now, scientists say we're on the verge of a 6th one and this time, we are responsible for our own destruction. Join us on a platform where you can present your ideas to combat Global Warming. You can do it in the form of a presentation, a paper or simply speak your heart out. The team to come up with the most innovative and economical idea will be recognized and possibly sponsored. A little idea can go a long way! Do your bit to help save our Earth.",
+				"big": "ver heard of 'mass extinctions'? During the past 500 million years, there have been 5 mass extinctions due to natural climate changes, huge volcanic eruptions or catastrophic meteor strikes. But now, scientists say we're on the verge of a 6th one and this time, we are responsible for our own destruction. Join us on a platform where you can present your ideas to combat Global Warming. You can do it in the form of a presentation, a paper or simply speak your heart out. The team to come up with the most innovative and economical idea will be recognized and possibly sponsored. A little idea can go a long way! Do your bit to help save our Earth."
 			}
 		},
 		{
@@ -215,8 +215,8 @@
 			"event": "BACK TO THE ORIGINS",
 			"noOfLevels": "",
 			"description": {
-				"small": "random text",
-				"big": "lot of random text"
+				"small": "We present a new twist to the classic treasure hunt! But this time, scientists are the treasure. Bag points by finding the scientists scattered throughout the campus and answering their mysterious questions. The duo with the maximum points will take home the prize. Gear up and get ready to time-travel back to the era of major scientific breakthroughs! ",
+				"big": "We present a new twist to the classic treasure hunt! But this time, scientists are the treasure. Bag points by finding the scientists scattered throughout the campus and answering their mysterious questions. The duo with the maximum points will take home the prize. Gear up and get ready to time-travel back to the era of major scientific breakthroughs! "
 			}
 		},
 		{
@@ -233,8 +233,8 @@
 			"event": "AMALGAMATE",
 			"noOfLevels": "",
 			"description": {
-				"small": "random text",
-				"big": "lot of random text"
+				"small": "Which is better? Being an introvert or an extrovert? Maybe this event could give a possible answer. Test your team working and individuality skills by registering individually. You will be divided into two groups: Amalgams and Gangues. The Amalgams' goal is to coalesce despite the efforts made by the Gangues to disintegrate their bond. If you're a Gangue, you must try your best to break the bonds of the Amalgams. Let's see how interesting things turn out to be! ",
+				"big": "Which is better? Being an introvert or an extrovert? Maybe this event could give a possible answer. Test your team working and individuality skills by registering individually. You will be divided into two groups: Amalgams and Gangues. The Amalgams' goal is to coalesce despite the efforts made by the Gangues to disintegrate their bond. If you're a Gangue, you must try your best to break the bonds of the Amalgams. Let's see how interesting things turn out to be! "
 			}
 		},
 		{
@@ -251,8 +251,8 @@
 			"event": "DECEPTION",
 			"noOfLevels": "",
 			"description": {
-				"small": "random text",
-				"big": "lot of random text"
+				"small": "Are you into live multiplayer games involving technology? Here is your chance to beguile us with your intuitive skills! Grab a trusted partner and begin your task. On the journey, you will design your own gun using electromagnetics, rediscover Tesla's wireless communication and encounter many rewards. Remember not to get short circuited! ",
+				"big": "Are you into live multiplayer games involving technology? Here is your chance to beguile us with your intuitive skills! Grab a trusted partner and begin your task. On the journey, you will design your own gun using electromagnetics, rediscover Tesla's wireless communication and encounter many rewards. Remember not to get short circuited! "
 			}
 		},
 		{
@@ -269,7 +269,7 @@
 			"event": "PROJECT EXPO",
 			"noOfLevels": "",
 			"description": {
-				"small": "random text",
+				"small": "PROJECT EXPO",
 				"big": "lot of random text"
 			}
 		},
@@ -287,7 +287,7 @@
 			"event": "PAPER PRESENTATION",
 			"noOfLevels": "",
 			"description": {
-				"small": "random text",
+				"small": "PAPER PRESENTATION",
 				"big": "lot of random text"
 			}
 		}
@@ -303,10 +303,10 @@
 			"duration": "24x3",
 			"roomCapacity": "100+",
 			"emailid": "vikshayrao@gmail.com",
-			"event": "Civilopedia",
+			"event": "Crack the Structure",
 			"noOfLevels": "1",
 			"description": {
-				"small": "random text",
+				"small": "We civil engineers are structural wizards! we do magic with our designing skills. Can you do magic with your designing skills? then design a structure using STAADPRO according to the given problem statement tackle the real world problems and be a pro at it.",
 				"big": "lot of random text"
 			}
 		},
@@ -324,7 +324,7 @@
 			"event": "Crack The Structure",
 			"noOfLevels": "1",
 			"description": {
-				"small": "random text",
+				"small": "Do you get astonished by the beauty of Brooklyn bridge, mesmerized by the length of the Danyang bridge?? Are you one of those who are impressed by the mega structures and their constructions and principles? well we have got some amazing events for your inquisitive mind. This time the CEA come with a great event where you are going to get the opportunity to design, analyze and build a bridge of your own!! CEA here comes up with a popsicle bridge construction event” POPTICLE”.",
 				"big": "lot of random text"
 			}
 		},
@@ -342,7 +342,7 @@
 			"event": "Con-Create",
 			"noOfLevels": "1",
 			"description": {
-				"small": "random text",
+				"small": "Walking on a bridge, it is highly likely that you wonder about its construction, about its strength, its durability and its aesthetics being a civil engineer. so here this time we give you people an opportunity to flaunt your designing skills in the arch designing competition.",
 				"big": "lot of random text"
 			}
 		},
@@ -360,7 +360,7 @@
 			"event": "Paperesento",
 			"noOfLevels": "1",
 			"description": {
-				"small": "random text",
+				"small": "Ever thought how many ideas did you get every day and how many of them can revolutionize this world, Don't judge Yourself let the Experts judge it. So here we come with an event to give your ideas a platform to fly in the open sky.",
 				"big": "lot of random text"
 			}
 		},
@@ -378,7 +378,7 @@
 			"event": "Ask me Anything",
 			"noOfLevels": "3",
 			"description": {
-				"small": "random text",
+				"small": "Walking on a bridge, it is highly likely that you wonder about its construction, about its strength, its durability and its aesthetics being a civil engineer. so here this time we give you people an opportunity to flaunt your designing skills in the arch designing competition.",
 				"big": "lot of random text"
 			}
 		},
@@ -396,7 +396,7 @@
 			"event": "Ville Intelligente",
 			"noOfLevels": "1",
 			"description": {
-				"small": "random text",
+				"small": "Ever thought the pace at which the technologies are growing these days, so you must be familiar with the modern as well as the most effective technical knowledge so that to meet the growing competition worldwide. And one of best way is a quiz where you can compete with the best mind and also can learn new things. ",
 				"big": "lot of random text"
 			}
 		}
@@ -415,7 +415,7 @@
 			"event": "One Thrust 2.0",
 			"noOfLevels": "3",
 			"description": {
-				"small": "random text",
+				"small": "Have you ever dreamt of flying your own rocket? 'THRUST' is the ideal platform for you to show off your understanding of pressure control and fluid dynamics. Tap into your creativity and build a clean, safe and novel rocket by applying the effects of drag force on a dynamic domain. Your fuel can be as simple as water! Whether you have a passion for physics or design, you will experience the fun in true engineering at this event. So form a team of two or three and bag exciting cash prizes!",
 				"big": "lot of random text"
 			}
 		},
@@ -433,7 +433,7 @@
 			"event": "Riddle hurdles",
 			"noOfLevels": "3",
 			"description": {
-				"small": "random text",
+				"small": "Are you ready for the biggest event in the history of Vulcanzy? This event has been so popular in the past that we had to come back and conduct the next installment! If you're a person who gets thrills from solving mysteries and puzzles, then this event will cater to your needs. So what are you waiting for? Grab your Sherlock hat, your Watson and showcase your case-cracking skills.",
 				"big": "lot of random text"
 			}
 		},
@@ -451,7 +451,7 @@
 			"event": "Wax mock-up",
 			"noOfLevels": "1",
 			"description": {
-				"small": "random text",
+				"small": "Remember playing with clay as a child? Relive those memories but this time with a twist...wax!  You will be provided with all the materials required to prepare a mould of a particular pattern. The next step is to transform your mould into a wax cast. Ensure your masterpiece has the  best shape, surface finish and minimum defects and declare yourselves as the winners! It's a first come, first serve event so hurry up and enroll soon! ",
 				"big": "lot of random text"
 			}
 		},
@@ -469,7 +469,7 @@
 			"event": "What's beyond",
 			"noOfLevels": "2",
 			"description": {
-				"small": "random text",
+				"small": "The MMEA and MEA are happy to present 'WHAT'S BEYOND', the ultimate inquisitive quiz. How well do you know how things work? All you need for this event are some basic principles of science and your common sense. Frequent magazine visit can help you climb a step closer to victory. Apply your brain to real world applications and become the champion!",
 				"big": "lot of random text"
 			}
 		}
@@ -543,7 +543,7 @@
 			"event": "AMMC(Aircraft Modelling and Maneuvering Challange)",
 			"noOfLevels": "",
 			"description": {
-				"small": "random text",
+				"small": "A fun and tech filled event where the cheers of the crowd will cheer up the participants to maneuver their mini RC aircrafts into the sky. The judgement will be based upon crowd’s Aww moments which the RC mini aircraft would have to earn by performing tricks!",
 				"big": "lot of random text"
 			}
 		},
@@ -561,7 +561,7 @@
 			"event": "GISS(Godavari Innovation for Society Summit)",
 			"noOfLevels": "",
 			"description": {
-				"small": "random text",
+				"small": "The search has begun for all the innovative minds that can think for new and better solutions to problems existing in Agri, IT, educational and other sectors. The competition invites participation from students who can solve real life based problems providing impactful, feasible and economical solutions. The summit will involve enlightening speakers from respective fields and shortlisted participants will get a chance to present their ideas aided with presentation/ prototype/ simulation etc.\n\nVoice your opinion and be a change-maker!",
 				"big": "lot of random text"
 			}
 		},
@@ -579,7 +579,7 @@
 			"event": "MARC(Mechanism and Robotics Championship)",
 			"noOfLevels": "",
 			"description": {
-				"small": "random text",
+				"small": "From the Curiosity Rover to a simple door, mechanisms involved are limitless! Every once in a while, a new technology, an old problem and a small idea turn into an innovation. Do you have any potential idea that can create magic? This is the right platform for you and the best entrants will be given project sponsorship (tentative). ",
 				"big": "lot of random text"
 			}
 		},
@@ -615,7 +615,7 @@
 			"event": "Workshop&Quizzes",
 			"noOfLevels": "",
 			"description": {
-				"small": "random text",
+				"small": "Participants have to design RC bots. These manually controlled RC bots will compete against each other in a restricted arena. Performance will be evaluated based on  the design, action strategy, the mounted weapons system and their defence tactics. Minimal rules, passionate teams, hardworked bots, monsterous weapons and goosebumps all around.\n\nBe War-ready!",
 				"big": "lot of random text"
 			}
 		}
