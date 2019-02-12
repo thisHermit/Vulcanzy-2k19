@@ -165,39 +165,39 @@
 			}
 		},
 		 {
-			"organizers": "Karisma",
+			"organizers": "Arshiya Anjum, V. Shivani",
 			"yearBranch": "ECE / II",
-			"contact": "7656947854",
-			"regFee": "-",
-			"Sno": "8",
+			"contact": "9492785600, 8897602648",
+			"regFee": "Rs. 300",
+			"Sno": "9",
 			"max_registrations": "-",
 			"place": "INDOOR",
 			"duration": "-",
 			"roomCapacity": "-",
-			"emailid": "eceanitandhra@gmail.com",
+			"emailid": "ecemazevulcanzy19@gmail.com",
 			"event": "CAZZLE",
 			"noOfLevels": "-",
 			"description": {
-				"small": "random text",
+				"small": " Participants have to design  and build a car which is capable of escaping the maze in the shortest possible time. The car should only be built using limited components given by us . The model must be able to drive through the maze from one corner to another. The car should be controlled using an app.",
 				"big": "lot of random text"
 			}
 		},
 		 {
-			"organizers": "Karisma",
-			"yearBranch": "ECE / II",
-			"contact": "7656947854",
+			"organizers": "Ravi Teja",
+			"yearBranch": "ECE / III",
+			"contact": "+917731090134",
 			"regFee": "-",
 			"Sno": "8",
 			"max_registrations": "-",
 			"place": "INDOOR",
 			"duration": "-",
 			"roomCapacity": "-",
-			"emailid": "eceanitandhra@gmail.com",
+			"emailid": "ecemazevulcanzy19@gmail.com",
 			"event": "MURKY MAZE",
 			"noOfLevels": "-",
 			"description": {
-				"small": "random text",
-				"big": "lot of random text"
+				"small": "Playing a treasure hunt is always thrilling right?\n\nHow about adding flavor to it\n\nHere we are with this fascinating event ",
+				"big": "Enter the room, decode the clues, find the correct path averting the lasers, win the treasure, grab the fun. It's not about the treasure, it's all about the hunt. "
 			}
 		}
 	],
