@@ -107,13 +107,13 @@ function generatePDF(name,email,mobile,gender,College,FORESEE,ELECTRO,WORKSHOP,P
 	doc.text(73,140, "EVENTS REGISTERED " );
 doc.setFontSize(14);
         //doc.text(23,204, "CRACK THE STRUCTURE :"+CRACK );
-        doc.text(21,160, "FORESEE:"+FORESEE );
-        doc.text(21,175, "PAPER PRESENTATION:"+PAPER );
-        doc.text(21,190, "WORKSHOP:"+WORKSHOP );
-        doc.text(21,205, "ELECTRO WIZARD:"+ELECTRO );
-        doc.text(21,220, "QUIZ: "+QUIZ );
-        doc.text(21,235, "CAZZLE: "+ CAZZLE );
-        doc.text(21,250, "MURKY MAZE: "+MURMAZE);
+        doc.text(21,160, "FORESEE : "+FORESEE );
+        doc.text(21,175, "PAPER PRESENTATION : "+PAPER );
+        doc.text(21,190, "WORKSHOP : "+WORKSHOP );
+        doc.text(21,205, "ELECTRO WIZARD : "+ELECTRO );
+        doc.text(21,220, "QUIZ : "+QUIZ );
+        doc.text(21,235, "CAZZLE : "+ CAZZLE );
+        doc.text(21,250, "MURKY MAZE : "+MURMAZE);
         doc.text(21, 280, "CAMPUS AMABASSADOR SIGNATURE :");
 		doc.save(name+"Vulcanzy");
 
