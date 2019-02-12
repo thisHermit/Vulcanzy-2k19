@@ -75,8 +75,8 @@ function submitForm(e){
 }
 function checkvalue(val)
 {
-    if(val==1) return " Yes";
-    else return " No";
+    if(val==1) return "Yes";
+    else return "No";
 }
 function getInputVal(id)
 {
