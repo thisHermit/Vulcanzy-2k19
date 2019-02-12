@@ -121,7 +121,7 @@
 			"duration": "3.5 hrs ",
 			"roomCapacity": "200",
 			"emailid": "ecewsvulcanzy19@gmail.com",
-			"event": " IMAGE PROCESSING WORKSHOP ",
+			"event": "REAL TIME IMAGE PROCESSING WORKSHOP ",
 			"noOfLevels": "-",
 			"description": {
 				"small": "Ever wondered how does an auto tag on facebook work?\n\nEver wondered how a third empire decision is given?\n\nDon’t worry we can give an answer to your multitude of queries!!\n\nAll you have to do is.",
@@ -147,20 +147,20 @@
 			}
 		},
 		{
-			"organizers": "Karisma",
-			"yearBranch": "ECE / II",
-			"contact": "7656947854",
-			"regFee": "-",
+			"organizers": "Dhanraj",
+			"yearBranch": "ECE / IV",
+			"contact": "8331844134",
+			"regFee": " Rs.20",
 			"Sno": "8",
 			"max_registrations": "-",
 			"place": "INDOOR",
 			"duration": "-",
 			"roomCapacity": "-",
 			"emailid": "eceanitandhra@gmail.com",
-			"event": "PAPER PRESENTATION",
+			"event": "QUIZ",
 			"noOfLevels": "-",
 			"description": {
-				"small": "random text",
+				"small": "Warm up your grey matter as ECEA is back again with it's quiz contest. Slay your opponents and emerge as the winner in the clash of brain over brawn. Get ready for a roller coaster ride into the intense world of techno quizzing.",
 				"big": "lot of random text"
 			}
 		},
@@ -199,6 +199,24 @@
 				"small": "Playing a treasure hunt is always thrilling right?\n\nHow about adding flavor to it\n\nHere we are with this fascinating event ",
 				"big": "Enter the room, decode the clues, find the correct path averting the lasers, win the treasure, grab the fun. It's not about the treasure, it's all about the hunt. "
 			}
+		},
+		 {
+			"organizers": "Karisma",
+			"yearBranch": "ECE / II",
+			"contact": "+917656947854",
+			"regFee": "-",
+			"Sno": "8",
+			"max_registrations": "-",
+			"place": "INDOOR",
+			"duration": "-",
+			"roomCapacity": "-",
+			"emailid": "eceanitandhra@gmail.com",
+			"event": "PAPER PRESENTATION",
+			"noOfLevels": "-",
+			"description": {
+				"small": "Are you into technical stuff?  Do you have innovative ideas that you would like to share but you do not have the proper pandemonium? Then your search ends here .  This  event is a call out to all the innovative heads out there .  This event not only gives you a chance to present your novel idea but also helps you to become more confident about yourselves. It is a wonderful event with lots of inflow of knowledge .  Exciting gifts await for the best papers. ",
+				"big": ""
+			}
 		}
 	],
 	"EEEA": [{
@@ -234,7 +252,7 @@
 			"noOfLevels": "",
 			"description": {
 				"small": "Ever heard of 'mass extinctions'? During the past 500 million years, there have been 5 mass extinctions due to natural climate changes, huge volcanic eruptions or catastrophic meteor strikes. But now, scientists say we're on the verge of a 6th one and this time, we are responsible for our own destruction. Join us on a platform where you can present your ideas to combat Global Warming. You can do it in the form of a presentation, a paper or simply speak your heart out. The team to come up with the most innovative and economical idea will be recognized and possibly sponsored. A little idea can go a long way! Do your bit to help save our Earth.",
-				"big": "ver heard of 'mass extinctions'? During the past 500 million years, there have been 5 mass extinctions due to natural climate changes, huge volcanic eruptions or catastrophic meteor strikes. But now, scientists say we're on the verge of a 6th one and this time, we are responsible for our own destruction. Join us on a platform where you can present your ideas to combat Global Warming. You can do it in the form of a presentation, a paper or simply speak your heart out. The team to come up with the most innovative and economical idea will be recognized and possibly sponsored. A little idea can go a long way! Do your bit to help save our Earth."
+				"big": "Ever heard of 'mass extinctions'? During the past 500 million years, there have been 5 mass extinctions due to natural climate changes, huge volcanic eruptions or catastrophic meteor strikes. But now, scientists say we're on the verge of a 6th one and this time, we are responsible for our own destruction. Join us on a platform where you can present your ideas to combat Global Warming. You can do it in the form of a presentation, a paper or simply speak your heart out. The team to come up with the most innovative and economical idea will be recognized and possibly sponsored. A little idea can go a long way! Do your bit to help save our Earth."
 			}
 		},
 		{
