@@ -98,10 +98,10 @@ function generatePDF(name , email,mobile,gender,college,COLLOQ1,CRYPTO1,VIRTUE1,
         doc.setFontSize(18);
 	doc.text(73,140, "EVENTS REGISTERED " );
         doc.setFontSize(14);
-	doc.text(21,160, "Colloquim : "+COLLOQ1 );
-        doc.text(21,175, "Cryptoteon : "+CRYPTO1 );
-        doc.text(21,190, "Virtually True : "+VIRTUE1 );
-        doc.text(21,205, "Code Sprint : "+CODESP1 );
+	doc.text(21,160, "COLLOQUIM : "+COLLOQ1 );
+        doc.text(21,175, "CRYPTOTEON : "+CRYPTO1 );
+        doc.text(21,190, "VIRTUALLY TRUE : "+VIRTUE1 );
+        doc.text(21,205, "CODE SPRINT : "+CODESP1 );
         doc.text(21, 280, "CAMPUS AMABASSADOR SIGNATURE :");
 	//doc.addImage(img, 'PNG',42,70, 126, 160);	
 	doc.save(name+"Vulcanzy");
