@@ -72,7 +72,7 @@ function submitForm(e){
     document.getElementById('cea').reset();
     
 
-    generatePDF(fname, email,mobile,Gender,College,checkvalue(CIVIL),checkvalue(CRACK),checkvalue(CONCRETE),checkvalue(PAPER),checkvalue(ASKME),checkvalue(VILLE));
+    generatePDF(fname,lname, email,mobile,Gender,College,checkvalue(CIVIL),checkvalue(CRACK),checkvalue(CONCRETE),checkvalue(PAPER),checkvalue(ASKME),checkvalue(VILLE));
 
 }
 function checkvalue(val)
