@@ -111,7 +111,7 @@ function generatePDF(name,email,mobile,gender,College,CKTS,ARCHI,ORIGIN,AMALG,DE
         
         doc.text(21, 280, "CAMPUS AMABASSADOR SIGNATURE :");
 	//doc.addImage(img, 'PNG',42,70, 126, 160);
-		doc.save(fname+"Vulcanzy");
+		doc.save(name+"Vulcanzy");
 
 }
 //save msg to firebase
