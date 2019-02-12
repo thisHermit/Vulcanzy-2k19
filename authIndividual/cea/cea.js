@@ -72,7 +72,7 @@ function submitForm(e){
     document.getElementById('cea').reset();
     
 
-    generatePDF(fname,lname, email,mobile,Gender,College,checkvalue(CIVIL),checkvalue(CRACK),checkvalue(CONCRETE),checkvalue(PAPER),checkvalue(ASKME),checkvalue(VILLE));
+    generatePDF(fname, email,mobile,Gender,College,checkvalue(CIVIL),checkvalue(CRACK),checkvalue(CONCRETE),checkvalue(PAPER),checkvalue(ASKME),checkvalue(VILLE));
 
 }
 function checkvalue(val)
@@ -108,7 +108,7 @@ function generatePDF(name,email,mobile,gender,College,CIVIL,CRACK,CONCRETE,PAPER
         doc.text(21,205, "PAPERESENTO : "+PAPER );
         doc.text(21,220, "ASK ME ANYTHING : "+ASKME );
         doc.text(21,235, "VILLE INTELLIGENTE : "+VILLE );
-        doc.text(21, 292, "CAMPUS AMABASSADOR SIGNATURE :");
+        doc.text(21, 280, "CAMPUS AMABASSADOR SIGNATURE :");
 	//doc.addImage(img, 'PNG',42,70, 126, 160);
 		doc.save(fname+"Vulcanzy");
 
