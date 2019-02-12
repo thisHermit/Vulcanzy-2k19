@@ -84,7 +84,7 @@ function getInputVal(id)
 {
     return document.getElementById(id).value;
 }
-function generatePDF(fname,lname,email,mobile,gender,College,CIVIL,CRACK,CONCRETE,PAPER,ASKME,VILLE)
+function generatePDF(name,email,mobile,gender,College,CIVIL,CRACK,CONCRETE,PAPER,ASKME,VILLE)
 {
    var doc = new jsPDF('portrait', 'mm', 'a4');
 	var img = new Image();
