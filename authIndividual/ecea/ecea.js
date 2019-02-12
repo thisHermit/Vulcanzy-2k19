@@ -38,8 +38,8 @@ function submitForm(e){
     else Gender=document.getElementById('female').value
     //save msg to firebase 
     console.log(123);
-    var ELECTRO=0,PAPER=0,WORKSHOP=0,FORESEE=0;
-    for (i =0;i<4;i++)
+    var ELECTRO=0,PAPER=0,WORKSHOP=0,FORESEE=0,QUIZ=0,CAZZLE=0,MURMAZE=0;
+    for (i =0;i<7;i++)
     {
         if (events[i].checked)
         {
@@ -52,7 +52,12 @@ function submitForm(e){
                 case "WORKSHOP" : WORKSHOP=1;
                                     break;                                    
                 case "PAPER" : PAPER=1;
-                                    break;  
+                                    break; 
+                case "QUIZ" : QUIZ=1;break;
+                
+                case "CAZZLE" : CAZZLE=1;break;
+
+                case "MURKY" : MURMAZE=1;break;
                 // case "ASKME" : ASKME=1;break;
                 // case "VILLE" : VILLE=1;break;
                       }
@@ -62,7 +67,7 @@ function submitForm(e){
     }
     alert("Please keep the copy of downloaded form with you!!");
 
-    saveMessage(fname,lname,email,mobile,gender,College,FORESEE,ELECTRO,WORKSHOP,PAPER);
+    saveMessage(fname,lname,email,mobile,gender,College,FORESEE,ELECTRO,WORKSHOP,PAPER,MURMAZE,QUIZ,CAZZLE);
     if (gender.checked)
     {
         Gender='M';
@@ -71,19 +76,19 @@ function submitForm(e){
     document.getElementById('ecea').reset();
     
 
-    generatePDF(fname, email,mobile,Gender,College,checkvalue(FORESEE),checkvalue(ELECTRO),checkvalue(WORKSHOP),checkvalue(PAPER));
+    generatePDF(fname, email,mobile,Gender,College,checkvalue(FORESEE),checkvalue(ELECTRO),checkvalue(WORKSHOP),checkvalue(PAPER),checkvalue(MURMAZE),checkvalue(QUIZ),checkvalue(CAZZLE));
 
 }
 function checkvalue(val)
 {
-    if(val==1) return "Yes";
-    else return "No";
+    if(val==1) return "yes";
+    else return "no";
 }
 function getInputVal(id)
 {
     return document.getElementById(id).value;
 }
-function generatePDF(name,email,mobile,gender,College,FORESEE,ELECTRO,WORKSHOP,PAPER)
+function generatePDF(name,email,mobile,gender,College,FORESEE,ELECTRO,WORKSHOP,PAPER,MURMAZE,QUIZ,CAZZLE)
 {
     var doc = new jsPDF('portrait', 'mm', 'a4');
 	var img = new Image();
@@ -97,23 +102,25 @@ function generatePDF(name,email,mobile,gender,College,FORESEE,ELECTRO,WORKSHOP,P
         doc.text(21, 75, "E-Mail : "+email);
         doc.text(21, 90, "Mobile : "+mobile);
 		doc.text(21, 105, "Gender : "+gender);
-        doc.text(21, 120, "College : "+college);
+        doc.text(21, 120, "College : "+College);
         doc.setFontSize(18);
 	doc.text(73,140, "EVENTS REGISTERED " );
-        doc.setFontSize(14);
+doc.setFontSize(14);
         //doc.text(23,204, "CRACK THE STRUCTURE :"+CRACK );
-        doc.text(21,160, "FORESEE : "+FORESEE );
-        doc.text(21,175, "PAPER PRESENTATION : "+PAPER );
-        doc.text(21,190, "WORKSHOP : "+WORKSHOP );
-        doc.text(21,205, "ELECTRO WIZARD : "+ELECTRO );
+        doc.text(21,160, "FORESEE:"+FORESEE );
+        doc.text(21,175, "PAPER PRESENTATION:"+PAPER );
+        doc.text(21,190, "WORKSHOP:"+WORKSHOP );
+        doc.text(21,205, "ELECTRO WIZARD:"+ELECTRO );
+        doc.text(21,220, "QUIZ: "+QUIZ );
+        doc.text(21,235, "CAZZLE: "+ CAZZLE );
+        doc.text(21,250, "MURKY MAZE: "+MURMAZE);
         doc.text(21, 280, "CAMPUS AMABASSADOR SIGNATURE :");
-	//doc.addImage(img, 'PNG',42,70, 126, 160);
-		doc.save(fname+"Vulcanzy");
+		doc.save(name+"Vulcanzy");
 
 }
 //save msg to firebase
 
-function    saveMessage(fname,lname,email,mobile,gender,College,FORESEE,ELECTRO,WORKSHOP,PAPER)
+function    saveMessage(fname,lname,email,mobile,gender,College,FORESEE,ELECTRO,WORKSHOP,PAPER,MURMAZE,QUIZ,CAZZLE)
 {
      var newMessageRef=messageRef.push();
      newMessageRef.set({
@@ -126,6 +133,9 @@ function    saveMessage(fname,lname,email,mobile,gender,College,FORESEE,ELECTRO,
          FORESEE:FORESEE,
          ELECTRO:ELECTRO,
          WORKSHOP:WORKSHOP,
-         PAPER:PAPER
+         PAPER:PAPER,
+         MURMAZE: MURMAZE,
+         QUIZ:QUIZ,
+         CAZZLE:CAZZLE
      });
 }
