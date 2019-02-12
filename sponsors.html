@@ -24,22 +24,18 @@
 
 
   <script>
-     function waiter() {
-            if (document.all){
-               
-               document.all["layer1"].classList.add("animated","fadeOut");
-               document.all["layer1"].style.zIndex = "-100" ; 
-                document.all["layer2"].style.visibility="visible";
-            } else if (document.getElementById){
-                
-                node = document.all["layer1"].classList.add("animated", "fadeOut");
-                document.all["layer1"].style.zIndex = "-100" ; 
-                //node = document.getElementById("layer1").style.display='none';
-                node = document.getElementById("layer2").style.visibility='visible';
+    function waiter() {
+      if (document.all) {
+        document.all["layer1"].style.visibility = "hidden";
+        document.all["layer1"].style.position = "absolute";
+        document.all["layer2"].style.visibility = "visible";
+      } else if (document.getElementById) {
+        node = document.getElementById("layer1").style.visibility = 'hidden';
+        node = document.getElementById("layer1").style.position = 'absolute';
+        node = document.getElementById("layer2").style.visibility = 'visible';
 
-            }
-          }
-
+      }
+    }
   </script>
   <title> VULCANZY-2K19</title>
 </head>
@@ -304,7 +300,7 @@
 
   <div id="layer2" class="layer2_class align-self-center">
     <div class="container"> <button type="button" name="button" onclick="openNav()" class="sidenav_button fa fa-bars shadow-lg rounded"></button></div>
-   
+
     <div id="side_nav" class="sidenav">
       <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
       <div class="container" style=" margin-top: 5% ">
@@ -419,6 +415,15 @@
         display: none;
       }
 
+      .banner {
+        /*
+                          border-left: 40px dashed black;
+                          border-right: 40px dashed black;
+                          border-top: 10px groove white;
+                          border-bottom: 10px groove white;
+    */
+
+      }
 
       @media only screen and (min-width: 800px) {
 
@@ -458,7 +463,7 @@
     </style>
     <div class="banner container heading" style="margin-top: 50px">
       <a href="./index.html" class="text-decoration-none ">
-        <p style="padding-top: 20px; color : #000000; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-weight: 100" class=" heading   text-center  animated pulse slow  delay-2s infinite">
+        <p style="padding-top: 20px; color : #000000; font-family: harry; font-weight: 100" class=" heading   text-center  animated pulse slow  delay-2s infinite">
           V U L C A N Z Y
         </p>
       </a>
@@ -473,21 +478,82 @@
 
     </p>-->
     </div>
-
-    <div class="sponsors" style="display: block">
-      <div>
-        <div class="w3-container" style="margin-top:30px;color:#000;">
-          <h4 class="text-center" style="color:black;">OUR BELOVED SPONSORS</h4><br /><br />
-          <div class="row">
+    <div class="container align-items-center sponsors" style="display: block">
+      <div style="margin-left: auto; margin-right: auto" >
+        <div class=" container" style="margin-top:30px;color:#000;">
+          <h3 class="text-center" style="color:black;">OUR BELOVED SPONSORS</h3><br /><br />
+          <div class="row" style="margin-bottom:40px">
             <!-- <div class="card shadow-lg  bg-transparent rounded  cardPad"> -->
-            <div class="card shadow-lg  bg-transparent rounded  cardPad">
-              <div class="w3-card-4 w3-teal">
-                <img src="" class="card_img" alt="Img">
-                <div class="w3-container w3-center">
-                  <p class="inner_text" style="vertical-align: middle;">Sponsor1<br />desgn</p>
+                <div class="col">
+            <a href="#" style="text-decoration: none ;" class="text-center">
+              <div class="card  border-0  bg-transparent rounded cardPad  ">
+                <img src="./sponsors/blue-star.jpg" style="height: 210px;border-radius: 50%" class="card-img-top" />
+                <div class="card-body">
+
+                  <p style="color: white ; font-size: 25px;font-family: 'Courier New', Courier, monospace; font-weight: bold">
+
+                    Blue Star
+                  </p>
+
                 </div>
               </div>
+            </a>
             </div>
+            <div class="col">
+            <a href="#" style="text-decoration: none ;" class="text-center">
+              <div class="card  border-0  bg-transparent rounded cardPad  ">
+                <img src="./sponsors/bsnl_logo.jpg" style="height: 210px;border-radius: 50%" class="card-img-top" />
+                <div class="card-body">
+
+                  <p style="color: white ; font-size: 25px;font-family: 'Courier New', Courier, monospace; font-weight: bold">
+
+                    BSNL
+                  </p>
+
+                </div>
+              </div>
+            </a>
+            </div>
+            <div class="col">
+            <a href="#" style="text-decoration: none ;" class="text-center">
+              <div class="card  border-0  bg-transparent rounded cardPad  ">
+                <img src="./sponsors/2006-SBI-logo.png" style="height: 210px;border-radius: 50%" class="card-img-top" />
+                <div class="card-body">
+
+                  <p style="color: white ; font-size: 25px;font-family: 'Courier New', Courier, monospace; font-weight: bold">
+
+                    SBI
+                  </p>
+
+                </div>
+              </div>
+            </a>
+            </div>
+          </div>
+
+
+
+
+
+
+
+        </div>
+      </div>
+    <!-- <div class="sponsors" style="display: block">
+      <div>
+        <div class="w3-container" style="margin-top:30px;color:#000;">
+          <h4 class="text-center" style="color:white;">OUR BELOVED SPONSORS</h4><br /><br />
+          <div class="row">
+             <div class="card shadow-lg  bg-transparent rounded  cardPad"> -->
+              <!-- <div class="card border-0 bg-transparent rounded  cardPad ">
+             
+                <img src="./sponsors/sbi.jpg" class="card_img" alt="Img" style="height: 210px;border-radius: 50%">
+                <div class="w3-container w3-center">
+                  <p class="inner_text" style="vertical-align: middle;height: 210px;width: 150px;">Sponsor1<br />desgn</p>
+                </div>
+              </div>
+            </div> --> 
+            <!--
             <div class="card shadow-lg  bg-transparent rounded  cardPad">
               <div class="w3-card-4 w3-teal">
                 <img src="" class="card_img" alt="Img">
@@ -514,8 +580,8 @@
                 </div>
               </div>
             </div>
-          </div>
-          <br /><br />
+          </div> -->
+          <!-- <br /><br />
           <div class="row">
             <div class="card shadow-lg  bg-transparent rounded  cardPad">
               <div class="w3-card-4 w3-teal">
@@ -552,12 +618,13 @@
               </div>
             </div>
           </div>
-          <br /><br />
+          <br /><br /> -->
 
 
         </div>
       </div>
-     
+      <br /><br />
+      <hr /><br />
     </div>
 
   </div>
@@ -565,27 +632,27 @@
 
 </body>
 <footer style=" margin-bottom: 5px; opacity: .8;" class="" id="footer">
-    <nav class="navbar navbar-dark ">
-      <div class="container-inline    rounded-pill " style="margin-right: auto; margin-left: auto ; margin-top: 60px">
-        <ul class="nav">
-          <li class="nav-item "> <a href="#"><span class="fa-stack fa-lg">
-                <i class="fa fa-circle fa-stack-2x animated fadeIn "></i>
-                <i class="fa fa-twitter fa-stack-1x fa-inverse animted fadeIn"></i>
-              </span> </a> </li>
-  
-          <li class="nav-item "> <a href="https://www.facebook.com/vulcanzy"><span class="fa-stack fa-lg">
-                <i class="fa fa-circle fa-stack-2x animated fadeIn "></i>
-                <i class="fa fa-facebook fa-stack-1x fa-inverse animated fadeIn"></i>
-              </span> </a> </li>
-          <li class="nav-item "> <a href="https://www.instagram.com/vulcanzy"><span class="fa-stack fa-lg">
-                <i class="fa fa-circle fa-stack-2x animated fadeIn"></i>
-                <i class="fa fa-instagram fa-stack-1x fa-inverse animated fadeIn"></i>
-              </span> </a> </li>
-  
-        </ul>
-      </div>
-    </nav>
-  </footer>
+  <nav class="navbar navbar-dark ">
+    <div class="container-inline    rounded-pill " style="margin-right: auto; margin-left: auto ; margin-top: 60px">
+      <ul class="nav">
+        <li class="nav-item "> <a href="#"><span class="fa-stack fa-lg">
+              <i class="fa fa-circle fa-stack-2x animated fadeIn "></i>
+              <i class="fa fa-twitter fa-stack-1x fa-inverse animted fadeIn"></i>
+            </span> </a> </li>
+
+        <li class="nav-item "> <a href="https://www.facebook.com/vulcanzy"><span class="fa-stack fa-lg">
+              <i class="fa fa-circle fa-stack-2x animated fadeIn "></i>
+              <i class="fa fa-facebook fa-stack-1x fa-inverse animated fadeIn"></i>
+            </span> </a> </li>
+        <li class="nav-item "> <a href="https://www.instagram.com/vulcanzy"><span class="fa-stack fa-lg">
+              <i class="fa fa-circle fa-stack-2x animated fadeIn"></i>
+              <i class="fa fa-instagram fa-stack-1x fa-inverse animated fadeIn"></i>
+            </span> </a> </li>
+
+      </ul>
+    </div>
+  </nav>
+</footer>
 <script type="text/javascript">
   function home() {
 
