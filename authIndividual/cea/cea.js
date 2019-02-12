@@ -98,7 +98,7 @@ function generatePDF(name,email,mobile,gender,College,CIVIL,CRACK,CONCRETE,PAPER
         doc.text(21, 75, "E-Mail : "+email);
         doc.text(21, 90, "Mobile : "+mobile);
 		doc.text(21, 105, "Gender : "+gender);
-        doc.text(21, 120, "College : "+college);
+        doc.text(21, 120, "College : "+College);
         doc.setFontSize(18);
 	doc.text(73,140, "EVENTS REGISTERED " );
         doc.setFontSize(14);
@@ -110,7 +110,7 @@ function generatePDF(name,email,mobile,gender,College,CIVIL,CRACK,CONCRETE,PAPER
         doc.text(21,235, "VILLE INTELLIGENTE : "+VILLE );
         doc.text(21, 280, "CAMPUS AMABASSADOR SIGNATURE :");
 	//doc.addImage(img, 'PNG',42,70, 126, 160);
-		doc.save(name+"Vulcanzy");
+	doc.save(name+"Vulcanzy");
 
 }
 //save msg to firebase
