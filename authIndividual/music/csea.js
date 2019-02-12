@@ -95,7 +95,7 @@ function generatePDF(name,email,mobile,gender,College,TALENT,LYRICAL,GUESS,INSTA
         doc.text(21, 75, "E-Mail : "+email);
         doc.text(21, 90, "Mobile : "+mobile);
 		doc.text(21, 105, "Gender : "+gender);
-        doc.text(21, 120, "College : "+college);
+        doc.text(21, 120, "College : "+College);
         doc.setFontSize(18);
 	doc.text(73,140, "EVENTS REGISTERED " );
         doc.setFontSize(14);
