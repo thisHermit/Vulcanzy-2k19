@@ -583,6 +583,28 @@ function waiter() {
 
 
           </div>
+          <div class="col">
+            <button class="btn bg-transparent chea">
+              <div class="card border-0   bg-transparent rounded  cardPad animated  infinite delay-1s" style="animation-duration:1s">
+                <img src="./logos/" style="height: 210px ;border-radius:50%" class="card-img-top" />
+                <div class="card-body  ">
+
+                  <p style="color: white ; font-size: 25px;font-family: 'Courier New', Courier, monospace; font-weight: bold">
+                  CHEA
+                    
+                  </p>
+
+                </div>
+              </div>
+            </button>
+
+
+
+
+
+
+          </div>
+
 
 
 
@@ -776,6 +798,38 @@ function waiter() {
     });
     $(".layer2_class").append('<a class="btn btn-primary btn-lg" style="top:0;right:0;position:absolute" href="https://amitsai28.github.io/Vulcanzy-2k19/authIndividual/mech/MECEA_register.html" role="button">Register</a>');
   });
+  $(".chea").click(function() {
+    document.getElementById("menuList").style.display = "none";
+    document.getElementById("eventList").style.display = "block";
+    $.getJSON("./eventData.json", function(d) {
+      for (var i = 0; i < 10; i++) {
+        $(".information").append('<div class="jumbotron rounded  text-center" style= "background-image: linear-gradient(to top right ,#e9e61b,#fa9702fd)" > <h1 style="position: relative;" class="display-8">' +
+          d.CHEMICAL[i].event +
+          '</h1> <hr class="my-4"><h3>' + d.CHEMICAL[i].description.small + '</h3> <br /><p class="">   ' + //d.MECH[i].noOfLevels +
+          ' &nbsp; Fee:' +
+          d.CHEMICAL[i].regFee +
+         // ' &nbsp; DURATION:' +
+         // d.MECH[i].duration +
+          '  </p>' + '<p class=""> <br/> Organizers: &nbsp; ' +
+          d.CHEMICAL[i].organizers +
+          ' <br/> Contact:  &nbsp;' +
+          d.CHEMICAL[i].contact +
+          '   <br/> E-mail:  &nbsp;' +
+          d.CHEMICAL[i].emailid +
+          '<div id = "more' +
+          i +
+          '" style="display:none;">' +
+          d.CHEMICAL[i].description.big +
+          '</div>' +
+          '<p class="lead"> <button onclick="moreButton(' +
+          i +
+          ', this)">More</a></button> </div>');
+
+      }
+    });
+    $(".layer2_class").append('<a class="btn btn-primary btn-lg" style="top:0;right:0;position:absolute" href="https://amitsai28.github.io/Vulcanzy-2k19/authIndividual/chem/register.html" role="button">Register</a>');
+  });
+  
   $(".bio").click(function() {
     document.getElementById("menuList").style.display = "none";
     document.getElementById("eventList").style.display = "block";
