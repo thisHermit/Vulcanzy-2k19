@@ -6,15 +6,16 @@
 <style>
     html {
       /*background-image: linear-gradient(to bottom right, rgba(255,0,0,0), rgba(255,0,0,1));#89f7fe → #66a6ff*/
-      /* background-image: linear-gradient(to top right, #14D3FE, #3794FD); */
-      background-image: linear-gradient(to top right, #7E35EF, #F20AC3); 
+      background-image: linear-gradient(to bottom right, #14D3FE, #3794FD); 
+      /*background-image: linear-gradient(to top right, #7E35EF, #F20AC3); 
+      background-image: linear-gradient(to top right, #AF2A7D, #E03753);
+      background-image: linear-gradient(to top right, #42E16B, #8A9E06);*/    
       /* background-image: linear-gradient(to top right, #FFFB00, #FF4900); */
       /*background-image: linear-gradient(to top right, #EFFF1F, #FFA200);*/
       /*background-color: #fc9842;
         background-image: linear-gradient(315deg, #fc9842 0%, #fe5f75 74%);
         background-color: #ff4e00;
         background-image: linear-gradient(315deg, #ff4e00 0%, #ec9f05 74%);*/
-	    background-image: linear-gradient(to bottom right, #14D3FE, #3794FD); 
     }
     
     body,
@@ -233,7 +234,7 @@
       bottom: 0;
       border-radius: inherit;
       pointer-events: none;
-      box-shadow: inset 0 0 0 3px #fff, 0 0 0 4px #fff, 3px -3px 30px  #7eecff, -3px 3px 30px #7eecff;
+      box-shadow: inset 0 0 0 3px #fff, 0 0 0 4px #fff, 3px -3px 30px #7eecff, -3px 3px 30px #7eecff;
     }
         
     /*html {
@@ -386,7 +387,7 @@
       transition-delay: 0.15s;
     }
 	#cbx4:checked + .check svg {
-      stroke: #2fff05;
+      stroke:  #2fff05;
     }
     
     #cbx4:checked + .check svg path {
@@ -399,9 +400,8 @@
       transition: all 0.2s linear;
       transition-delay: 0.15s;
     }
-    
-    #cbx5:checked + .check svg {
-      stroke: #2fff05;
+	#cbx5:checked + .check svg {
+      stroke:  #2fff05;
     }
     
     #cbx5:checked + .check svg path {
@@ -414,34 +414,8 @@
       transition: all 0.2s linear;
       transition-delay: 0.15s;
     }
-    #cbx6:checked + .check svg {
-      stroke: #2fff05;
-    }
     
-    #cbx6:checked + .check svg path {
-      stroke-dashoffset: 60;
-      transition: all 0.3s linear;
-    }
     
-    #cbx6:checked + .check svg polyline {
-      stroke-dashoffset: 42;
-      transition: all 0.2s linear;
-      transition-delay: 0.15s;
-    }
-    #cbx7:checked + .check svg {
-      stroke: #2fff05;
-    }
-    
-    #cbx7:checked + .check svg path {
-      stroke-dashoffset: 60;
-      transition: all 0.3s linear;
-    }
-    
-    #cbx7:checked + .check svg polyline {
-      stroke-dashoffset: 42;
-      transition: all 0.2s linear;
-      transition-delay: 0.15s;
-    }
     /* Customize the label (the container) */
     
     
@@ -526,7 +500,6 @@
     div{
       text-align:center;
     }
-
     input[type="submit"] {
       vertical-align: middle;
       text-align: center;
@@ -574,7 +547,6 @@
     }
 .male{background-image:url(https://images.vexels.com/media/users/3/145319/isolated/preview/393319492615023cc5864b50aed98bb5-boy-hands-in-pockets-illustration-by-vexels.png);}
 .female{background-image:url(https://images.vexels.com/media/users/3/145192/isolated/preview/b71f7906bde87103aa47803c71f6566a-woman-illustration-by-vexels.png);}
-
 .gender input:active +.drinkgender-cc{opacity: .9;}
 .gender input:checked +.drinkgender-cc{
     -webkit-filter: none;
@@ -599,7 +571,6 @@
        -moz-filter: brightness(1.2) grayscale(.5) opacity(.9);
             filter: brightness(1.2) grayscale(.5) opacity(.9);
 }
-
 /* Extras */
 a:visited{color:#888}
 a{color:#444;text-decoration:none;}
@@ -610,7 +581,7 @@ p{margin-bottom:.3em;}
     <link rel="stylesheet" href="C:\Users\Raghu Chandan\Downloads\fontawesome-free-5.7.1-web\css\all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
     <div class="testbox">
       <h1>Registration</h1>
-      <form id="mea"><!--Place the Branch Name Here-->
+      <form id="main"><!--Place the Branch Name Here-->
         <hr>
         <br>
         <!--<div class="accounttype">
@@ -619,26 +590,39 @@ p{margin-bottom:.3em;}
           <input type="radio" value="None" id="radioTwo" name="account" />
           <label for="radioTwo" class="radio">Company</label>
         </div>-->
-       <label id="icon" for="name"><i class="fas fa-user fa-2x"></i></label> <span class="input">
-          <input type="text" placeholder="Registration ID 1" id="reg_id1" style="padding-left:1vw" required>
+        <label id="icon" for="name"><i class="fas fa-user fa-2x"></i></label> <span class="input">
+          <input type="text" placeholder="First Name" id="firstname" style="padding-left:1vw" required>
           <span></span> </span>
           <br>
           <br>
         <label id="icon" for="name"><i class="fas fa-user fa-2x"></i></label> <span class="input">
-          <input type="text" placeholder="Registration ID 2" id="reg_id2" style="padding-left:1vw">
+          <input type="text" placeholder="Last Name" id="lastname" style="padding-left:1vw">
           <span></span> </span>
           <br>
           <br>
-        <label id="icon" for="name"><i class="fas fa-user fa-2x"></i></label> <span class="input">
-          <input type="text" placeholder="Registration ID 3" id="reg_id3" style="padding-left:1vw">
+        <label id="icon" for="name"><i class="fas fa-envelope-open fa-2x"></i></label> <span class="input">
+          <input type="email" placeholder="Email Address" id="email" style="padding-left:1vw" required>
           <span></span> </span>
           <br>
           <br>
-        <label id="icon" for="name"><i class="fas fa-user fa-2x"></i></label> <span class="input">
-          <input type="text" placeholder="Registration ID 4" id="mobile" style="padding-left:1vw">
+        <label id="icon" for="name"><i class="fas fa-phone fa-2x"></i></label> <span class="input">
+          <input type="text" placeholder="Mobile Number" id="mobile" style="padding-left:1vw" required>
           <span></span> </span>
           <br>
           <br>
+        <label id="icon" for="name"><i class="fas fa-university fa-2x"></i></label> <span class="input">
+          <input type="text" placeholder="College Name" id="college" style="padding-left:1vw" required>
+          <span></span> </span>
+          <br>
+          <br>
+          <br>
+        <p style="margin-left:1%; font-size:20px; color:#ffffff">You are?</p>
+        <div class="gender" style="text-align: center;">
+          <input id="female" type="radio" name="gender" value="female" style="margin-left:-6%"/ required>
+          <label class="drinkgender-cc female"for="female"></label>
+          <input id="male" type="radio" name="gender" value="male" style="margin-left:-6%"/ required>
+          <label class="drinkgender-cc male" for="male"></label>  
+        </div>
         <br>  
         <!-- <div>
           <div class="gender" align="center">
@@ -650,75 +634,9 @@ p{margin-bottom:.3em;}
         </div>
          -->
         <br>
-        <hr>
-        <h2 style="text-align: center">List of Events</h2>
-        <br>
-        <!--<label class="container">One
-            <input type="checkbox" checked="checked">
-            <span class="checkmark"></span>
-          </label>
-          
-          <label class="container">Two
-            <input type="checkbox">
-            <span class="checkmark"></span>
-          </label>
-          
-          <label class="container">Three
-            <input type="checkbox">
-            <span class="checkmark"></span>
-          </label>
-          
-          <label class="container">Four
-            <input type="checkbox">
-            <span class="checkmark"></span>
-          </label>-->
-          <div style="text-align:left; margin-left:27%" >  
-              <input type="checkbox" id="cbx1" style="display: none;" class="checkbox" value="ONET">
-              <label for="cbx1" class="check">
-                <!--<label for="Checkbox1">AdminUser</label>-->
-                <svg width="18px" height="18px" viewBox="0 0 18 18">
-                  <path d="M1,9 L1,3.5 C1,2 2,1 3.5,1 L14.5,1 C16,1 17,2 17,3.5 L17,14.5 C17,16 16,17 14.5,17 L3.5,17 C2,17 1,16 1,14.5 L1,9 Z"></path>
-                  <polyline points="1 9 7 14 15 4"></polyline>
-                </svg> ONE THRUST 2.0</label>
-            </div>
-            <hr style="margin-top: 1px;margin-bottom: 1px;opacity:0">
-            <hr style="margin-top: 1px;margin-bottom: 1px;opacity:0">
-            <div style="text-align:left; margin-left:27%">  
-              <input type="checkbox" id="cbx2" style="display: none;" class="checkbox" value="RIDDLE">
-              <label for="cbx2" class="check">
-                <!--<label for="Checkbox1">AdminUser</label>-->
-                <svg width="18px" height="18px" viewBox="0 0 18 18">
-                  <path d="M1,9 L1,3.5 C1,2 2,1 3.5,1 L14.5,1 C16,1 17,2 17,3.5 L17,14.5 C17,16 16,17 14.5,17 L3.5,17 C2,17 1,16 1,14.5 L1,9 Z"></path>
-                  <polyline points="1 9 7 14 15 4"></polyline>
-                </svg> RIDDLE HURDLES</label>
-            </div>
-            <hr style="margin-top: 1px;margin-bottom: 1px;opacity:0">
-            <hr style="margin-top: 1px;margin-bottom: 1px;opacity:0">
-          <div style="text-align:left; margin-left:27%">  
-              <input type="checkbox" id="cbx3" style="display: none;" class="checkbox" value="WAX">
-              <label for="cbx3" class="check">
-                <!--<label for="Checkbox1">AdminUser</label>-->
-                <svg width="18px" height="18px" viewBox="0 0 18 18">
-                  <path d="M1,9 L1,3.5 C1,2 2,1 3.5,1 L14.5,1 C16,1 17,2 17,3.5 L17,14.5 C17,16 16,17 14.5,17 L3.5,17 C2,17 1,16 1,14.5 L1,9 Z"></path>
-                  <polyline points="1 9 7 14 15 4"></polyline>
-                </svg> WAX MOCK-UP</label>
-            </div>
-            <hr style="margin-top: 1px;margin-bottom: 1px;opacity:0">
-            <hr style="margin-top: 1px;margin-bottom: 1px;opacity:0">		
-        <div style="text-align:left; margin-left:27%">  
-              <input type="checkbox" id="cbx4" style="display: none;" class="checkbox" value="BEYOND">
-              <label for="cbx4" class="check">
-                <!--<label for="Checkbox1">AdminUser</label>-->
-                <svg width="18px" height="18px" viewBox="0 0 18 18">
-                  <path d="M1,9 L1,3.5 C1,2 2,1 3.5,1 L14.5,1 C16,1 17,2 17,3.5 L17,14.5 C17,16 16,17 14.5,17 L3.5,17 C2,17 1,16 1,14.5 L1,9 Z"></path>
-                  <polyline points="1 9 7 14 15 4"></polyline>
-                </svg> WHAT'S BEYOND</label>
-            </div> 
-            <hr style="margin-top: 1px;margin-bottom: 1px;opacity:0">
-        <br>
         <br>
         <p style="float:left;">By clicking Register, you agree on our <a href="./index.html">terms and condition</a>.</p> <input class="button" type="submit"></input> </form>
         <!-- <button class="button" type="submit"  form="csea" value="Submit">Register</button> -->
     </div>
     <script src="https://www.gstatic.com/firebasejs/5.8.0/firebase.js"></script>
-<script src="mtlrgy.js"></script>
+<script src="csea.js"></script>
