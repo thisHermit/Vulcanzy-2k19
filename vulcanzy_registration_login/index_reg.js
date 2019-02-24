@@ -8,14 +8,22 @@ var flag=true;
 function submitForm(e){
 
     e.preventDefault();
-    var name=document.getElementById("name").value;
-    var username=document.getElementById("username").value;
+    var name=document.getElementById("fullname").value;
+    var username=document.getElementById("uname").value;
     var pass1=document.getElementById("pwd").value;
     var pass2=document.getElementById("cpwd").value;
     var email=document.getElementById("email").value;
     var phno=document.getElementById("mobile").value;
     var clgname=document.getElementById("college").value;
-    var gender="male";//document.getElementById("").value;
+    var gender="";
+
+    if (document.getElementById('female').checked) {
+      gender="female";
+    }
+    else{
+      gender="male";
+    }
+
     if(pass1==pass2){
       username+="";
       var password=pass1;
@@ -54,7 +62,7 @@ function submitForm(e){
           all=[]
           all1=[]
           flag=false;
-          writeUserData(name,username,pass1,email,phno,clgname,gender);
+          writeUserData(name,username,password,email,phno,clgname,gender);
         }
     });
   }
@@ -63,17 +71,20 @@ function submitForm(e){
   }
 }
 
-function writeUserData(name,username,pass1,email,phno) {
+function writeUserData(name,username,password,email,phno,clgname,gender) {
   firebase.database().ref('register').push({
     name:name,
     username: username,
-    password:pass1,
+    password:password,
     email:email,
     phone_number:phno,
+    clg_name:clgname,
+    gender:gender,
     paid:0
   });
   flag=true;
-  window.location.href = "register.html"
-  window.alert("user registration successful")
+  window.alert("user registration successful");
+  window.location.href = "main_register.html";
+
 
 }
