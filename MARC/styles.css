@@ -1,0 +1,214 @@
+
+
+body::-webkit-scrollbar {
+  width: 0px; /* remove scrollbar space /
+  background: transparent; / optional: just make scrollbar invisible /
+  */}
+body {
+  overflow-y: scroll;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100%;
+  height: 100%;
+  width: 100%;
+
+  background: linear-gradient(277deg, #effc00, #ff6300);
+
+
+/*position: fixed;*/
+-webkit-animation: moverGrad 2s ease infinite;  
+-moz-animation: moverGrad 2s ease infinite;
+animation: moverGrad 2s ease infinite
+}
+
+@-webkit-keyframes moverGrad {
+    0%{background-position:28% 0%}
+    50%{background-position:73% 100%}
+    100%{background-position:28% 0%}
+}
+@-moz-keyframes moverGrad {
+    0%{background-position:28% 0%}
+    50%{background-position:73% 100%}
+    100%{background-position:28% 0%}
+}
+@keyframes moverGrad {
+    0%{background-position:28% 0%}
+    50%{background-position:73% 100%}
+    100%{background-position:28% 0%}
+}
+
+.layer1_class{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 1000%;
+  text-align: center;
+  z-index: 40;
+  top:0;
+  color: white;
+  position: fixed;
+  /* background-image: url("./loading.gif"); */
+  background-color: #292826;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+  width: 100%;
+  visibility: visible;
+
+  /* putting in middle vertically */
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+
+  /* animation section here (easter egg: bashar) */
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+/* Typing animation */
+/* .navtch-filter-example__filtered-text {
+    filter: url(#filter);
+    fill: white;
+    font-family: 'Share Tech Mono', sans-serif;
+    font-size: 100px;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    display: block;
+}
+.anim-typewriter{
+  width: 7.3em;
+  -webkit-animation: type 2s steps(40, end);
+  animation: type 2s steps(40, end);
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+} */
+
+@keyframes typewriter{
+  from{width: 0;}
+  to{width: 24em;}
+}
+
+
+
+
+
+
+
+
+
+
+
+p {
+  font-family: sans-serif;
+}
+
+
+.layer2_class{
+z-index: 1;
+visibility: hidden;
+position: initial;
+}
+
+
+
+#rowone {
+padding : 20px;
+}
+p {
+    font-weight: 100;
+}
+.coll {
+     align-content: center;
+     margin-top : auto;
+
+    }
+.cardPad {
+  height: 240px;
+  width: 240px;
+  opacity: .7;
+   margin-left: auto;
+   margin-right: auto;
+   display: flex;
+  margin-bottom : 25px;
+  margin-top: 25px;
+   transition: height width 1s;
+}
+.cardPad:hover {
+  opacity: 1;
+}
+
+
+span {
+    transition: width 1s, height 1s;
+}
+span:hover {
+    width: 200px;
+    height: 100px;
+}
+i {
+
+    transition-property: font-size 1s;
+}
+i:hover {
+   font-size: 100px;
+}
+
+.sidenav::-webkit-scrollbar {
+  width: 0px; /* remove scrollbar space /
+  background: transparent; / optional: just make scrollbar invisible /
+  */}
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  opacity: .9;
+  left: 0;
+  background-color: grey;
+  overflow-x: hidden;
+  padding-top: 60px;
+  transition: 0.5s;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+
+  color: #818181;
+  display: block;
+
+}
+
+
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+color: white;
+}
+
+
+.sidenav_button {
+  display: block;
+  font-size: 40px;
+  font-weight: 100;
+  color: black;
+  border: none;
+  background-color: transparent;
+  text-decoration: none;
+  float: left;
+  opacity: 80%;
+  margin-top: 10px;
+  margin-left: 10px;
+  top: 2px;
+  left: 2px;
+  z-index: 20;
+  position: fixed;
+  top:0;
+
+}
