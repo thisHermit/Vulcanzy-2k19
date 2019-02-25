@@ -4,7 +4,7 @@ var usernames=[];
 var passwords=[];
 document.getElementById('cse').addEventListener('submit',submitForm);
 var uname=localStorage.getItem("storageName");
-document.getElementbyId("username").value=uname;
+document.getElementById("username").value=uname;
 console.log("1223"+uname);
 function submitForm(e){
 
