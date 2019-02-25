@@ -39,7 +39,7 @@
 			"organizers": "SRI SUMA, SUBHAM S, SRIJA",
 			"yearBranch": "2ND/3RD CSE",
 			"contact": "9441848336, 9437783569",
-			"regFee": "NO",
+			"regFee": "nil",
 			"Sno": "4",
 			"max_registrations": "100",
 			"place": "BOTH",
@@ -77,7 +77,7 @@
 			"organizers": "CK JYOTSNA, BHARGHAV A, AKHIL K",
 			"yearBranch": "2ND CSE",
 			"contact": "9437783569, 9963401539",
-			"regFee": "NO",
+			"regFee": "nil",
 			"Sno": "4",
 			"max_registrations": "100",
 			"place": "BOTH",
@@ -91,7 +91,7 @@
 				"big": ""
 			}
 		},
-		
+
 		 {
 			"organizers": "SHANMUKHI P, AARTHY",
 			"yearBranch": "3RD/2ND CSE",
@@ -112,7 +112,7 @@
 
 
 		},
-		 
+
 		  {
 			"organizers": "SAITEJA. A, SUNANDHINI M",
 			"yearBranch": "3RD CSE",
@@ -265,7 +265,7 @@
 			"organizers": "Sahithi, Manikanta, Gayatri",
 			"yearBranch": "EEE/3rd",
 			"contact": "7036398169",
-			"regFee": "NO",
+			"regFee": "nil",
 			"Sno": "9",
 			"max_registrations": "50",
 			"place": "INDOOR",
@@ -283,7 +283,7 @@
 			"organizers": "Tanvi, Himaja",
 			"yearBranch": "EEE/4th ",
 			"contact": "8497905584",
-			"regFee": "NO",
+			"regFee": "nil",
 			"Sno": "10",
 			"max_registrations": "30",
 			"place": "INDOOR",
@@ -301,7 +301,7 @@
 			"organizers": "Himaja, Tanvi, Chandana",
 			"yearBranch": "EEE/4th ",
 			"contact": "8333808546",
-			"regFee": "NO",
+			"regFee": "nil",
 			"Sno": "11",
 			"max_registrations": "50",
 			"place": "INDOOR &OUTDOOR",
@@ -319,7 +319,7 @@
 			"organizers": "Sravya, Tanvi, Vandan",
 			"yearBranch": "EEE/4th ",
 			"contact": "8330971998",
-			"regFee": "NO",
+			"regFee": "nil",
 			"Sno": "12",
 			"max_registrations": "60",
 			"place": "INDOOR",
@@ -337,7 +337,7 @@
 			"organizers": "Vishnu, Kartik, Yogi, Neethish ",
 			"yearBranch": "EEE/4th ",
 			"contact": "8089442725",
-			"regFee": "NO",
+			"regFee": "nil",
 			"Sno": "13",
 			"max_registrations": "50",
 			"place": "INDOOR",
