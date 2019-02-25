@@ -1,35 +1,15 @@
 {
 	"CSEA": [{
-			"organizers": "SAITEJA. A",
-			"yearBranch": "3RD CSE",
-			"contact": "9441831645",
-			"regFee": "30/-",
-			"Sno": "1",
-			"max_registrations": "80",
-			"place": "INDOOR",
-			"duration": "3 hrs",
-			"roomCapacity": "160",
-			"emailid": "411667@student.nitandhra.ac.in",
-			"event": "COLLOQUIUM",
-			"noOfLevels": "3",
-			"description": {
-				"small": "It is an amusing event filled with bliss whose maxim is revive your light and realize your worth. This includes questions with lateral and rational thinking, Pictionary and many other fillers.",
-				"big": " It is an amusing event filled with bliss whose maxim is revive your light and realize your worth. This includes questions with lateral and rational thinking, Pictionary and many other fillers."
-			}
-
-
-		},
-		{
-			"organizers": "A.Bhargav, Nikhila",
-			"yearBranch": "4th, 3rd CSE",
-			"contact": "7730033123",
+			"organizers": "Suhita M, Susma V, Monika K",
+			"yearBranch": "4thCSE",
+			"contact": "9704661436, 9437783569",
 			"regFee": "30/-",
 			"Sno": "2",
 			"max_registrations": "70",
 			"place": "BOTH",
 			"duration": "2 hrs",
 			"roomCapacity": "PSCP LAB and DBMS LAB",
-			"emailid": "411619@student.nitandhra.ac.in",
+			"emailid": "maddiakhil806@gmail.com",
 			"event": "CRYPTACTAEON",
 			"noOfLevels": "1",
 			"description": {
@@ -38,9 +18,9 @@
 			}
 		},
 		{
-			"organizers": "CHANDU.B",
+			"organizers": "CHANDU.B, SAITEJA K, PHANI",
 			"yearBranch": "3RD CSE",
-			"contact": "9505713598",
+			"contact": "9437783569, 9505713598",
 			"regFee": "30/-",
 			"Sno": "3",
 			"max_registrations": "100",
@@ -56,16 +36,16 @@
 			}
 		},
 		{
-			"organizers": "SHUBHAM",
-			"yearBranch": "2ND CSE",
-			"contact": "9441848336",
+			"organizers": "SRI SUMA, SUBHAM S, SRIJA",
+			"yearBranch": "2ND/3RD CSE",
+			"contact": "9441848336, 9437783569",
 			"regFee": "NO",
 			"Sno": "4",
 			"max_registrations": "100",
 			"place": "BOTH",
 			"duration": "ONE DAY",
 			"roomCapacity": "150",
-			"emailid": "subhamnitap@gmail.com",
+			"emailid": "subhamnitap@gmail.com, srisuma13@gmail.com",
 			"event": "VIRTUALLY TRUE",
 			"noOfLevels": "       - ",
 			"description": {
@@ -73,10 +53,30 @@
 				"big": ""
 			}
 		},
+		 {
+			"organizers": "A BHARGHAV, VIKAS A, SAMARTH",
+			"yearBranch": "3RD/2ND CSE",
+			"contact": "9437783569, 9292755807",
+			"regFee": "30/-",
+			"Sno": "1",
+			"max_registrations": "80",
+			"place": "INDOOR",
+			"duration": "3 hrs",
+			"roomCapacity": "160",
+			"emailid": "411667@student.nitandhra.ac.in",
+			"event": "PSYCH ARENA",
+			"noOfLevels": "3",
+			"description": {
+				"small": "",
+				"big": " It is an amusing event filled with bliss whose maxim is revive your light and realize your worth. This includes questions with lateral and rational thinking, Pictionary and many other fillers."
+			}
+
+
+		},
 		{
-			"organizers": "SHUBHAM",
+			"organizers": "CK JYOTSNA, BHARGHAV A, AKHIL K",
 			"yearBranch": "2ND CSE",
-			"contact": "9441848336",
+			"contact": "9437783569, 9963401539",
 			"regFee": "NO",
 			"Sno": "4",
 			"max_registrations": "100",
@@ -90,6 +90,48 @@
 				"small": "Do you think your messages can be corrupted?? Well, they can be. Then how to circumvent this? Here we help you in complete understanding of Cryptography",
 				"big": ""
 			}
+		},
+		
+		 {
+			"organizers": "SHANMUKHI P, AARTHY",
+			"yearBranch": "3RD/2ND CSE",
+			"contact": "9437783569, 9490143927",
+			"regFee": "30/-",
+			"Sno": "1",
+			"max_registrations": "80",
+			"place": "INDOOR",
+			"duration": "3 hrs",
+			"roomCapacity": "160",
+			"emailid": "saiaarathy@gmail.com",
+			"event": "PAPER TECHNICO",
+			"noOfLevels": "3",
+			"description": {
+				"small": "",
+				"big": " It is an amusing event filled with bliss whose maxim is revive your light and realize your worth. This includes questions with lateral and rational thinking, Pictionary and many other fillers."
+			}
+
+
+		},
+		 
+		  {
+			"organizers": "SAITEJA. A, SUNANDHINI M",
+			"yearBranch": "3RD CSE",
+			"contact": "9441831645, 9437783569",
+			"regFee": "30/-",
+			"Sno": "1",
+			"max_registrations": "80",
+			"place": "INDOOR",
+			"duration": "3 hrs",
+			"roomCapacity": "160",
+			"emailid": "411667@student.nitandhra.ac.in",
+			"event": "COLLOQUIUM",
+			"noOfLevels": "3",
+			"description": {
+				"small": "It is an amusing event filled with bliss whose maxim is revive your light and realize your worth. This includes questions with lateral and rational thinking, Pictionary and many other fillers.",
+				"big": " It is an amusing event filled with bliss whose maxim is revive your light and realize your worth. This includes questions with lateral and rational thinking, Pictionary and many other fillers."
+			}
+
+
 		}
 	],
 	"ECEA": [{
@@ -651,7 +693,7 @@
 			"event": "Robo-War",
 			"noOfLevels": "",
 			"description": {
-				"small": "random text",
+				"small": "Participants have to design RC bots. These manually controlled RC bots will compete against each other in a restricted arena. Performance will be evaluated based on  the design, action strategy, the mounted weapons system and their defence tactics. Minimal rules, passionate teams, hardworked bots, monsterous weapons and goosebumps all around.\n\nBe War-ready!",
 				"big": ""
 			}
 		},
@@ -669,7 +711,7 @@
 			"event": "Workshop&Quizzes",
 			"noOfLevels": "",
 			"description": {
-				"small": "Participants have to design RC bots. These manually controlled RC bots will compete against each other in a restricted arena. Performance will be evaluated based on  the design, action strategy, the mounted weapons system and their defence tactics. Minimal rules, passionate teams, hardworked bots, monsterous weapons and goosebumps all around.\n\nBe War-ready!",
+				"small": "",
 				"big": ""
 			}
 		}
