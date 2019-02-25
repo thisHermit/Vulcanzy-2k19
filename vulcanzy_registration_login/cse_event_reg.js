@@ -3,7 +3,8 @@ var messageRef=firebase.database().ref('cse');
 var usernames=[];
 var passwords=[];
 document.getElementById('cse').addEventListener('submit',submitForm);
-
+var uname=localStorage.getItem("storageName");
+document.getElementbyId("username").value=uname;
 function submitForm(e){
 
     e.preventDefault();
