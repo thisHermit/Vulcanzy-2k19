@@ -40,7 +40,7 @@ function submitForm(e){
     //   console.log(passwords);
       if(all.includes(username)&&all1.includes(password) && (all1[all.indexOf(username)]+""==password)){
           //console.log("Exist already");
-          localStorage.setItem("storageName",username);
+          sessionStorage.setItem("storageName",username);
           alert("Login Successful.. Click ok to go to Events page");
           window.location.href = "../events.html";
           }
