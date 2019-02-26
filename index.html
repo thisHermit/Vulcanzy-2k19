@@ -1248,11 +1248,13 @@ mess.textContent =  "Hi,   " + user + "  ";
   
 
    logoutlink.innerHTML = "LOGOUT";
-   logoutlink.href = "https://www.google.com";
+    logoutlink.addEventListener("click", logout);
  logoutlink.setAttribute('class', 'btn btn-dark');
  //  logoutlink.setAttribute('class', 'btn-info');
   logoutlink.style.zIndex = "1";
    // logout linking
+
+  
  
    
    
@@ -1260,6 +1262,11 @@ mess.textContent =  "Hi,   " + user + "  ";
       else{
         var mess = document.getElementById("loginuser");
 mess.textContent =  "Hi, Guest";
+      }
+
+      function logout () {
+        sessionStorage.setItem('storageName',null);
+        window.open("https://amitsai28.github.io/Vulcanzy-2k19/","_self");
       }
     </script>
 </body>
