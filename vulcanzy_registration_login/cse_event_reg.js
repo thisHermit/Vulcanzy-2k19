@@ -3,6 +3,8 @@ var messageRef=firebase.database().ref('cse');
 var usernames=[];
 var passwords=[];
 document.getElementById('cse').addEventListener('submit',submitForm);
+var uname=localStorage.getItem("storageName");
+document.getElementById("username").value=uname;
 
 function submitForm(e){
 
@@ -33,7 +35,7 @@ function writeUserData(username,cod,col,cry,vir,wor) {
     workshop_on_cryptograpgy:wor
   });
   flag=true;
-  //window.location.href = "register.html"
-  window.alert("event registration successful")
-
+  
+  window.alert("event registration successful");
+    window.location.href = "./index.html";
 }

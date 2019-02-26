@@ -43,9 +43,7 @@ function submitForm(e){
             all1.push(str1+"");
         });
     
-        //console.log(all);
-        //console.log(all1);
-        //console.log("("+all.includes(username)+")  ("+all1.includes(password) +")  ("+ all1[all.indexOf(username)]+")  ("+password+")  "+flag);
+      
         if(all.includes(username) && all1.includes(password) && (all1[all.indexOf(username)]+""==password) &&flag){
             flag=false;
             all=[]
@@ -64,6 +62,7 @@ function submitForm(e){
           all1=[]
           flag=false;
           writeUserData(name,username,pass1,email,phno,colg,"M");
+          generatePDF(name,username,email,phno,colg,"Male");
         }
     });
   }
@@ -86,5 +85,27 @@ function writeUserData(name,username,pass1,email,phno,colg,gender) {
   flag=true;
   window.location.href = "../index.html";
   window.alert("user registration successful");
+
+}
+function generatePDF(name,username,email,phno,colg,gender)
+{
+    var doc = new jsPDF('portrait', 'mm', 'a4');
+	
+ 
+	
+		doc.setFontSize(22);
+		doc.setTextColor(92, 76, 76);
+		doc.text(33,25,"VULCANZY 2K19 REGISTRATION FORM")
+    doc.setFontSize(14);
+    doc.text(21, 40, "Username : "+username);
+	doc.text(21, 60, "Name : "+name);
+        doc.text(21, 75, "E-Mail : "+email);
+        doc.text(21, 90, "Mobile : "+phno);
+		doc.text(21, 105, "Gender : "+gender);
+        doc.text(21, 120, "College : "+colg);
+        doc.setFontSize(18);
+	    doc.text(21,140,"Amount to be Paid : " + 100 + "/-");
+	
+	doc.save(name+"Vulcanzy");
 
 }
