@@ -954,8 +954,10 @@
         <center>
             
             <p id="loginuser" style="font-size: 30px; color: #facb0f; font-weight: 100;">mehi</p>
-            <a class="" id= "buttons" style="color: #facb0f; width: 180px"></a>
+            
           </center>
+          <center>
+          <a class="" id= "buttons" style="color: #facb0f; width: 100px; padding:5px"></a></center>
       <div class="row">
        
         <div class="col">
@@ -1247,7 +1249,7 @@ mess.textContent =  "Hi,   " + user + "  ";
    var logoutlink = document.getElementById("buttons");
   
 
-   logoutlink.innerHTML = "LOGOUT";
+   logoutlink.innerText = "LOGOUT";
     logoutlink.addEventListener("click", logout);
  logoutlink.setAttribute('class', 'btn btn-dark');
  //  logoutlink.setAttribute('class', 'btn-info');
