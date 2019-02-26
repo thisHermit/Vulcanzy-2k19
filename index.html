@@ -1265,7 +1265,8 @@ mess.textContent =  "Hi, Guest";
       }
 
       function logout () {
-        sessionStorage.setItem('storageName',null);
+        var user = null;
+        sessionStorage.setItem('storageName',user);
         window.open("https://amitsai28.github.io/Vulcanzy-2k19/","_self");
       }
     </script>
