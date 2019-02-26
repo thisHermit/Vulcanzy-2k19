@@ -1240,7 +1240,7 @@
     </div>
     <script>
       user= sessionStorage.getItem('storageName');
-      if (user != null){
+      if (user != null && user != ""){
         
     var mess = document.getElementById("loginuser");
 mess.textContent =  "Hi,   " + user + "  ";
@@ -1265,7 +1265,7 @@ mess.textContent =  "Hi, Guest";
       }
 
       function logout () {
-        var user = null;
+        var user = "";
         sessionStorage.setItem('storageName',user);
         window.open("https://amitsai28.github.io/Vulcanzy-2k19/","_self");
       }
