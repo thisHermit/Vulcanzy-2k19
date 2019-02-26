@@ -1132,11 +1132,12 @@
 
       <div class="banner container heading" style="margin-top: 50px">
           <center>
-            <div id="booth">
+            
 
               <p id="loginuser" style="font-size: 20px; color: black; font-weight: 100;">dfdf</p></center>
+              <a class="btn btn-dark" id= "buttons"></a>
             
-              </div>
+     
         <a href="./index.html" class="text-decoration-none ">
 
           <p style="padding-top: 20px; color : #000000; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ; font-weight: 200" class=" heading  glow  text-center  animated pulse slow  delay-2s infinite">
@@ -1278,13 +1279,18 @@
       </div>
     </div>
     <script>
-      if (username == null){
+      if (username != null){
         
     var mess = document.getElementById("loginuser");
-mess.textContent =  "Hi   " + username;
-   var logoutlink = document.createElement("A");
-   var t = document.createTextNode("LOGOUT");
-   logoutlink.appendChild(t);
+mess.textContent =  "Hi   " + username + "  ";
+   var logoutlink = document.getElementById("buttons");
+   logoutlink.innerHTML = "LOGOUT";
+ //  logoutlink.setAttribute('class', 'btn');
+ //  logoutlink.setAttribute('class', 'btn-info');
+  logoutlink.style.zIndex = "100";
+   // logout linking
+ 
+   logoutlink.href = "www.google.com";
    mess.appendChild(logoutlink);
    
       }
