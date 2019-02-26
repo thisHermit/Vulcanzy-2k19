@@ -1239,11 +1239,11 @@
       </div>
     </div>
     <script>
-      localStorage.getItem("storageName",username);
-      if (username != null){
+      user= sessionStorage.getItem('storageName');
+      if (user != null){
         
     var mess = document.getElementById("loginuser");
-mess.textContent =  "Hi   " + username + "  ";
+mess.textContent =  "Hi   " + user + "  ";
    var logoutlink = document.getElementById("buttons");
   
 
