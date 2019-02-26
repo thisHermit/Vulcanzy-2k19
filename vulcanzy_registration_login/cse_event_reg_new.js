@@ -1,7 +1,7 @@
 var messageRef=firebase.database().ref('cse');
 //event listener for form submit
 var usernames=[];
-var uname=localStorage.getItem("storageName");
+var uname=sessionStorage.getItem("storageName");
 document.getElementById("username").value=uname;
 document.getElementById('cse').addEventListener('submit',submitForm);
 var usernames=[];
