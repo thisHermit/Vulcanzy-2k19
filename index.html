@@ -1274,9 +1274,14 @@
       </div>
     </div>
     <script>
+      if (username != null){
     var mess = document.getElementById("loginuser");
 mess.textContent =  "Hi   " + username;
-
+      }
+      else{
+        var mess = document.getElementById("loginuser");
+mess.textContent =  "Please login";
+      }
     </script>
 </body>
 
