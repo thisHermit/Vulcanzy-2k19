@@ -13,7 +13,7 @@
 
 //var messageRef=firebase.database().ref('messages');
 //event listener for form submit
-var username="";
+var username="d";
 document.getElementById('csea').addEventListener('submit',submitForm);
 
 function submitForm(e){
