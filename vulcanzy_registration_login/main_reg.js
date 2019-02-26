@@ -62,7 +62,8 @@ function submitForm(e){
           all1=[]
           flag=false;
           writeUserData(name,username,pass1,email,phno,colg,"M");
-          generatePDF(name,username,email,phno,colg,"Male");
+         
+		window.location.href = "../index.html";
         }
     });
   }
@@ -83,8 +84,8 @@ function writeUserData(name,username,pass1,email,phno,colg,gender) {
     username: username
   });
   flag=true;
-  window.location.href = "../index.html";
   window.alert("user registration successful");
+	generatePDF(name,username,email,phno,colg,"Male");
 
 }
 function generatePDF(name,username,email,phno,colg,gender)
