@@ -671,7 +671,39 @@
           ga('create', 'UA-104601625-1', 'auto');
           ga('send', 'pageview');
         </script>
-    </body>
+        <script>
+      user= sessionStorage.getItem('storageName');
+      if (user != null && user != ""){
+        
+    var mess = document.getElementById("loginuser");
+mess.textContent =  "Hi,   " + user + "  ";
+   var logoutlink = document.getElementById("buttons");
+  
+
+   logoutlink.innerText = "LOGOUT";
+    logoutlink.addEventListener("click", logout);
+ logoutlink.setAttribute('class', 'btn btn-dark');
+ //  logoutlink.setAttribute('class', 'btn-info');
+  logoutlink.style.zIndex = "1";
+   // logout linking
+
+  
+ 
+   
+   
+      }
+      else{
+        var mess = document.getElementById("loginuser");
+mess.textContent =  "Hi, Guest";
+      }
+
+      function logout () {
+        var user = "";
+        sessionStorage.setItem('storageName',user);
+        window.open("https://amitsai28.github.io/Vulcanzy-2k19/","_self");
+      }
+    </script>
+</body>
     <style>
       i{
   color: grey;
