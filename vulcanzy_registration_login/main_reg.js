@@ -62,7 +62,7 @@ function submitForm(e){
           all1=[]
           flag=false;
           writeUserData(name,username,pass1,email,phno,colg,"M");
-          generatePDF(name,username,email,phno,colg,gender);
+          generatePDF(name,username,email,phno,colg,"Male");
         }
     });
   }
