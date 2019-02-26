@@ -915,6 +915,24 @@
 				"big": "People remain frozen in action like mannequins while a moving camera films them, often with a sound in the background. They will be sending the video of max length 30 sec. The best one will be selected and rewarded."
 			}
 		}
+		{
+			"organizers": "Azharuddin",
+			"yearBranch": "2nd year",
+			"contact": "",
+			"regFee": "nil",
+			"Sno": "45",
+			"max_registrations": "",
+			"place": "",
+			"duration": "ONLINE event",
+			"roomCapacity": "",
+			"emailid": "pnpnitap@gmail.com",
+			"event": "FOTO RECIT",
+			"noOfLevels": "0",
+			"description": {
+				"small": "",
+				"big": "Foto recit is an online event where the participants submit a set of photographs and pictures, narrating a short story or a tale through the pictures itself. They can also add a tagline for the whole to portray their story in a better way. The maximum number of pictures that can be submitted is limited to 10."
+			}
+		}
 	],
 	"MAGAZINE": [{
 			"organizers": "M.Monica,K.V.R Yashwant",
