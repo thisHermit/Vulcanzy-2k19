@@ -1029,7 +1029,7 @@
 			"organizers": "P N S MEGHANA",
 			"yearBranch": "ECE-2",
 			"contact": "9063033023",
-			"regFee": "50/team",
+			"regFee": "20/team",
 			"Sno": "51",
 			"max_registrations": "100",
 			"place": "INDOOR",
@@ -1047,7 +1047,7 @@
 			"organizers": "SRAVYA D",
 			"yearBranch": "CIVIL-4",
 			"contact": "9490597205",
-			"regFee": "100 /team",
+			"regFee": "40 /team",
 			"Sno": "52",
 			"max_registrations": "100",
 			"place": "BOTH",
@@ -1061,6 +1061,25 @@
 				"small": "This event is a combination of 5 games. Teams which win each round will be given a hint at the end of each game. They have to follow the hints to find the treasure.\n\nCoin collector\n\nA chess board is given to a player with each box consisting of one coin and a knight. The player should be starting from a box(of his interest) and the knight should be moved in ‘L’ shape and the coins should be collected. Player could collect as many coins of his wish. The knight cannot be moved to a box without a coin. Whoever collects the most number of coins wins.\n\nPin the tail\n\nA team of two are selected. The player is shown a picture of an animal without a tail. The player's eyes are blind folded with a cloth and he should pin the tail at the correct place with the instructions of other team mate.The teammate who gives instructions should tell only left,right,top,bottom only.\n\nSwing Hit\n\nA bob is tied to a string and is given to the player. The player must be holding the string and with that bob he has to swing the pendulum to hit the glasses which are numbered.The glasses should be hit in the order of numbers given.\n\nTag-Two\n\nA team of two are selected and one team mate is given a radium ball to throw into a open-close type dustbin. The other team mate should stand at the dustbin and he should tap the button of dustbin at the time of throw.\n\nRubik’s cubeA 3*3 rubik’s cube is to be solved. No time limit. The team which solves it the fastest will be considered the  winner.",
 				"big" : ""
 
+			}
+		}
+		{
+			"organizers": "MONICA BHARGAVI K",
+			"yearBranch": "CSE-3",
+			"contact": "9010341951",
+			"regFee": "30 /team",
+			"Sno": "52",
+			"max_registrations": "100",
+			"place": "BOTH",
+			"duration": "1 day",
+			"roomCapacity": "200",
+			"emailid": "monicakodali@gmail.com",
+			"event": "NIPPY BUZZ",
+			"noOfLevels": "",
+			"description": {
+				"none": " ",
+				"small": "'Buzz' – telephone call 'Nippy' – quick.",
+				"big" : "The event has two rounds.Round 1: Each team will be given a clue which is a technical question related to contemporary technologies. The clue when decoded will result in a 2-digit number. Five such consecutive numbers will form a telephone number. The team have to make a quick dial and inform that they have nippy buzzed!! Rules: The team size should be four. Every person should be from different department. The first 10 dialers will be promoted to next round. Round 2: 1.Balloon pyramid-pyramid of cups has to be built using balloons without using hands. 2. Balloon bumper- among the four,two have to blow the balloons and the other two have to blast the balloons using their head 3.Drinking 5 litres of water:Each team has to drink 5 litres of water by the end of the above three events. 4. Enacting an ad: A product will be shown and then they have to advertise it by enacting in a creative way"
 			}
 		}
 	],
