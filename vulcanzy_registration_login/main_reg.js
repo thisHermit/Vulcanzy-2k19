@@ -73,7 +73,7 @@ function submitForm(e){
 }
 
 function writeUserData(name,username,pass1,email,phno,colg,gender) {
-  firebase.database().ref('register').child('username').set({
+  firebase.database().ref('register').child(username).set({
     clg_name: colg,
     email:email,
     gender: gender,
