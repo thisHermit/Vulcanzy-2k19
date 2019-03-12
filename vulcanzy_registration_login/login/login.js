@@ -22,7 +22,7 @@ function submitForm(e){
     e.preventDefault();
     
     username=getInputVal("uname");
-    var pwd=getInputVal("pwd");
+    var pwd="000";
     localStorage.setItem("storageName",username);
 
     
