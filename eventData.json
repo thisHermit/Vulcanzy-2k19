@@ -92,27 +92,6 @@
 			}
 		},
 
-		 {
-			"organizers": "SHANMUKHI P, AARTHY",
-			"yearBranch": "3RD/2ND CSE",
-			"contact": "9963764834, 9490143927",
-			"regFee": "30/-",
-			"Sno": "1",
-			"max_registrations": "80",
-			"place": "INDOOR",
-			"duration": "3 hrs",
-			"roomCapacity": "160",
-			"emailid": "saiaarathy@gmail.com",
-			"event": "PAPER TECHNICO",
-			"noOfLevels": "3",
-			"description": {
-				"small": "",
-				"big": " It is an amusing event filled with bliss whose maxim is revive your light and realize your worth. This includes questions with lateral and rational thinking, Pictionary and many other fillers."
-			}
-
-
-		},
-
 		  {
 			"organizers": "SAITEJA. A, SUNANDHINI M",
 			"yearBranch": "3RD CSE",
@@ -241,25 +220,8 @@
 				"small": "Are u guys ready to uncover yor unseen talent?\nHere comes the MURKY MAZE to hunt yor fortune and have a splendid experience of lasers!",
 				"big": "Enter the gloomy room with yor gang, find the hints and grab the chance to have fun with lasers to get yor fortune.\n#the more u decode the clues, the more is the entertainment! "
 			}
-		},
-		 {
-			"organizers": "Karisma",
-			"yearBranch": "ECE / II",
-			"contact": "+917656947854",
-			"regFee": "-",
-			"Sno": "8",
-			"max_registrations": "-",
-			"place": "INDOOR",
-			"duration": "-",
-			"roomCapacity": "-",
-			"emailid": "eceanitandhra@gmail.com",
-			"event": "PAPER PRESENTATION",
-			"noOfLevels": "-",
-			"description": {
-				"small": "Are you into technical stuff?  Do you have innovative ideas that you would like to share but you do not have the proper pandemonium? Then your search ends here .  This  event is a call out to all the innovative heads out there .  This event not only gives you a chance to present your novel idea but also helps you to become more confident about yourselves. It is a wonderful event with lots of inflow of knowledge .  Exciting gifts await for the best papers. ",
-				"big": ""
-			}
 		}
+		 
 	],
 	"EEEA": [{
 			"organizers": "Sahithi, Manikanta, Gayatri",
@@ -367,24 +329,6 @@
 			"description": {
 				"small": "PROJECT EXPO",
 				"big": ""
-			}
-		},
-		{
-			"organizers": "Surendra, Meghana, Saleem",
-			"yearBranch": "EEE/3rd",
-			"contact": "8179060324",
-			"regFee": "",
-			"Sno": "15",
-			"max_registrations": "",
-			"place": "INDOOR",
-			"duration": "….",
-			"roomCapacity": "",
-			"emailid": "tarunkumartej597@gmail.com",
-			"event": "PAPER PRESENTATION",
-			"noOfLevels": "",
-			"description": {
-				"small": "PAPER PRESENTATION",
-				"big": "Are you tech-savvy? Are you having a plethora of innovative ideas but don't have a platform to manifest it? Then your quest ends here. This event is a call out to all the inquisitive and innovative mind out there. This event will not only give you an opportunity to present your novel idea but will instill confidence in you. So gear up and pen down your ideas and grab exciting prizes."
 			}
 		}
 	],
