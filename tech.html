@@ -53,7 +53,243 @@ function waiter() {
 
 
   <div id="layer1" class="layer1_class">
-    <img src="./gallery/preloader_anim.gif"></img>
+    <style>
+      @import url('https://fonts.googleapis.com/css?family=Roboto:700');
+
+              .bashar {
+
+                display:flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: row;
+                margin: 0 auto;
+                width: 50%;
+              }
+              @keyframes rotate {
+                0% {
+                  transform: rotateX(-37.5deg) rotateY(45deg);
+                }
+                50% {
+                  transform: rotateX(-37.5deg) rotateY(405deg);
+                }
+                100% {
+                  transform: rotateX(-37.5deg) rotateY(405deg);
+                }
+              }
+              .cube, .cube * {
+                position: absolute;
+                width: 151px;
+                height: 151px;
+              }
+              .sides {
+                animation: rotate 3s ease infinite;
+                animation-delay: 0.8s;
+                transform-style: preserve-3d;
+                transform: rotateX(-37.5deg) rotateY(45deg);
+              }
+              .cube .sides * {
+                box-sizing: border-box;
+                background-color: #f9d342;
+                border: 15px solid white;
+              }
+              .cube .sides .top {
+                animation: top-animation 3s ease infinite;
+                animation-delay: 0ms;
+                transform: rotateX(90deg) translateZ(150px);
+                animation-fill-mode: forwards;
+                transform-origin: 50% 50%;
+              }
+              @keyframes top-animation {
+                0% {
+                  opacity: 1;
+                  transform: rotateX(90deg) translateZ(150px);
+                }
+                20% {
+                  opacity: 1;
+                  transform: rotateX(90deg) translateZ(75px);
+                }
+                70% {
+                  opacity: 1;
+                  transform: rotateX(90deg) translateZ(75px);
+                }
+                90% {
+                  opacity: 1;
+                  transform: rotateX(90deg) translateZ(150px);
+                }
+                100% {
+                  opacity: 1;
+                  transform: rotateX(90deg) translateZ(150px);
+                }
+              }
+              .cube .sides .bottom {
+                animation: bottom-animation 3s ease infinite;
+                animation-delay: 0ms;
+                transform: rotateX(-90deg) translateZ(150px);
+                animation-fill-mode: forwards;
+                transform-origin: 50% 50%;
+              }
+              @keyframes bottom-animation {
+                0% {
+                  opacity: 1;
+                  transform: rotateX(-90deg) translateZ(150px);
+                }
+                20% {
+                  opacity: 1;
+                  transform: rotateX(-90deg) translateZ(75px);
+                }
+                70% {
+                  opacity: 1;
+                  transform: rotateX(-90deg) translateZ(75px);
+                }
+                90% {
+                  opacity: 1;
+                  transform: rotateX(-90deg) translateZ(150px);
+                }
+                100% {
+                  opacity: 1;
+                  transform: rotateX(-90deg) translateZ(150px);
+                }
+              }
+              .cube .sides .front {
+                animation: front-animation 3s ease infinite;
+                animation-delay: 100ms;
+                transform: rotateY(0deg) translateZ(150px);
+                animation-fill-mode: forwards;
+                transform-origin: 50% 50%;
+              }
+              @keyframes front-animation {
+                0% {
+                  opacity: 1;
+                  transform: rotateY(0deg) translateZ(150px);
+                }
+                20% {
+                  opacity: 1;
+                  transform: rotateY(0deg) translateZ(75px);
+                }
+                70% {
+                  opacity: 1;
+                  transform: rotateY(0deg) translateZ(75px);
+                }
+                90% {
+                  opacity: 1;
+                  transform: rotateY(0deg) translateZ(150px);
+                }
+                100% {
+                  opacity: 1;
+                  transform: rotateY(0deg) translateZ(150px);
+                }
+              }
+              .cube .sides .back {
+                animation: back-animation 3s ease infinite;
+                animation-delay: 100ms;
+                transform: rotateY(-180deg) translateZ(150px);
+                animation-fill-mode: forwards;
+                transform-origin: 50% 50%;
+              }
+              @keyframes back-animation {
+                0% {
+                  opacity: 1;
+                  transform: rotateY(-180deg) translateZ(150px);
+                }
+                20% {
+                  opacity: 1;
+                  transform: rotateY(-180deg) translateZ(75px);
+                }
+                70% {
+                  opacity: 1;
+                  transform: rotateY(-180deg) translateZ(75px);
+                }
+                90% {
+                  opacity: 1;
+                  transform: rotateY(-180deg) translateZ(150px);
+                }
+                100% {
+                  opacity: 1;
+                  transform: rotateY(-180deg) translateZ(150px);
+                }
+              }
+              .cube .sides .left {
+                animation: left-animation 3s ease infinite;
+                animation-delay: 100ms;
+                transform: rotateY(-90deg) translateZ(150px);
+                animation-fill-mode: forwards;
+                transform-origin: 50% 50%;
+              }
+              @keyframes left-animation {
+                0% {
+                  opacity: 1;
+                  transform: rotateY(-90deg) translateZ(150px);
+                }
+                20% {
+                  opacity: 1;
+                  transform: rotateY(-90deg) translateZ(75px);
+                }
+                70% {
+                  opacity: 1;
+                  transform: rotateY(-90deg) translateZ(75px);
+                }
+                90% {
+                  opacity: 1;
+                  transform: rotateY(-90deg) translateZ(150px);
+                }
+                100% {
+                  opacity: 1;
+                  transform: rotateY(-90deg) translateZ(150px);
+                }
+              }
+              .cube .sides .right {
+                animation: right-animation 3s ease infinite;
+                animation-delay: 100ms;
+                transform: rotateY(90deg) translateZ(150px);
+                animation-fill-mode: forwards;
+                transform-origin: 50% 50%;
+              }
+              @keyframes right-animation {
+                0% {
+                  opacity: 1;
+                  transform: rotateY(90deg) translateZ(150px);
+                }
+                20% {
+                  opacity: 1;
+                  transform: rotateY(90deg) translateZ(75px);
+                }
+                70% {
+                  opacity: 1;
+                  transform: rotateY(90deg) translateZ(75px);
+                }
+                90% {
+                  opacity: 1;
+                  transform: rotateY(90deg) translateZ(150px);
+                }
+                100% {
+                  opacity: 1;
+                  transform: rotateY(90deg) translateZ(150px);
+                }
+              }
+              .text {
+                margin-top: 450px;
+
+                font-size: 1.5rem;
+                width: 100%;
+                font-weight: 600;
+                text-align: center;
+              }
+
+              </style>
+    <div class="bashar">
+      <div class="cube">
+        <div class="sides">
+          <div class="top"></div>
+          <div class="right"></div>
+          <div class="bottom"></div>
+          <div class="left"></div>
+          <div class="front"></div>
+          <div class="back"></div>
+        </div>
+      </div>
+
+    </div>
+
   </div>
   <div id="fullpage" style="width: 100%; height: 50%;">
     <button type="button" name="button" class="sidenav_button fa fa-bars shadow-lg rounded" onclick="openNav()"></button>
@@ -71,50 +307,50 @@ function waiter() {
                   <center>
                   <a class="" id= "buttons" style="color: #facb0f; width: 100px; padding:5px"></a></center>
               <div class="row">
-
+               
                 <div class="col">
                   <a href="./index.html" style="text-decoration: none ;" class="text-center">
                     <div class="card border-0   bg-transparent rounded  cardPad">
                       <img src="./icons/Eventsy2.jpg" style="height: 210px ;border-radius:50%" class="card-img-top" />
                       <div class="card-body">
-
+        
                         <p style="color: white ; font-size: 25px;font-family: 'Courier New', Courier, monospace; font-weight: bold">
-
+        
                           HOME
                         </p>
-
+        
                       </div>
                     </div>
                   </a>
                 </div>
-
+        
                 <div class="col">
                   <a href="./events.html" style="text-decoration: none ;" class="text-center">
                     <div class="card border-0   bg-transparent rounded  cardPad">
                       <img src="./icons/Eventsy2.jpg" style="height: 210px ;border-radius:50%" class="card-img-top" />
                       <div class="card-body">
-
+        
                         <p style="color: white ; font-size: 25px;font-family: 'Courier New', Courier, monospace; font-weight: bold">
-
+        
                           EVENTS
                         </p>
-
+        
                       </div>
                     </div>
                   </a>
                 </div>
-
+        
                 <div class="col">
                   <a href="./sponsors.html" style="text-decoration: none ;" class="text-center">
                     <div class="card border-0  bg-transparent rounded  cardPad ">
                       <img src="./icons/Sponsory2.jpg" style="height:210px;border-radius: 50%; " class="card-img-top" />
                       <div class="card-body">
-
+        
                         <p style="color: white ; font-size: 25px;font-family: 'Courier New', Courier, monospace; font-weight: bold">
-
+        
                           SPONSORS
                         </p>
-
+        
                       </div>
                     </div>
                   </a>
@@ -127,49 +363,49 @@ function waiter() {
                   <div class="card  border-0  bg-transparent rounded cardPad  ">
                     <img src="./icons/gallerymain.htmly2.jpg" style="height: 210px;border-radius: 50%" class="card-img-top" />
                     <div class="card-body">
-
+        
                       <p style="color: white ; font-size: 25px;font-family: 'Courier New', Courier, monospace; font-weight: bold">
-
+        
                         GALLERY
                       </p>
-
+        
                     </div>
                   </div>
                 </a>
               </div>
-
-
-
-
+        
+        
+        
+        
               <div class="col">
                 <a href="./team.html" style="text-decoration: none ;" class="text-center">
                   <div class="card border-0 bg-transparent rounded  cardPad ">
                     <img src="./icons/webTeamy2.jpg" style="height:210px ;border-radius: 50%" class="card-img-top" />
                     <div class="card-body">
-
+        
                       <p style="color: white ; font-size: 25px;font-family: 'Courier New', Courier, monospace; font-weight: bold">
-
+        
                         TEAM
                       </p>
-
+        
                     </div>
                   </div>
                 </a>
               </div>
-
-
-
+        
+        
+        
               <div class="col">
                 <a href="./contact.html" style="text-decoration: none ;" class="text-center">
                   <div class="card  border-0 bg-transparent rounded  cardPad ">
                     <img src="./icons/Contacty2.jpg" style="height: 210px;border-radius: 50%" class="card-img-top" />
                     <div class="card-body">
-
+        
                       <p style="color: white ; font-size: 25px; font-family: 'Courier New', Courier, monospace; font-weight: bold">
-
+        
                         Contact
                       </p>
-
+        
                     </div>
                   </div>
                 </a>
@@ -376,6 +612,27 @@ function waiter() {
 
           </div>
 
+      <div class="col">
+            <button class="btn bg-transparent chea">
+              <div class="card border-0   bg-transparent rounded  cardPad animated  infinite delay-1s" style="animation-duration:1s">
+                <img src="./icons/Eventsy2.jpg" style="height: 210px ;border-radius:50%" class="card-img-top" />
+                <div class="card-body  ">
+
+                  <p style="color: white ; font-size: 25px;font-family: 'Courier New', Courier, monospace; font-weight: bold">
+                  PAPER PRESENTATION
+
+                  </p>
+
+                </div>
+              </div>
+            </button>
+
+
+
+
+
+
+          </div>
 
 
 
@@ -400,11 +657,11 @@ function waiter() {
     <script>
       user= sessionStorage.getItem('storageName');
       if (user != null && user != ""){
-
+        
     var mess = document.getElementById("loginuser");
 mess.textContent =  "Hi,   " + user + "  ";
    var logoutlink = document.getElementById("buttons");
-
+  
 
    logoutlink.innerText = "LOGOUT";
     logoutlink.addEventListener("click", logout);
@@ -413,10 +670,10 @@ mess.textContent =  "Hi,   " + user + "  ";
   logoutlink.style.zIndex = "1";
    // logout linking
 
-
-
-
-
+  
+ 
+   
+   
       }
       else{
         var mess = document.getElementById("loginuser");
