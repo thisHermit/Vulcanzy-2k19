@@ -11,12 +11,7 @@ var flag=true;
 function submitForm(e){
     e.preventDefault();
     var username=document.getElementById("username").value;
-	MEME:MEME,
-        BOOMERANG:BOOMERANG,
-        TELL:TELL,
-        SHORT:SHORT,
-        DANCECOMP:DANCECOMP,
-        DRAMACOMP:DRAMACOMP
+	
     var MEME=document.getElementById("cbx1").checked;
     var BOOMERANG=document.getElementById("cbx2").checked;
     var TELL=document.getElementById("cbx3").checked;
