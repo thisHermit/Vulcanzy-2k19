@@ -144,12 +144,12 @@ function saveMessage(fname,lname,email,mobile,gender,College,CKTS,ARCHI,ORIGIN,A
 
 
 
-var messageRef=firebase.database().ref('cse');
+var messageRef=firebase.database().ref('eeea');
 //event listener for form submit
 var usernames=[];
 var uname=sessionStorage.getItem("storageName");
 document.getElementById("username").value=uname;
-document.getElementById('cse').addEventListener('submit',submitForm);
+document.getElementById('eeea').addEventListener('submit',submitForm);
 var usernames=[];
 var keys=[];
 var main_key="";
@@ -157,15 +157,24 @@ var flag=true;
 function submitForm(e){
     e.preventDefault();
     var username=document.getElementById("username").value;
-    var col=document.getElementById("cbx1").checked;
-    var cod=document.getElementById("cbx2").checked;
-    var cry=document.getElementById("cbx3").checked;
-    var vir=document.getElementById("cbx4").checked;
+	CKTS:CKTS,
+         ARCHI:ARCHI,
+         ORIGIN:ORIGIN,
+         AMALG:AMALG,
+         DECEPTION:DECEPTION,
+         EXPO:EXPO,
+         PAPER:PAPER
+    var CKTS=document.getElementById("cbx1").checked;
+    var ARCHI=document.getElementById("cbx2").checked;
+    var ORIGIN=document.getElementById("cbx3").checked;
+    var AMALG=document.getElementById("cbx4").checked;
     var wor=document.getElementById("cbx5").checked;
-    checkUserPresent(username,col,cod,cry,vir,wor);
+	var EXPO=document.getElementById("cbx5").checked;
+	var PAPER=document.getElementById("cbx5").checked;
+    checkUserPresent(username,CKTS, ARCHI, ORIGIN,AMALG,DECEPTION,EXPO,PAPER);
 }
-function checkUserPresent(username,col,cod,cry,vir,wor){
-      var leadsRef = firebase.database().ref('cse');
+function checkUserPresent(username,CKTS, ARCHI, ORIGIN,AMALG,DECEPTION,EXPO,PAPER){
+      var leadsRef = firebase.database().ref('eeea');
       leadsRef.on('value', function(snapshot) {
           var all=[];
           snapshot.forEach(function(childSnapshot) {
@@ -180,39 +189,43 @@ function checkUserPresent(username,col,cod,cry,vir,wor){
           if(usernames.includes(username)&&flag){
               flag=false;
               main_key=keys[usernames.indexOf(username)];
-              writeUserData(username,cod,col,cry,vir,wor,true,main_key);
+              writeUserData(username,CKTS, ARCHI, ORIGIN,AMALG,DECEPTION,EXPO,PAPER,true,main_key);
           }
           else if(flag){
               flag=false;
               console.log("new here");
-              writeUserData(username,cod,col,cry,vir,wor,false,"");
+              writeUserData(username,CKTS, ARCHI, ORIGIN,AMALG,DECEPTION,EXPO,PAPER,false,"");
           }
 
       });
 }
 
-function writeUserData(username,cod,col,cry,vir,wor,isTrue,u_key) {
+function writeUserData(username,CKTS, ARCHI, ORIGIN,AMALG,DECEPTION,EXPO,PAPER,isTrue,u_key) {
   if(isTrue){
         window.alert("already registered");
-        firebase.database().ref('cse').child(u_key).set({
+        firebase.database().ref('eeea').child(u_key).set({
             username: username,
-            colloquium:col,
-            code_sprint:cod,
-            cryptoceon:cry,
-            virtually_true:vir,
-            workshop_on_cryptograpgy:wor,
+           CKTS:CKTS,
+         ARCHI:ARCHI,
+         ORIGIN:ORIGIN,
+         AMALG:AMALG,
+         DECEPTION:DECEPTION,
+         EXPO:EXPO,
+         PAPER:PAPER,
             paid: 0
         });
     }
     else{
         window.alert("new regitration successful");
-        firebase.database().ref('cse').child(u_key).set({
+        firebase.database().ref('eeea').child(u_key).set({
           username: username,
-          colloquium:col,
-          code_sprint:cod,
-          cryptoceon:cry,
-          virtually_true:vir,
-          workshop_on_cryptograpgy:wor
+          CKTS:CKTS,
+         ARCHI:ARCHI,
+         ORIGIN:ORIGIN,
+         AMALG:AMALG,
+         DECEPTION:DECEPTION,
+         EXPO:EXPO,
+         PAPER:PAPER,
             paid:0
         });
     }
