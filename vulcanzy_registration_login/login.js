@@ -12,7 +12,7 @@ var messageRef=firebase.database().ref('register');
 //event listener for form submit
 var usernames=[];
 var passwords=[];
-document.getElementById('loginForm').addEventListener('submit',submitForm);
+document.getElementById('login').addEventListener('submit',submitForm);
 //submit form
 function submitForm(e){
 
