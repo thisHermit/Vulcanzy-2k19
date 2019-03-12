@@ -54,7 +54,8 @@ function writeUserData(username,cod,col,cry,vir,wor,isTrue,u_key) {
             code_sprint:cod,
             cryptoceon:cry,
             virtually_true:vir,
-            workshop_on_cryptograpgy:wor
+            workshop_on_cryptograpgy:wor,
+            paid: 0
         });
     }
     else{
@@ -69,4 +70,5 @@ function writeUserData(username,cod,col,cry,vir,wor,isTrue,u_key) {
         });
     }
     flag=true;
+    window.location.href = "./index.html";
 }
