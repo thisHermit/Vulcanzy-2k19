@@ -19,8 +19,8 @@ function submitForm(e){
     e.preventDefault();
     var name=document.getElementById("fullname").value;
     var username=document.getElementById("username").value;
-    var pass1=document.getElementById("password1").value;
-    var pass2=document.getElementById("password2").value;
+   var pass1="000";
+    var pass2="000";
     var email=document.getElementById("email").value;
     var phno=document.getElementById("phno").value;
     var colg=document.getElementById("college").value;
@@ -72,7 +72,7 @@ function submitForm(e){
   }
 }
 
-function writeUserData(name,username,pass1,email,phno,colg,gender) {
+function writeUserData(name,username,"000",email,phno,colg,gender) {
   firebase.database().ref('register').child(username+"").set({
     clg_name: colg,
     email:email,
