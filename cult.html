@@ -27,16 +27,16 @@
 
   <script>
 
-function waiter() {
+    function waiter() {
             if (document.all){
-               
+
                document.all["layer1"].classList.add("animated","fadeOut");
-               document.all["layer1"].style.zIndex = "-100" ; 
+               document.all["layer1"].style.zIndex = "-100" ;
                 document.all["layer2"].style.visibility="visible";
             } else if (document.getElementById){
-                
+
                 node = document.all["layer1"].classList.add("animated", "fadeOut");
-                document.all["layer1"].style.zIndex = "-100" ; 
+                document.all["layer1"].style.zIndex = "-100" ;
                 //node = document.getElementById("layer1").style.display='none';
                 node = document.getElementById("layer2").style.visibility='visible';
 
@@ -68,363 +68,127 @@ function waiter() {
 
 
   <div id="layer1" class="layer1_class">
-    <style>
-      @import url('https://fonts.googleapis.com/css?family=Roboto:700');
-
-              .bashar {
-
-                display:flex;
-                justify-content: center;
-                align-items: center;
-                flex-direction: row;
-                margin: 0 auto;
-                width: 50%;
-              }
-              @keyframes rotate {
-                0% {
-                  transform: rotateX(-37.5deg) rotateY(45deg);
-                }
-                50% {
-                  transform: rotateX(-37.5deg) rotateY(405deg);
-                }
-                100% {
-                  transform: rotateX(-37.5deg) rotateY(405deg);
-                }
-              }
-              .cube, .cube * {
-                position: absolute;
-                width: 151px;
-                height: 151px;
-              }
-              .sides {
-                animation: rotate 3s ease infinite;
-                animation-delay: 0.8s;
-                transform-style: preserve-3d;
-                transform: rotateX(-37.5deg) rotateY(45deg);
-              }
-              .cube .sides * {
-                box-sizing: border-box;
-                background-color: #f9d342;
-                border: 15px solid white;
-              }
-              .cube .sides .top {
-                animation: top-animation 3s ease infinite;
-                animation-delay: 0ms;
-                transform: rotateX(90deg) translateZ(150px);
-                animation-fill-mode: forwards;
-                transform-origin: 50% 50%;
-              }
-              @keyframes top-animation {
-                0% {
-                  opacity: 1;
-                  transform: rotateX(90deg) translateZ(150px);
-                }
-                20% {
-                  opacity: 1;
-                  transform: rotateX(90deg) translateZ(75px);
-                }
-                70% {
-                  opacity: 1;
-                  transform: rotateX(90deg) translateZ(75px);
-                }
-                90% {
-                  opacity: 1;
-                  transform: rotateX(90deg) translateZ(150px);
-                }
-                100% {
-                  opacity: 1;
-                  transform: rotateX(90deg) translateZ(150px);
-                }
-              }
-              .cube .sides .bottom {
-                animation: bottom-animation 3s ease infinite;
-                animation-delay: 0ms;
-                transform: rotateX(-90deg) translateZ(150px);
-                animation-fill-mode: forwards;
-                transform-origin: 50% 50%;
-              }
-              @keyframes bottom-animation {
-                0% {
-                  opacity: 1;
-                  transform: rotateX(-90deg) translateZ(150px);
-                }
-                20% {
-                  opacity: 1;
-                  transform: rotateX(-90deg) translateZ(75px);
-                }
-                70% {
-                  opacity: 1;
-                  transform: rotateX(-90deg) translateZ(75px);
-                }
-                90% {
-                  opacity: 1;
-                  transform: rotateX(-90deg) translateZ(150px);
-                }
-                100% {
-                  opacity: 1;
-                  transform: rotateX(-90deg) translateZ(150px);
-                }
-              }
-              .cube .sides .front {
-                animation: front-animation 3s ease infinite;
-                animation-delay: 100ms;
-                transform: rotateY(0deg) translateZ(150px);
-                animation-fill-mode: forwards;
-                transform-origin: 50% 50%;
-              }
-              @keyframes front-animation {
-                0% {
-                  opacity: 1;
-                  transform: rotateY(0deg) translateZ(150px);
-                }
-                20% {
-                  opacity: 1;
-                  transform: rotateY(0deg) translateZ(75px);
-                }
-                70% {
-                  opacity: 1;
-                  transform: rotateY(0deg) translateZ(75px);
-                }
-                90% {
-                  opacity: 1;
-                  transform: rotateY(0deg) translateZ(150px);
-                }
-                100% {
-                  opacity: 1;
-                  transform: rotateY(0deg) translateZ(150px);
-                }
-              }
-              .cube .sides .back {
-                animation: back-animation 3s ease infinite;
-                animation-delay: 100ms;
-                transform: rotateY(-180deg) translateZ(150px);
-                animation-fill-mode: forwards;
-                transform-origin: 50% 50%;
-              }
-              @keyframes back-animation {
-                0% {
-                  opacity: 1;
-                  transform: rotateY(-180deg) translateZ(150px);
-                }
-                20% {
-                  opacity: 1;
-                  transform: rotateY(-180deg) translateZ(75px);
-                }
-                70% {
-                  opacity: 1;
-                  transform: rotateY(-180deg) translateZ(75px);
-                }
-                90% {
-                  opacity: 1;
-                  transform: rotateY(-180deg) translateZ(150px);
-                }
-                100% {
-                  opacity: 1;
-                  transform: rotateY(-180deg) translateZ(150px);
-                }
-              }
-              .cube .sides .left {
-                animation: left-animation 3s ease infinite;
-                animation-delay: 100ms;
-                transform: rotateY(-90deg) translateZ(150px);
-                animation-fill-mode: forwards;
-                transform-origin: 50% 50%;
-              }
-              @keyframes left-animation {
-                0% {
-                  opacity: 1;
-                  transform: rotateY(-90deg) translateZ(150px);
-                }
-                20% {
-                  opacity: 1;
-                  transform: rotateY(-90deg) translateZ(75px);
-                }
-                70% {
-                  opacity: 1;
-                  transform: rotateY(-90deg) translateZ(75px);
-                }
-                90% {
-                  opacity: 1;
-                  transform: rotateY(-90deg) translateZ(150px);
-                }
-                100% {
-                  opacity: 1;
-                  transform: rotateY(-90deg) translateZ(150px);
-                }
-              }
-              .cube .sides .right {
-                animation: right-animation 3s ease infinite;
-                animation-delay: 100ms;
-                transform: rotateY(90deg) translateZ(150px);
-                animation-fill-mode: forwards;
-                transform-origin: 50% 50%;
-              }
-              @keyframes right-animation {
-                0% {
-                  opacity: 1;
-                  transform: rotateY(90deg) translateZ(150px);
-                }
-                20% {
-                  opacity: 1;
-                  transform: rotateY(90deg) translateZ(75px);
-                }
-                70% {
-                  opacity: 1;
-                  transform: rotateY(90deg) translateZ(75px);
-                }
-                90% {
-                  opacity: 1;
-                  transform: rotateY(90deg) translateZ(150px);
-                }
-                100% {
-                  opacity: 1;
-                  transform: rotateY(90deg) translateZ(150px);
-                }
-              }
-              .text {
-                margin-top: 450px;
-
-                font-size: 1.5rem;
-                width: 100%;
-                font-weight: 600;
-                text-align: center;
-              }
-
-              </style>
-    <div class="bashar">
-      <div class="cube">
-        <div class="sides">
-          <div class="top"></div>
-          <div class="right"></div>
-          <div class="bottom"></div>
-          <div class="left"></div>
-          <div class="front"></div>
-          <div class="back"></div>
-        </div>
-      </div>
-
-    </div>
-
+    <img src="./gallery/preloader_anim.gif"></img>
   </div>
   <div id="fullpage" style="width: 100%; height: 50%;">
     <button type="button" name="button" class="sidenav_button fa fa-bars shadow-lg rounded" onclick="openNav()"></button>
     <div id="layer2" class="layer2_class align-self-center">
 
-        <div id="side_nav" class="sidenav">
+      <div id="side_nav" class="sidenav">
 
-            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-            <div class="container" style=" margin-top: 2% ">
-                <center>
-                    <p id="loginuser" style="font-size: 30px; color: #facb0f; font-weight: 100;">mehi</p>
-                  </center>
-                  <center>
-                  <a class="" id= "buttons" style="color: #facb0f; width: 100px; padding:5px"></a></center>
-              <div class="row">
-               
-                <div class="col">
-                  <a href="./index.html" style="text-decoration: none ;" class="text-center">
-                    <div class="card border-0   bg-transparent rounded  cardPad">
-                      <img src="./icons/Eventsy2.jpg" style="height: 210px ;border-radius:50%" class="card-img-top" />
-                      <div class="card-body">
-        
-                        <p style="color: white ; font-size: 25px;font-family: 'Courier New', Courier, monospace; font-weight: bold">
-        
-                          HOME
-                        </p>
-        
-                      </div>
-                    </div>
-                  </a>
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <div class="container" style=" margin-top: 2% ">
+          <center>
+            <p id="loginuser" style="font-size: 30px; color: #facb0f; font-weight: 100;">mehi</p>
+          </center>
+          <center>
+            <a class="" id="buttons" style="color: #facb0f; width: 100px; padding:5px"></a></center>
+          <div class="row">
+
+            <div class="col">
+              <a href="./index.html" style="text-decoration: none ;" class="text-center">
+                <div class="card border-0   bg-transparent rounded  cardPad">
+                  <img src="./icons/Eventsy2.jpg" style="height: 210px ;border-radius:50%" class="card-img-top" />
+                  <div class="card-body">
+
+                    <p style="color: white ; font-size: 25px;font-family: 'Courier New', Courier, monospace; font-weight: bold">
+
+                      HOME
+                    </p>
+
+                  </div>
                 </div>
-        
-                <div class="col">
-                  <a href="./events.html" style="text-decoration: none ;" class="text-center">
-                    <div class="card border-0   bg-transparent rounded  cardPad">
-                      <img src="./icons/Eventsy2.jpg" style="height: 210px ;border-radius:50%" class="card-img-top" />
-                      <div class="card-body">
-        
-                        <p style="color: white ; font-size: 25px;font-family: 'Courier New', Courier, monospace; font-weight: bold">
-        
-                          EVENTS
-                        </p>
-        
-                      </div>
-                    </div>
-                  </a>
-                </div>
-        
-                <div class="col">
-                  <a href="./sponsors.html" style="text-decoration: none ;" class="text-center">
-                    <div class="card border-0  bg-transparent rounded  cardPad ">
-                      <img src="./icons/Sponsory2.jpg" style="height:210px;border-radius: 50%; " class="card-img-top" />
-                      <div class="card-body">
-        
-                        <p style="color: white ; font-size: 25px;font-family: 'Courier New', Courier, monospace; font-weight: bold">
-        
-                          SPONSORS
-                        </p>
-        
-                      </div>
-                    </div>
-                  </a>
-                </div>
-              </div>
+              </a>
             </div>
-            <div class="row" style=" margin-top: 50px">
-              <div class="col">
-                <a href="./gallerymain.html" style="text-decoration: none ;" class="text-center">
-                  <div class="card  border-0  bg-transparent rounded cardPad  ">
-                    <img src="./icons/gallerymain.htmly2.jpg" style="height: 210px;border-radius: 50%" class="card-img-top" />
-                    <div class="card-body">
-        
-                      <p style="color: white ; font-size: 25px;font-family: 'Courier New', Courier, monospace; font-weight: bold">
-        
-                        GALLERY
-                      </p>
-        
-                    </div>
+
+            <div class="col">
+              <a href="./events.html" style="text-decoration: none ;" class="text-center">
+                <div class="card border-0   bg-transparent rounded  cardPad">
+                  <img src="./icons/Eventsy2.jpg" style="height: 210px ;border-radius:50%" class="card-img-top" />
+                  <div class="card-body">
+
+                    <p style="color: white ; font-size: 25px;font-family: 'Courier New', Courier, monospace; font-weight: bold">
+
+                      EVENTS
+                    </p>
+
                   </div>
-                </a>
-              </div>
-        
-        
-        
-        
-              <div class="col">
-                <a href="./team.html" style="text-decoration: none ;" class="text-center">
-                  <div class="card border-0 bg-transparent rounded  cardPad ">
-                    <img src="./icons/webTeamy2.jpg" style="height:210px ;border-radius: 50%" class="card-img-top" />
-                    <div class="card-body">
-        
-                      <p style="color: white ; font-size: 25px;font-family: 'Courier New', Courier, monospace; font-weight: bold">
-        
-                        TEAM
-                      </p>
-        
-                    </div>
+                </div>
+              </a>
+            </div>
+
+            <div class="col">
+              <a href="./sponsors.html" style="text-decoration: none ;" class="text-center">
+                <div class="card border-0  bg-transparent rounded  cardPad ">
+                  <img src="./icons/Sponsory2.jpg" style="height:210px;border-radius: 50%; " class="card-img-top" />
+                  <div class="card-body">
+
+                    <p style="color: white ; font-size: 25px;font-family: 'Courier New', Courier, monospace; font-weight: bold">
+
+                      SPONSORS
+                    </p>
+
                   </div>
-                </a>
-              </div>
-        
-        
-        
-              <div class="col">
-                <a href="./contact.html" style="text-decoration: none ;" class="text-center">
-                  <div class="card  border-0 bg-transparent rounded  cardPad ">
-                    <img src="./icons/Contacty2.jpg" style="height: 210px;border-radius: 50%" class="card-img-top" />
-                    <div class="card-body">
-        
-                      <p style="color: white ; font-size: 25px; font-family: 'Courier New', Courier, monospace; font-weight: bold">
-        
-                        Contact
-                      </p>
-        
-                    </div>
-                  </div>
-                </a>
-              </div>
+                </div>
+              </a>
             </div>
           </div>
+        </div>
+        <div class="row" style=" margin-top: 50px">
+          <div class="col">
+            <a href="./gallerymain.html" style="text-decoration: none ;" class="text-center">
+              <div class="card  border-0  bg-transparent rounded cardPad  ">
+                <img src="./icons/gallerymain.htmly2.jpg" style="height: 210px;border-radius: 50%" class="card-img-top" />
+                <div class="card-body">
+
+                  <p style="color: white ; font-size: 25px;font-family: 'Courier New', Courier, monospace; font-weight: bold">
+
+                    GALLERY
+                  </p>
+
+                </div>
+              </div>
+            </a>
+          </div>
+
+
+
+
+          <div class="col">
+            <a href="./team.html" style="text-decoration: none ;" class="text-center">
+              <div class="card border-0 bg-transparent rounded  cardPad ">
+                <img src="./icons/webTeamy2.jpg" style="height:210px ;border-radius: 50%" class="card-img-top" />
+                <div class="card-body">
+
+                  <p style="color: white ; font-size: 25px;font-family: 'Courier New', Courier, monospace; font-weight: bold">
+
+                    TEAM
+                  </p>
+
+                </div>
+              </div>
+            </a>
+          </div>
+
+
+
+          <div class="col">
+            <a href="./contact.html" style="text-decoration: none ;" class="text-center">
+              <div class="card  border-0 bg-transparent rounded  cardPad ">
+                <img src="./icons/Contacty2.jpg" style="height: 210px;border-radius: 50%" class="card-img-top" />
+                <div class="card-body">
+
+                  <p style="color: white ; font-size: 25px; font-family: 'Courier New', Courier, monospace; font-weight: bold">
+
+                    Contact
+                  </p>
+
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
 
       <div class="banner container heading" style="margin-top: 50px">
         <a href="./index.html" class="text-decoration-none ">
@@ -552,10 +316,11 @@ function waiter() {
         </div>
       </div>
       <div class="  container information " style=" opacity: .9" id="eventList">
-          <center>
-              <a href="./cult.html" style=" text-decoration: none; color: #f9d342; font-weight:100 ; margin-left: auto; margin-right: auto; padding-left: 10px; padding-right: 10px; padding-top: 10px; padding-bottom: 10px; font-size:20px; margin-top: 20px" class=" register shadow-lg registerAnim border bg-dark border-dark rounded">
-                BACK</a>
-          </center>
+        <center>
+          <a href="./cult.html" style=" text-decoration: none; color: #f9d342; font-weight:100 ; margin-left: auto; margin-right: auto; padding-left: 10px; padding-right: 10px; padding-top: 10px; padding-bottom: 10px; font-size:20px; margin-top: 20px"
+            class=" register shadow-lg registerAnim border bg-dark border-dark rounded">
+            BACK</a>
+        </center>
 
       </div>
     </div>
@@ -563,35 +328,34 @@ function waiter() {
 
 
     <script>
-      user= sessionStorage.getItem('storageName');
-      if (user != null && user != ""){
-        
-    var mess = document.getElementById("loginuser");
-mess.textContent =  "Hi,   " + user + "  ";
-   var logoutlink = document.getElementById("buttons");
-  
+      user = sessionStorage.getItem('storageName');
+      if (user != null && user != "") {
 
-   logoutlink.innerText = "LOGOUT";
-    logoutlink.addEventListener("click", logout);
- logoutlink.setAttribute('class', 'btn btn-dark');
- //  logoutlink.setAttribute('class', 'btn-info');
-  logoutlink.style.zIndex = "1";
-   // logout linking
-
-  
- 
-   
-   
-      }
-      else{
         var mess = document.getElementById("loginuser");
-mess.textContent =  "Hi, Guest";
+        mess.textContent = "Hi,   " + user + "  ";
+        var logoutlink = document.getElementById("buttons");
+
+
+        logoutlink.innerText = "LOGOUT";
+        logoutlink.addEventListener("click", logout);
+        logoutlink.setAttribute('class', 'btn btn-dark');
+        //  logoutlink.setAttribute('class', 'btn-info');
+        logoutlink.style.zIndex = "1";
+        // logout linking
+
+
+
+
+
+      } else {
+        var mess = document.getElementById("loginuser");
+        mess.textContent = "Hi, Guest";
       }
 
-      function logout () {
+      function logout() {
         var user = "";
-        sessionStorage.setItem('storageName',user);
-        window.open("https://amitsai28.github.io/Vulcanzy-2k19/","_self");
+        sessionStorage.setItem('storageName', user);
+        window.open("https://amitsai28.github.io/Vulcanzy-2k19/", "_self");
       }
     </script>
 </body>
@@ -646,8 +410,8 @@ mess.textContent =  "Hi, Guest";
           //d.PNP[i].noOfLevels +
           ' &nbsp; FEE:' +
           d.PNP[i].regFee +
-         // ' &nbsp; DURATION:' +
-         // d.PNP[i].duration +
+          // ' &nbsp; DURATION:' +
+          // d.PNP[i].duration +
           '  </p>' + '<p class=""> <br/> ORGANIZERS: &nbsp;' +
           d.PNP[i].organizers +
           ' <br/> CONTACT: &nbsp;' +
@@ -676,11 +440,11 @@ mess.textContent =  "Hi, Guest";
         $(".information").append('<div class="jumbotron rounded  text-center" style= "background-image: linear-gradient(to top right ,#e9e61b,#fa9702fd)" > <h1 style="position: relative;" class="display-8">' +
           d.DND[i].event +
           '</h1> <hr class="my-4"><h3>' + d.DND[i].description.small + '</h3> <br /><p class="">  ' +
-        //  d.DND[i].noOfLevels +
+          //  d.DND[i].noOfLevels +
           ' &nbsp; Fee:' +
           d.DND[i].regFee +
-        //  ' &nbsp; DURATION:' +
-         // d.DND[i].duration +
+          //  ' &nbsp; DURATION:' +
+          // d.DND[i].duration +
           '  </p>' + '<p class=""> <br/> Organizers: &nbsp; ' +
           d.DND[i].organizers +
           ' <br/> Contact: &nbsp;' +
@@ -712,8 +476,8 @@ mess.textContent =  "Hi, Guest";
           //d.SNH[i].noOfLevels +
           ' &nbsp; Fee:' +
           d.SNH[i].regFee +
-         // ' &nbsp; DURATION: &nbsp;' +
-        //  d.SNH[i].duration +
+          // ' &nbsp; DURATION: &nbsp;' +
+          //  d.SNH[i].duration +
           '  </p>' + '<p class=""> <br/> Organizers: &nbsp; ' +
           d.SNH[i].organizers +
           ' <br/> Contact: &nbsp;' +
@@ -745,7 +509,7 @@ mess.textContent =  "Hi, Guest";
           ' &nbsp; Fee:' +
           d.MAGAZINE[i].regFee +
           //' &nbsp; DURATION:' +
-         // d.MAGAZINE[i].duration +
+          // d.MAGAZINE[i].duration +
           '  </p>' + '<p class=""> <br/> Organizers: &nbsp; ' +
           d.MAGAZINE[i].organizers +
           ' <br/> Contact: &nbsp;' +
@@ -773,10 +537,10 @@ mess.textContent =  "Hi, Guest";
         $(".information").append('<div class="jumbotron rounded  text-center" style= "background-image: linear-gradient(to top right ,#e9e61b,#fa9702fd)" > <h1 style="position: relative;" class="display-8">' +
           d.MUSIC[i].event +
           '</h1> <hr class="my-4"><h3>' + d.MUSIC[i].description.small + '</h3><p class="">  ' +
-        //  d.MUSIC[i].noOfLevels +
+          //  d.MUSIC[i].noOfLevels +
           ' &nbsp; Fee:' +
           d.MUSIC[i].regFee +
-         // ' &nbsp; DURATION:' +
+          // ' &nbsp; DURATION:' +
           //d.MUSIC[i].duration +
           '  </p>' + '<p class=""> <br/> Organizers: &nbsp; ' +
           d.MUSIC[i].organizers +
@@ -824,7 +588,6 @@ mess.textContent =  "Hi, Guest";
       elem.innerHTML = "More";
     }
   }
-
 </script>
 
 
