@@ -61,6 +61,7 @@ function submitForm(e){
           all=[]
           all1=[]
           flag=false;
+		console.log(123);
           writeUserData(name,username,pass1,email,phno,colg,"M");
          
 		window.location.href = "../index.html";
