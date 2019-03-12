@@ -12,6 +12,7 @@ var messageRef=firebase.database().ref('register');
 //event listener for form submit
 var usernames=[];
 var passwords=[];
+console.log("hi")
 document.getElementById('login').addEventListener('submit',submitForm);
 //submit form
 function submitForm(e){
@@ -38,8 +39,10 @@ function submitForm(e){
       console.log(passwords);
       if(all.includes(username)&&all1.includes(password) && (all1[all.indexOf(username)]+""==password)){
           flag=false;
+          console.log(123); 
           sessionStorage.setItem("storageName",username);
-          window.location.href = "./main.html";
+          console.log(username)
+            window.location.href = "../index.html";
       }
       else if(all.includes(username)&&flag){
         flag=false;
