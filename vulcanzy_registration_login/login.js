@@ -8,7 +8,7 @@ function submitForm(e){
 
     e.preventDefault();
     var username=document.getElementById("username").value;
-    var password=document.getElementById("password").value;
+    var password="000";
     username+="";
     password+="";
     var leadsRef = firebase.database().ref('register');
