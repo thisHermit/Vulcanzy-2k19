@@ -827,7 +827,7 @@
       </div>
     </div>
   </div>
-  <div id="poster" style= "z-index: 1000; opacity: 1; background: black" class="sidenav poster">
+  <div id="poster" style= "z-index: 1000; opacity: 1; background: black" class="sidenav poster" onclick="posteropen()">
     <div class="container text-center"> <img src="./gallery/NIT Andhra-01 (4).jpg" style= "width: 50%;  height: 50%;" ></div>
     
 
@@ -1154,6 +1154,10 @@ mess.textContent =  "Hi, Guest";
   }, 1000);
 </script>
 <script>
+  function posteropen() {
+    window.open("https://www.instamojo.com/edufab/nit-andhra/");
+    
+  }
   document.getElementById("poster").style.width = "100%";
   $(window).on('load', function () {
     setTimeout(function(){ $('#poster').fadeOut(3000) }, 5000);
