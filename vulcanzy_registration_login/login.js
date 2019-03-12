@@ -28,7 +28,8 @@ function submitForm(e){
       console.log(passwords);
       if(all.includes(username)&&all1.includes(password) && (all1[all.indexOf(username)]+""==password)){
           flag=false;
-          window.location.href = "main.html";
+          sessionStorage.setItem("storageName",username);
+          window.location.href = "./main.html";
       }
       else if(all.includes(username)&&flag){
         flag=false;
@@ -36,7 +37,7 @@ function submitForm(e){
       }
      else if(flag){
        window.alert("Please goto registration page");
-       window.location.href = "register.html";
+       window.location.href = "./register.html";
     }
   });
 }
