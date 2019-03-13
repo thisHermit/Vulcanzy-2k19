@@ -24,10 +24,7 @@ var flag=true;
 function submitForm(e){
     e.preventDefault();
     var username=document.getElementById("username").value;
-	TALENT:TALENT,
-         LYRICAL:LYRICAL,
-         GUESS:GUESS,
-         INSTA:INSTA
+	
     var TALENT=document.getElementById("cbx1").checked;
     var LYRICAL=document.getElementById("cbx2").checked;
     var GUESS=document.getElementById("cbx3").checked;
