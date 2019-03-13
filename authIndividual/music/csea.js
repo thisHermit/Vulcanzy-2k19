@@ -62,7 +62,7 @@ function checkUserPresent(username,TALENT,LYRICAL,GUESS,INSTA){
 function writeUserData(username,TALENT,LYRICAL,GUESS,INSTA,isTrue,u_key) {
   if(isTrue){
         window.alert("already registered");
-        firebase.database().ref('music').child(u_key).set({
+        firebase.database().ref('music').child(u_key+"").set({
             username: username,
             TALENT:TALENT,
          LYRICAL:LYRICAL,
@@ -73,7 +73,7 @@ function writeUserData(username,TALENT,LYRICAL,GUESS,INSTA,isTrue,u_key) {
     }
     else{
         window.alert("new regitration successful");
-        firebase.database().ref('music').child(u_key).set({
+        firebase.database().ref('music').child(u_key+"").set({
           username: username,
           TALENT:TALENT,
          LYRICAL:LYRICAL,
@@ -83,6 +83,6 @@ function writeUserData(username,TALENT,LYRICAL,GUESS,INSTA,isTrue,u_key) {
         });
     }
     flag=true;
-    window.location.href = "./index.html";
+    window.location.href = "../index.html";
 }
 
