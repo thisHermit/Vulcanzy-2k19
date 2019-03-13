@@ -50,7 +50,7 @@ function checkUserPresent(username,MEME,BOOMERANG,TELL,SHORT,DANCECOMP,DRAMACOMP
 function writeUserData(username,MEME,BOOMERANG,TELL,SHORT,DANCECOMP,DRAMACOMP,isTrue,u_key) {
   if(isTrue){
         window.alert("already registered");
-        firebase.database().ref('dnd').child(u_key).set({
+        firebase.database().ref('dnd').child(u_key+"").set({
             username: username,
              MEME:MEME,
         BOOMERANG:BOOMERANG,
@@ -63,7 +63,7 @@ function writeUserData(username,MEME,BOOMERANG,TELL,SHORT,DANCECOMP,DRAMACOMP,is
     }
     else{
         window.alert("new regitration successful");
-        firebase.database().ref('dnd').child(u_key).set({
+        firebase.database().ref('dnd').child(u_key+"").set({
           username: username,
           MEME:MEME,
         BOOMERANG:BOOMERANG,
@@ -75,6 +75,6 @@ function writeUserData(username,MEME,BOOMERANG,TELL,SHORT,DANCECOMP,DRAMACOMP,is
         });
     }
     flag=true;
-    window.location.href = "./index.html";
+    window.location.href = "../index.html";
 }
 
