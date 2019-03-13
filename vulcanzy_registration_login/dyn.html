@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style media="screen">
+    body{
+      background:skyblue;
+    }
+  </style>
+</head>
+<body>
+
+<style>
+table, th, td {
+  border: 1px solid black;
+}
+</style>
+
+<script>
+function tabulateDepartment(deptName,ename, paid) {
+  var h = document.createElement("H1");
+  h.innerHTML=deptName;
+
+  document.body.appendChild(h);
+  var tble=document.createElement("TABLE");
+  var row;
+  var cell1;
+  var cell2;
+
+  for (var i = 0; i < ename.length; i++) {
+    row = tble.insertRow(0);
+    cell1 = row.insertCell(0);
+    cell2 = row.insertCell(1);
+
+    cell1.innerHTML = ename[i];
+    cell2.innerHTML = paid[i];
+  }
+
+  row = tble.insertRow(0);
+  cell1 = row.insertCell(0);
+  cell2 = row.insertCell(1);
+  cell1.innerHTML = "Event name";
+  tble.style.border="20px";
+  cell1.style.padding="10px";
+  cell2.style.padding="10px";
+  cell2.innerHTML = "payment status";
+
+  document.body.appendChild(tble);
+}
+tabulateDepartment("Cse", ["cryptoceon", "paper technico"],["paid", "unpaid"]);
+</script>
+
+</body>
+</html>
