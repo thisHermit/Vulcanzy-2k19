@@ -17,7 +17,7 @@ var messageRef=firebase.database().ref('register');
     leadsRef.on('value', function(snapshot) {
         var child=snapshot.val();
         var name=child.name.toUpperCase();
-        
+
         var email=child.email;
         var statusReg=child.paid;
         var clgname=child.clg_name;
@@ -29,7 +29,7 @@ var messageRef=firebase.database().ref('register');
         document.getElementById("phone").innerHTML=phno;
         document.getElementById("college").innerHTML=clgname;
         document.getElementById("regStatus").innerHTML=statusReg;
-        
+
         console.log(child.name+"hi");
         createSpace();
         readEvents(username);
@@ -50,11 +50,11 @@ function readEvents(username){
                 {name :"VIRTUALLY TRUE",flag:child.virtually_true},
                 {name: "PSYCH ARENA",flag:child.psycharena},
                 {name: "WORKSHOP ON CRYPTACTEON",flag:child.workshop_on_cryptograpgy}]};
-           
+
                     }
             writeTable(ename,"CSE");
-               });              
-        } 
+               });
+        }
 function createSpace()
 {
     var br=document.createElement("br");
@@ -62,28 +62,30 @@ function createSpace()
     {document.body.appendChild(br);}
     //document.write("<br><br><br><br><br><br><br><br><br><br><br><br><br><br>");
 }
+// easter egg ? surprise! but this code should be fixed
 function writeTable(ename,branch)
 {
     var h = document.createElement("H1");
     h.innerHTML=branch;
+    var target = document.getElementById("events");
 
-        document.body.appendChild(h);
-           
+        target.appendChild(h);
+
            var tble=document.createElement("TABLE");
            var row;
            var cell1;
            var cell2;
 
         for (var i = 0; i < ename.data.length; i++) {
-              
+
                if(!ename.data[i].flag) continue;
 
 
                row = tble.insertRow(0);
                cell1 = row.insertCell(0);
                cell2 = row.insertCell(1);
-               
-               
+
+
                cell1.innerHTML = ename.data[i].name;
                cell2.innerHTML = ename.data[i].flag?"UNPAID":"PAID";
            }
@@ -97,5 +99,5 @@ function writeTable(ename,branch)
            cell2.style.padding="10px";
            cell2.innerHTML = "payment status";
 
-           document.body.appendChild(tble);
+           target.appendChild(tble);
 }
