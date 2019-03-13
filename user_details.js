@@ -52,7 +52,9 @@ function readEvents(username){
                 {name: "WORKSHOP ON CRYPTACTEON",flag:child.workshop_on_cryptograpgy}]};
 
                     }
-            writeTable(ename,"CSE");
+            var paid=child.paid;
+            
+            writeTable(ename,"CSE",paid);
                });
         }
 function createSpace()
@@ -63,7 +65,7 @@ function createSpace()
     //document.write("<br><br><br><br><br><br><br><br><br><br><br><br><br><br>");
 }
 // easter egg ? surprise! but this code should be cleaned
-function writeTable(ename,branch)
+function writeTable(ename,branch,paid)
 {
     var h = document.createElement("H4");
     h.innerHTML=branch;
@@ -87,7 +89,7 @@ function writeTable(ename,branch)
 
 
                cell1.innerHTML = ename.data[i].name;
-               cell2.innerHTML = ename.data[i].flag?"UNPAID":"PAID";
+               cell2.innerHTML = paid?"PAYMENT STATUS PENDING":"PAID";
            }
 
            row = tble.insertRow(0);
