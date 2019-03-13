@@ -40,12 +40,12 @@ function userDetails(name,uname,email,phno,clgname,reg){
       var phone=document.createElement("H1");
       var college=document.createElement("H1");
       var regStatus=document.createElement("H1");
-      name.innerHTML=name;
-      username.innerHTML=uname;
-      em.innerHTML=email;
-      phne.innerHTML=phno;
-      college.innerHTML=clgname;
-      regStatus.innerHTML=reg;
+      name.innerHTML=name+"";
+      username.innerHTML=uname+"";
+      em.innerHTML=email+"";
+      phne.innerHTML=phno+"";
+      college.innerHTML=clgname+"";
+      regStatus.innerHTML=reg+"";
       document.body.appendChild(name);
       document.body.appendChild(username);
       document.body.appendChild(em);
