@@ -24,10 +24,7 @@ var flag=true;
 function submitForm(e){
     e.preventDefault();
     var username=document.getElementById("username").value;
-	 ONET:ONET,
-         RIDDLE:RIDDLE,
-         WAX:WAX,
-         BEYOND:BEYOND
+	
     var ONET=document.getElementById("cbx1").checked;
     var RIDDLE=document.getElementById("cbx2").checked;
     var WAX=document.getElementById("cbx3").checked;
