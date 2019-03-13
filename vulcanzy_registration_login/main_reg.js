@@ -25,7 +25,10 @@ function submitForm(e){
     var phno=document.getElementById("phno").value;
     
 	var colg=document.getElementById("search_categories").value;
-    console.log(colg);
+    var gender="M";
+	if(document.getElementById("female").checked){
+	gender="F";
+	}
     if(pass1==pass2){
       username+="";
       var password=pass1;
@@ -63,8 +66,8 @@ function submitForm(e){
           all=[]
           all1=[]
           flag=false;
-		console.log(123);
-          writeUserData(name,username,"000",email,phno,colg,"M");
+		//console.log(123);
+          writeUserData(name,username,"000",email,phno,colg,gender);
          
 		window.location.href = "../index.html";
         }
@@ -88,7 +91,7 @@ function writeUserData(name,username,pass1,email,phno,colg,gender) {
   });
   flag=true;
   window.alert("user registration successful");
-	generatePDF(name,username,email,phno,colg,"Male");
+	generatePDF(name,username,email,phno,colg,gender);
 
 }
 function generatePDF(name,username,email,phno,colg,gender)
