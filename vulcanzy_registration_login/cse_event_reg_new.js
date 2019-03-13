@@ -62,7 +62,7 @@ function writeUserData(username,cod,col,cry,vir,wor,isTrue,u_key) {
         window.alert("new regitration successful");
         firebase.database().ref('cse').child(username+"").set({
           username: username,
-          colloquium:col,
+          psycharena:col,
           code_sprint:cod,
           cryptoceon:cry,
           virtually_true:vir,
