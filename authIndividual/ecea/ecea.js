@@ -1,11 +1,11 @@
  // Initialize Firebase
  var config = {
-    apiKey: "AIzaSyCyerbWV3hngoDagH8EUcpTqhYOozDNtm8",
-    authDomain: "vulcanzy-ecea.firebaseapp.com",
-    databaseURL: "https://vulcanzy-ecea.firebaseio.com",
-    projectId: "vulcanzy-ecea",
-    storageBucket: "vulcanzy-ecea.appspot.com",
-    messagingSenderId: "31986586610"
+    apiKey: "AIzaSyB3urwbUhycDY6jUTCiFloudGHBj7629M4",
+    authDomain: "fir-auth-fb5c8.firebaseapp.com",
+    databaseURL: "https://fir-auth-fb5c8.firebaseio.com",
+    projectId: "fir-auth-fb5c8",
+    storageBucket: "fir-auth-fb5c8.appspot.com",
+    messagingSenderId: "143950457061"
   };
   firebase.initializeApp(config);
 
