@@ -1,1248 +1,1303 @@
 {
-	"CSEA": [{
-			"organizers": "Suhita M, Susma V, Monika K",
-			"yearBranch": "4thCSE",
-			"contact": "9704661436, 9963764834",
-			"regFee": "30/-",
-			"Sno": "2",
-			"max_registrations": "70",
-			"place": "BOTH",
-			"duration": "2 hrs",
-			"roomCapacity": "PSCP LAB and DBMS LAB",
-			"emailid": "maddiakhil806@gmail.com",
-			"event": "CRYPTACTAEON",
-			"noOfLevels": "1",
-			"description": {
-				"small": "It is an exemplary platform for exhibiting your understanding of Cryptography. Encrypted code snippets have to be converted into a decrypted one using some algorithms and a key. Each decrypted clue will lead you to another snippet. The final snippet is the same for all which is the destination point.",
-				"big": "It is an exemplary platform for exhibiting your understanding of Cryptography. Encrypted code snippets have to be converted into a decrypted one using some algorithms and a key. Each decrypted clue will lead you to another snippet. The final snippet is the same for all which is the destination point."
-			}
-		},
-		{
-			"organizers": "CHANDU.B, SAITEJA K, PHANI",
-			"yearBranch": "3RD CSE",
-			"contact": "9963764834, 9505713598",
-			"regFee": "30/-",
-			"Sno": "3",
-			"max_registrations": "100",
-			"place": "INDOOR",
-			"duration": "3 hrs",
-			"roomCapacity": "PSCP LAB and DBMS LAB",
-			"emailid": "411606@student.nitandhra.ac.in",
-			"event": "CODE SPRINT",
-			"noOfLevels": "3",
-			"description": {
-				"small": "Talk is ephemeral, code is perpetual. So, this Code sprint offers you with the best endeavours which consists of 3 rounds. The screening assessment is done using TestQ. The other sub events are blind coding and debugging.",
-				"big": "Talk is ephemeral, code is perpetual. So, this Code sprint offers you with the best endeavours which consists of 3 rounds. The screening assessment is done using TestQ. The other sub events are blind coding and debugging."
-			}
-		},
-		{
-			"organizers": "SRI SUMA, SUBHAM S, SRIJA",
-			"yearBranch": "2ND/3RD CSE",
-			"contact": "9441848336, 9963764834",
-			"regFee": "nil",
-			"Sno": "4",
-			"max_registrations": "100",
-			"place": "BOTH",
-			"duration": "ONE DAY",
-			"roomCapacity": "150",
-			"emailid": "subhamnitap@gmail.com, srisuma13@gmail.com",
-			"event": "VIRTUALLY TRUE",
-			"noOfLevels": "       - ",
-			"description": {
-				"small": "It is a combination of perky events which rejuvenates our creativity along with brain busters on contemporary technologies. For instance, mini games like objects are provided in a bulk related to specific entity in CS World which have to be picked by participants based on the given keyword",
-				"big": ""
-			}
-		},
-		 {
-			"organizers": "A BHARGHAV, VIKAS A, SAMARTH",
-			"yearBranch": "3RD/2ND CSE",
-			"contact": "9963764834, 9292755807",
-			"regFee": "30/-",
-			"Sno": "1",
-			"max_registrations": "80",
-			"place": "INDOOR",
-			"duration": "3 hrs",
-			"roomCapacity": "160",
-			"emailid": "alajangibhargavb@gmail.com",
-			"event": "PSYCH ARENA",
-			"noOfLevels": "3",
-			"description": {
-				"small": "",
-				"big": " It is an amusing event filled with bliss whose maxim is revive your light and realize your worth. This includes questions with lateral and rational thinking, Pictionary and many other fillers."
-			}
+  "CSEA": [{
+      "organizers": "Suhita M, Susma V, Monika K",
+      "yearBranch": "4thCSE",
+      "contact": "9704661436, 9963764834",
+      "regFee": "30/-",
+      "Sno": "2",
+      "max_registrations": "70",
+      "place": "BOTH",
+      "duration": "2 hrs",
+      "roomCapacity": "PSCP LAB and DBMS LAB",
+      "emailid": "maddiakhil806@gmail.com",
+      "event": "CRYPTACTAEON",
+      "noOfLevels": "1",
+      "description": {
+        "small": "It is an exemplary platform for exhibiting your understanding of Cryptography. Encrypted code snippets have to be converted into a decrypted one using some algorithms and a key. Each decrypted clue will lead you to another snippet. The final snippet is the same for all which is the destination point.",
+        "big": "It is an exemplary platform for exhibiting your understanding of Cryptography. Encrypted code snippets have to be converted into a decrypted one using some algorithms and a key. Each decrypted clue will lead you to another snippet. The final snippet is the same for all which is the destination point."
+      }
+    },
+    {
+      "organizers": "CHANDU.B, SAITEJA K, PHANI",
+      "yearBranch": "3RD CSE",
+      "contact": "9963764834, 9505713598",
+      "regFee": "30/-",
+      "Sno": "3",
+      "max_registrations": "100",
+      "place": "INDOOR",
+      "duration": "3 hrs",
+      "roomCapacity": "PSCP LAB and DBMS LAB",
+      "emailid": "411606@student.nitandhra.ac.in",
+      "event": "CODE SPRINT",
+      "noOfLevels": "3",
+      "description": {
+        "small": "Talk is ephemeral, code is perpetual. So, this Code sprint offers you with the best endeavours which consists of 3 rounds. The screening assessment is done using TestQ. The other sub events are blind coding and debugging.",
+        "big": "Talk is ephemeral, code is perpetual. So, this Code sprint offers you with the best endeavours which consists of 3 rounds. The screening assessment is done using TestQ. The other sub events are blind coding and debugging."
+      }
+    },
+    {
+      "organizers": "SRI SUMA, SUBHAM S, SRIJA",
+      "yearBranch": "2ND/3RD CSE",
+      "contact": "9441848336, 9963764834",
+      "regFee": "nil",
+      "Sno": "4",
+      "max_registrations": "100",
+      "place": "BOTH",
+      "duration": "ONE DAY",
+      "roomCapacity": "150",
+      "emailid": "subhamnitap@gmail.com, srisuma13@gmail.com",
+      "event": "VIRTUALLY TRUE",
+      "noOfLevels": "       - ",
+      "description": {
+        "small": "It is a combination of perky events which rejuvenates our creativity along with brain busters on contemporary technologies. For instance, mini games like objects are provided in a bulk related to specific entity in CS World which have to be picked by participants based on the given keyword",
+        "big": ""
+      }
+    },
+    {
+      "organizers": "A BHARGHAV, VIKAS A, SAMARTH",
+      "yearBranch": "3RD/2ND CSE",
+      "contact": "9963764834, 9292755807",
+      "regFee": "30/-",
+      "Sno": "1",
+      "max_registrations": "80",
+      "place": "INDOOR",
+      "duration": "3 hrs",
+      "roomCapacity": "160",
+      "emailid": "alajangibhargavb@gmail.com",
+      "event": "PSYCH ARENA",
+      "noOfLevels": "3",
+      "description": {
+        "small": "",
+        "big": " It is an amusing event filled with bliss whose maxim is revive your light and realize your worth. This includes questions with lateral and rational thinking, Pictionary and many other fillers."
+      }
 
 
-		},
-		{
-			"organizers": "CK JYOTSNA, BHARGHAV A, AKHIL K",
-			"yearBranch": "2ND CSE",
-			"contact": "9963764834, 9963401539",
-			"regFee": "nil",
-			"Sno": "4",
-			"max_registrations": "100",
-			"place": "BOTH",
-			"duration": "ONE DAY",
-			"roomCapacity": "150",
-			"emailid": "kcjyotsna999@gmail.com, alajangibhargavb@gmail.com",
-			"event": "WORKSHOP ON CRYPTOGRAPHY",
-			"noOfLevels": "       - ",
-			"description": {
-				"small": "Do you think your messages can be corrupted?? Well, they can be. Then how to circumvent this? Here we help you in complete understanding of Cryptography",
-				"big": ""
-			}
-		},
+    },
+    {
+      "organizers": "CK JYOTSNA, BHARGHAV A, AKHIL K",
+      "yearBranch": "2ND CSE",
+      "contact": "9963764834, 9963401539",
+      "regFee": "nil",
+      "Sno": "4",
+      "max_registrations": "100",
+      "place": "BOTH",
+      "duration": "ONE DAY",
+      "roomCapacity": "150",
+      "emailid": "kcjyotsna999@gmail.com, alajangibhargavb@gmail.com",
+      "event": "WORKSHOP ON CRYPTOGRAPHY",
+      "noOfLevels": "       - ",
+      "description": {
+        "small": "Do you think your messages can be corrupted?? Well, they can be. Then how to circumvent this? Here we help you in complete understanding of Cryptography",
+        "big": ""
+      }
+    },
 
-		  {
-			"organizers": "SAITEJA. A, SUNANDHINI M",
-			"yearBranch": "3RD CSE",
-			"contact": "9441831645, 9963764834",
-			"regFee": "30/-",
-			"Sno": "1",
-			"max_registrations": "80",
-			"place": "INDOOR",
-			"duration": "3 hrs",
-			"roomCapacity": "160",
-			"emailid": "411667@student.nitandhra.ac.in",
-			"event": "COLLOQUIUM",
-			"noOfLevels": "3",
-			"description": {
-				"small": "It is an amusing event filled with bliss whose maxim is revive your light and realize your worth. This includes questions with lateral and rational thinking, Pictionary and many other fillers.",
-				"big": " It is an amusing event filled with bliss whose maxim is revive your light and realize your worth. This includes questions with lateral and rational thinking, Pictionary and many other fillers."
-			}
+    {
+      "organizers": "SAITEJA. A, SUNANDHINI M",
+      "yearBranch": "3RD CSE",
+      "contact": "9441831645, 9963764834",
+      "regFee": "30/-",
+      "Sno": "1",
+      "max_registrations": "80",
+      "place": "INDOOR",
+      "duration": "3 hrs",
+      "roomCapacity": "160",
+      "emailid": "411667@student.nitandhra.ac.in",
+      "event": "COLLOQUIUM",
+      "noOfLevels": "3",
+      "description": {
+        "small": "It is an amusing event filled with bliss whose maxim is revive your light and realize your worth. This includes questions with lateral and rational thinking, Pictionary and many other fillers.",
+        "big": " It is an amusing event filled with bliss whose maxim is revive your light and realize your worth. This includes questions with lateral and rational thinking, Pictionary and many other fillers."
+      }
 
 
-		}
-	],
-	"ECEA": [{
-			"organizers": "Anusha",
-			"yearBranch": " ECE / II",
-			"contact": "8008032476",
-			"regFee": "-",
-			"Sno": "5",
-			"max_registrations": "100",
-			"place": "BOTH",
-			"duration": "3 hrs on Day 1, 2.5 hrs on Day 2",
-			"roomCapacity": "300 on Day 1, 18 on Day2",
-			"emailid": "ece4c.vulcanzy19@gmail.com",
-			"event": "FORESEE - the 4C 's",
-			"noOfLevels": "4",
-			"description": {
-				"small": "Do you have the practical knowledge on electronics?\n\nDid you find circuit building as fun?\n\nHere we are to show you how fascinating it is!!",
-				"big": "Tired of same old experiments, waiting to try something new...... Wait is over NOW!!!!!  Come join us, use your artistry build exciting new circuits, find the hidden Treasures,, fun your way through! And emerge triumphant."
-			}
-		},
-		{
-			"organizers": "Praisy, Pavani",
-			"yearBranch": "ECE / IV",
-			"contact": "8106065197",
-			"regFee": "-",
-			"Sno": "6",
-			"max_registrations": "150",
-			"place": "INDOOR",
-			"duration": "3.5 hrs ",
-			"roomCapacity": "200",
-			"emailid": "ecewsvulcanzy19@gmail.com",
-			"event": "REAL TIME IMAGE PROCESSING WORKSHOP ",
-			"noOfLevels": "-",
-			"description": {
-				"small": "Ever wondered how does an auto tag on facebook work?\n\nEver wondered how a third empire decision is given?\n\nDon’t worry we can give an answer to your multitude of queries!!\n\nAll you have to do is.",
-				"big": "join us in a knowledge enhancing workshop for the students of all engineering disciplines.  This workshop is to equip students with the concepts of Image analysis and serve as a platform to deliver hands-on experience to the students on Image processing techniques using MATLAB for real time applications. This also helps photographers to enhance their image by passing through various processing tools."
-			}
-		},
-		{
-			"organizers": "Aravind",
-			"yearBranch": "ECE / II",
-			"contact": "9440705192",
-			"regFee": "-",
-			"Sno": "7",
-			"max_registrations": "-",
-			"place": "INDOOR",
-			"duration": "3 hrs ",
-			"roomCapacity": "86 EDC Lab",
-			"emailid": "eceanitandhra@gmail.com",
-			"event": "ELECTRO WIZARD ",
-			"noOfLevels": "-",
-			"description": {
-				"small": "Here we are with a Project Expo where u can showcase your innovative solutions to the real world problems.\n\nWe are ready to give you a platform which showcases your talent!! Are you ready to prove yourself?",
-				"big": "We, the engineers, are known to be the WIZARDS of the real world because we create many wonders.  It does not take much strength to do things, but it requires a great deal of strength to decide what to do. Use your brain as your magical wand and come up with your innovative ideas as your spells. “Our Excellence lies in the way we push our limits”. Push your limits and create magical and electro logical solutions that can solve complex real world problems."
-			}
-		},
-		{
-			"organizers": "Dhanraj",
-			"yearBranch": "ECE / IV",
-			"contact": "8331844134",
-			"regFee": " Rs.20",
-			"Sno": "8",
-			"max_registrations": "-",
-			"place": "INDOOR",
-			"duration": "-",
-			"roomCapacity": "-",
-			"emailid": "eceanitandhra@gmail.com",
-			"event": "QUIZ",
-			"noOfLevels": "-",
-			"description": {
-				"small": "Warm up your grey matter as ECEA is back again with it's quiz contest. Slay your opponents and emerge as the winner in the clash of brain over brawn. Get ready for a roller coaster ride into the intense world of techno quizzing.",
-				"big": ""
-			}
-		},
-		 {
-			"organizers": "Arshiya Anjum, V. Shivani",
-			"yearBranch": "ECE / II",
-			"contact": "9492785600, 8897602648",
-			"regFee": "Rs. 300",
-			"Sno": "9",
-			"max_registrations": "-",
-			"place": "INDOOR",
-			"duration": "-",
-			"roomCapacity": "-",
-			"emailid": "ecemazevulcanzy19@gmail.com",
-			"event": "CAZZLE",
-			"noOfLevels": "-",
-			"description": {
-				"small": " Participants have to design  and build a car which is capable of escaping the maze in the shortest possible time. The car should only be built using limited components given by us . The model must be able to drive through the maze from one corner to another. The car should be controlled using an app.",
-				"big": "R u interested in mechatronics?? If yes, then here is the platform to showcase your interest in it and win exciting prizes!!! All u need is to design and build a car by the components given by us and control it using a mobile app and clear the track given by us.! \nP.S. May sound techy but it is tricky and loads of fun guaranteed."
-			}
-		},
-		 {
-			"organizers": "Ravi Teja",
-			"yearBranch": "ECE / III",
-			"contact": "+917731090134",
-			"regFee": "-",
-			"Sno": "8",
-			"max_registrations": "-",
-			"place": "INDOOR",
-			"duration": "-",
-			"roomCapacity": "-",
-			"emailid": "ecemazevulcanzy19@gmail.com",
-			"event": "MURKY MAZE",
-			"noOfLevels": "-",
-			"description": {
-				"small": "Are u guys ready to uncover yor unseen talent?\nHere comes the MURKY MAZE to hunt yor fortune and have a splendid experience of lasers!",
-				"big": "Enter the gloomy room with yor gang, find the hints and grab the chance to have fun with lasers to get yor fortune.\n#the more u decode the clues, the more is the entertainment! "
-			}
-		}
-		 
-	],
-	"EEEA": [{
-			"organizers": "Sahithi, Manikanta, Gayatri",
-			"yearBranch": "EEE/3rd",
-			"contact": "7036398169",
-			"regFee": "nil",
-			"Sno": "9",
-			"max_registrations": "50",
-			"place": "INDOOR",
-			"duration": "3hrs",
-			"roomCapacity": "150",
-			"emailid": "ksahithi1999@gmail.com",
-			"event": "ALL ABOUT CIRCUITS",
-			"noOfLevels": "",
-			"description": {
-				"small": "Do you wish to be declared as the King of 'The Circuit Throne'? Prove your worth by defeating  your opponents in the field of Circuitry. Form a team of two or three members and rectify faulty circuits, determine outputs and design problems. What are you waiting for? Let the challenge begin!",
-				"big": "This event comprises of 3 levels.1st level: A faulty Circuit will be given to you and a certain output will also be provided. You have to correct the fault in the circuit based on the output given. 2nd level: A circuit will be given and you have to determine its output.3rd level: You will be given a problem to design one of the electrical systems like a transformer, motor etc. A team consists of 2 or 3 people. The team which qualifies the first two levels and designs the best system shall win."
-			}
-		},
-		{
-			"organizers": "Tanvi, Himaja",
-			"yearBranch": "EEE/4th ",
-			"contact": "8497905584",
-			"regFee": "nil",
-			"Sno": "10",
-			"max_registrations": "30",
-			"place": "INDOOR",
-			"duration": "4hrs",
-			"roomCapacity": "100",
-			"emailid": "tanvigudapati@gmail.com",
-			"event": "ARCHIPELAGO",
-			"noOfLevels": "",
-			"description": {
-				"small": "Ever heard of 'mass extinctions'? During the past 500 million years, there have been 5 mass extinctions due to natural climate changes, huge volcanic eruptions or catastrophic meteor strikes. But now, scientists say we're on the verge of a 6th one and this time, we are responsible for our own destruction. Join us on a platform where you can present your ideas to combat Global Warming. You can do it in the form of a presentation, a paper or simply speak your heart out. The team to come up with the most innovative and economical idea will be recognized and possibly sponsored. A little idea can go a long way! Do your bit to help save our Earth.",
-				"big": "During the past 500 million years, there were five mass extinctions during which many species rapidly died. Now scientists say we've entered a sixth mass extinction, and humans are the primary cause, according to a new study. Previous mass extinctions were due to natural climate changes, huge volcanic eruptions or catastrophic meteor strikes. But this one is due to human activities such as deforestation, overpopulation, pollution, poaching and extreme weather events tied to man-caused global warming. We are providing you a platform for presenting your ideas to combat Global Warming. You can present your ideas in the form of power point presentations, talks, paper works etc. The most innovative and economical idea will be recognized, and sponsored if possible. Each team can comprise of members varying from one to three."
-			}
-		},
-		{
-			"organizers": "Himaja, Tanvi, Chandana",
-			"yearBranch": "EEE/4th ",
-			"contact": "8333808546",
-			"regFee": "nil",
-			"Sno": "11",
-			"max_registrations": "50",
-			"place": "INDOOR &OUTDOOR",
-			"duration": "3hrs",
-			"roomCapacity": "100",
-			"emailid": "himajayamasani@gmail.com",
-			"event": "BACK TO THE ORIGINS",
-			"noOfLevels": "",
-			"description": {
-				"small": "We present a new twist to the classic treasure hunt! But this time, scientists are the treasure. Bag points by finding the scientists scattered throughout the campus and answering their mysterious questions. The duo with the maximum points will take home the prize. Gear up and get ready to time-travel back to the era of major scientific breakthroughs! ",
-				"big": "Explore the major electrical breakthroughs since the inception of electricity by doing a scientist hunt. Students who impersonate the respective scientists, who led those breakthroughs, will be scattered across the campus. Each of the scientists will pose a question to you after you find them. Points will be given for finding the scientist as well as solving their mysterious question. The team which gets the maximum points will be rewarded."
-			}
-		},
-		{
-			"organizers": "Sravya, Tanvi, Vandan",
-			"yearBranch": "EEE/4th ",
-			"contact": "8330971998",
-			"regFee": "nil",
-			"Sno": "12",
-			"max_registrations": "60",
-			"place": "INDOOR",
-			"duration": "3hrs",
-			"roomCapacity": "100",
-			"emailid": "agsravya@gmail.com",
-			"event": "AMALGAMATE",
-			"noOfLevels": "",
-			"description": {
-				"small": "Which is better? Being an introvert or an extrovert? Maybe this event could give a possible answer. Test your team working and individuality skills by registering individually. You will be divided into two groups: Amalgams and Gangues. The Amalgams' goal is to coalesce despite the efforts made by the Gangues to disintegrate their bond. If you're a Gangue, you must try your best to break the bonds of the Amalgams. Let's see how interesting things turn out to be! ",
-				"big": "This event tests your team working and individuality skills i.e.,to amalgamate. The participants will be divided into two groups: Amalgams and Gangues. Amalgams: Their aim is to coalesce in spite of efforts by gangues to disintegrate their bond. Gangues: They are individuals trying to break the bonds of amalgams. Students should register individually and they will be assigned to one of the categories by us."
-			}
-		},
-		{
-			"organizers": "Vishnu, Kartik, Yogi, Neethish ",
-			"yearBranch": "EEE/4th ",
-			"contact": "8089442725",
-			"regFee": "nil",
-			"Sno": "13",
-			"max_registrations": "50",
-			"place": "INDOOR",
-			"duration": "4hrs",
-			"roomCapacity": "100",
-			"emailid": "vishnu.ajayan08@gmail.com",
-			"event": "DECEPTION",
-			"noOfLevels": "",
-			"description": {
-				"small": "Are you into live multiplayer games involving technology? Here is your chance to beguile us with your intuitive skills! Grab a trusted partner and begin your task. On the journey, you will design your own gun using electromagnetics, rediscover Tesla's wireless communication and encounter many rewards. Remember not to get short circuited! ",
-				"big": "Wanna play a live multiplayer game with tech stuff? Here is your chance to play one such game. Beguile us with your intuitive skills! This event consists of four deceptive acts. ACT 1: Here you will have to design a gun using the principles of electromagnetics and shoot down few targets. ACT 2: Fan of Tesla? Re-discover the magic of Wireless transmission of electricity. ACT 3: Find out the missing elements in a basic digital circuit and you will be rewarded. ACT 4: Don’t get short circuited! Points will be added for each of your moves in a live leader board. Required components for the acts will be provided to you. Each team consists of 2 members."
-			}
-		},
-		{
-			"organizers": "Satish, Tarun, Santoshi",
-			"yearBranch": "EEE/4th ",
-			"contact": "7989268545",
-			"regFee": "",
-			"Sno": "14",
-			"max_registrations": "",
-			"place": "INDOOR",
-			"duration": "….",
-			"roomCapacity": "",
-			"emailid": "tarunkumartej597@gmail.com",
-			"event": "PROJECT EXPO",
-			"noOfLevels": "",
-			"description": {
-				"small": "PROJECT EXPO",
-				"big": ""
-			}
-		}
-	],
-	"CEA": [{
-			"organizers": "S. MANASA",
-			"yearBranch": "CIV / IV",
-			"contact": "9490169522",
-			"regFee": "Rs. 50 per person",
-			"Sno": "16",
-			"max_registrations": "20",
-			"place": "INDOOR",
-			"duration": "24x3",
-			"roomCapacity": "100+",
-			"emailid": "sreeram.n.l.manasa@gmail.com",
-			"event": "Crack the Structure",
-			"noOfLevels": "1",
-			"description": {
-				"small": "We civil engineers are structural wizards! we do magic with our designing skills. Can you do magic with your designing skills? then design a structure using STAADPRO according to the given problem statement tackle the real world problems and be a pro at it.",
-				"big": "\t\t\t RULES \n\n\n A team can have 3-5 participants.\n\n\n Each team should design the required structure according to the given problem statement.\n\n\n The design should be done only using STAADPRO software.\n\n\n The design should be light in weight and cost effective.\n\n\n The teams must submit their work (either completed or incomplete) on 10.03.2019 by 23:59 IST to crackthestructure@gmail.com\n\n\n Teams must present their results in the form of a power point presentation after the completion of the design, including a detailed cost estimation.\n\n\n• The teams must complete their design and present it during Vulcanzy  2k19.\n\n\nThe plan, elevation and sectional views of the structure will be provided along with the Google Forms for registration."
-			}
-		},
-		{
-			"organizers": "Y. SATYAVANI",
-			"yearBranch": "CIV / IV",
-			"contact": "8886362609",
-			"regFee": "RS. 50 Per person",
-			"Sno": "17",
-			"max_registrations": "40",
-			"place": "DBMS Lab",
-			"duration": "2hrs",
-			"roomCapacity": "40",
-			"emailid": "arundhathivantepaka@gmail.com",
-			"event": "Popticles",
-			"noOfLevels": "1",
-			"description": {
-				"small": "Do you get astonished by the beauty of Brooklyn bridge, mesmerized by the length of the Danyang bridge?? Are you one of those who are impressed by the mega structures and their constructions and principles? well we have got some amazing events for your inquisitive mind. This time the CEA come with a great event where you are going to get the opportunity to design, analyze and build a bridge of your own!! CEA here comes up with a popsicle bridge construction event” POPTICLE”.",
-				"big": "• In the preliminary round,the bridge will be tested for aesthetics and specifications.\n\n\n• The bridge will be simply supported at the ends.\n\n\n• The supports will be provided  at 65 cm apart clear span.\n\n\n• Point load will be applied at the mid-span of the bridge.\n\n\n• Participants have to bring their prepared models on the day of competition.\n\n\n• At least one participant from the team has to be present during the testing.\n\n\n• Load will be applied till the breaking point is achieved."
-			}
-		},
-		{
-			"organizers": "N. VIKSHAY RAO",
-			"yearBranch": "CIV / IV",
-			"contact": "9491657359",
-			"regFee": "Rs 50 per person",
-			"Sno": "18",
-			"max_registrations": "40",
-			"place": "Concrete lab/Outdoor",
-			"duration": "3hrs",
-			"roomCapacity": "30",
-			"emailid": "vikshayrao@gmail.com",
-			"event": "Epsida",
-			"noOfLevels": "1",
-			"description": {
-				"small": "Walking on a bridge, it is highly likely that you wonder about its construction, about its strength, its durability and its aesthetics being a civil engineer. so here this time we give you people an opportunity to flaunt your designing skills in the arch designing competition.",
-				"big": ""
-			}
-		},
-		{
-			"organizers": "D NAVEEN",
-			"yearBranch": "CIV / IV",
-			"contact": "8897132539",
-			"regFee": "NIL",
-			"Sno": "19",
-			"max_registrations": "30",
-			"place": "INDOOR",
-			"duration": "3hrs",
-			"roomCapacity": "70+",
-			"emailid": "naveendevendrachatta@gmail.com",
-			"event": "De Presenta",
-			"noOfLevels": "1",
-			"description": {
-				"small": "Ever thought how many ideas did you get every day and how many of them can revolutionize this world, Don't judge Yourself let the Experts judge it. So here we come with an event to give your ideas a platform to fly in the open sky.",
-				"big": "• ROUND 1: -The participants have to fill a google form and have to tell in brief about his ideas before 28th Feb,2k19.\n\n\n• Round 2: - The candidates will be shortlisted based on the weightage of the topic. Selection will be done by the Department of Civil Engineering. Selected candidates have to present ​their ideas in front of expert panel on the day of the event."
-			}
-		},
-		{
-			"organizers": "J Sri Harika",
-			"yearBranch": "CIV / IV",
-			"contact": "7981612613",
-			"regFee": "NIL",
-			"Sno": "20",
-			"max_registrations": "Not Restricted",
-			"place": "INDOOR",
-			"duration": "2hrs",
-			"roomCapacity": "100+",
-			"emailid": "jajulasriharika08@gmail.com",
-			"event": "LE TECQUILA",
-			"noOfLevels": "3",
-			"description": {
-				"small" : "Ever thought the pace at which the technologies are growing these days, so you must be familiar with the modern as well as the most effective technical knowledge so that to meet the growing competition worldwide. And one of best way is a quiz where you can compete with the best mind and also can learn new things. ",
-				"big": "• ROUND 1: -The Participants have to fill a google form and has to solve an half an hour paper. 5 students will be selected from each branch.\n\n\n• Round 2: - A Stage round where each group will compete against each other head to head. This round will be divided into 3 sub-rounds, in first sub round top 4 teams will proceed for 2nd sub round and finally top 2 will proceed to finals.\n\n\n• Sub-round 1-General problems\n\n\n• Sub-round 2-Buzzer round\n\n\n• Sub-round 3-Tricky conceptual round"
-			}
-		},
-		{
-			"organizers": "V ARUNDHATI",
-			"yearBranch": "CIV / IV",
-			"contact": "9133416932",
-			"regFee": "50/-",
-			"Sno": "21",
-			"max_registrations": "30",
-			"place": "INDOOR",
-			"duration": "3hrs",
-			"roomCapacity": "40",
-			"emailid": "arundhathivantepaka@gmail.com",
-			"event": "FLOAT-CREATE",
-			"noOfLevels": "1",
-			"description": {
-				"small": "Ever thought of concrete so easily moldable & light weight that can float over water? IT’S TIME TO TRY CASTING ONE!!! Construct a concrete cube having maximum compressive strength & lowest density. The event is about the construction of a block which should float in water (having low density) and possess high strength.",
-				"big": ""
-			}
-		}
-	],
-	"MEA": [{
-			"organizers": "vikash Kumar ray",
-			"yearBranch": "MME/3",
-			"contact": "7903292972",
-			"regFee": "30",
-			"Sno": "22",
-			"max_registrations": "50",
-			"place": "OUTDOOR  ",
-			"duration": " 3 hrs",
-			"roomCapacity": "open lawn",
-			"emailid": "raushanlki98@gmail.com",
-			"event": "One Thrust 2.0",
-			"noOfLevels": "3",
-			"description": {
-				"small": "Have you ever dreamt of flying your own rocket? 'THRUST' is the ideal platform for you to show off your understanding of pressure control and fluid dynamics. Tap into your creativity and build a clean, safe and novel rocket by applying the effects of drag force on a dynamic domain. Your fuel can be as simple as water! Whether you have a passion for physics or design, you will experience the fun in true engineering at this event. So form a team of two or three and bag exciting cash prizes!",
-				"big": ""
-			}
-		},
-		{
-			"organizers": "O.Praneeth ",
-			"yearBranch": "MME/4",
-			"contact": "+91 97050 31849",
-			"regFee": "20",
-			"Sno": "23",
-			"max_registrations": "80",
-			"place": "indoor",
-			"duration": "day 1 : 1 hour\nday 2:   1 hour",
-			"roomCapacity": "~100",
-			"emailid": "opraneethreddy@gmail.com",
-			"event": "Riddle hurdles",
-			"noOfLevels": "3",
-			"description": {
-				"small": "Are you ready for the biggest event in the history of Vulcanzy? This event has been so popular in the past that we had to come back and conduct the next installment! If you're a person who gets thrills from solving mysteries and puzzles, then this event will cater to your needs. So what are you waiting for? Grab your Sherlock hat, your Watson and showcase your case-cracking skills.",
-				"big": ""
-			}
-		},
-		{
-			"organizers": "M Sritejaswini",
-			"yearBranch": "MME/3",
-			"contact": "9492000486",
-			"regFee": "no fee for NIT andhra students ",
-			"Sno": "24",
-			"max_registrations": "30, for outsiders: 20",
-			"place": "OUTDOOR",
-			"duration": "4 hrs",
-			"roomCapacity": "open lawn",
-			"emailid": "msritejaswini@gmail.com ",
-			"event": "Wax mock-up",
-			"noOfLevels": "1",
-			"description": {
-				"small": "Remember playing with clay as a child? Relive those memories but this time with a twist...wax!  You will be provided with all the materials required to prepare a mould of a particular pattern. The next step is to transform your mould into a wax cast. Ensure your masterpiece has the  best shape, surface finish and minimum defects and declare yourselves as the winners! It's a first come, first serve event so hurry up and enroll soon! ",
-				"big": ""
-			}
-		},
-		{
-			"organizers": "S.Vinod Kumar",
-			"yearBranch": "MME/3",
-			"contact": "7013281210",
-			"regFee": "10",
-			"Sno": "25",
-			"max_registrations": "40",
-			"place": "indoor",
-			"duration": "day 1,2: 1 hr",
-			"roomCapacity": "room ~ 80",
-			"emailid": "sabavathvinodkumar60@gmail.com",
-			"event": "What's beyond",
-			"noOfLevels": "2",
-			"description": {
-				"small": "The MMEA and MEA are happy to present 'WHAT'S BEYOND', the ultimate inquisitive quiz. How well do you know how things work? All you need for this event are some basic principles of science and your common sense. Frequent magazine visit can help you climb a step closer to victory. Apply your brain to real world applications and become the champion!",
-				"big": "lot of random text"
-			}
-		}
-	],
-	"BIOTECH": [{
-			"organizers": "Pilli Akhil",
-			"yearBranch": "3rd year",
-			"contact": "7661876146",
-			"regFee": "10/ person ",
-			"Sno": "26",
-			"max_registrations": "200",
-			"place": "Indoor",
-			"duration": "4 hrs",
-			"roomCapacity": "700+",
-			"emailid": "bea.nitap@gmail.com ",
-			"event": "Forensics",
-			"noOfLevels": "3",
-			"description": {
-				"small": "To explore and bring out the curious detective in you, forensics 2.0 is the right platform.It tests your presence of mind , time management and your ability to collect evidence and its analysis. The team to crack the crime scene by solving the given clues is declared winner.",
-				"big": "Team: 3-5 Members can register as a Team. Round 1:-  (Recruitment round) Pen and paper based test, based on the detective skills. Exam will be conducted for the participants individually and the total marks of the team will be considered. Top 5 teams will be promoted to play Round 2. Round 2:- (Crime investigation round) 5 teams will go to investigate a crime scene. First two teams which crack the crime scene in less time will be selected for Round 3.Round 3:- (Final check point) The team that finds the convict in less time will be announced as the Winner."
-			}
-		},
-		{
-			"organizers": "Sree Raj Akhil",
-			"yearBranch": "2nd year",
-			"contact": "7702290359",
-			"regFee": "20/group ",
-			"Sno": "27",
-			"max_registrations": "100",
-			"place": "outdoor ",
-			"duration": "2 hours",
-			"roomCapacity": "nill",
-			"emailid": "bea.nitap@gmail.com",
-			"event": "Garden scavengers ",
-			"noOfLevels": "1",
-			"description": {
-				"small": "To imbibe the knowledge of scientific names of plants, Biotechnology department is coming up with an event that puts to scrutiny your team spirit, ability to crack codes and search for clues using the scientific names of plants. The group to get maximum points at the end of the hunt wins.",
-				"big": "Team: 3-5 Members can register as a Team.Within the campus, at different places near a plant, a location pin will be dropped. This pin will be represented by the botanical code (available in the literature). A QR code will be attached to that plant. The team members have to select the plants randomly and then have to find the botanical code for the plants.Through an app platform the search result of the botanical code leads to the map for the dropped pin location. Within the  time limit, the participants should reach the plant and have to scan the QR code where each scan leads to the point. The Participants who scored more within the time will be declared as winners."
-			}
-		},
-		{
-			"organizers": "J. Roshini",
-			"yearBranch": "4th year ",
-			"contact": "",
-			"regFee": "NIL",
-			"Sno": "28",
-			"max_registrations": "50",
-			"place": "Indoor",
-			"duration": "2 hours",
-			"roomCapacity": "100+",
-			"emailid": "bea.nitap@gmail.com",
-			"event": "Lumiere",
-			"noOfLevels": "2",
-			"description": {
-				"small": "A perfect platform to utilise the creative abilities in an individual by lightening up maximum number of LED bulbs using fruits and vegetables.Challenge lies in how many less fruits you use to generate the most electricity.Team up to light up the world.",
-				"big": "A group of 2 to 4 members can register as a team. We are gonna provide you: Red/Green LEDs, Knives, Galvanized nails, Copper winding wires, Fruits( Lemon, oranges); Vegetables(potato,tomato), Connecting wires. Each group have to choose any 3 to 5 fruits or vegetables, they can be either same or different (They are to be mentioned in the google form). Screening will be based on number of leds glown , how much time they glow. Capacitors, external voltage sources and amplification devices are strictly prohibited. Ready to make kits are not allowed."
-			}
-		}
-	],
-	"MECH": [{
-			"organizers": "Saurav",
-			"yearBranch": "Mech III",
-			"contact": "7739465809",
-			"regFee": "500 / team",
-			"Sno": "29",
-			"max_registrations": "8 teams",
-			"place": "Outdoor",
-			"duration": "4 hrs",
-			"roomCapacity": "      _",
-			"emailid": "anshusingh21198@gmail.com",
-			"event": "AMMC(Aircraft Modelling and Maneuvering Challange)",
-			"noOfLevels": "",
-			"description": {
-				"small": "A fun and tech filled event where the cheers of the crowd will cheer up the participants to maneuver their mini RC aircrafts into the sky. The judgement will be based upon crowd’s Aww moments which the RC mini aircraft would have to earn by performing tricks!",
-				"big": ""
-			}
-		},
-		{
-			"organizers": "N.B.R Kaushik",
-			"yearBranch": "Mech III",
-			"contact": "9441282580",
-			"regFee": "",
-			"Sno": "30",
-			"max_registrations": "       -",
-			"place": "Indoor",
-			"duration": "4 hrs",
-			"roomCapacity": "60",
-			"emailid": "kkaushi7@gmail.com",
-			"event": "GISS(Godavari Innovation for Society Summit)",
-			"noOfLevels": "",
-			"description": {
-				"small": "The search has begun for all the innovative minds that can think for new and better solutions to problems existing in Agri, IT, educational and other sectors. The competition invites participation from students who can solve real life based problems providing impactful, feasible and economical solutions. The summit will involve enlightening speakers from respective fields and shortlisted participants will get a chance to present their ideas aided with presentation/ prototype/ simulation etc.\n\nVoice your opinion and be a change-maker!",
-				"big": ""
-			}
-		},
-		{
-			"organizers": "Yogesh",
-			"yearBranch": "Mech II",
-			"contact": "9130633135",
-			"regFee": "nil",
-			"Sno": "31",
-			"max_registrations": "15 teams",
-			"place": "Indoor",
-			"duration": "4 hrs",
-			"roomCapacity": "50-60",
-			"emailid": "Patilmapari@gmail.com",
-			"event": "MARC(Mechanism and Robotics Championship)",
-			"noOfLevels": "",
-			"description": {
-				"small": "From the Curiosity Rover to a simple door, mechanisms involved are limitless! Every once in a while, a new technology, an old problem and a small idea turn into an innovation. Do you have any potential idea that can create magic? This is the right platform for you and the best entrants will be given project sponsorship (tentative). ",
-				"big": ""
-			}
-		},
-		{
-			"organizers": "M.Saikiran",
-			"yearBranch": "Mech III",
-			"contact": "9182289736",
-			"regFee": "200/team",
-			"Sno": "32",
-			"max_registrations": "15 teams",
-			"place": "indoor",
-			"duration": "4 hrs",
-			"roomCapacity": "50-60",
-			"emailid": "saikiranmallembakam15@gmail.com",
-			"event": "Robo-War",
-			"noOfLevels": "",
-			"description": {
-				"small": "Participants have to design RC bots. These manually controlled RC bots will compete against each other in a restricted arena. Performance will be evaluated based on  the design, action strategy, the mounted weapons system and their defence tactics. Minimal rules, passionate teams, hardworked bots, monsterous weapons and goosebumps all around.\n\nBe War-ready!",
-				"big": ""
-			}
-		},
-		{
-			"organizers": "K.Spandan",
-			"yearBranch": "Mech III",
-			"contact": "9490090209",
-			"regFee": "nil",
-			"Sno": "33",
-			"max_registrations": "        -",
-			"place": "Indoor",
-			"duration": "3 hrs",
-			"roomCapacity": "50-60",
-			"emailid": "spandan2344@gmail.com",
-			"event": "Workshop&Quizzes",
-			"noOfLevels": "",
-			"description": {
-				"small": "",
-				"big": ""
-			}
-		}
-	],
-	"MUSIC": [{
-			"organizers": "Swaroopa ",
-			"yearBranch": "EEE /4th yr",
-			"contact": "8374411375",
-			"regFee": "50",
-			"Sno": "34",
-			"max_registrations": "100",
-			"place": "indoor",
-			"duration": "3 hours /2days",
-			"roomCapacity": "70-80 people ",
-			"emailid": "swaroopawendly37@gmail.com",
-			"event": "Vulcanzy idol",
-			"noOfLevels": "",
-			"description": {
-				"small": "Get ready to unleash the musician in you as the Music Club presents the Vulcanzy Idol, a platform for you to showcase your talent in the field of music, be it singing or playing instruments. You can either rock it solo or perform in a band of maximum 4 members with instruments.",
-				"big": "Get ready to unleash the musician in you as the Music Club presents the Vulcanzy Idol, a platform for you to showcase your talent in the field of music, be it singing or playing instruments. You can either rock it solo or perform in a band of maximum 4 members with instruments."
-			}
-		},
-		{
-			"organizers": "Kiranmayi",
-			"yearBranch": "Biotech /3rd Yr ",
-			"contact": "9493744988",
-			"regFee": "50",
-			"Sno": "35",
-			"max_registrations": "80",
-			"place": "indoor",
-			"duration": "3hours ",
-			"roomCapacity": "70-80",
-			"emailid": "kiranmaipulya@gmail.com ",
-			"event": "lyrical maestro ",
-			"noOfLevels": "",
-			"description": {
-				"small": "Are you the kind of person who knows the lines to any song that every random person hums? You might be a source of irritation to others but your talent could be worth calling yourself the 'Lyrical Maestro' of NIT Andhra Pradesh! Show off your knowledge in the exciting rounds of this event. ",
-				"big": "Are you the kind of person who knows the lines to any song that every random person hums? You might be a source of irritation to others but your talent could be worth calling yourself the 'Lyrical Maestro' of NIT Andhra Pradesh! Show off your knowledge in the exciting rounds of this event. "
-			}
-		},
-		{
-			"organizers": "Uday ",
-			"yearBranch": "civil /3rd Yr ",
-			"contact": "9515570887",
-			"regFee": "50",
-			"Sno": "36",
-			"max_registrations": "70",
-			"place": "indoor ",
-			"duration": "3hours ",
-			"roomCapacity": "50-60",
-			"emailid": "udaykumarteegala@gmail.com",
-			"event": "Guess it Win it ",
-			"noOfLevels": "",
-			"description": {
-				"small": "Think you are an ardent music fan? You might have to rethink now. Guess it.. win it.. is a fun but competitive event which is purely based on the quick response of the participants and their knowledge about music in general. So grab a partner and test yourself!",
-				"big": "Think you are an ardent music fan? You might have to rethink now. Guess it.. win it.. is a fun but competitive event which is purely based on the quick response of the participants and their knowledge about music in general. So grab a partner and test yourself! "
-			}
-		},
-		{
-			"organizers": "Unnathi ",
-			"yearBranch": "Ece /3rd Yr ",
-			"contact": "9110528561",
-			"regFee": "",
-			"Sno": "37",
-			"max_registrations": "70",
-			"place": "online ",
-			"duration": "one level ",
-			"roomCapacity": "",
-			"emailid": "unnathi.c@gmail.com",
-			"event": "Song slam",
-			"noOfLevels": "",
-			"description": {
-				"small": "Enough of our college, it's time others get to know your potential in singing. We bring to you Song Slam, an online singing event. Let's see how much everyone admires your talent and watch your popularity on Instagram shoot up! Sing a song (without karaoke) and post it in the Instagram by tagging it with our Instagram account(_musicclub_nitandhra), based on the number of likes winner will be decided. Songs of any language are allowed. You can even sing in a group of two or three people. Get double-taps and be the champion!",
-				"big": "Enough of our college, it's time others get to know your potential in singing. We bring to you Song Slam, an online singing event. Let's see how much everyone admires your talent and watch your popularity on Instagram shoot up! Sing a song (without karaoke) and post it in the Instagram by tagging it with our Instagram account(_musicclub_nitandhra), based on the number of likes winner will be decided. Songs of any language are allowed. You can even sing in a group of two or three people. Get double-taps and be the champion!"
-			}
-		}
-	],
-	"PNP": [{
-			"organizers": "Sai Kiran,Appala Reddy,Vishal",
-			"yearBranch": "3rd year,1st year,1st year   ",
-			"contact": "9182289736",
-			"regFee": "20",
-			"Sno": "38",
-			"max_registrations": "100",
-			"place": "INDOOR",
-			"duration": "3 hours",
-			"roomCapacity": "150-200",
-			"emailid": "pnpnitap@gmail.com",
-			"event": "Hand Painting",
-			"noOfLevels": "0",
-			"description": {
-				"small": "",
-				"big": "Apart from the usual drawing and coloring techniques, hand-painting can be a joyful experience. A team which consists of 2 participants will be provided with paints and asked to paint on their hands. Make the human hand your canvas. Paint anything from animalistic faces to something denoting the theme. It all depends on the creativity of the participants and their extent of imagination. A time period of 90 minutes will be given to all the participants. The top 2 teams that come up with the most unique and creative sets of painted hands will be the awarded as winner and runner."
-			}
-		},
-		{
-			"organizers": "Santhoshi,Praneesh,Ramya",
-			"yearBranch": "2nd year,1st year,1st year",
-			"contact": "7093567225",
-			"regFee": "nil",
-			"Sno": "39",
-			"max_registrations": "60",
-			"place": "INDOOR",
-			"duration": "3 hours",
-			"roomCapacity": "50-60",
-			"emailid": "pnpnitap@gmail.com",
-			"event": "Art in Line",
-			"noOfLevels": "0",
-			"description": {
-				"small": "",
-				"big": "As the name suggests, the competition is all about drawing an image that consists of only distinct straight lines and strictly no curves. Lines of different colors, width, and shades can be used to make a picture that emphasizes the theme of the event...super heroes! The participants are expected to complete the drawing within the time provided which is 60 minutes."
-			}
-		},
-		{
-			"organizers": "Khyathi Aneesha,Tanmayi",
-			"yearBranch": "3rd year,2nd year",
-			"contact": "7995956499",
-			"regFee": "nil",
-			"Sno": "40",
-			"max_registrations": "50",
-			"place": "INDOOR",
-			"duration": "3 hours ",
-			"roomCapacity": "50-60",
-			"emailid": "pnpnitap@gmail.com",
-			"event": "ART-A-THON",
-			"noOfLevels": "2",
-			"description": {
-				"small": "",
-				"big": "The event will be held in 2 rounds. In the first round, riddles and puzzles will be given to each of the team members. The team which solves all the riddles will be qualified for the second round. And, in the second round, one team mate has to guess the word while the other explains it by drawing within the time limit which will be 1 minute."
-			}
-		},
-		{
-			"organizers": "Nivas,Vani,Navya",
-			"yearBranch": "3rd year,2nd year,1st year",
-			"contact": "7893935978",
-			"regFee": "nil",
-			"Sno": "41",
-			"max_registrations": "60",
-			"place": "INDOOR",
-			"duration": "3 hours",
-			"roomCapacity": "50-60",
-			"emailid": "pnpnitap@gmail.com",
-			"event": "Paint Without Brush",
-			"noOfLevels": "0",
-			"description": {
-				"small": "",
-				"big": "A brush is to a painter, what a rifle is to solider, isn’t it? So, this event tests the ability of an artist to color the canvas by turning anything around him/her into a brush within the time provided to them."
-			}
-		},
-		{
-			"organizers": "Nitin,Tarun,Aman rao",
-			"yearBranch": "3rd year,4th year,2nd year",
-			"contact": "9490271374",
-			"regFee": "nil",
-			"Sno": "42",
-			"max_registrations": "",
-			"place": "INDOOR",
-			"duration": "1 hour( for showing ads)",
-			"roomCapacity": "150-200",
-			"emailid": "pnpnitap@gmail.com",
-			"event": "Ad making competition",
-			"noOfLevels": "0",
-			"description": {
-				"small": "",
-				"big": "A theme based short advertisement making competition. Participants will be given a particular theme, based on which they shall submit a short video of Ad, video length limited to 60 or 90 seconds. The best and creative Ad submitted will be winning the contest."
-			}
-		},
-		{
-			"organizers": "Nuthan,Jithendreswar,Azharuddin",
-			"yearBranch": "4th year,3rd year,2nd year",
-			"contact": "9492230494",
-			"regFee": "nil",
-			"Sno": "43",
-			"max_registrations": "",
-			"place": "",
-			"duration": "ONLINE event",
-			"roomCapacity": "",
-			"emailid": "pnpnitap@gmail.com",
-			"event": "Photo contest",
-			"noOfLevels": "0",
-			"description": {
-				"small": "",
-				"big": "This is an open photography contest where the participants submit their best photographs along with the photo details. There’s no theme or category for this contest. Participants can submit any 3 best pictures they’ve shot and can submit them to the club before the deadline. Of all the photographs submitted, one best picture, each from different categories of photography like Street/Portrait/Landscape/Nature/Macro photography and so on, will be picked and announced as winners."
-			}
-		},
-		{
-			"organizers": "Vikas,Bhardwaj,Shiva",
-			"yearBranch": "3rd year,3rd year,2nd year",
-			"contact": "9292755807",
-			"regFee": "nil",
-			"Sno": "44",
-			"max_registrations": "",
-			"place": "",
-			"duration": "ONLINE event",
-			"roomCapacity": "",
-			"emailid": "pnpnitap@gmail.com",
-			"event": "mannequin_challenge",
-			"noOfLevels": "0",
-			"description": {
-				"small": "",
-				"big": "People remain frozen in action like mannequins while a moving camera films them, often with a sound in the background. They will be sending the video of max length 30 sec. The best one will be selected and rewarded."
-			}
-		},
-		{
-			"organizers": "Azharuddin",
-			"yearBranch": "2nd year",
-			"contact": "",
-			"regFee": "nil",
-			"Sno": "59",
-			"max_registrations": "",
-			"place": "",
-			"duration": "ONLINE event",
-			"roomCapacity": "",
-			"emailid": "pnpnitap@gmail.com",
-			"event": "FOTO RECIT",
-			"noOfLevels": "0",
-			"description": {
-				"small": "",
-				"big": "Foto recit is an online event where the participants submit a set of photographs and pictures, narrating a short story or a tale through the pictures itself. They can also add a tagline for the whole to portray their story in a better way. The maximum number of pictures that can be submitted is limited to 10."
-			}
-		}
-	],
-	"MAGAZINE": [{
-			"organizers": "M.Monica,K.V.R Yashwant",
-			"yearBranch": "3",
-			"contact": "9502593474/7675022428",
-			"regFee": "-",
-			"Sno": "46",
-			"max_registrations": "unlimited",
-			"place": "online",
-			"duration": "-",
-			"roomCapacity": "-",
-			"emailid": "monicamatta999@gmail.com",
-			"event": "Bookfie",
-			"noOfLevels": "1",
-			"description": {
-				"small": "SELFIE WITH YOUR FAVOURITE BOOK",
-				"big": "Upload a selfie with your favourite book with a caption describing why you like that book, why you feel that book was exciting and why you couldn't stop reading it. "
-			}
-		},
-		{
-			"organizers": "Mubeen, Manjunadh, Srilekha ",
-			"yearBranch": "3",
-			"contact": "8184883793/9951540702/9494291402",
-			"regFee": "-",
-			"Sno": "47",
-			"max_registrations": "100-120",
-			"place": "indoor",
-			"duration": "30 min ",
-			"roomCapacity": "100-120",
-			"emailid": "manjunadhreddyjampana@gmail.com",
-			"event": "Illusion",
-			"noOfLevels": "1",
-			"description": {
-				"small": "",
-				"big": "Looking for a way to give your brain a jumpstart? Try tackling 15 perplexing optical illusions in this interactive game. What's great about this setup is that when you are ready to see the answer, you can watch as the colours, shapes, and patterns are manipulated to show you how each illusion is made."
-			}
-		}
-	],
-	"SNH": [{
-			"organizers": "KETAN BANSAL, G. RUPESH",
-			"yearBranch": "CSE-1",
-			"contact": "6264079466",
-			"regFee": "50/team",
-			"Sno": "48",
-			"max_registrations": "25",
-			"place": "INDOOR",
-			"duration": "4 hrs",
-			"roomCapacity": "100",
-			"emailid": "ketan.bansal255@gmail.com",
-			"event": "BEST OUT OF WASTE",
-			"noOfLevels": "",
-			"description": {
-				"small": "Engineering can be simply defined as SMART WORK. Create the best of out nothing so that it can ease our life. In this event you need to use easily available, household items to make an output related to science or something which will make our life simple. We will provide everyone with some basic tools and equipment but you have to make the best out of it. Can you be the most creative person and win this event? ",
-				"big": "Engineering can be simply defined as SMART WORK. Create the best of out nothing so that it can ease our life. In this event you need to use easily available, household items to make an output related to science or something which will make our life simple. We will provide everyone with some basic tools and equipment but you have to make the best out of it. Can you be the most creative person and win this event? "
-			}
-		},
-		{
-			"organizers": "UMESH YADAV",
-			"yearBranch": "CSE-3",
-			"contact": "8789853068",
-			"regFee": "50/person",
-			"Sno": "49",
-			"max_registrations": "50",
-			"place": "OUTDOOR",
-			"duration": "3-4 hrs",
-			"roomCapacity": "NOT REQUIRED",
-			"emailid": "umeshyadav1997@gmail.com",
-			"event": "LAZY HOVER V1.0",
-			"noOfLevels": "",
-			"description": {
-				"small": "Have you ever fantasized about riding on a cool hover board like in Back to the Future 2? Were you ever mad that such a technology had not been created yet, or had been faked as a prank (yes, Back to the Future fans, I know you know what I am talking about)? Well, wait no longer! Remember those blot planks that everybody hangs around? In the upcoming Vulcanzy we are going to build our own electric hover board using a 12V DC motor, a small tire, and a household item at home that you can trip. Do you think you have what it takes to drive your own hoverboard?",
-				"big": "Have you ever fantasized about riding on a cool hover board like in Back to the Future 2? Were you ever mad that such a technology had not been created yet, or had been faked as a prank (yes, Back to the Future fans, I know you know what I am talking about)? Well, wait no longer! Remember those blot planks that everybody hangs around? In the upcoming Vulcanzy we are going to build our own electric hover board using a 12V DC motor, a small tire, and a household item at home that you can trip. Do you think you have what it takes to drive your own hoverboard? "
-			}
-		},
-		{
-			"organizers": "RITURAJ SINGH SUJAWAT",
-			"yearBranch": "CIVIL-3",
-			"contact": "7597575752",
-			"regFee": "50/person",
-			"Sno": "50",
-			"max_registrations": "Nil",
-			"place": "INDOOR",
-			"duration": "1 day",
-			"roomCapacity": "25",
-			"emailid": "riturajsinghsujawat@gmail.com",
-			"event": "Van De Graff Generator",
-			"noOfLevels": "",
-			"description": {
-				"small": "A Van de Graaff generator is an electrostatic generator which uses a moving belt to accumulate electric charge on a hollow metal globe on the top of an insulated column, creating very high electric potentials. It produces very high voltage direct current electricity at low current levels.",
-				"big": "A Van de Graaff generator is an electrostatic generator which uses a moving belt to accumulate electric charge on a hollow metal globe on the top of an insulated column, creating very high electric potentials. It produces very high voltage direct current electricity at low current levels. This event includes the demonstration and application of Van De Graff Generator. Fun Activities in store for you:- 1. Rising of hairs due to movement of electrons. 2. Sparking effect by movement of electrons between discharge ball and van der graff generator in dark. 3. Also flying of rice crispe over the van De graff generator due to electric field of van De graff generator. 4. Movement of fur over van der graff generator."
-			}
-		},
-		{
-			"organizers": "P N S MEGHANA",
-			"yearBranch": "ECE-2",
-			"contact": "9063033023",
-			"regFee": "20/team",
-			"Sno": "51",
-			"max_registrations": "100",
-			"place": "INDOOR",
-			"duration": "2-3 hrs",
-			"roomCapacity": "200",
-			"emailid": "pnsmeghana@gmail.com",
-			"event": "LANTERN MAKING",
-			"noOfLevels": "",
-			"description": {
-				"small": "Have you ever dreamt about being a designer? Well, here is your chance! What you need is nothing but imagination skills to showcase your talents. This event is about designing hanging lanterns using paper. Just tell us how many papers and what colours you require. The most wonderful thing is that these lanterns will be hanging all over the campus during the fest!",
-				"big": "Have you ever dreamt about being a designer? Well, here is your chance! What you need is nothing but imagination skills to showcase your talents. This event is about designing hanging lanterns using paper. Just tell us how many papers and what colours you require. The most wonderful thing is that these lanterns will be hanging all over the campus during the fest! "
-			}
-		},
-		{
-			"organizers": "SRAVYA D",
-			"yearBranch": "CIVIL-4",
-			"contact": "9490597205",
-			"regFee": "40 /team",
-			"Sno": "52",
-			"max_registrations": "100",
-			"place": "BOTH",
-			"duration": "1 day",
-			"roomCapacity": "200",
-			"emailid": "d.v.s.s.bhuvanasravya@gmail.com",
-			"event": "RUN TO WIN",
-			"noOfLevels": "",
-			"description": {
-				"none": "Are you the kind of person who knows the lines to any song that every random person hums? You might be a source of irritation to others but your talent could be worth calling yourself the 'Lyrical Maestro' of NIT Andhra Pradesh! Show off your knowledge in the exciting rounds of this event. ",
-				"small": "This event is a combination of 5 games. Teams which win each round will be given a hint at the end of each game. They have to follow the hints to find the treasure.\n\nCoin collector\n\nA chess board is given to a player with each box consisting of one coin and a knight. The player should be starting from a box(of his interest) and the knight should be moved in ‘L’ shape and the coins should be collected. Player could collect as many coins of his wish. The knight cannot be moved to a box without a coin. Whoever collects the most number of coins wins.\n\nPin the tail\n\nA team of two are selected. The player is shown a picture of an animal without a tail. The player's eyes are blind folded with a cloth and he should pin the tail at the correct place with the instructions of other team mate.The teammate who gives instructions should tell only left,right,top,bottom only.\n\nSwing Hit\n\nA bob is tied to a string and is given to the player. The player must be holding the string and with that bob he has to swing the pendulum to hit the glasses which are numbered.The glasses should be hit in the order of numbers given.\n\nTag-Two\n\nA team of two are selected and one team mate is given a radium ball to throw into a open-close type dustbin. The other team mate should stand at the dustbin and he should tap the button of dustbin at the time of throw.\n\nRubik’s cubeA 3*3 rubik’s cube is to be solved. No time limit. The team which solves it the fastest will be considered the  winner.",
-				"big" : ""
+    }
+  ],
+  "ECEA": [{
+      "organizers": "Anusha",
+      "yearBranch": " ECE / II",
+      "contact": "8008032476",
+      "regFee": "-",
+      "Sno": "5",
+      "max_registrations": "100",
+      "place": "BOTH",
+      "duration": "3 hrs on Day 1, 2.5 hrs on Day 2",
+      "roomCapacity": "300 on Day 1, 18 on Day2",
+      "emailid": "ece4c.vulcanzy19@gmail.com",
+      "event": "FORESEE - the 4C 's",
+      "noOfLevels": "4",
+      "description": {
+        "small": "Do you have the practical knowledge on electronics?\n\nDid you find circuit building as fun?\n\nHere we are to show you how fascinating it is!!",
+        "big": "Tired of same old experiments, waiting to try something new...... Wait is over NOW!!!!!  Come join us, use your artistry build exciting new circuits, find the hidden Treasures,, fun your way through! And emerge triumphant."
+      }
+    },
+    {
+      "organizers": "Praisy, Pavani",
+      "yearBranch": "ECE / IV",
+      "contact": "8106065197",
+      "regFee": "-",
+      "Sno": "6",
+      "max_registrations": "150",
+      "place": "INDOOR",
+      "duration": "3.5 hrs ",
+      "roomCapacity": "200",
+      "emailid": "ecewsvulcanzy19@gmail.com",
+      "event": "REAL TIME IMAGE PROCESSING WORKSHOP ",
+      "noOfLevels": "-",
+      "description": {
+        "small": "Ever wondered how does an auto tag on facebook work?\n\nEver wondered how a third empire decision is given?\n\nDon’t worry we can give an answer to your multitude of queries!!\n\nAll you have to do is.",
+        "big": "join us in a knowledge enhancing workshop for the students of all engineering disciplines.  This workshop is to equip students with the concepts of Image analysis and serve as a platform to deliver hands-on experience to the students on Image processing techniques using MATLAB for real time applications. This also helps photographers to enhance their image by passing through various processing tools."
+      }
+    },
+    {
+      "organizers": "Aravind",
+      "yearBranch": "ECE / II",
+      "contact": "9440705192",
+      "regFee": "-",
+      "Sno": "7",
+      "max_registrations": "-",
+      "place": "INDOOR",
+      "duration": "3 hrs ",
+      "roomCapacity": "86 EDC Lab",
+      "emailid": "eceanitandhra@gmail.com",
+      "event": "ELECTRO WIZARD ",
+      "noOfLevels": "-",
+      "description": {
+        "small": "Here we are with a Project Expo where u can showcase your innovative solutions to the real world problems.\n\nWe are ready to give you a platform which showcases your talent!! Are you ready to prove yourself?",
+        "big": "We, the engineers, are known to be the WIZARDS of the real world because we create many wonders.  It does not take much strength to do things, but it requires a great deal of strength to decide what to do. Use your brain as your magical wand and come up with your innovative ideas as your spells. “Our Excellence lies in the way we push our limits”. Push your limits and create magical and electro logical solutions that can solve complex real world problems."
+      }
+    },
+    {
+      "organizers": "Dhanraj",
+      "yearBranch": "ECE / IV",
+      "contact": "8331844134",
+      "regFee": " Rs.20",
+      "Sno": "8",
+      "max_registrations": "-",
+      "place": "INDOOR",
+      "duration": "-",
+      "roomCapacity": "-",
+      "emailid": "eceanitandhra@gmail.com",
+      "event": "QUIZ",
+      "noOfLevels": "-",
+      "description": {
+        "small": "Warm up your grey matter as ECEA is back again with it's quiz contest. Slay your opponents and emerge as the winner in the clash of brain over brawn. Get ready for a roller coaster ride into the intense world of techno quizzing.",
+        "big": ""
+      }
+    },
+    {
+      "organizers": "Arshiya Anjum, V. Shivani",
+      "yearBranch": "ECE / II",
+      "contact": "9492785600, 8897602648",
+      "regFee": "Rs. 300",
+      "Sno": "9",
+      "max_registrations": "-",
+      "place": "INDOOR",
+      "duration": "-",
+      "roomCapacity": "-",
+      "emailid": "ecemazevulcanzy19@gmail.com",
+      "event": "CAZZLE",
+      "noOfLevels": "-",
+      "description": {
+        "small": " Participants have to design  and build a car which is capable of escaping the maze in the shortest possible time. The car should only be built using limited components given by us . The model must be able to drive through the maze from one corner to another. The car should be controlled using an app.",
+        "big": "R u interested in mechatronics?? If yes, then here is the platform to showcase your interest in it and win exciting prizes!!! All u need is to design and build a car by the components given by us and control it using a mobile app and clear the track given by us.! \nP.S. May sound techy but it is tricky and loads of fun guaranteed."
+      }
+    },
+    {
+      "organizers": "Ravi Teja",
+      "yearBranch": "ECE / III",
+      "contact": "+917731090134",
+      "regFee": "-",
+      "Sno": "8",
+      "max_registrations": "-",
+      "place": "INDOOR",
+      "duration": "-",
+      "roomCapacity": "-",
+      "emailid": "ecemazevulcanzy19@gmail.com",
+      "event": "MURKY MAZE",
+      "noOfLevels": "-",
+      "description": {
+        "small": "Are u guys ready to uncover yor unseen talent?\nHere comes the MURKY MAZE to hunt yor fortune and have a splendid experience of lasers!",
+        "big": "Enter the gloomy room with yor gang, find the hints and grab the chance to have fun with lasers to get yor fortune.\n#the more u decode the clues, the more is the entertainment! "
+      }
+    }
 
-			}
-		},
-		{
-			"organizers": "MONICA BHARGAVI K",
-			"yearBranch": "CSE-3",
-			"contact": "9010341951",
-			"regFee": "30 /team",
-			"Sno": "52",
-			"max_registrations": "100",
-			"place": "BOTH",
-			"duration": "1 day",
-			"roomCapacity": "200",
-			"emailid": "monicakodali@gmail.com",
-			"event": "NIPPY BUZZ",
-			"noOfLevels": "",
-			"description": {
-				"none": " ",
-				"small": "'Buzz' – telephone call 'Nippy' – quick.",
-				"big" : "The event has two rounds.Round 1: Each team will be given a clue which is a technical question related to contemporary technologies. The clue when decoded will result in a 2-digit number. Five such consecutive numbers will form a telephone number. The team have to make a quick dial and inform that they have nippy buzzed!! Rules: The team size should be four. Every person should be from different department. The first 10 dialers will be promoted to next round. Round 2: 1.Balloon pyramid-pyramid of cups has to be built using balloons without using hands. 2. Balloon bumper- among the four,two have to blow the balloons and the other two have to blast the balloons using their head 3.Drinking 5 litres of water:Each team has to drink 5 litres of water by the end of the above three events. 4. Enacting an ad: A product will be shown and then they have to advertise it by enacting in a creative way"
-			}
-		}
-	],
-	"DND": [{
-			"organizers": "Shreyas, Akhilesh",
-			"yearBranch": "1st yr, 2nd yr",
-			"contact": "6204828580, 8367229807",
-			"regFee": "-",
-			"Sno": "53",
-			"max_registrations": "no limit",
-			"place": "indoor(online)",
-			"duration": "-",
-			"roomCapacity": "-",
-			"emailid": "ssahay3105@gmail.com, boinapallyabhi@gmail.com",
-			"event": "MEME-finity war",
-			"noOfLevels": "",
-			"description": {
-				"small": "Don't you guys wonder what you get other than followers by sharing and posting memes??\n\nSo the time has come to take your buried treasure of punchlines out in the world. It's an opportunity for you to make silent pictures speak and make the viewers not scroll down without a thumbs up and share.\n\nLoad your meme gun and buckle up for the war.",
-				"big": "Open for all"
-			}
-		},
-		{
-			"organizers": "Supriya, Akash",
-			"yearBranch": "3rd yr, 2nd yr",
-			"contact": "8143686771, 9834015455",
-			"regFee": "-",
-			"Sno": "54",
-			"max_registrations": "no limit",
-			"place": "indoor(online)",
-			"duration": "4-8sec",
-			"roomCapacity": "",
-			"emailid": ", akashsuryawanshi328@gmail.com",
-			"event": "Boomerang",
-			"noOfLevels": "",
-			"description": {
-				"small": "Have you ever been to past?\n\nPlausibly no right!\n\nHow about a machine rewinding the time for you.\n\nYes its a boomerang challenge guys. Hurry up with the best Boomerang videos of yours let the world acknowledge them.",
-				"big": "Open for all"
-			}
-		},
-		{
-			"organizers": "Sai pavan, Sandeep gajula",
-			"yearBranch": "2nd yr, 2nd yr",
-			"contact": "8096986594, 6304214136",
-			"regFee": "-",
-			"Sno": "55",
-			"max_registrations": "no limit",
-			"place": "indoor",
-			"duration": "-",
-			"roomCapacity": "",
-			"emailid": "saipavanraja99@gmail.com, sangajula20@gmail.com",
-			"event": "Tell a Tale",
-			"noOfLevels": "",
-			"description": {
-				"small": "Here comes the most short and sweet event of VULCANZY 2K19. Now all you have to do is accelerate the pedal and run your brain to give out a mini script.So what are you waiting for grab this opportunity and showcase your talent.",
-				"big": ""
-			}
-		},
-		{
-			"organizers": "Divya Ashish, Gayatri",
-			"yearBranch": "2nd year, 3rd year",
-			"contact": "7909041287, 9490039009",
-			"regFee": "-",
-			"Sno": "56",
-			"max_registrations": "no limit",
-			"place": "indoor",
-			"duration": "10-15 min",
-			"roomCapacity": "",
-			"emailid": "divyaashishkat@gmail.com, vlpg98@yahoo.in",
-			"event": "Lights Camera Action",
-			"noOfLevels": "",
-			"description": {
-				"small": "Ever thought how the Dragons flies in GOT Or how Hobbs and Shaw fascinates the lifes of many, If yes then the time is here for you to make the HULK in you  pop out and Show the world your creativity in the form of a SHORT FILM SHOWDOWN. So get ready to Act,Direct, Compete and Conquer.",
-				"big": "Open for all"
-			}
-		},
-		{
-			"organizers": "Komali, Lahari",
-			"yearBranch": "2nd yr, 3rd yr",
-			"contact": "9121511312, 9963037253",
-			"regFee": "-",
-			"Sno": "57",
-			"max_registrations": "no limit",
-			"place": "indoor",
-			"duration": "first round (12-03-19) - 3hrs , second round (14-03-19) - 1hr",
-			"roomCapacity": "",
-			"emailid": "komalip97@gmail.com, laharigadili@gmail.com",
-			"event": "Danzamanio",
-			"noOfLevels": "",
-			"description": {
-				"small": "To all the dancers who fly without wings,\n\nwho dance instead of walking and\n\nWho desire gratification for their loved passion...\n\nHere is the rocking platform for you to rock!\n\nDND once again came to you with a dance competition DANZAMANIO for VULCANZY",
-				"big": ""
-			}
-		},
-		{
-			"organizers": "Charan , Utkarsh",
-			"yearBranch": "3rd yr, 2nd yr",
-			"contact": "9440894279, 9695605859",
-			"regFee": "-",
-			"Sno": "58",
-			"max_registrations": "no limit",
-			"place": "indoor",
-			"duration": "first round (11-03-19) - 3hrs , second round (14-03-19) - 1hr",
-			"roomCapacity": "",
-			"emailid": "yeddulacharankumarreddy1999@gmail.com,",
-			"event": "Dramebaaz",
-			"noOfLevels": "",
-			"description": {
-				"small": " Xpress Your Heart Out! Ever felt that theatre was your calling? Ever been called a ‘nautankibaaz’ by your friends? Ever felt like going mad on stage? Ever felt like making people cry or laugh with your drama? Ever felt to see your Short stories in a form of movie?\n\nIf yes, well then, Xpressions is the place to be. With a platform amalgamating your talent in acting with a lot of fun and masti, NIT Andhra Pradesh welcomes you for a drama competition.",
-				"big": ""
-			}
-		}
-	],
-	"CHEMICAL": [{
-			"organizers": "Nivedan, Ashish",
-			"yearBranch": "3",
-			"contact": "9502593474/7675022428",
-			"regFee": "-",
-			"Sno": "46",
-			"max_registrations": "unlimited",
-			"place": "online",
-			"duration": "-",
-			"roomCapacity": "-",
-			"emailid": "chemicaleng@gmail.com",
-			"event": "LECTURES",
-			"noOfLevels": "1",
-			"description": {
-				"small": "LECTURES BY IV YEAR",
-				"big": ""
-			}
-		},
-		{
-			"organizers": "Sushvanth, Lalitha, Bhaskar, Shantanu",
-			"yearBranch": "3",
-			"contact": "",
-			"regFee": "-",
-			"Sno": "47",
-			"max_registrations": "100-120",
-			"place": "indoor",
-			"duration": "30 min ",
-			"roomCapacity": "100-120",
-			"emailid": "chemicaleng@gmail.com",
-			"event": "AlChemy",
-			"noOfLevels": "1",
-			"description": {
-				"small": "Presentation",
-				"big": "A Technical Paper-Presentation Event. Showcase your technologicalas well as communicational skills. "
-			}
-		},
-		     {
-			"organizers": "Nivedan, Neha, Ajay, Kiran",
-			"yearBranch": "3",
-			"contact": "9502593474/7675022428",
-			"regFee": "-",
-			"Sno": "46",
-			"max_registrations": "unlimited",
-			"place": "online",
-			"duration": "-",
-			"roomCapacity": "-",
-			"emailid": "chemicaleng@gmail.com",
-			"event": "ExQuizite",
-			"noOfLevels": "1",
-			"description": {
-				"small": "It is an innovatively designed quiz which consists of several stages while carrying out the elimination parallelly.",
-				"big": "Prepare yourself to take part in the innovatively designed sport. The MIND SPORT. Get ready to experience a new kind of quiz. It consists of several rounds with different complexity levels. A team should consist of two. Single entries are also accepted which will be further teamed up. The best teams are expected to bag worthy prizes."
-			}
-		},
-		 {
-			"organizers": "Phani, Jahnavi, Sailaja, Shaswat",
-			"yearBranch": "3",
-			"contact": "9502593474/7675022428",
-			"regFee": "-",
-			"Sno": "46",
-			"max_registrations": "unlimited",
-			"place": "online",
-			"duration": "-",
-			"roomCapacity": "-",
-			"emailid": "chemicaleng@gmail.com",
-			"event": "Pheonix",
-			"noOfLevels": "1",
-			"description": {
-				"small": "Flowsheet development using cardboard and thermocol sheets to show all the equipments in a process",
-				"big": "ChemPheonix is probably the best and the platform where you can visualize and customize your ideas about modelling and exhibit your hidden talents. Nothing is HARD and nothing is EASY. So, come up with your technical and craft-making skills. Further more details about it… This event mainly deals with the modelling of a chemical plant. Each team is expected to solve a problem related to design and clearly explain the process that takes place in the plant. "
-			}
-		},
-		     {
-			"organizers": "Raghuram, Jahnavi, Sailaja, Surbhi Shree",
-			"yearBranch": "3",
-			"contact": "9502593474/7675022428",
-			"regFee": "-",
-			"Sno": "46",
-			"max_registrations": "unlimited",
-			"place": "online",
-			"duration": "-",
-			"roomCapacity": "-",
-			"emailid": "chemicaleng@gmail.com",
-			"event": "Blast Darts",
-			"noOfLevels": "1",
-			"description": {
-				"small": "Crosswords/block arrangements) (chemical & chemistry based puzzles)",
-				"big": "Tired of routine events, here’s the fun way of exploring your knowledge technically. Blast Darts is the coordination of tasks and activities to maximize the effectiveness of team efforts. Further elaboration about the event… It is a Semi-Technical event which consists of 3 rounds. Logical Round Crosswords Round Balloon Blast Round "
-			}
-		},
-		     {
-			"organizers": "Audithya, Teja Sree, Sai, Sasi Rekha",
-			"yearBranch": "3",
-			"contact": "9502593474/7675022428",
-			"regFee": "-",
-			"Sno": "46",
-			"max_registrations": "unlimited",
-			"place": "online",
-			"duration": "-",
-			"roomCapacity": "-",
-			"emailid": "chemicaleng@gmail.com",
-			"event": "QuickG",
-			"noOfLevels": "1",
-			"description": {
-				"small": "Set of tasks to be performed within the specified time limit",
-				"big": "All the busy PUBG and non-PUBG guys get ready to jump, run, crawl, slide and laugh your way through this QUICKG. We’ve come up with few variety of FUN obstacles and more to keep you smiling the whole way through. We assure a grin on your face by the end of the game and loads of fun. In this event we have 2 rounds: Lobby Good number of teams are screened out from this round. Classic FPP You’ll be asked to perform some fun - logical tasks. Each team should complete them in a given order. The winner is expected to loot exciting prizes. "
-			}
-		}
-	]
+  ],
+  "EEEA": [{
+      "organizers": "Sahithi, Manikanta, Gayatri",
+      "yearBranch": "EEE/3rd",
+      "contact": "7036398169",
+      "regFee": "nil",
+      "Sno": "9",
+      "max_registrations": "50",
+      "place": "INDOOR",
+      "duration": "3hrs",
+      "roomCapacity": "150",
+      "emailid": "ksahithi1999@gmail.com",
+      "event": "ALL ABOUT CIRCUITS",
+      "noOfLevels": "",
+      "description": {
+        "small": "Do you wish to be declared as the King of 'The Circuit Throne'? Prove your worth by defeating  your opponents in the field of Circuitry. Form a team of two or three members and rectify faulty circuits, determine outputs and design problems. What are you waiting for? Let the challenge begin!",
+        "big": "This event comprises of 3 levels.1st level: A faulty Circuit will be given to you and a certain output will also be provided. You have to correct the fault in the circuit based on the output given. 2nd level: A circuit will be given and you have to determine its output.3rd level: You will be given a problem to design one of the electrical systems like a transformer, motor etc. A team consists of 2 or 3 people. The team which qualifies the first two levels and designs the best system shall win."
+      }
+    },
+    {
+      "organizers": "Tanvi, Himaja",
+      "yearBranch": "EEE/4th ",
+      "contact": "8497905584",
+      "regFee": "nil",
+      "Sno": "10",
+      "max_registrations": "30",
+      "place": "INDOOR",
+      "duration": "4hrs",
+      "roomCapacity": "100",
+      "emailid": "tanvigudapati@gmail.com",
+      "event": "ARCHIPELAGO",
+      "noOfLevels": "",
+      "description": {
+        "small": "Ever heard of 'mass extinctions'? During the past 500 million years, there have been 5 mass extinctions due to natural climate changes, huge volcanic eruptions or catastrophic meteor strikes. But now, scientists say we're on the verge of a 6th one and this time, we are responsible for our own destruction. Join us on a platform where you can present your ideas to combat Global Warming. You can do it in the form of a presentation, a paper or simply speak your heart out. The team to come up with the most innovative and economical idea will be recognized and possibly sponsored. A little idea can go a long way! Do your bit to help save our Earth.",
+        "big": "During the past 500 million years, there were five mass extinctions during which many species rapidly died. Now scientists say we've entered a sixth mass extinction, and humans are the primary cause, according to a new study. Previous mass extinctions were due to natural climate changes, huge volcanic eruptions or catastrophic meteor strikes. But this one is due to human activities such as deforestation, overpopulation, pollution, poaching and extreme weather events tied to man-caused global warming. We are providing you a platform for presenting your ideas to combat Global Warming. You can present your ideas in the form of power point presentations, talks, paper works etc. The most innovative and economical idea will be recognized, and sponsored if possible. Each team can comprise of members varying from one to three."
+      }
+    },
+    {
+      "organizers": "Himaja, Tanvi, Chandana",
+      "yearBranch": "EEE/4th ",
+      "contact": "8333808546",
+      "regFee": "nil",
+      "Sno": "11",
+      "max_registrations": "50",
+      "place": "INDOOR &OUTDOOR",
+      "duration": "3hrs",
+      "roomCapacity": "100",
+      "emailid": "himajayamasani@gmail.com",
+      "event": "BACK TO THE ORIGINS",
+      "noOfLevels": "",
+      "description": {
+        "small": "We present a new twist to the classic treasure hunt! But this time, scientists are the treasure. Bag points by finding the scientists scattered throughout the campus and answering their mysterious questions. The duo with the maximum points will take home the prize. Gear up and get ready to time-travel back to the era of major scientific breakthroughs! ",
+        "big": "Explore the major electrical breakthroughs since the inception of electricity by doing a scientist hunt. Students who impersonate the respective scientists, who led those breakthroughs, will be scattered across the campus. Each of the scientists will pose a question to you after you find them. Points will be given for finding the scientist as well as solving their mysterious question. The team which gets the maximum points will be rewarded."
+      }
+    },
+    {
+      "organizers": "Sravya, Tanvi, Vandan",
+      "yearBranch": "EEE/4th ",
+      "contact": "8330971998",
+      "regFee": "nil",
+      "Sno": "12",
+      "max_registrations": "60",
+      "place": "INDOOR",
+      "duration": "3hrs",
+      "roomCapacity": "100",
+      "emailid": "agsravya@gmail.com",
+      "event": "AMALGAMATE",
+      "noOfLevels": "",
+      "description": {
+        "small": "Which is better? Being an introvert or an extrovert? Maybe this event could give a possible answer. Test your team working and individuality skills by registering individually. You will be divided into two groups: Amalgams and Gangues. The Amalgams' goal is to coalesce despite the efforts made by the Gangues to disintegrate their bond. If you're a Gangue, you must try your best to break the bonds of the Amalgams. Let's see how interesting things turn out to be! ",
+        "big": "This event tests your team working and individuality skills i.e.,to amalgamate. The participants will be divided into two groups: Amalgams and Gangues. Amalgams: Their aim is to coalesce in spite of efforts by gangues to disintegrate their bond. Gangues: They are individuals trying to break the bonds of amalgams. Students should register individually and they will be assigned to one of the categories by us."
+      }
+    },
+    {
+      "organizers": "Vishnu, Kartik, Yogi, Neethish ",
+      "yearBranch": "EEE/4th ",
+      "contact": "8089442725",
+      "regFee": "nil",
+      "Sno": "13",
+      "max_registrations": "50",
+      "place": "INDOOR",
+      "duration": "4hrs",
+      "roomCapacity": "100",
+      "emailid": "vishnu.ajayan08@gmail.com",
+      "event": "DECEPTION",
+      "noOfLevels": "",
+      "description": {
+        "small": "Are you into live multiplayer games involving technology? Here is your chance to beguile us with your intuitive skills! Grab a trusted partner and begin your task. On the journey, you will design your own gun using electromagnetics, rediscover Tesla's wireless communication and encounter many rewards. Remember not to get short circuited! ",
+        "big": "Wanna play a live multiplayer game with tech stuff? Here is your chance to play one such game. Beguile us with your intuitive skills! This event consists of four deceptive acts. ACT 1: Here you will have to design a gun using the principles of electromagnetics and shoot down few targets. ACT 2: Fan of Tesla? Re-discover the magic of Wireless transmission of electricity. ACT 3: Find out the missing elements in a basic digital circuit and you will be rewarded. ACT 4: Don’t get short circuited! Points will be added for each of your moves in a live leader board. Required components for the acts will be provided to you. Each team consists of 2 members."
+      }
+    },
+    {
+      "organizers": "Satish, Tarun, Santoshi",
+      "yearBranch": "EEE/4th ",
+      "contact": "7989268545",
+      "regFee": "",
+      "Sno": "14",
+      "max_registrations": "",
+      "place": "INDOOR",
+      "duration": "….",
+      "roomCapacity": "",
+      "emailid": "tarunkumartej597@gmail.com",
+      "event": "PROJECT EXPO",
+      "noOfLevels": "",
+      "description": {
+        "small": "PROJECT EXPO",
+        "big": ""
+      }
+    }
+  ],
+  "CEA": [{
+      "organizers": "S. MANASA",
+      "yearBranch": "CIV / IV",
+      "contact": "9490169522",
+      "regFee": "Rs. 50 per person",
+      "Sno": "16",
+      "max_registrations": "20",
+      "place": "INDOOR",
+      "duration": "24x3",
+      "roomCapacity": "100+",
+      "emailid": "sreeram.n.l.manasa@gmail.com",
+      "event": "Crack the Structure",
+      "noOfLevels": "1",
+      "description": {
+        "small": "We civil engineers are structural wizards! we do magic with our designing skills. Can you do magic with your designing skills? then design a structure using STAADPRO according to the given problem statement tackle the real world problems and be a pro at it.",
+        "big": "\t\t\t RULES \n\n\n A team can have 3-5 participants.\n\n\n Each team should design the required structure according to the given problem statement.\n\n\n The design should be done only using STAADPRO software.\n\n\n The design should be light in weight and cost effective.\n\n\n The teams must submit their work (either completed or incomplete) on 10.03.2019 by 23:59 IST to crackthestructure@gmail.com\n\n\n Teams must present their results in the form of a power point presentation after the completion of the design, including a detailed cost estimation.\n\n\n• The teams must complete their design and present it during Vulcanzy  2k19.\n\n\nThe plan, elevation and sectional views of the structure will be provided along with the Google Forms for registration."
+      }
+    },
+    {
+      "organizers": "Y. SATYAVANI",
+      "yearBranch": "CIV / IV",
+      "contact": "8886362609",
+      "regFee": "RS. 50 Per person",
+      "Sno": "17",
+      "max_registrations": "40",
+      "place": "DBMS Lab",
+      "duration": "2hrs",
+      "roomCapacity": "40",
+      "emailid": "arundhathivantepaka@gmail.com",
+      "event": "Popticles",
+      "noOfLevels": "1",
+      "description": {
+        "small": "Do you get astonished by the beauty of Brooklyn bridge, mesmerized by the length of the Danyang bridge?? Are you one of those who are impressed by the mega structures and their constructions and principles? well we have got some amazing events for your inquisitive mind. This time the CEA come with a great event where you are going to get the opportunity to design, analyze and build a bridge of your own!! CEA here comes up with a popsicle bridge construction event” POPTICLE”.",
+        "big": "• In the preliminary round,the bridge will be tested for aesthetics and specifications.\n\n\n• The bridge will be simply supported at the ends.\n\n\n• The supports will be provided  at 65 cm apart clear span.\n\n\n• Point load will be applied at the mid-span of the bridge.\n\n\n• Participants have to bring their prepared models on the day of competition.\n\n\n• At least one participant from the team has to be present during the testing.\n\n\n• Load will be applied till the breaking point is achieved."
+      }
+    },
+    {
+      "organizers": "N. VIKSHAY RAO",
+      "yearBranch": "CIV / IV",
+      "contact": "9491657359",
+      "regFee": "Rs 50 per person",
+      "Sno": "18",
+      "max_registrations": "40",
+      "place": "Concrete lab/Outdoor",
+      "duration": "3hrs",
+      "roomCapacity": "30",
+      "emailid": "vikshayrao@gmail.com",
+      "event": "Epsida",
+      "noOfLevels": "1",
+      "description": {
+        "small": "Walking on a bridge, it is highly likely that you wonder about its construction, about its strength, its durability and its aesthetics being a civil engineer. so here this time we give you people an opportunity to flaunt your designing skills in the arch designing competition.",
+        "big": ""
+      }
+    },
+    {
+      "organizers": "D NAVEEN",
+      "yearBranch": "CIV / IV",
+      "contact": "8897132539",
+      "regFee": "NIL",
+      "Sno": "19",
+      "max_registrations": "30",
+      "place": "INDOOR",
+      "duration": "3hrs",
+      "roomCapacity": "70+",
+      "emailid": "naveendevendrachatta@gmail.com",
+      "event": "De Presenta",
+      "noOfLevels": "1",
+      "description": {
+        "small": "Ever thought how many ideas did you get every day and how many of them can revolutionize this world, Don't judge Yourself let the Experts judge it. So here we come with an event to give your ideas a platform to fly in the open sky.",
+        "big": "• ROUND 1: -The participants have to fill a google form and have to tell in brief about his ideas before 28th Feb,2k19.\n\n\n• Round 2: - The candidates will be shortlisted based on the weightage of the topic. Selection will be done by the Department of Civil Engineering. Selected candidates have to present ​their ideas in front of expert panel on the day of the event."
+      }
+    },
+    {
+      "organizers": "J Sri Harika",
+      "yearBranch": "CIV / IV",
+      "contact": "7981612613",
+      "regFee": "NIL",
+      "Sno": "20",
+      "max_registrations": "Not Restricted",
+      "place": "INDOOR",
+      "duration": "2hrs",
+      "roomCapacity": "100+",
+      "emailid": "jajulasriharika08@gmail.com",
+      "event": "LE TECQUILA",
+      "noOfLevels": "3",
+      "description": {
+        "small": "Ever thought the pace at which the technologies are growing these days, so you must be familiar with the modern as well as the most effective technical knowledge so that to meet the growing competition worldwide. And one of best way is a quiz where you can compete with the best mind and also can learn new things. ",
+        "big": "• ROUND 1: -The Participants have to fill a google form and has to solve an half an hour paper. 5 students will be selected from each branch.\n\n\n• Round 2: - A Stage round where each group will compete against each other head to head. This round will be divided into 3 sub-rounds, in first sub round top 4 teams will proceed for 2nd sub round and finally top 2 will proceed to finals.\n\n\n• Sub-round 1-General problems\n\n\n• Sub-round 2-Buzzer round\n\n\n• Sub-round 3-Tricky conceptual round"
+      }
+    },
+    {
+      "organizers": "V ARUNDHATI",
+      "yearBranch": "CIV / IV",
+      "contact": "9133416932",
+      "regFee": "50/-",
+      "Sno": "21",
+      "max_registrations": "30",
+      "place": "INDOOR",
+      "duration": "3hrs",
+      "roomCapacity": "40",
+      "emailid": "arundhathivantepaka@gmail.com",
+      "event": "FLOAT-CREATE",
+      "noOfLevels": "1",
+      "description": {
+        "small": "Ever thought of concrete so easily moldable & light weight that can float over water? IT’S TIME TO TRY CASTING ONE!!! Construct a concrete cube having maximum compressive strength & lowest density. The event is about the construction of a block which should float in water (having low density) and possess high strength.",
+        "big": ""
+      }
+    }
+  ],
+  "MEA": [{
+      "organizers": "vikash Kumar ray",
+      "yearBranch": "MME/3",
+      "contact": "7903292972",
+      "regFee": "30",
+      "Sno": "22",
+      "max_registrations": "50",
+      "place": "OUTDOOR  ",
+      "duration": " 3 hrs",
+      "roomCapacity": "open lawn",
+      "emailid": "raushanlki98@gmail.com",
+      "event": "One Thrust 2.0",
+      "noOfLevels": "3",
+      "description": {
+        "small": "Have you ever dreamt of flying your own rocket? 'THRUST' is the ideal platform for you to show off your understanding of pressure control and fluid dynamics. Tap into your creativity and build a clean, safe and novel rocket by applying the effects of drag force on a dynamic domain. Your fuel can be as simple as water! Whether you have a passion for physics or design, you will experience the fun in true engineering at this event. So form a team of two or three and bag exciting cash prizes!",
+        "big": ""
+      }
+    },
+    {
+      "organizers": "O.Praneeth ",
+      "yearBranch": "MME/4",
+      "contact": "+91 97050 31849",
+      "regFee": "20",
+      "Sno": "23",
+      "max_registrations": "80",
+      "place": "indoor",
+      "duration": "day 1 : 1 hour\nday 2:   1 hour",
+      "roomCapacity": "~100",
+      "emailid": "opraneethreddy@gmail.com",
+      "event": "Riddle hurdles",
+      "noOfLevels": "3",
+      "description": {
+        "small": "Are you ready for the biggest event in the history of Vulcanzy? This event has been so popular in the past that we had to come back and conduct the next installment! If you're a person who gets thrills from solving mysteries and puzzles, then this event will cater to your needs. So what are you waiting for? Grab your Sherlock hat, your Watson and showcase your case-cracking skills.",
+        "big": ""
+      }
+    },
+    {
+      "organizers": "M Sritejaswini",
+      "yearBranch": "MME/3",
+      "contact": "9492000486",
+      "regFee": "no fee for NIT andhra students ",
+      "Sno": "24",
+      "max_registrations": "30, for outsiders: 20",
+      "place": "OUTDOOR",
+      "duration": "4 hrs",
+      "roomCapacity": "open lawn",
+      "emailid": "msritejaswini@gmail.com ",
+      "event": "Wax mock-up",
+      "noOfLevels": "1",
+      "description": {
+        "small": "Remember playing with clay as a child? Relive those memories but this time with a twist...wax!  You will be provided with all the materials required to prepare a mould of a particular pattern. The next step is to transform your mould into a wax cast. Ensure your masterpiece has the  best shape, surface finish and minimum defects and declare yourselves as the winners! It's a first come, first serve event so hurry up and enroll soon! ",
+        "big": ""
+      }
+    },
+    {
+      "organizers": "S.Vinod Kumar",
+      "yearBranch": "MME/3",
+      "contact": "7013281210",
+      "regFee": "10",
+      "Sno": "25",
+      "max_registrations": "40",
+      "place": "indoor",
+      "duration": "day 1,2: 1 hr",
+      "roomCapacity": "room ~ 80",
+      "emailid": "sabavathvinodkumar60@gmail.com",
+      "event": "What's beyond",
+      "noOfLevels": "2",
+      "description": {
+        "small": "The MMEA and MEA are happy to present 'WHAT'S BEYOND', the ultimate inquisitive quiz. How well do you know how things work? All you need for this event are some basic principles of science and your common sense. Frequent magazine visit can help you climb a step closer to victory. Apply your brain to real world applications and become the champion!",
+        "big": "lot of random text"
+      }
+    }
+  ],
+  "BIOTECH": [{
+      "organizers": "Pilli Akhil",
+      "yearBranch": "3rd year",
+      "contact": "7661876146",
+      "regFee": "10/ person ",
+      "Sno": "26",
+      "max_registrations": "200",
+      "place": "Indoor",
+      "duration": "4 hrs",
+      "roomCapacity": "700+",
+      "emailid": "bea.nitap@gmail.com ",
+      "event": "Forensics",
+      "noOfLevels": "3",
+      "description": {
+        "small": "To explore and bring out the curious detective in you, forensics 2.0 is the right platform.It tests your presence of mind , time management and your ability to collect evidence and its analysis. The team to crack the crime scene by solving the given clues is declared winner.",
+        "big": "Team: 3-5 Members can register as a Team. Round 1:-  (Recruitment round) Pen and paper based test, based on the detective skills. Exam will be conducted for the participants individually and the total marks of the team will be considered. Top 5 teams will be promoted to play Round 2. Round 2:- (Crime investigation round) 5 teams will go to investigate a crime scene. First two teams which crack the crime scene in less time will be selected for Round 3.Round 3:- (Final check point) The team that finds the convict in less time will be announced as the Winner."
+      }
+    },
+    {
+      "organizers": "Sree Raj Akhil",
+      "yearBranch": "2nd year",
+      "contact": "7702290359",
+      "regFee": "20/group ",
+      "Sno": "27",
+      "max_registrations": "100",
+      "place": "outdoor ",
+      "duration": "2 hours",
+      "roomCapacity": "nill",
+      "emailid": "bea.nitap@gmail.com",
+      "event": "Garden scavengers ",
+      "noOfLevels": "1",
+      "description": {
+        "small": "To imbibe the knowledge of scientific names of plants, Biotechnology department is coming up with an event that puts to scrutiny your team spirit, ability to crack codes and search for clues using the scientific names of plants. The group to get maximum points at the end of the hunt wins.",
+        "big": "Team: 3-5 Members can register as a Team.Within the campus, at different places near a plant, a location pin will be dropped. This pin will be represented by the botanical code (available in the literature). A QR code will be attached to that plant. The team members have to select the plants randomly and then have to find the botanical code for the plants.Through an app platform the search result of the botanical code leads to the map for the dropped pin location. Within the  time limit, the participants should reach the plant and have to scan the QR code where each scan leads to the point. The Participants who scored more within the time will be declared as winners."
+      }
+    },
+    {
+      "organizers": "J. Roshini",
+      "yearBranch": "4th year ",
+      "contact": "",
+      "regFee": "NIL",
+      "Sno": "28",
+      "max_registrations": "50",
+      "place": "Indoor",
+      "duration": "2 hours",
+      "roomCapacity": "100+",
+      "emailid": "bea.nitap@gmail.com",
+      "event": "Lumiere",
+      "noOfLevels": "2",
+      "description": {
+        "small": "A perfect platform to utilise the creative abilities in an individual by lightening up maximum number of LED bulbs using fruits and vegetables.Challenge lies in how many less fruits you use to generate the most electricity.Team up to light up the world.",
+        "big": "A group of 2 to 4 members can register as a team. We are gonna provide you: Red/Green LEDs, Knives, Galvanized nails, Copper winding wires, Fruits( Lemon, oranges); Vegetables(potato,tomato), Connecting wires. Each group have to choose any 3 to 5 fruits or vegetables, they can be either same or different (They are to be mentioned in the google form). Screening will be based on number of leds glown , how much time they glow. Capacitors, external voltage sources and amplification devices are strictly prohibited. Ready to make kits are not allowed."
+      }
+    }
+  ],
+  "MECH": [{
+      "organizers": "Saurav",
+      "yearBranch": "Mech III",
+      "contact": "7739465809",
+      "regFee": "500 / team",
+      "Sno": "29",
+      "max_registrations": "8 teams",
+      "place": "Outdoor",
+      "duration": "4 hrs",
+      "roomCapacity": "      _",
+      "emailid": "anshusingh21198@gmail.com",
+      "event": "AMMC(Aircraft Modelling and Maneuvering Challange)",
+      "noOfLevels": "",
+      "description": {
+        "small": "A fun and tech filled event where the cheers of the crowd will cheer up the participants to maneuver their mini RC aircrafts into the sky. The judgement will be based upon crowd’s Aww moments which the RC mini aircraft would have to earn by performing tricks!",
+        "big": ""
+      }
+    },
+    {
+      "organizers": "N.B.R Kaushik",
+      "yearBranch": "Mech III",
+      "contact": "9441282580",
+      "regFee": "",
+      "Sno": "30",
+      "max_registrations": "       -",
+      "place": "Indoor",
+      "duration": "4 hrs",
+      "roomCapacity": "60",
+      "emailid": "kkaushi7@gmail.com",
+      "event": "GISS(Godavari Innovation for Society Summit)",
+      "noOfLevels": "",
+      "description": {
+        "small": "The search has begun for all the innovative minds that can think for new and better solutions to problems existing in Agri, IT, educational and other sectors. The competition invites participation from students who can solve real life based problems providing impactful, feasible and economical solutions. The summit will involve enlightening speakers from respective fields and shortlisted participants will get a chance to present their ideas aided with presentation/ prototype/ simulation etc.\n\nVoice your opinion and be a change-maker!",
+        "big": ""
+      }
+    },
+    {
+      "organizers": "Yogesh",
+      "yearBranch": "Mech II",
+      "contact": "9130633135",
+      "regFee": "nil",
+      "Sno": "31",
+      "max_registrations": "15 teams",
+      "place": "Indoor",
+      "duration": "4 hrs",
+      "roomCapacity": "50-60",
+      "emailid": "Patilmapari@gmail.com",
+      "event": "MARC(Mechanism and Robotics Championship)",
+      "noOfLevels": "",
+      "description": {
+        "small": "From the Curiosity Rover to a simple door, mechanisms involved are limitless! Every once in a while, a new technology, an old problem and a small idea turn into an innovation. Do you have any potential idea that can create magic? This is the right platform for you and the best entrants will be given project sponsorship (tentative). ",
+        "big": ""
+      }
+    },
+    {
+      "organizers": "M.Saikiran",
+      "yearBranch": "Mech III",
+      "contact": "9182289736",
+      "regFee": "200/team",
+      "Sno": "32",
+      "max_registrations": "15 teams",
+      "place": "indoor",
+      "duration": "4 hrs",
+      "roomCapacity": "50-60",
+      "emailid": "saikiranmallembakam15@gmail.com",
+      "event": "Robo-War",
+      "noOfLevels": "",
+      "description": {
+        "small": "Participants have to design RC bots. These manually controlled RC bots will compete against each other in a restricted arena. Performance will be evaluated based on  the design, action strategy, the mounted weapons system and their defence tactics. Minimal rules, passionate teams, hardworked bots, monsterous weapons and goosebumps all around.\n\nBe War-ready!",
+        "big": ""
+      }
+    },
+    {
+      "organizers": "K.Spandan",
+      "yearBranch": "Mech III",
+      "contact": "9490090209",
+      "regFee": "nil",
+      "Sno": "33",
+      "max_registrations": "        -",
+      "place": "Indoor",
+      "duration": "3 hrs",
+      "roomCapacity": "50-60",
+      "emailid": "spandan2344@gmail.com",
+      "event": "Workshop&Quizzes",
+      "noOfLevels": "",
+      "description": {
+        "small": "",
+        "big": ""
+      }
+    }
+  ],
+  "MUSIC": [{
+      "organizers": "Swaroopa ",
+      "yearBranch": "EEE /4th yr",
+      "contact": "8374411375",
+      "regFee": "50",
+      "Sno": "34",
+      "max_registrations": "100",
+      "place": "indoor",
+      "duration": "3 hours /2days",
+      "roomCapacity": "70-80 people ",
+      "emailid": "swaroopawendly37@gmail.com",
+      "event": "Vulcanzy idol",
+      "noOfLevels": "",
+      "description": {
+        "small": "Get ready to unleash the musician in you as the Music Club presents the Vulcanzy Idol, a platform for you to showcase your talent in the field of music, be it singing or playing instruments. You can either rock it solo or perform in a band of maximum 4 members with instruments.",
+        "big": "Get ready to unleash the musician in you as the Music Club presents the Vulcanzy Idol, a platform for you to showcase your talent in the field of music, be it singing or playing instruments. You can either rock it solo or perform in a band of maximum 4 members with instruments."
+      }
+    },
+    {
+      "organizers": "Kiranmayi",
+      "yearBranch": "Biotech /3rd Yr ",
+      "contact": "9493744988",
+      "regFee": "50",
+      "Sno": "35",
+      "max_registrations": "80",
+      "place": "indoor",
+      "duration": "3hours ",
+      "roomCapacity": "70-80",
+      "emailid": "kiranmaipulya@gmail.com ",
+      "event": "lyrical maestro ",
+      "noOfLevels": "",
+      "description": {
+        "small": "Are you the kind of person who knows the lines to any song that every random person hums? You might be a source of irritation to others but your talent could be worth calling yourself the 'Lyrical Maestro' of NIT Andhra Pradesh! Show off your knowledge in the exciting rounds of this event. ",
+        "big": "Are you the kind of person who knows the lines to any song that every random person hums? You might be a source of irritation to others but your talent could be worth calling yourself the 'Lyrical Maestro' of NIT Andhra Pradesh! Show off your knowledge in the exciting rounds of this event. "
+      }
+    },
+    {
+      "organizers": "Uday ",
+      "yearBranch": "civil /3rd Yr ",
+      "contact": "9515570887",
+      "regFee": "50",
+      "Sno": "36",
+      "max_registrations": "70",
+      "place": "indoor ",
+      "duration": "3hours ",
+      "roomCapacity": "50-60",
+      "emailid": "udaykumarteegala@gmail.com",
+      "event": "Guess it Win it ",
+      "noOfLevels": "",
+      "description": {
+        "small": "Think you are an ardent music fan? You might have to rethink now. Guess it.. win it.. is a fun but competitive event which is purely based on the quick response of the participants and their knowledge about music in general. So grab a partner and test yourself!",
+        "big": "Think you are an ardent music fan? You might have to rethink now. Guess it.. win it.. is a fun but competitive event which is purely based on the quick response of the participants and their knowledge about music in general. So grab a partner and test yourself! "
+      }
+    },
+    {
+      "organizers": "Unnathi ",
+      "yearBranch": "Ece /3rd Yr ",
+      "contact": "9110528561",
+      "regFee": "",
+      "Sno": "37",
+      "max_registrations": "70",
+      "place": "online ",
+      "duration": "one level ",
+      "roomCapacity": "",
+      "emailid": "unnathi.c@gmail.com",
+      "event": "Song slam",
+      "noOfLevels": "",
+      "description": {
+        "small": "Enough of our college, it's time others get to know your potential in singing. We bring to you Song Slam, an online singing event. Let's see how much everyone admires your talent and watch your popularity on Instagram shoot up! Sing a song (without karaoke) and post it in the Instagram by tagging it with our Instagram account(_musicclub_nitandhra), based on the number of likes winner will be decided. Songs of any language are allowed. You can even sing in a group of two or three people. Get double-taps and be the champion!",
+        "big": "Enough of our college, it's time others get to know your potential in singing. We bring to you Song Slam, an online singing event. Let's see how much everyone admires your talent and watch your popularity on Instagram shoot up! Sing a song (without karaoke) and post it in the Instagram by tagging it with our Instagram account(_musicclub_nitandhra), based on the number of likes winner will be decided. Songs of any language are allowed. You can even sing in a group of two or three people. Get double-taps and be the champion!"
+      }
+    }
+  ],
+  "PNP": [{
+      "organizers": "Sai Kiran,Appala Reddy,Vishal",
+      "yearBranch": "3rd year,1st year,1st year   ",
+      "contact": "9182289736",
+      "regFee": "20",
+      "Sno": "38",
+      "max_registrations": "100",
+      "place": "INDOOR",
+      "duration": "3 hours",
+      "roomCapacity": "150-200",
+      "emailid": "pnpnitap@gmail.com",
+      "event": "Hand Painting",
+      "noOfLevels": "0",
+      "description": {
+        "small": "",
+        "big": "Apart from the usual drawing and coloring techniques, hand-painting can be a joyful experience. A team which consists of 2 participants will be provided with paints and asked to paint on their hands. Make the human hand your canvas. Paint anything from animalistic faces to something denoting the theme. It all depends on the creativity of the participants and their extent of imagination. A time period of 90 minutes will be given to all the participants. The top 2 teams that come up with the most unique and creative sets of painted hands will be the awarded as winner and runner."
+      }
+    },
+    {
+      "organizers": "Santhoshi,Praneesh,Ramya",
+      "yearBranch": "2nd year,1st year,1st year",
+      "contact": "7093567225",
+      "regFee": "nil",
+      "Sno": "39",
+      "max_registrations": "60",
+      "place": "INDOOR",
+      "duration": "3 hours",
+      "roomCapacity": "50-60",
+      "emailid": "pnpnitap@gmail.com",
+      "event": "Art in Line",
+      "noOfLevels": "0",
+      "description": {
+        "small": "",
+        "big": "As the name suggests, the competition is all about drawing an image that consists of only distinct straight lines and strictly no curves. Lines of different colors, width, and shades can be used to make a picture that emphasizes the theme of the event...super heroes! The participants are expected to complete the drawing within the time provided which is 60 minutes."
+      }
+    },
+    {
+      "organizers": "Khyathi Aneesha,Tanmayi",
+      "yearBranch": "3rd year,2nd year",
+      "contact": "7995956499",
+      "regFee": "nil",
+      "Sno": "40",
+      "max_registrations": "50",
+      "place": "INDOOR",
+      "duration": "3 hours ",
+      "roomCapacity": "50-60",
+      "emailid": "pnpnitap@gmail.com",
+      "event": "ART-A-THON",
+      "noOfLevels": "2",
+      "description": {
+        "small": "",
+        "big": "The event will be held in 2 rounds. In the first round, riddles and puzzles will be given to each of the team members. The team which solves all the riddles will be qualified for the second round. And, in the second round, one team mate has to guess the word while the other explains it by drawing within the time limit which will be 1 minute."
+      }
+    },
+    {
+      "organizers": "Nivas,Vani,Navya",
+      "yearBranch": "3rd year,2nd year,1st year",
+      "contact": "7893935978",
+      "regFee": "nil",
+      "Sno": "41",
+      "max_registrations": "60",
+      "place": "INDOOR",
+      "duration": "3 hours",
+      "roomCapacity": "50-60",
+      "emailid": "pnpnitap@gmail.com",
+      "event": "Paint Without Brush",
+      "noOfLevels": "0",
+      "description": {
+        "small": "",
+        "big": "A brush is to a painter, what a rifle is to solider, isn’t it? So, this event tests the ability of an artist to color the canvas by turning anything around him/her into a brush within the time provided to them."
+      }
+    },
+    {
+      "organizers": "Nitin,Tarun,Aman rao",
+      "yearBranch": "3rd year,4th year,2nd year",
+      "contact": "9490271374",
+      "regFee": "nil",
+      "Sno": "42",
+      "max_registrations": "",
+      "place": "INDOOR",
+      "duration": "1 hour( for showing ads)",
+      "roomCapacity": "150-200",
+      "emailid": "pnpnitap@gmail.com",
+      "event": "Ad making competition",
+      "noOfLevels": "0",
+      "description": {
+        "small": "",
+        "big": "A theme based short advertisement making competition. Participants will be given a particular theme, based on which they shall submit a short video of Ad, video length limited to 60 or 90 seconds. The best and creative Ad submitted will be winning the contest."
+      }
+    },
+    {
+      "organizers": "Nuthan,Jithendreswar,Azharuddin",
+      "yearBranch": "4th year,3rd year,2nd year",
+      "contact": "9492230494",
+      "regFee": "nil",
+      "Sno": "43",
+      "max_registrations": "",
+      "place": "",
+      "duration": "ONLINE event",
+      "roomCapacity": "",
+      "emailid": "pnpnitap@gmail.com",
+      "event": "Photo contest",
+      "noOfLevels": "0",
+      "description": {
+        "small": "",
+        "big": "This is an open photography contest where the participants submit their best photographs along with the photo details. There’s no theme or category for this contest. Participants can submit any 3 best pictures they’ve shot and can submit them to the club before the deadline. Of all the photographs submitted, one best picture, each from different categories of photography like Street/Portrait/Landscape/Nature/Macro photography and so on, will be picked and announced as winners."
+      }
+    },
+    {
+      "organizers": "Vikas,Bhardwaj,Shiva",
+      "yearBranch": "3rd year,3rd year,2nd year",
+      "contact": "9292755807",
+      "regFee": "nil",
+      "Sno": "44",
+      "max_registrations": "",
+      "place": "",
+      "duration": "ONLINE event",
+      "roomCapacity": "",
+      "emailid": "pnpnitap@gmail.com",
+      "event": "mannequin_challenge",
+      "noOfLevels": "0",
+      "description": {
+        "small": "",
+        "big": "People remain frozen in action like mannequins while a moving camera films them, often with a sound in the background. They will be sending the video of max length 30 sec. The best one will be selected and rewarded."
+      }
+    },
+    {
+      "organizers": "Azharuddin",
+      "yearBranch": "2nd year",
+      "contact": "",
+      "regFee": "nil",
+      "Sno": "59",
+      "max_registrations": "",
+      "place": "",
+      "duration": "ONLINE event",
+      "roomCapacity": "",
+      "emailid": "pnpnitap@gmail.com",
+      "event": "FOTO RECIT",
+      "noOfLevels": "0",
+      "description": {
+        "small": "",
+        "big": "Foto recit is an online event where the participants submit a set of photographs and pictures, narrating a short story or a tale through the pictures itself. They can also add a tagline for the whole to portray their story in a better way. The maximum number of pictures that can be submitted is limited to 10."
+      }
+    }
+  ],
+  "MAGAZINE": [{
+      "organizers": "M.Monica,K.V.R Yashwant",
+      "yearBranch": "3",
+      "contact": "9502593474/7675022428",
+      "regFee": "-",
+      "Sno": "46",
+      "max_registrations": "unlimited",
+      "place": "online",
+      "duration": "-",
+      "roomCapacity": "-",
+      "emailid": "monicamatta999@gmail.com",
+      "event": "Bookfie",
+      "noOfLevels": "1",
+      "description": {
+        "small": "SELFIE WITH YOUR FAVOURITE BOOK",
+        "big": "Upload a selfie with your favourite book with a caption describing why you like that book, why you feel that book was exciting and why you couldn't stop reading it. "
+      }
+    },
+    {
+      "organizers": "Mubeen, Manjunadh, Srilekha ",
+      "yearBranch": "3",
+      "contact": "8184883793/9951540702/9494291402",
+      "regFee": "-",
+      "Sno": "47",
+      "max_registrations": "100-120",
+      "place": "indoor",
+      "duration": "30 min ",
+      "roomCapacity": "100-120",
+      "emailid": "manjunadhreddyjampana@gmail.com",
+      "event": "Illusion",
+      "noOfLevels": "1",
+      "description": {
+        "small": "",
+        "big": "Looking for a way to give your brain a jumpstart? Try tackling 15 perplexing optical illusions in this interactive game. What's great about this setup is that when you are ready to see the answer, you can watch as the colours, shapes, and patterns are manipulated to show you how each illusion is made."
+      }
+    }
+  ],
+  "SNH": [{
+      "organizers": "KETAN BANSAL, G. RUPESH",
+      "yearBranch": "CSE-1",
+      "contact": "6264079466",
+      "regFee": "50/team",
+      "Sno": "48",
+      "max_registrations": "25",
+      "place": "INDOOR",
+      "duration": "4 hrs",
+      "roomCapacity": "100",
+      "emailid": "ketan.bansal255@gmail.com",
+      "event": "BEST OUT OF WASTE",
+      "noOfLevels": "",
+      "description": {
+        "small": "Engineering can be simply defined as SMART WORK. Create the best of out nothing so that it can ease our life. In this event you need to use easily available, household items to make an output related to science or something which will make our life simple. We will provide everyone with some basic tools and equipment but you have to make the best out of it. Can you be the most creative person and win this event? ",
+        "big": "Engineering can be simply defined as SMART WORK. Create the best of out nothing so that it can ease our life. In this event you need to use easily available, household items to make an output related to science or something which will make our life simple. We will provide everyone with some basic tools and equipment but you have to make the best out of it. Can you be the most creative person and win this event? "
+      }
+    },
+    {
+      "organizers": "UMESH YADAV",
+      "yearBranch": "CSE-3",
+      "contact": "8789853068",
+      "regFee": "50/person",
+      "Sno": "49",
+      "max_registrations": "50",
+      "place": "OUTDOOR",
+      "duration": "3-4 hrs",
+      "roomCapacity": "NOT REQUIRED",
+      "emailid": "umeshyadav1997@gmail.com",
+      "event": "LAZY HOVER V1.0",
+      "noOfLevels": "",
+      "description": {
+        "small": "Have you ever fantasized about riding on a cool hover board like in Back to the Future 2? Were you ever mad that such a technology had not been created yet, or had been faked as a prank (yes, Back to the Future fans, I know you know what I am talking about)? Well, wait no longer! Remember those blot planks that everybody hangs around? In the upcoming Vulcanzy we are going to build our own electric hover board using a 12V DC motor, a small tire, and a household item at home that you can trip. Do you think you have what it takes to drive your own hoverboard?",
+        "big": "Have you ever fantasized about riding on a cool hover board like in Back to the Future 2? Were you ever mad that such a technology had not been created yet, or had been faked as a prank (yes, Back to the Future fans, I know you know what I am talking about)? Well, wait no longer! Remember those blot planks that everybody hangs around? In the upcoming Vulcanzy we are going to build our own electric hover board using a 12V DC motor, a small tire, and a household item at home that you can trip. Do you think you have what it takes to drive your own hoverboard? "
+      }
+    },
+    {
+      "organizers": "RITURAJ SINGH SUJAWAT",
+      "yearBranch": "CIVIL-3",
+      "contact": "7597575752",
+      "regFee": "50/person",
+      "Sno": "50",
+      "max_registrations": "Nil",
+      "place": "INDOOR",
+      "duration": "1 day",
+      "roomCapacity": "25",
+      "emailid": "riturajsinghsujawat@gmail.com",
+      "event": "Van De Graff Generator",
+      "noOfLevels": "",
+      "description": {
+        "small": "A Van de Graaff generator is an electrostatic generator which uses a moving belt to accumulate electric charge on a hollow metal globe on the top of an insulated column, creating very high electric potentials. It produces very high voltage direct current electricity at low current levels.",
+        "big": "A Van de Graaff generator is an electrostatic generator which uses a moving belt to accumulate electric charge on a hollow metal globe on the top of an insulated column, creating very high electric potentials. It produces very high voltage direct current electricity at low current levels. This event includes the demonstration and application of Van De Graff Generator. Fun Activities in store for you:- 1. Rising of hairs due to movement of electrons. 2. Sparking effect by movement of electrons between discharge ball and van der graff generator in dark. 3. Also flying of rice crispe over the van De graff generator due to electric field of van De graff generator. 4. Movement of fur over van der graff generator."
+      }
+    },
+    {
+      "organizers": "P N S MEGHANA",
+      "yearBranch": "ECE-2",
+      "contact": "9063033023",
+      "regFee": "20/team",
+      "Sno": "51",
+      "max_registrations": "100",
+      "place": "INDOOR",
+      "duration": "2-3 hrs",
+      "roomCapacity": "200",
+      "emailid": "pnsmeghana@gmail.com",
+      "event": "LANTERN MAKING",
+      "noOfLevels": "",
+      "description": {
+        "small": "Have you ever dreamt about being a designer? Well, here is your chance! What you need is nothing but imagination skills to showcase your talents. This event is about designing hanging lanterns using paper. Just tell us how many papers and what colours you require. The most wonderful thing is that these lanterns will be hanging all over the campus during the fest!",
+        "big": "Have you ever dreamt about being a designer? Well, here is your chance! What you need is nothing but imagination skills to showcase your talents. This event is about designing hanging lanterns using paper. Just tell us how many papers and what colours you require. The most wonderful thing is that these lanterns will be hanging all over the campus during the fest! "
+      }
+    },
+    {
+      "organizers": "SRAVYA D",
+      "yearBranch": "CIVIL-4",
+      "contact": "9490597205",
+      "regFee": "40 /team",
+      "Sno": "52",
+      "max_registrations": "100",
+      "place": "BOTH",
+      "duration": "1 day",
+      "roomCapacity": "200",
+      "emailid": "d.v.s.s.bhuvanasravya@gmail.com",
+      "event": "RUN TO WIN",
+      "noOfLevels": "",
+      "description": {
+        "none": "Are you the kind of person who knows the lines to any song that every random person hums? You might be a source of irritation to others but your talent could be worth calling yourself the 'Lyrical Maestro' of NIT Andhra Pradesh! Show off your knowledge in the exciting rounds of this event. ",
+        "small": "This event is a combination of 5 games. Teams which win each round will be given a hint at the end of each game. They have to follow the hints to find the treasure.\n\nCoin collector\n\nA chess board is given to a player with each box consisting of one coin and a knight. The player should be starting from a box(of his interest) and the knight should be moved in ‘L’ shape and the coins should be collected. Player could collect as many coins of his wish. The knight cannot be moved to a box without a coin. Whoever collects the most number of coins wins.\n\nPin the tail\n\nA team of two are selected. The player is shown a picture of an animal without a tail. The player's eyes are blind folded with a cloth and he should pin the tail at the correct place with the instructions of other team mate.The teammate who gives instructions should tell only left,right,top,bottom only.\n\nSwing Hit\n\nA bob is tied to a string and is given to the player. The player must be holding the string and with that bob he has to swing the pendulum to hit the glasses which are numbered.The glasses should be hit in the order of numbers given.\n\nTag-Two\n\nA team of two are selected and one team mate is given a radium ball to throw into a open-close type dustbin. The other team mate should stand at the dustbin and he should tap the button of dustbin at the time of throw.\n\nRubik’s cubeA 3*3 rubik’s cube is to be solved. No time limit. The team which solves it the fastest will be considered the  winner.",
+        "big": ""
+
+      }
+    },
+    {
+      "organizers": "MONICA BHARGAVI K",
+      "yearBranch": "CSE-3",
+      "contact": "9010341951",
+      "regFee": "30 /team",
+      "Sno": "52",
+      "max_registrations": "100",
+      "place": "BOTH",
+      "duration": "1 day",
+      "roomCapacity": "200",
+      "emailid": "monicakodali@gmail.com",
+      "event": "NIPPY BUZZ",
+      "noOfLevels": "",
+      "description": {
+        "none": " ",
+        "small": "'Buzz' – telephone call 'Nippy' – quick.",
+        "big": "The event has two rounds.Round 1: Each team will be given a clue which is a technical question related to contemporary technologies. The clue when decoded will result in a 2-digit number. Five such consecutive numbers will form a telephone number. The team have to make a quick dial and inform that they have nippy buzzed!! Rules: The team size should be four. Every person should be from different department. The first 10 dialers will be promoted to next round. Round 2: 1.Balloon pyramid-pyramid of cups has to be built using balloons without using hands. 2. Balloon bumper- among the four,two have to blow the balloons and the other two have to blast the balloons using their head 3.Drinking 5 litres of water:Each team has to drink 5 litres of water by the end of the above three events. 4. Enacting an ad: A product will be shown and then they have to advertise it by enacting in a creative way"
+      }
+    }
+  ],
+  "DND": [{
+      "organizers": "Shreyas, Akhilesh",
+      "yearBranch": "1st yr, 2nd yr",
+      "contact": "6204828580, 8367229807",
+      "regFee": "-",
+      "Sno": "53",
+      "max_registrations": "no limit",
+      "place": "indoor(online)",
+      "duration": "-",
+      "roomCapacity": "-",
+      "emailid": "ssahay3105@gmail.com, boinapallyabhi@gmail.com",
+      "event": "MEME-finity war",
+      "noOfLevels": "",
+      "description": {
+        "small": "Don't you guys wonder what you get other than followers by sharing and posting memes??\n\nSo the time has come to take your buried treasure of punchlines out in the world. It's an opportunity for you to make silent pictures speak and make the viewers not scroll down without a thumbs up and share.\n\nLoad your meme gun and buckle up for the war.",
+        "big": "Open for all"
+      }
+    },
+    {
+      "organizers": "Supriya, Akash",
+      "yearBranch": "3rd yr, 2nd yr",
+      "contact": "8143686771, 9834015455",
+      "regFee": "-",
+      "Sno": "54",
+      "max_registrations": "no limit",
+      "place": "indoor(online)",
+      "duration": "4-8sec",
+      "roomCapacity": "",
+      "emailid": ", akashsuryawanshi328@gmail.com",
+      "event": "Boomerang",
+      "noOfLevels": "",
+      "description": {
+        "small": "Have you ever been to past?\n\nPlausibly no right!\n\nHow about a machine rewinding the time for you.\n\nYes its a boomerang challenge guys. Hurry up with the best Boomerang videos of yours let the world acknowledge them.",
+        "big": "Open for all"
+      }
+    },
+    {
+      "organizers": "Sai pavan, Sandeep gajula",
+      "yearBranch": "2nd yr, 2nd yr",
+      "contact": "8096986594, 6304214136",
+      "regFee": "-",
+      "Sno": "55",
+      "max_registrations": "no limit",
+      "place": "indoor",
+      "duration": "-",
+      "roomCapacity": "",
+      "emailid": "saipavanraja99@gmail.com, sangajula20@gmail.com",
+      "event": "Tell a Tale",
+      "noOfLevels": "",
+      "description": {
+        "small": "Here comes the most short and sweet event of VULCANZY 2K19. Now all you have to do is accelerate the pedal and run your brain to give out a mini script.So what are you waiting for grab this opportunity and showcase your talent.",
+        "big": ""
+      }
+    },
+    {
+      "organizers": "Divya Ashish, Gayatri",
+      "yearBranch": "2nd year, 3rd year",
+      "contact": "7909041287, 9490039009",
+      "regFee": "-",
+      "Sno": "56",
+      "max_registrations": "no limit",
+      "place": "indoor",
+      "duration": "10-15 min",
+      "roomCapacity": "",
+      "emailid": "divyaashishkat@gmail.com, vlpg98@yahoo.in",
+      "event": "Lights Camera Action",
+      "noOfLevels": "",
+      "description": {
+        "small": "Ever thought how the Dragons flies in GOT Or how Hobbs and Shaw fascinates the lifes of many, If yes then the time is here for you to make the HULK in you  pop out and Show the world your creativity in the form of a SHORT FILM SHOWDOWN. So get ready to Act,Direct, Compete and Conquer.",
+        "big": "Open for all"
+      }
+    },
+    {
+      "organizers": "Komali, Lahari",
+      "yearBranch": "2nd yr, 3rd yr",
+      "contact": "9121511312, 9963037253",
+      "regFee": "-",
+      "Sno": "57",
+      "max_registrations": "no limit",
+      "place": "indoor",
+      "duration": "first round (12-03-19) - 3hrs , second round (14-03-19) - 1hr",
+      "roomCapacity": "",
+      "emailid": "komalip97@gmail.com, laharigadili@gmail.com",
+      "event": "Danzamanio",
+      "noOfLevels": "",
+      "description": {
+        "small": "To all the dancers who fly without wings,\n\nwho dance instead of walking and\n\nWho desire gratification for their loved passion...\n\nHere is the rocking platform for you to rock!\n\nDND once again came to you with a dance competition DANZAMANIO for VULCANZY",
+        "big": ""
+      }
+    },
+    {
+      "organizers": "Charan , Utkarsh",
+      "yearBranch": "3rd yr, 2nd yr",
+      "contact": "9440894279, 9695605859",
+      "regFee": "-",
+      "Sno": "58",
+      "max_registrations": "no limit",
+      "place": "indoor",
+      "duration": "first round (11-03-19) - 3hrs , second round (14-03-19) - 1hr",
+      "roomCapacity": "",
+      "emailid": "yeddulacharankumarreddy1999@gmail.com,",
+      "event": "Dramebaaz",
+      "noOfLevels": "",
+      "description": {
+        "small": " Xpress Your Heart Out! Ever felt that theatre was your calling? Ever been called a ‘nautankibaaz’ by your friends? Ever felt like going mad on stage? Ever felt like making people cry or laugh with your drama? Ever felt to see your Short stories in a form of movie?\n\nIf yes, well then, Xpressions is the place to be. With a platform amalgamating your talent in acting with a lot of fun and masti, NIT Andhra Pradesh welcomes you for a drama competition.",
+        "big": ""
+      }
+    }
+  ],
+  "CHEMICAL": [{
+      "organizers": "Nivedan, Ashish",
+      "yearBranch": "3",
+      "contact": "9502593474/7675022428",
+      "regFee": "-",
+      "Sno": "46",
+      "max_registrations": "unlimited",
+      "place": "online",
+      "duration": "-",
+      "roomCapacity": "-",
+      "emailid": "chemicaleng@gmail.com",
+      "event": "LECTURES",
+      "noOfLevels": "1",
+      "description": {
+        "small": "LECTURES BY IV YEAR",
+        "big": ""
+      }
+    },
+    {
+      "organizers": "Sushvanth, Lalitha, Bhaskar, Shantanu",
+      "yearBranch": "3",
+      "contact": "",
+      "regFee": "-",
+      "Sno": "47",
+      "max_registrations": "100-120",
+      "place": "indoor",
+      "duration": "30 min ",
+      "roomCapacity": "100-120",
+      "emailid": "chemicaleng@gmail.com",
+      "event": "AlChemy",
+      "noOfLevels": "1",
+      "description": {
+        "small": "Presentation",
+        "big": "A Technical Paper-Presentation Event. Showcase your technologicalas well as communicational skills. "
+      }
+    },
+    {
+      "organizers": "Nivedan, Neha, Ajay, Kiran",
+      "yearBranch": "3",
+      "contact": "9502593474/7675022428",
+      "regFee": "-",
+      "Sno": "46",
+      "max_registrations": "unlimited",
+      "place": "online",
+      "duration": "-",
+      "roomCapacity": "-",
+      "emailid": "chemicaleng@gmail.com",
+      "event": "ExQuizite",
+      "noOfLevels": "1",
+      "description": {
+        "small": "It is an innovatively designed quiz which consists of several stages while carrying out the elimination parallelly.",
+        "big": "Prepare yourself to take part in the innovatively designed sport. The MIND SPORT. Get ready to experience a new kind of quiz. It consists of several rounds with different complexity levels. A team should consist of two. Single entries are also accepted which will be further teamed up. The best teams are expected to bag worthy prizes."
+      }
+    },
+    {
+      "organizers": "Phani, Jahnavi, Sailaja, Shaswat",
+      "yearBranch": "3",
+      "contact": "9502593474/7675022428",
+      "regFee": "-",
+      "Sno": "46",
+      "max_registrations": "unlimited",
+      "place": "online",
+      "duration": "-",
+      "roomCapacity": "-",
+      "emailid": "chemicaleng@gmail.com",
+      "event": "Pheonix",
+      "noOfLevels": "1",
+      "description": {
+        "small": "Flowsheet development using cardboard and thermocol sheets to show all the equipments in a process",
+        "big": "ChemPheonix is probably the best and the platform where you can visualize and customize your ideas about modelling and exhibit your hidden talents. Nothing is HARD and nothing is EASY. So, come up with your technical and craft-making skills. Further more details about it… This event mainly deals with the modelling of a chemical plant. Each team is expected to solve a problem related to design and clearly explain the process that takes place in the plant. "
+      }
+    },
+    {
+      "organizers": "Raghuram, Jahnavi, Sailaja, Surbhi Shree",
+      "yearBranch": "3",
+      "contact": "9502593474/7675022428",
+      "regFee": "-",
+      "Sno": "46",
+      "max_registrations": "unlimited",
+      "place": "online",
+      "duration": "-",
+      "roomCapacity": "-",
+      "emailid": "chemicaleng@gmail.com",
+      "event": "Blast Darts",
+      "noOfLevels": "1",
+      "description": {
+        "small": "Crosswords/block arrangements) (chemical & chemistry based puzzles)",
+        "big": "Tired of routine events, here’s the fun way of exploring your knowledge technically. Blast Darts is the coordination of tasks and activities to maximize the effectiveness of team efforts. Further elaboration about the event… It is a Semi-Technical event which consists of 3 rounds. Logical Round Crosswords Round Balloon Blast Round "
+      }
+    },
+    {
+      "organizers": "Audithya, Teja Sree, Sai, Sasi Rekha",
+      "yearBranch": "3",
+      "contact": "9502593474/7675022428",
+      "regFee": "-",
+      "Sno": "46",
+      "max_registrations": "unlimited",
+      "place": "online",
+      "duration": "-",
+      "roomCapacity": "-",
+      "emailid": "chemicaleng@gmail.com",
+      "event": "QuickG",
+      "noOfLevels": "1",
+      "description": {
+        "small": "Set of tasks to be performed within the specified time limit",
+        "big": "All the busy PUBG and non-PUBG guys get ready to jump, run, crawl, slide and laugh your way through this QUICKG. We’ve come up with few variety of FUN obstacles and more to keep you smiling the whole way through. We assure a grin on your face by the end of the game and loads of fun. In this event we have 2 rounds: Lobby Good number of teams are screened out from this round. Classic FPP You’ll be asked to perform some fun - logical tasks. Each team should complete them in a given order. The winner is expected to loot exciting prizes. "
+      }
+    }
+  ],
+  "LAndD": [{
+      "organizers": "None",
+      "yearBranch": "Nan",
+      "contact": "nil",
+      "regFee": "-",
+      "Sno": "-",
+      "max_registrations": "unlimited",
+      "place": "offline",
+      "duration": "-",
+      "roomCapacity": "-",
+      "emailid": "chemicaleng@gmail.com",
+      "event": "Talking Titans",
+      "noOfLevels": "Nan",
+      "description": {
+        "small": "How profound are you in unravelling puzzles? So brace yourselves to decipher the hidden hint in the conundrum.",
+        "big": ""
+      }
+    },
+    {
+      "organizers": "None",
+      "yearBranch": "Nan",
+      "contact": "nil",
+      "regFee": "-",
+      "Sno": "-",
+      "max_registrations": "unlimited",
+      "place": "offline",
+      "duration": "-",
+      "roomCapacity": "-",
+      "emailid": "chemicaleng@gmail.com",
+      "event": "Show Tym",
+      "noOfLevels": "Nan",
+      "description": {
+        "small": "Are you a Hollywood freak? If yes, let then dive into the world of movies and series. Higher  the count of movies and series you have watched closer you are to triumph.",
+        "big": ""
+      }
+    },
+    {
+      "organizers": "None",
+      "yearBranch": "Nan",
+      "contact": "nil",
+      "regFee": "-",
+      "Sno": "-",
+      "max_registrations": "unlimited",
+      "place": "offline",
+      "duration": "-",
+      "roomCapacity": "-",
+      "emailid": "chemicaleng@gmail.com",
+      "event": "The Ultimate Treasure Hunt",
+      "noOfLevels": "Nan",
+      "description": {
+        "small": "As the name suggests the hunt will be indeed an ultimate one as multiple clubs are involved in it. The event will be triggered off by literary and debate club and catalogued by other clubs.",
+        "big": ""
+      }
+    }
+  ]
 }
