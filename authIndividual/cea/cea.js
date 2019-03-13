@@ -64,10 +64,10 @@ function checkUserPresent(username,CIVIL,CRACK,CONCRETE,PAPER,ASKME,VILLE){
       });
 }
 
-function writeUserData(username,,CIVIL,CRACK,CONCRETE,PAPER,ASKME,VILLEv,isTrue,u_key) {
+function writeUserData(username,,CIVIL,CRACK,CONCRETE,PAPER,ASKME,VILLE,isTrue,u_key) {
   if(isTrue){
         window.alert("already registered");
-        firebase.database().ref('cea').child(u_key).set({
+        firebase.database().ref('cea').child(u_key+"").set({
             username: username,
            CIVIL:CIVIL,
          CRACK:CRACK,
@@ -80,7 +80,7 @@ function writeUserData(username,,CIVIL,CRACK,CONCRETE,PAPER,ASKME,VILLEv,isTrue,
     }
     else{
         window.alert("new regitration successful");
-        firebase.database().ref('cea').child(u_key).set({
+        firebase.database().ref('cea').child(u_key+"").set({
           username: username,
            CIVIL:CIVIL,
          CRACK:CRACK,
@@ -92,6 +92,6 @@ function writeUserData(username,,CIVIL,CRACK,CONCRETE,PAPER,ASKME,VILLEv,isTrue,
         });
     }
     flag=true;
-    window.location.href = "./index.html";
+    window.location.href = "../index.html";
 }
 
