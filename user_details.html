@@ -197,11 +197,23 @@ function waiter() {
         border-radius: 6px;
         /* Position the tooltip text - see examples below! */
         position: absolute;
+
         z-index: 1;
+        opacity: 0.5;
       }
       h2:hover .tooltiptext {
         visibility: visible;
       }
+      h2 .tooltiptext::after {
+        content: " ";
+        position: absolute;
+        top: 50%;
+        right: 100%; /* To the left of the tooltip */
+        margin-top: -5px;
+        border-width: 5px;
+        border-style: solid;
+        border-color: transparent black transparent transparent;
+}
     </style>
 
     <div id="user_info_div">
