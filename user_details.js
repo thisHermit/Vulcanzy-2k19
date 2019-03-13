@@ -62,7 +62,7 @@ function createSpace()
     {document.body.appendChild(br);}
     //document.write("<br><br><br><br><br><br><br><br><br><br><br><br><br><br>");
 }
-// easter egg ? surprise! but this code should be fixed
+// easter egg ? surprise! but this code should be cleaned
 function writeTable(ename,branch)
 {
     var h = document.createElement("H1");
