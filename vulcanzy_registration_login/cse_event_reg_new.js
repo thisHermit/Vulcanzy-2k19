@@ -48,7 +48,7 @@ function checkUserPresent(username,col,cod,cry,vir,wor){
 function writeUserData(username,cod,col,cry,vir,wor,isTrue,u_key) {
   if(isTrue){
         window.alert("already registered");
-        firebase.database().ref('cse').child(u_key).set({
+        firebase.database().ref('cse').child(u_key+"").set({
             username: username,
             colloquium:col,
             code_sprint:cod,
@@ -60,7 +60,7 @@ function writeUserData(username,cod,col,cry,vir,wor,isTrue,u_key) {
     }
     else{
         window.alert("new regitration successful");
-        firebase.database().ref('cse').child(u_key).set({
+        firebase.database().ref('cse').child(u_key+"").set({
           username: username,
           colloquium:col,
           code_sprint:cod,
