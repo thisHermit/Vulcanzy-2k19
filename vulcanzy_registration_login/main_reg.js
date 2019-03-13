@@ -23,7 +23,9 @@ function submitForm(e){
     var pass2="000";
     var email=document.getElementById("email").value;
     var phno=document.getElementById("phno").value;
-    var colg=document.getElementById("college").value;
+    
+	var colg=document.getElementById("search_categories").value;
+    console.log(colg);
     if(pass1==pass2){
       username+="";
       var password=pass1;
