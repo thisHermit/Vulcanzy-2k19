@@ -239,7 +239,7 @@
             </div>
 
          <div class="col">
-            <button class="btn bg-transparent pnp">
+            <button class="btn bg-transparent LAndD">
 
               <div class="card border-0   bg-transparent rounded  cardPad animated  infinite delay-1s" style="animation-duration:1s">
                 <img src="./logos/pnp.jpg" style="height: 210px ;border-radius:50%" class="card-img-top" />
@@ -566,6 +566,39 @@
           i +
           ',this)">More</a></button> </div>' +
           '<a class="btn btn-primary btn-lg" style="top:0;right:0;position:absolute" href="https://amitsai28.github.io/Vulcanzy-2k19/authIndividual/music/MUSIC_register.html" role="button">Register</a>'
+        );
+
+      }
+    });
+  });
+  $(".LAndD").click(function() {
+    document.getElementById("menuList").style.display = "none";
+    document.getElementById("eventList").style.display = "block";
+    $.getJSON("./eventData.json", function(d) {
+      for (var i = 0; i < 10; i++) {
+        $(".information").append('<div class="jumbotron rounded  text-center" style= "background-image: linear-gradient(to top right ,#e9e61b,#fa9702fd)" > <h1 style="position: relative;" class="display-8">' +
+          d.LAndD[i].event +
+          '</h1> <hr class="my-4"><h3>' + d.PNP[i].description.small + '</h3> <br /><p class="">  ' +
+          //d.PNP[i].noOfLevels +
+          ' &nbsp; FEE:' +
+          d.LAndD[i].regFee +
+          // ' &nbsp; DURATION:' +
+          // d.PNP[i].duration +
+          '  </p>' + '<p class=""> <br/> ORGANIZERS: &nbsp;' +
+          d.LAndD[i].organizers +
+          ' <br/> CONTACT: &nbsp;' +
+          d.LAndD[i].contact +
+          '   <br/> EMAIL: &nbsp;' +
+          d.LAndD[i].emailid +
+          '<div id = "more' +
+          i +
+          '" style="display:none;">' +
+          d.LAndD[i].description.big +
+          '</div>' +
+          '<p class="lead"> <button onclick="moreButton(' +
+          i +
+          ', this)">More</a></button> </div>' +
+          '<a class="btn btn-primary btn-lg" style="top:0;right:0;position:absolute" href="https://amitsai28.github.io/Vulcanzy-2k19/authIndividual/l&d.md/L&DND_register.html" role="button">Register</a>'
         );
 
       }
