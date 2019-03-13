@@ -71,5 +71,5 @@ function writeUserData(username,cod,col,cry,vir,wor,isTrue,u_key) {
         });
     }
     flag=true;
-    window.location.href = "./index.html";
+    window.location.href = "../index.html";
 }
