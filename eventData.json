@@ -776,7 +776,7 @@
       "regFee": "nil",
       "Sno": "40",
       "max_registrations": "50",
-      "place": "INDOOR",
+      "place":  "INDOOR",
       "duration": "3 hours ",
       "roomCapacity": "50-60",
       "emailid": "pnpnitap@gmail.com",
