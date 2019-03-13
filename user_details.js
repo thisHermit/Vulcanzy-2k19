@@ -10,8 +10,8 @@ var config = {
 
 var messageRef=firebase.database().ref('register');
 
-    var username;//=sessionStorage.getItem("storageName")+"";
-    username="asheesh@98"+"";
+    var username=sessionStorage.getItem("storageName")+"";
+    //username="asheesh@98"+"";
     var leadsRef = firebase.database().ref('register/'+username);
     var flag=true;
     leadsRef.on('value', function(snapshot) {
