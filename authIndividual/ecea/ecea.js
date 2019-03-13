@@ -15,6 +15,7 @@ var messageRef=firebase.database().ref('ecea');
 var usernames=[];
 var uname=sessionStorage.getItem("storageName");
 document.getElementById("username").value=uname;
+console.log(uname);
 document.getElementById('ecea').addEventListener('submit',submitForm);
 var usernames=[];
 var keys=[];
