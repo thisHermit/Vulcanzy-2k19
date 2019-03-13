@@ -28,7 +28,7 @@ var messageRef=firebase.database().ref('register');
         document.getElementById("email").innerHTML=email;
         document.getElementById("phone").innerHTML=phno;
         document.getElementById("college").innerHTML=clgname;
-        document.getElementById("regStatus").innerHTML=statusReg;
+        document.getElementById("regStatus").innerHTML=statusReg?"REGISTERED" : "PAYMENT PENDING";
 
         console.log(child.name+"hi");
         createSpace();
