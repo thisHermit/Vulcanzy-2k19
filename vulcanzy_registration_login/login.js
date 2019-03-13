@@ -50,7 +50,7 @@ function submitForm(e){
       }
      else if(flag){
        window.alert("Please goto registration page");
-       window.location.href = "./register.html";
+       window.location.href = "../vulcanzy_registration_login/main_registration.html";
     }
   });
 }
