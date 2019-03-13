@@ -1,13 +1,13 @@
  // Initialize Firebase
- var config = {
-    apiKey: "AIzaSyB3urwbUhycDY6jUTCiFloudGHBj7629M4",
-    authDomain: "fir-auth-fb5c8.firebaseapp.com",
-    databaseURL: "https://fir-auth-fb5c8.firebaseio.com",
-    projectId: "fir-auth-fb5c8",
-    storageBucket: "fir-auth-fb5c8.appspot.com",
-    messagingSenderId: "143950457061"
-  };
-  firebase.initializeApp(config);
+//  var config = {
+//     apiKey: "AIzaSyB3urwbUhycDY6jUTCiFloudGHBj7629M4",
+//     authDomain: "fir-auth-fb5c8.firebaseapp.com",
+//     databaseURL: "https://fir-auth-fb5c8.firebaseio.com",
+//     projectId: "fir-auth-fb5c8",
+//     storageBucket: "fir-auth-fb5c8.appspot.com",
+//     messagingSenderId: "143950457061"
+//   };
+//   firebase.initializeApp(config);
 
 
 var messageRef=firebase.database().ref('ecea');
