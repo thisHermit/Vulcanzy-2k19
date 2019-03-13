@@ -571,6 +571,75 @@
          -moz-filter: brightness(1.2) grayscale(.5) opacity(.9);
               filter: brightness(1.2) grayscale(.5) opacity(.9);
   }
+      select {
+      border-radius: 36px;
+      position: relative;
+      width: 50vw;
+      height: 64px;
+      transition: all 0.5s cubic-bezier(.87, -.41, .19, 1.44);
+}
+    
+.search_categories{
+  position: relative;
+      font-size: 16px;
+      background: #ffffff;
+      /* background: linear-gradient(21deg, #3794FD, #14D3FE); */
+      margin-left: 0.5vw;
+      margin-right: 0.5vw;
+      margin-bottom: 10px;
+      margin-top: 10px;
+      padding: 3px;
+      display: inline-block;
+      border-radius: 9999em;
+}
+.search_categories *:not(span) {
+      position: relative;
+      display: inherit;
+      border-radius: inherit;
+      margin: 0;
+      border: none;
+      outline: none;
+      padding: 0 0.325em;
+      z-index: 1;
+    }
+    
+    .search_categories *:not(span):focus + span {
+      opacity: 1;
+      transform: scale(1);
+    }
+    
+    .search_categories span {
+      transform: scale(0.993, 0.94);
+      transition: transform 0.5s, opacity 0.25s;
+      opacity: 0;
+      position: absolute;
+      z-index: 0;
+      margin: 4px;
+      left: 0;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      border-radius: inherit;
+      pointer-events: none;
+      /* box-shadow: inset 0 0 0 3px #fff, 0 0 0 4px #fff, 3px -3px 30px #7eecff, -3px 3px 30px #7eecff; */
+    }
+.search_categories .select{
+  width: 48.5vw;
+  background:url('arrow.png') no-repeat;
+  background-position:80% center;
+}
+
+.search_categories .select select{
+  background: transparent;
+  line-height: 1;
+  border: 0;
+  padding: 0;
+  border-radius: 0;
+  width: 48.5vw;
+  position: relative;
+  z-index: 10;
+  font-size: 16px;
+}
   /* Extras */
   a:visited{color:#888}
   a{color:#444;text-decoration:none;}
@@ -621,7 +690,54 @@
             <br>
             <br>
           <label id="icon" for="name"><i class="fas fa-university fa-2x"></i></label> <span class="input">
-            <input type="text" placeholder="College Name" id="college" style="padding-left:1vw" required>
+             <div class="search_categories">
+                <div class="select">
+                   <select name="search_categories" id="search_categories" placeholder="College Name">
+                      <option selected disabled hidden></option>
+                      <option value="1" >Sri Vasavi Engineering College</option>
+                      <option value="2">Sasi Institute of technology and Engineering</option>
+                      <option value="3">Sri Venkateshwara Institute Of Science and Information Technology</option>
+                      <option value="4">West Godavari Institute of Science and Engineering</option>
+                      <option value="5">AKRG College of Engineering and Technology</option>
+                      <option value="6">Shri Vishnu Engineering College for Women</option>
+                      <option value="7">Vishnu Institute of Technology</option>
+                      <option value="8">Bhimavaram Institute of Engineering Technology</option>
+                      <option value="9">Rajamahendri Institute of Engineering and Technology</option>
+                      <option value="10">BVC College of Engineering</option>
+                      <option value="11">Chaitanya Institute of Engineering Technology</option>
+                      <option value="12">Godavari Institute of Engineering Technology</option>
+                      <option value="13">Eluru Engineering College</option>
+                      <option value="14">Sir C.R.Reddy College Of Engineering</option>
+                      <option value="15">Ramachandra College of Engineering</option>
+                      <option value="16">Adikavi Nannaya University </option>
+                      <option value="17">ISTS Women's Engineering College</option>
+                      <option value="18">Pragati Engineering College</option>
+                      <option value="19">Aditya Engineering College</option>
+                      <option value="20">Usha Rama College of Engineering and Technology</option>
+                      <option value="21">Kakinada Institute of Engineering & Technology</option>
+                      <option value="22">Rajiv Gandhi Institute of Management & Science </option>
+                      <option value="23">JNTU Kakinada</option>
+                      <option value="24">Pydah College of Engineering</option>
+                      <option value="25">Velagapudi Ramakrishna Siddhartha Engineering College</option>
+                      <option value="26">Andhra Loyola Institute of Engineering and Technology</option>
+                      <option value="27">MVR College of Engineering and Technology</option>
+                      <option value="28">SRK Institute of Technology</option>
+                      <option value="29">Prasad V. Potluri Siddhartha Institute Of Technology</option>
+                      <option value="30">Vikas College Of Engineering and Technology</option>
+                      <option value="31">SRKR Engineering college</option>
+                      
+                    </select>
+                    
+                        <!-- <option value="" selected disabled hidden>Choose here</option>
+                        <option value="1">One</option>
+                        <option value="2">Two</option>
+                        <option value="3">Three</option>
+                        <option value="4">Four</option>
+                        <option value="5">Five</option>
+                      </select> -->
+                 </div>
+             </div> 
+          
             <span></span> </span>
             <br>
             <br>
