@@ -65,7 +65,7 @@ function createSpace()
 // easter egg ? surprise! but this code should be cleaned
 function writeTable(ename,branch)
 {
-    var h = document.createElement("H1");
+    var h = document.createElement("H4");
     h.innerHTML=branch;
     var target = document.getElementById("events");
 
