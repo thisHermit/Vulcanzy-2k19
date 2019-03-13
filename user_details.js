@@ -57,6 +57,8 @@ function readEvents(username){
             var paid=child.paid;
 
             writeTable(ename,"CSE",paid);
+            writeTable(ename,"CSE",paid);
+            writeTable(ename,"CSE",paid);
                });
         }
 function createSpace()
