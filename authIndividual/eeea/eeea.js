@@ -24,18 +24,12 @@ var flag=true;
 function submitForm(e){
     e.preventDefault();
     var username=document.getElementById("username").value;
-	CKTS:CKTS,
-         ARCHI:ARCHI,
-         ORIGIN:ORIGIN,
-         AMALG:AMALG,
-         DECEPTION:DECEPTION,
-         EXPO:EXPO,
-         PAPER:PAPER
+	
     var CKTS=document.getElementById("cbx1").checked;
     var ARCHI=document.getElementById("cbx2").checked;
     var ORIGIN=document.getElementById("cbx3").checked;
     var AMALG=document.getElementById("cbx4").checked;
-    var wor=document.getElementById("cbx5").checked;
+    var DECEPTION=document.getElementById("cbx5").checked;
 	var EXPO=document.getElementById("cbx5").checked;
 	var PAPER=document.getElementById("cbx5").checked;
     checkUserPresent(username,CKTS, ARCHI, ORIGIN,AMALG,DECEPTION,EXPO,PAPER);
@@ -70,7 +64,7 @@ function checkUserPresent(username,CKTS, ARCHI, ORIGIN,AMALG,DECEPTION,EXPO,PAPE
 function writeUserData(username,CKTS, ARCHI, ORIGIN,AMALG,DECEPTION,EXPO,PAPER,isTrue,u_key) {
   if(isTrue){
         window.alert("already registered");
-        firebase.database().ref('eeea').child(u_key).set({
+        firebase.database().ref('eeea').child(u_key+"").set({
             username: username,
            CKTS:CKTS,
          ARCHI:ARCHI,
@@ -84,7 +78,7 @@ function writeUserData(username,CKTS, ARCHI, ORIGIN,AMALG,DECEPTION,EXPO,PAPER,i
     }
     else{
         window.alert("new regitration successful");
-        firebase.database().ref('eeea').child(u_key).set({
+        firebase.database().ref('eeea').child(u_key+"").set({
           username: username,
           CKTS:CKTS,
          ARCHI:ARCHI,
@@ -97,5 +91,5 @@ function writeUserData(username,CKTS, ARCHI, ORIGIN,AMALG,DECEPTION,EXPO,PAPER,i
         });
     }
     flag=true;
-    window.location.href = "./index.html";
+    window.location.href = "../index.html";
 }
