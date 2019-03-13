@@ -60,7 +60,7 @@ function checkUserPresent(username,BOOKFIE,ILLUSION){
 function writeUserData(username,BOOKFIE,ILLUSION,isTrue,u_key) {
   if(isTrue){
         window.alert("already registered");
-        firebase.database().ref('magzine').child(u_key).set({
+        firebase.database().ref('magzine').child(u_key+"").set({
             username: username,
             BOOKFIE:BOOKFIE,
          ILLUSION:ILLUSION,
@@ -69,7 +69,7 @@ function writeUserData(username,BOOKFIE,ILLUSION,isTrue,u_key) {
     }
     else{
         window.alert("new regitration successful");
-        firebase.database().ref('magzine').child(u_key).set({
+        firebase.database().ref('magzine').child(u_key+"").set({
           username: username,
           BOOKFIE:BOOKFIE,
          ILLUSION:ILLUSION,
@@ -77,5 +77,5 @@ function writeUserData(username,BOOKFIE,ILLUSION,isTrue,u_key) {
         });
     }
     flag=true;
-    window.location.href = "./index.html";
+    window.location.href = "../index.html";
 }
