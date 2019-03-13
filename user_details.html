@@ -184,8 +184,11 @@ function waiter() {
     <button type="button" name="button" class="sidenav_button fa fa-bars shadow-lg rounded" onclick="openNav()"></button>
     <style>
       h2 {
+        
         border-bottom-width: 20px;
         text-align: center;
+        display: inline;
+        margin-inline-start: 100px
       }
       h2 .tooltiptext {
         visibility: hidden;
@@ -197,41 +200,55 @@ function waiter() {
         border-radius: 6px;
         /* Position the tooltip text - see examples below! */
         position: absolute;
-
         z-index: 1;
       }
       h2:hover .tooltiptext {
         visibility: visible;
       }
-      h2 .tooltiptext::after {
-        content: " ";
-        position: absolute;
-        top: 50%;
-        right: 100%; /* To the left of the tooltip */
-        margin-top: -5px;
-        border-width: 5px;
-        border-style: solid;
-        border-color: transparent black transparent transparent;
-}
-    </style>
+      h3{
+          display: inline;  
+          text-align: center
+      }
+          </style>
 
     <div id="user_info_div">
-      <h2>Name:</h2>
-      <h3 id="name"></h3>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        
+      <h2 >Name:  </h2><h3 id="name"></h3>
+    <br>
+    <br><br>
       <h2>Username:</h2>
       <h3 id="username"></h3>
+      <br>
+      <br><br>
       <h2>Email:</h2>
       <h3 id="email"></h3>
+      <br>
+      <br><br>
       <h2>Phone:</h2>
       <h3 id="phone"></h3>
+      <br>
+      <br><br>
       <h2>College:</h2>
       <h3 id="college"></h3>
+      <br>
+      <br><br>
       <h2>Registration Status*: <span class="tooltiptext"><p>The registration status will be updated when you pay the fees (Rs. 100).
       <br/>The status will be updated in 1-2 business days.
       <br/>In case of any queries check the contact page.</p></span></h2>
       <h3 id="regStatus"></h3>
+      <br>
+      <br><br>
       <h2>Event Details:</h2>
-      <h3 class="events">
+      <h3>
+        <ul id = "events">
+
+        </ul>
       </h3>
 
     </div>
@@ -317,5 +334,6 @@ mess.textContent =  "Hi, Guest";
     document.getElementById("layer3").style.display = "block";
   }
 </script>
-
+ <script src="https://www.gstatic.com/firebasejs/5.8.0/firebase.js"></script>
+   <script src="user_details.js"></script>
 </html>
