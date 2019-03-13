@@ -62,7 +62,7 @@ function checkUserPresent(username,ONET RIDDLE, WAX,BEYOND){
 function writeUserData(username,ONET RIDDLE, WAX,BEYOND,isTrue,u_key) {
   if(isTrue){
         window.alert("already registered");
-        firebase.database().ref('mtlrgy').child(u_key).set({
+        firebase.database().ref('mtlrgy').child(u_key+"").set({
              ONET:ONET,
          RIDDLE:RIDDLE,
          WAX:WAX,
@@ -72,7 +72,7 @@ function writeUserData(username,ONET RIDDLE, WAX,BEYOND,isTrue,u_key) {
     }
     else{
         window.alert("new regitration successful");
-        firebase.database().ref('mtlrgy').child(u_key).set({
+        firebase.database().ref('mtlrgy').child(u_key+"").set({
           username: username,
            ONET:ONET,
          RIDDLE:RIDDLE,
