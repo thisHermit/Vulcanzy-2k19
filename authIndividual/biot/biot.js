@@ -60,17 +60,17 @@ function checkUserPresent(username,LUMI,FOREN,GARDEN){
 function writeUserData(username,LUMI,FOREN,GARDEN,isTrue,u_key) {
   if(isTrue){
         window.alert("already registered");
-        firebase.database().ref('cse').child(u_key).set({
+        firebase.database().ref('biot').child(u_key+"").set({
             username: username,
             LUMI: LUMI,
          FOREN : FOREN,
-         GARDEN : GARDEN
+         GARDEN : GARDEN,
             paid: 0
         });
     }
     else{
         window.alert("new regitration successful");
-        firebase.database().ref('cse').child(u_key).set({
+        firebase.database().ref('biot').child(u_key+"").set({
           username: username,
           LUMI: LUMI,
          FOREN : FOREN,
@@ -79,6 +79,6 @@ function writeUserData(username,LUMI,FOREN,GARDEN,isTrue,u_key) {
         });
     }
     flag=true;
-    window.location.href = "./index.html";
+    window.location.href = "../index.html";
 }
 
