@@ -82,6 +82,6 @@ function writeUserData(username,ONET RIDDLE, WAX,BEYOND,isTrue,u_key) {
         });
     }
     flag=true;
-    window.location.href = "./index.html";
+    window.location.href = "../index.html";
 }
 
