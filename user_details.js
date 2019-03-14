@@ -103,6 +103,7 @@ function writeTable(ename,branch,paid)
            tble.style.border="20px";
            tble.classList.add('table-hover');
            tble.classList.add('table');
+           tble.classList.add('table-dark');
            cell1.style.padding="10px";
            cell2.style.padding="10px";
            cell2.innerHTML = "Payment Status";
