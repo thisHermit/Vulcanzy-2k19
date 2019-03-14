@@ -1,13 +1,13 @@
  // Initialize Firebase
  var config = {
-    apiKey: "AIzaSyDxuVz7qEHHzUC1T874N2JdX8acoWBrvoc",
-    authDomain: "vulcanzy-biot.firebaseapp.com",
-    databaseURL: "https://vulcanzy-biot.firebaseio.com",
-    projectId: "vulcanzy-biot",
-    storageBucket: "vulcanzy-biot.appspot.com",
-    messagingSenderId: "234316773527"
-  };
-  firebase.initializeApp(config);
+        apiKey: "AIzaSyB3urwbUhycDY6jUTCiFloudGHBj7629M4",
+        authDomain: "fir-auth-fb5c8.firebaseapp.com",
+        databaseURL: "https://fir-auth-fb5c8.firebaseio.com",
+        projectId: "fir-auth-fb5c8",
+        storageBucket: "fir-auth-fb5c8.appspot.com",
+        messagingSenderId: "143950457061"
+      };
+      firebase.initializeApp(config);
 // referance message collection
 
 var messageRef=firebase.database().ref('biot');
