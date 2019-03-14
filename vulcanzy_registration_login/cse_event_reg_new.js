@@ -19,33 +19,35 @@ function submitForm(e){
     checkUserPresent(username,col,cod,cry,vir,wor);
 }
 function checkUserPresent(username,col,cod,cry,vir,wor){
-      var leadsRef = firebase.database().ref('cse');
+      var leadsRef = firebase.database().ref('cse/'+uname);
       leadsRef.on('value', function(snapshot) {
-          var all=[];
-          snapshot.forEach(function(childSnapshot) {
-              var childData = childSnapshot.val();
-              var str=childData.username;
-              usernames.push(str+"");
-              all.push(str+"");
-              usernames.push(str+"");
-              var key=childSnapshot.key+"";
-              keys.push(key+"");
+//           var all=[];
+//           snapshot.forEach(function(childSnapshot) {
+//               var childData = childSnapshot.val();
+//               var str=childData.username;
+//               usernames.push(str+"");
+//               all.push(str+"");
+//               usernames.push(str+"");
+//               var key=childSnapshot.key+"";
+//               keys.push(key+"");
+                var child = snapshot.val();
+                if(child!=null) {writeUserData(username,cod,col,cry,vir,wor,true,main_key);}
           });
-          if(usernames.includes(username)&&flag){
-              flag=false;
-              main_key=keys[usernames.indexOf(username)];
-              writeUserData(username,cod,col,cry,vir,wor,true,main_key);
-          }
-          else if(flag){
-              flag=false;
-              console.log("new here");
-              writeUserData(username,cod,col,cry,vir,wor,false,"");
-          }
+//           if(usernames.includes(username)&&flag){
+//               flag=false;
+//               main_key=keys[usernames.indexOf(username)];
+//               writeUserData(username,cod,col,cry,vir,wor,true,main_key);
+//           }
+//           else if(flag){
+//               flag=false;
+//               console.log("new here");
+//               writeUserData(username,cod,col,cry,vir,wor,false,"");
+//           }
 
-      });
+     // });
 }
 
-function writeUserData(username,cod,col,cry,vir,wor,isTrue,u_key) {
+function writeUserData(username,cod,col,cry,vir,wor) {
   if(isTrue){
         window.alert("already registered");
         firebase.database().ref('cse').child(username+"").set({
@@ -70,6 +72,6 @@ function writeUserData(username,cod,col,cry,vir,wor,isTrue,u_key) {
             paid:0
         });
     }
-    flag=true;
+   
     window.location.href = "../index.html";
 }
