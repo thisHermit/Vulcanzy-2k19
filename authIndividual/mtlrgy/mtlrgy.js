@@ -1,14 +1,4 @@
- // Initialize Firebase
- var config = {
-    apiKey: "AIzaSyBzDG8ZotPtzkmfjsrPPLRhvDQYspOJhNg",
-    authDomain: "vulcanzy-mtlry.firebaseapp.com",
-    databaseURL: "https://vulcanzy-mtlry.firebaseio.com",
-    projectId: "vulcanzy-mtlry",
-    storageBucket: "vulcanzy-mtlry.appspot.com",
-    messagingSenderId: "1054959263981"
-  };
-  firebase.initializeApp(config);
-
+ 
 // referance message collection
 
 var messageRef=firebase.database().ref('mtlrgy');
