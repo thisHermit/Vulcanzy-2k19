@@ -1,0 +1,805 @@
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script defer src="https://use.fontawesome.com/releases/v5.7.1/js/all.js" integrity="sha384-eVEQC9zshBn0rFj4+TU78eNA19HMNigMviK/PU/FFjLXqa/GKPgX58rvt5Z8PLs7" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/1.5.3/jspdf.debug.js"></script>
+</head>
+<style>
+    html {
+      /*background-image: linear-gradient(to bottom right, rgba(255,0,0,0), rgba(255,0,0,1));#89f7fe → #66a6ff*/
+      background-image: linear-gradient(to bottom right, #14D3FE, #3794FD);
+      /*background-image: linear-gradient(to top right, #7E35EF, #F20AC3);
+      background-image: linear-gradient(to top right, #AF2A7D, #E03753);
+      background-image: linear-gradient(to top right, #42E16B, #8A9E06);*/
+      /* background-image: linear-gradient(to top right, #FFFB00, #FF4900); */
+      /*background-image: linear-gradient(to top right, #EFFF1F, #FFA200);*/
+      /*background-color: #fc9842;
+        background-image: linear-gradient(315deg, #fc9842 0%, #fe5f75 74%);
+        background-color: #ff4e00;
+        background-image: linear-gradient(315deg, #ff4e00 0%, #ec9f05 74%);*/
+    }
+
+    body,
+    div,
+    dl,
+    dt,
+    dd,
+    ul,
+    ol,
+    li,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    pre,
+    form,
+    fieldset,
+    input,
+    textarea,
+    p,
+    blockquote,
+    th,
+    td {
+      padding: 0;
+      margin: 0;
+    }
+
+    fieldset,
+    img {
+      border: 0
+    }
+
+    ol,
+    ul,
+    li {
+      list-style: none
+    }
+
+    :focus {
+      outline: none
+    }
+
+    body,
+    input,
+    textarea,
+    select {
+      font-family: 'Open Sans', sans-serif;
+      font-size: 16px;
+      color: #0004ff;
+    }
+
+    p {
+      font-size: 10px;
+      width: 150px;
+      display: inline-block;
+      margin-left: 30px;
+    }
+
+    h1 {
+      font-size: 40px;
+      font-weight: bold;
+      color: #ffffff;
+      text-align: center;
+      padding-top: 15px;
+      margin-bottom: 25px;
+    }
+
+    h2 {
+      font-size: 35px;
+      font-weight: bold;
+      color: #ffffff;
+      text-align: center;
+      padding-top: 10px;
+      margin-bottom: 10px;
+    }
+
+    h3 {
+      font-size: 20px;
+      font-weight: bold;
+      color: #ffffff;
+      padding-left: 10px;
+      text-align:center;
+    }
+
+    html {
+      background-color: #ffffff;
+    }
+
+    .testbox {
+      margin: auto;
+      width: 100vw;
+      height: 100vh;
+      -webkit-border-radius: 8px/7px;
+      -moz-border-radius: 8px/7px;
+      border-radius: 8px/7px;
+      background-color: rgba(0, 0, 0, 0);
+      /*-webkit-box-shadow: 1px 2px 5px rgba(0,0,0,.31);
+      -moz-box-shadow: 1px 2px 5px rgba(0,0,0,.31);
+      box-shadow: 1px 2px 5px rgba(0,0,0,.31); */
+      border: transparent 1px #000000;
+
+    }
+
+    input[type=radio] {
+      visibility: hidden;
+    }
+
+    form {
+      margin-left:5vh;
+      margin-right:5vh;
+      text-align: center;
+    }
+
+    label.radio {
+      cursor: pointer;
+      text-indent: 35px;
+      overflow: visible;
+      display: inline-block;
+      position: relative;
+      margin-bottom: 15px;
+    }
+
+    label.radio:before {
+      background: #ee0000;
+      opacity:1;
+      content: '';
+      position: absolute;
+      top: 2px;
+      left: 0;
+      width: 20px;
+      height: 20px;
+      border-radius: 100%;
+    }
+
+    label.radio:after {
+      opacity: 0;
+      content: '';
+      position: absolute;
+      width: 0.5em;
+      height: 0.25em;
+      background: transparent;
+      top: 7.5px;
+      left: 4.5px;
+      border: 3px solid #ffffff;
+      border-top: none;
+      border-right: none;
+      -webkit-transform: rotate(-45deg);
+      -moz-transform: rotate(-45deg);
+      -o-transform: rotate(-45deg);
+      -ms-transform: rotate(-45deg);
+      transform: rotate(-45deg);
+    }
+
+    input[type=radio]:checked + label:after {
+      opacity: 1;
+    }
+
+    hr {
+      background-color: #30FF00;
+      opacity: 0.2;
+    }
+
+    label {
+      font-size:23px;
+      color: #ffffff;
+      opacity: 1;
+    }
+    input {
+      border-radius: 36px;
+      position: relative;
+      width: 50vw;
+      height: 64px;
+      transition: all 0.5s cubic-bezier(.87, -.41, .19, 1.44);
+    }
+    .input {
+      position: relative;
+      font-size: 16px;
+      background: linear-gradient(21deg, #3794FD, #14D3FE);
+      margin-left: 0.5vw;
+      margin-right: 0.5vw;
+      margin-bottom: 10px;
+      margin-top: 10px;
+      padding: 3px;
+      display: inline-block;
+      border-radius: 9999em;
+    }
+
+    .input *:not(span) {
+      position: relative;
+      display: inherit;
+      border-radius: inherit;
+      margin: 0;
+      border: none;
+      outline: none;
+      padding: 0 0.325em;
+      z-index: 1;
+    }
+
+    .input *:not(span):focus + span {
+      opacity: 1;
+      transform: scale(1);
+    }
+
+    .input span {
+      transform: scale(0.993, 0.94);
+      transition: transform 0.5s, opacity 0.25s;
+      opacity: 0;
+      position: absolute;
+      z-index: 0;
+      margin: 4px;
+      left: 0;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      border-radius: inherit;
+      pointer-events: none;
+      box-shadow: inset 0 0 0 3px #fff, 0 0 0 4px #fff, 3px -3px 30px #7eecff, -3px 3px 30px #7eecff;
+    }
+
+    /*html {
+       font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+       line-height: 1.5;
+       font-size: 1em;
+    }
+     body {
+       text-align: center;*/
+
+    /*input[type=text],input[type=password]{
+      width: 200px;
+      height: 39px;
+      -webkit-border-radius: 0px 4px 4px 0px/5px 5px 4px 4px;
+      -moz-border-radius: 0px 4px 4px 0px/0px 0px 4px 4px;
+      border-radius: 0px 4px 4px 0px/5px 5px 4px 4px;
+      background-color: #fff;
+      -webkit-box-shadow: 1px 2px 5px rgba(0,0,0,.09);
+      -moz-box-shadow: 1px 2px 5px rgba(0,0,0,.09);
+      box-shadow: 1px 2px 5px rgba(0,0,0,.09);
+      border: solid 1px #cbc9c9;
+      margin-left: -5px;
+      margin-top: 13px;
+      padding-left: 10px;
+    }
+
+    input[type=password]{
+      margin-bottom: 25px;
+    }*/
+
+    #icon {
+      margin-left:0.5vw;
+      border-radius: 20%;
+      text-align: center;
+      vertical-align: middle;
+      display: inline-block;
+      width: 24px;
+      height: 24px;
+      background-color: transparent;
+      color: white;
+      padding: 24px 28px 30px 24px;
+      box-shadow: 1px 2px 5px rgba(0, 0, 0, 0);
+      border: transparent 0px #cbc9c9;
+    }
+
+
+    /*html,
+    body {
+      height: 100%;
+    }
+    body {
+      display: grid;
+    }*/
+
+    .check {
+      text-align: center;
+      cursor: pointer;
+      position: relative;
+      margin: auto;
+      width: 20px;
+      height: 20px;
+      -webkit-tap-highlight-color: transparent;
+      transform: translate3d(0, 0, 0);
+    }
+
+    .check:before {
+      content: "";
+      position: absolute;
+      top: -15px;
+      left: -15px;
+      width: 48px;
+      height: 48px;
+      border-radius: 50%;
+      background: rgba(34, 50, 84, 0.03);
+      opacity: 0;
+      transition: opacity 0.2s ease;
+    }
+
+    .check svg {
+      position: relative;
+      z-index: 1;
+      fill: none;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+      stroke: #000000;
+      stroke-width: 3;
+      transform: translate3d(0, 0, 0);
+      transition: all 0.2s ease;
+    }
+
+    .check svg path {
+      stroke-dasharray: 60;
+      stroke-dashoffset: 0;
+    }
+
+    .check svg polyline {
+      stroke-dasharray: 22;
+      stroke-dashoffset: 66;
+    }
+
+    .check:hover:before {
+      opacity: 1;
+    }
+
+    .check:hover svg {
+      stroke: #eeff00;
+    }
+
+    #cbx1:checked + .check svg {
+      stroke: #2fff05;
+    }
+
+    #cbx1:checked + .check svg path {
+      stroke-dashoffset: 60;
+      transition: all 0.3s linear;
+    }
+
+    #cbx1:checked + .check svg polyline {
+      stroke-dashoffset: 42;
+      transition: all 0.2s linear;
+      transition-delay: 0.15s;
+    }
+
+    #cbx2:checked + .check svg {
+      stroke: #2fff05;
+    }
+
+    #cbx2:checked + .check svg path {
+      stroke-dashoffset: 60;
+      transition: all 0.3s linear;
+    }
+
+    #cbx2:checked + .check svg polyline {
+      stroke-dashoffset: 42;
+      transition: all 0.2s linear;
+      transition-delay: 0.15s;
+    }
+    #cbx3:checked + .check svg {
+      stroke: #2fff05;
+    }
+
+    #cbx3:checked + .check svg path {
+      stroke-dashoffset: 60;
+      transition: all 0.3s linear;
+    }
+
+    #cbx3:checked + .check svg polyline {
+      stroke-dashoffset: 42;
+      transition: all 0.2s linear;
+      transition-delay: 0.15s;
+    }
+	#cbx4:checked + .check svg {
+      stroke:  #2fff05;
+    }
+
+    #cbx4:checked + .check svg path {
+      stroke-dashoffset: 60;
+      transition: all 0.3s linear;
+    }
+
+    #cbx4:checked + .check svg polyline {
+      stroke-dashoffset: 42;
+      transition: all 0.2s linear;
+      transition-delay: 0.15s;
+    }
+	#cbx5:checked + .check svg {
+      stroke:  #2fff05;
+    }
+
+    #cbx5:checked + .check svg path {
+      stroke-dashoffset: 60;
+      transition: all 0.3s linear;
+    }
+
+    #cbx5:checked + .check svg polyline {
+      stroke-dashoffset: 42;
+      transition: all 0.2s linear;
+      transition-delay: 0.15s;
+    }
+
+
+    /* Customize the label (the container) */
+
+
+    /*.container {
+      display: block;
+      position: relative;
+      padding-left: 35px;
+      margin-bottom: 12px;
+      cursor: pointer;
+      font-size: 17px;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      user-select: none;
+    }*/
+
+
+    /* Hide the browser's default checkbox
+    .container input {
+      position: absolute;
+      opacity: 0;
+      cursor: pointer;
+      height: 0;
+      width: 0;
+    }
+
+    /* Create a custom checkbox
+    .checkmark {
+      position: absolute;
+      top: 0;
+      left: 0;
+      height: 25px;
+      width: 25px;
+      background-color: #eee;
+    }
+
+    /* On mouse-over, add a grey background color
+    .container:hover input ~ .checkmark {
+      background-color: #ccc;
+    }
+
+    /* When the checkbox is checked, add a blue background
+    .container input:checked ~ .checkmark {
+      background-color: #3a57af;
+    }
+
+    /* Create the checkmark/indicator (hidden when not checked)
+    .checkmark:after {
+      content: "";
+      position: absolute;
+      display: none;
+    }
+
+    /* Show the checkmark when checked
+    .container input:checked ~ .checkmark:after {
+      display: block;
+    }
+
+    /* Style the checkmark/indicator
+    .container .checkmark:after {
+      left: 9px;
+      top: 5px;
+      width: 5px;
+      height: 10px;
+      border: solid white;
+      border-width: 0 3px 3px 0;
+      -webkit-transform: rotate(45deg);
+      -ms-transform: rotate(45deg);
+      transform: rotate(45deg);
+    }*/
+
+    /* .gender {
+      margin: relative;
+      text-align: center;
+    } */
+
+    /* .accounttype {
+      margin-left: 8px;
+      margin-top: 20px;
+    } */
+
+    div{
+      text-align:center;
+    }
+    input[type="submit"] {
+      vertical-align: middle;
+      text-align: center;
+      padding-right:0.5vw;
+      font-size:0.8vm;
+      font-size-adjust:0.5;
+      font-weight: 600;
+      color: white;
+      padding: 6px 25px 0px 20px;
+      margin: 10px 8px 20px 0px;
+      display: inline-block;
+      float: right;
+      text-decoration: none;
+      width: 120px;
+      height: 35px;
+      -webkit-border-radius: 5px;
+      -moz-border-radius: 5px;
+      border-radius: 5px;
+      background-color: #ff1010;
+      -webkit-box-shadow: 0 3px rgba(110, 1, 1, 0.75);
+      -moz-box-shadow: 0 3px rgba(110, 1, 1, 0.75);
+      box-shadow: 0 3px rgba(110, 1, 1, 0.75);
+      transition: all 0.1s linear 0s;
+      top: 0px;
+      position: relative;
+      border-color: transparent;
+    }
+
+    input[type="submit"]:hover,
+    input[type="submit"]:focus  {
+      opacity: 0.8;
+      top: 3px;
+      background-color: #09ff00;
+      -webkit-box-shadow: none;
+      -moz-box-shadow: none;
+      box-shadow: none;
+    }
+    .gender input{
+      width:10%;
+    margin:0;padding:0;
+
+    -webkit-appearance:none;
+       -moz-appearance:none;
+            appearance:none;
+    }
+.male{background-image:url(https://images.vexels.com/media/users/3/145319/isolated/preview/393319492615023cc5864b50aed98bb5-boy-hands-in-pockets-illustration-by-vexels.png);}
+.female{background-image:url(https://images.vexels.com/media/users/3/145192/isolated/preview/b71f7906bde87103aa47803c71f6566a-woman-illustration-by-vexels.png);}
+.gender input:active +.drinkgender-cc{opacity: .9;}
+.gender input:checked +.drinkgender-cc{
+    -webkit-filter: none;
+       -moz-filter: none;
+            filter: none;
+}
+.drinkgender-cc{
+    cursor:pointer;
+    background-size:contain;
+    background-repeat:no-repeat;
+    display:inline-block;
+    width:200px;height:140px;
+    -webkit-transition: all 100ms ease-in;
+       -moz-transition: all 100ms ease-in;
+            transition: all 100ms ease-in;
+    -webkit-filter: brightness(1.8) grayscale(1) opacity(.7);
+       -moz-filter: brightness(1.8) grayscale(1) opacity(.7);
+            filter: brightness(1.8) grayscale(1) opacity(.7);
+}
+.drinkgender-cc:hover{
+    -webkit-filter: brightness(1.2) grayscale(.5) opacity(.9);
+       -moz-filter: brightness(1.2) grayscale(.5) opacity(.9);
+            filter: brightness(1.2) grayscale(.5) opacity(.9);
+}
+ select {
+      border-radius: 36px;
+      position: relative;
+      width: 50vw;
+      height: 64px;
+      transition: all 0.5s cubic-bezier(.87, -.41, .19, 1.44);
+}
+    
+.search_categories{
+  position: relative;
+      font-size: 16px;
+      background: #ffffff;
+      /* background: linear-gradient(21deg, #3794FD, #14D3FE); */
+      margin-left: 0.5vw;
+      margin-right: 0.5vw;
+      margin-bottom: 10px;
+      margin-top: 10px;
+      padding: 3px;
+      display: inline-block;
+      border-radius: 9999em;
+}
+.search_categories *:not(span) {
+      position: relative;
+      display: inherit;
+      border-radius: inherit;
+      margin: 0;
+      border: none;
+      outline: none;
+      padding: 0 0.325em;
+      z-index: 1;
+    }
+    .search_categories *:not(span):focus + span {
+      opacity: 1;
+      transform: scale(1);
+    }
+    
+    .search_categories span {
+      transform: scale(0.993, 0.94);
+      transition: transform 0.5s, opacity 0.25s;
+      opacity: 0;
+      position: absolute;
+      z-index: 0;
+      margin: 4px;
+      left: 0;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      border-radius: inherit;
+      pointer-events: none;
+      /* box-shadow: inset 0 0 0 3px #fff, 0 0 0 4px #fff, 3px -3px 30px #7eecff, -3px 3px 30px #7eecff; */
+    }
+.search_categories .select{
+  width: 48.5vw;
+  background:url('arrow.png') no-repeat;
+  background-position:80% center;
+}
+
+.search_categories .select select{
+  background: transparent;
+  line-height: 1;
+  border: 0;
+  padding: 0;
+  border-radius: 0;
+  width: 48.5vw;
+  position: relative;
+  z-index: 10;
+  font-size: 16px;
+}
+/* Extras */
+a:visited{color:#888}
+a{color:#444;text-decoration:none;}
+p{margin-bottom:.3em;}
+    </style>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="C:\Users\Raghu Chandan\Downloads\fontawesome-free-5.7.1-web\css\font-awesome.min.css">
+    <link rel="stylesheet" href="C:\Users\Raghu Chandan\Downloads\fontawesome-free-5.7.1-web\css\all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <div class="testbox">
+      <h1>Registration</h1>
+      <form id="ecea"><!--Place the Branch Name Here-->
+        <hr>
+        <br>
+        <!--<div class="accounttype">
+          <input type="radio" value="None" id="radioOne" name="account" checked/>
+          <label for="radioOne" class="radio" chec>Personal</label>
+          <input type="radio" value="None" id="radioTwo" name="account" />
+          <label for="radioTwo" class="radio">Company</label>
+	</div>-->
+         <label id="icon" for="name"><i class="fas fa-user fa-2x"></i></label> <span class="input">
+          <input type="text" id="username" style="padding-left:1vw" disabled>
+          <span></span> </span>
+          <br>
+          <br>
+        <!-- <label id="icon" for="name"><i class="fas fa-user fa-2x"></i></label> <span class="input">
+          <input type="text" placeholder="User Name 2" id="reg_id2" style="padding-left:1vw">
+          <span></span> </span>
+          <br>
+          <br>
+        <label id="icon" for="name"><i class="fas fa-user fa-2x"></i></label> <span class="input">
+          <input type="text" placeholder="User Name 3" id="reg_id3" style="padding-left:1vw" required>
+          <span></span> </span>
+          <br>
+          <br>
+        <label id="icon" for="name"><i class="fas fa-user fa-2x"></i></label> <span class="input">
+          <input type="text" placeholder="User Name 4" id="reg_id4" style="padding-left:1vw" required>
+          <span></span> </span>
+          <br>
+          <br> -->
+        <!-- <div>
+          <div class="gender" align="center">
+            <input type="radio" value="None" id="male" name="gender" />
+            <label for="male" class="radio" chec>Male </label>
+            <input type="radio" value="None" id="female" name="gender" />
+            <label for="female" class="radio">Female</label>
+          </div>
+        </div>
+         -->
+        <br>
+        <hr>
+        <h2 style="text-align: center">List of Paper Presentation names</h2>
+         <label id="icon" for="name"><i class="fas fa-university fa-2x"></i></label> <span class="input">
+             <div class="search_categories">
+                <div class="select">
+                   <select name="search_categories" id="search_categories" placeholder="College Name">
+                      <option selected disabled hidden></option>
+                      <option value=" Blockchain technology" > Blockchain technology</option>
+                     <option value="Information flow control in Cloud computing" >Information flow control in Cloud computing</option>
+                      <option value="Rover technology">Rover technology</option>
+                      <option value="IoT enhanced human experience">IoT enhanced human experience</option>
+                      <option value=" TouchCommerce technology"> TouchCommerce technology</option>
+                      <option value="Cluster computing - Virtual reality">Cluster computing - Virtual reality</option>
+                      <option value="Biometrics in e- transactions">Biometrics in e- transactions</option>
+                      <option value="Sensor fusion for video surveillance">Sensor fusion for video surveillance</option>
+                      <option value=" Gesture recognition"> Gesture recognition</option>
+                      <option value="Steganography (the art of hiding information)">Steganography (the art of hiding information)</option>
+                      <option value="Self defending networks">Self defending networks</option>
+                      <option value="Lifi Technology">Lifi Technology</option>
+                      <option value="5G">5G</option>
+                      <option value="Millimetre Wave Communication">Millimetre Wave Communication</option>
+                      <option value="Artificial Intelligence">Artificial Intelligence</option>
+                      <option value="IOT">IOT</option>
+                      <option value="SOC Design Challenges">SOC Design Challenges </option>
+                      <option value="Phased array Antennas">Phased array Antennas</option>
+                      <option value="Antennas for mm Wave Applications">Antennas for mm Wave Applications</option>
+                      <option value="FPGA and Recotigurable Techniques">FPGA and Recotigurable Techniques</option>
+                      <option value="Post-CMOs Devices">Post-CMOs Devices</option>
+                      <option value="Green computing">Green computing</option>
+                      <option value=" Scada and power system automation"> Scada and power system automation </option>
+                      <option value="Small and micro wind turbines">Small and micro wind turbines</option>
+                      <option value="Microbial fuel cell">Microbial fuel cell</option>
+                      <option value=" Electrorheological fluid"> Electrorheological fluid</option>
+                      <option value="Advancements in inverter technology for industrial applications">Advancements in inverter technology for industrial applications</option>
+                      <option value=" Spintronics"> Spintronics</option>
+                      <option value="Superconducting rotating machines">Superconducting rotating machines</option>
+                      <option value="Contactless energy transfer systems">Contactless energy transfer systems</option>
+                      <option value=" Voltage and power stability of HVDC systems"> Voltage and power stability of HVDC systems</option>
+                      <option value="Analysis of multiphase power system networks">Analysis of multiphase power system networks</option>
+                      <option value="Green concrete">Green concrete </option>
+                      <option value="Under water concreting">Under water concreting </option>
+                      <option value="Biomimicry">Biomimicry </option>
+                      <option value=" Ground improvement techniques"> Ground improvement techniques </option>
+                      <option value="Control of corrosion on underwater piles">Control of corrosion on underwater piles </option>
+                      <option value="Self healing concrete">Self healing concrete </option>
+                      <option value="3D printing">3D printing </option>
+                      <option value="Kinetic roads">Kinetic roads </option>
+                      <option value="Modular construction">Modular construction </option>
+                      <option value="Seismic hazard estimation">Seismic hazard estimation </option>
+                      <option value="Geopolymers">Geopolymers </option>
+                      <option value="Binary blends">Binary blends </option>
+                      <option value="Self sufficient irrigation system for agricultural land of 1 acre">Self sufficient irrigation system for agricultural land of 1 acre </option>
+                      <option value="Orgami farming high yield methods">Orgami farming high yield methods </option>
+                      <option value="Developments for Indian military">Developments for Indian military </option>
+                      <option value="Indian media and responsibilities it should undertake">Indian media and responsibilities it should undertake </option>
+                      <option value="Indian E business strategies for competitors to Amazin and Flipkart">Indian E business strategies for competitors to Amazin and Flipkart </option>
+                      <option value="Crytocurrency research and issues related to it">Crytocurrency research and issues related to it </option>
+                      <option value="Water body macro cleaning unit structuring">Water body macro cleaning unit structuring </option>
+                      <option value="Self sufficient water treatment plants">Self sufficient water treatment plants </option>
+                      <option value="Effective ways for uplifting people frok poverty">Effective ways for uplifting people frok poverty </option>
+                      <option value="Bioenergy solutions">Bioenergy solutions </option>
+                      <option value="Artificial intelligence and healthcare">Artificial intelligence and healthcare </option>
+                      <option value="Smarter bioelectronics and biosensors">Smarter bioelectronics and biosensors </option>
+                      <option value="Genetically modified crops">Genetically modified crops </option>
+                      <option value="Nanowire sensors in cancer">Nanowire sensors in cancer </option>
+                      <option value="Stem-cell therapy">Stem-cell therapy </option>
+                      <option value="Bioweapons">Bioweapons </option>
+                      <option value="Nano medicines">Nano medicines </option>
+                      <option value="Genetic disorders">Genetic disorders </option>
+                      <option value="Materials for energy systems ">Materials for energy systems (related to fuel cells, solid oxide fuel cells and solar materials etc.,) </option>
+                      <option value="High entropy alloys">High entropy alloys </option>
+                      <option value="Smart materials ">Smart materials ( like shape memory alloys or self cleaning materials etc.,) </option>
+                      <option value="Super conductive materials">Super conductive materials </option>
+                      <option value=" Related to nanomaterials">Related to nanomaterials (synthesis in bulk scale or application oriented topics) </option>
+                      <option value="Materials for aero applications">Materials for aero applications </option>
+                      <option value="Materials in Tribological Applications">Materials in Tribological Applications </option>
+                    </select>
+                    
+                        <!-- <option value="" selected disabled hidden>Choose here</option>
+                        <option value="1">One</option>
+                        <option value="2">Two</option>
+                        <option value="3">Three</option>
+                        <option value="4">Four</option>
+                        <option value="5">Five</option>
+                      </select> -->
+                 </div>
+             </div> 
+          
+            <span></span> </span>
+        <br>
+       
+           
+        <br>
+        <br>
+        <p style="float:left;">By clicking Register, you agree on our <a href="./index.html">terms and condition</a>.</p>
+        <input class="button" type="submit"></input>
+     </form>
+        <!-- <button class="button" type="submit"  form="csea" value="Submit">Register</button> -->
+    </div>
+
+    <script src="https://www.gstatic.com/firebasejs/5.8.4/firebase.js"></script>
+    <script>
+      // Initialize Firebase
+      var config = {
+        apiKey: "AIzaSyB3urwbUhycDY6jUTCiFloudGHBj7629M4",
+        authDomain: "fir-auth-fb5c8.firebaseapp.com",
+        databaseURL: "https://fir-auth-fb5c8.firebaseio.com",
+        projectId: "fir-auth-fb5c8",
+        storageBucket: "fir-auth-fb5c8.appspot.com",
+        messagingSenderId: "143950457061"
+      };
+      firebase.initializeApp(config);
+    </script>
+    <script src="ecea.js"></script>
