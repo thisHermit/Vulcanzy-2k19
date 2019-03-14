@@ -99,13 +99,13 @@ function writeTable(ename,branch,paid)
            row = tble.insertRow(0);
            cell1 = row.insertCell(0);
            cell2 = row.insertCell(1);
-           cell1.innerHTML = "Event name";
+           cell1.innerHTML = "Event Name";
            tble.style.border="20px";
-           tble.classList.add('.table-hover');
-           tble.classList.add('.table');
+           tble.classList.add('table-hover');
+           tble.classList.add('table');
            cell1.style.padding="10px";
            cell2.style.padding="10px";
-           cell2.innerHTML = "payment status";
+           cell2.innerHTML = "Payment Status";
 
            target.appendChild(tble);
 }
