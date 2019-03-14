@@ -38,7 +38,8 @@ function writeUserData(username,ckts, archi, origin,amalg,deception,expo,total_f
             paid: 0,
             totalfee:total_fee
         });
-        window.alert("registered successfully");
+        window.alert("Registered Successfully");
+        window.location.href='../index.html';
 }
 function fetchData(username){
       var leadsRef = firebase.database().ref('eee/'+username);
