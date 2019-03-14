@@ -226,20 +226,28 @@ function waiter() {
       <h2 >Name:  </h2><h3 id="name"></h3>
     <br>
     <br><br>
-      <h2>Username:</h2>
-      <h3 id="username"></h3>
+      <div class="alert alert-secondary">
+        <h2>Username:</h2>
+        <h3 id="username"></h3>
+      </div>
       <br>
       <br><br>
-      <h2>Email:</h2>
-      <h3 id="email"></h3>
+      <div class="alert alert-secondary">
+        <h2>Email:</h2>
+        <h3 id="email"></h3>
+      </div>
       <br>
       <br><br>
-      <h2>Phone:</h2>
-      <h3 id="phone"></h3>
+      <div class="alert alert-secondary">
+        <h2>Phone:</h2>
+        <h3 id="phone"></h3>
+      </div>
       <br>
       <br><br>
-      <h2>College:</h2>
-      <h3 id="college"></h3>
+      <div class="alert alert-secondary">
+        <h2>College:</h2>
+        <h3 id="college"></h3>
+      </div>
       <br>
       <br><br>
       <h2>Registration Status*: <span class="tooltiptext"><p>The registration status will be updated when you pay the fees (Rs. 100).
@@ -272,15 +280,10 @@ mess.textContent =  "Hi,   " + user + "  ";
  //  logoutlink.setAttribute('class', 'btn-info');
   logoutlink.style.zIndex = "1";
    // logout linking
-
-
-
-
-
       }
       else{
         var mess = document.getElementById("loginuser");
-mess.textContent =  "Hi, Guest";
+        mess.textContent =  "Hi, Guest";
       }
 
       function logout () {
