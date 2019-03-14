@@ -1,14 +1,5 @@
  // Intialize Firebase
- var config = {
-    apiKey: "AIzaSyCddxpqUY5iqloI-oIyCASlvb4jGb0hlPA",
-    authDomain: "vulcanzy-cea.firebaseapp.com",
-    databaseURL: "https://vulcanzy-cea.firebaseio.com",
-    projectId: "vulcanzy-cea",
-    storageBucket: "vulcanzy-cea.appspot.com",
-    messagingSenderId: "612529531428"
-  };
-  firebase.initializeApp(config);
-
+ 
 
 var messageRef=firebase.database().ref('cea');
 //event listener for form submit
