@@ -35,7 +35,7 @@ function submitForm(e){
      }
      else 
      {          window.alert("incorrect username or password..");
-window.location.href = "../vulcanzy_registration_login/login.html";
+                window.location.href = "../vulcanzy_registration_login/login.html";
      }
 //     leadsRef.on('value', function(snapshot) {
 //       var all=[];
@@ -65,5 +65,5 @@ window.location.href = "../vulcanzy_registration_login/login.html";
 //        window.alert("Please goto registration page");
 //        window.location.href = "../vulcanzy_registration_login/main_registration.html";
 //     }
-  });
+//  });
 }
