@@ -53,14 +53,14 @@ function submitForm(e){
             flag=false;
             all=[]
             all1=[]
-            window.alert("you have already registered. Login now!");
+            window.alert("You have already Registered. Go to Login!");
             window.location.href = "../events.html";
         }
         else if(all.includes(username) &&flag){
           //flag=false;
           all=[]
           all1=[]
-          window.alert("username already taken");
+          window.alert("Username already taken!!");
         }
         else if(flag) {
           all=[]
@@ -74,7 +74,7 @@ function submitForm(e){
     });
   }
   else{
-    window.alert("both passwords should match");
+    window.alert("Passwords not matching!!");
   }
 }
 
@@ -90,7 +90,7 @@ function writeUserData(name,username,pass1,email,phno,colg,gender) {
     username: username
   });
   flag=true;
-  window.alert("user registration successful");
+  window.alert("User Successfully Registered!\nPlease Login to continue");
 	generatePDF(name,username,email,phno,colg,gender);
 
 }
