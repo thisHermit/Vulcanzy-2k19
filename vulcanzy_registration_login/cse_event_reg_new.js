@@ -8,15 +8,23 @@ var usernames=[];
 var keys=[];
 var main_key="";
 var flag=true;
+var total_fee=0;
 function submitForm(e){
     e.preventDefault();
+    var total_fee=0;
     var username=document.getElementById("username").value;
     var col=document.getElementById("cbx1").checked;
+    var col_fee=100;
     var cod=document.getElementById("cbx2").checked;
+    var  cod_fee=100;
     var cry=document.getElementById("cbx3").checked;
+    var cry_fee=100;
     var vir=document.getElementById("cbx4").checked;
+    var vir_fee=100;
     var wor=document.getElementById("cbx5").checked;
-    checkUserPresent(username,col,cod,cry,vir,wor);
+    var wor_fee=100;
+    total_fee+=return_true(col,col_fee)+return_true(cod,cod_fee)+return_true(cry,cry_fee)+return_true(vir,vir_fee)+return_true(wor,wor_fee);
+    checkUserPresent(username,col,cod,cry,vir,wor,total_fee);
 }
 function checkUserPresent(username,col,cod,cry,vir,wor){
       var leadsRef = firebase.database().ref('cse/'+uname);
@@ -48,7 +56,7 @@ function checkUserPresent(username,col,cod,cry,vir,wor){
      // });
 }
 
-function writeUserData(username,cod,col,cry,vir,wor,isTrue) {
+function writeUserData(username,cod,col,cry,vir,wor,isTrue,totalFee) {
   if(isTrue){
         window.alert("already registered");
         firebase.database().ref('cse').child(username+"").set({
@@ -58,7 +66,8 @@ function writeUserData(username,cod,col,cry,vir,wor,isTrue) {
             cryptoceon:cry,
             virtually_true:vir,
             workshop_on_cryptograpgy:wor,
-            paid: 0
+            paid: 0,
+            totalFee:totalFee
         });
     }
     else{
@@ -70,9 +79,17 @@ function writeUserData(username,cod,col,cry,vir,wor,isTrue) {
           cryptoceon:cry,
           virtually_true:vir,
           workshop_on_cryptograpgy:wor,
-            paid:0
+            paid:0,
+            totalFee:totalFee
         });
     }
    
     window.location.href = "../index.html";
 }
+
+function return_true(flag,value)
+{
+            if(flag) return value;
+            else return 0;
+}
+    
