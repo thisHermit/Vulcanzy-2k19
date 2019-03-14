@@ -1,14 +1,5 @@
  // Initialize Firebase
- // Initialize Firebase
- var config = {
-    apiKey: "AIzaSyAJC98t1U395OXwtKd1JPbCSDHqAltGa6I",
-    authDomain: "music-541fb.firebaseapp.com",
-    databaseURL: "https://music-541fb.firebaseio.com",
-    projectId: "music-541fb",
-    storageBucket: "music-541fb.appspot.com",
-    messagingSenderId: "707536780831"
-  };
-  firebase.initializeApp(config);
+ 
 
 
 var messageRef=firebase.database().ref('music');
