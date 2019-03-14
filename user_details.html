@@ -25,7 +25,7 @@
 
   <script>
 
-function waiter() {
+    function waiter() {
             if (document.all){
 
                document.all["layer1"].classList.add("animated","fadeOut");
@@ -55,11 +55,13 @@ function waiter() {
 
     <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
     <div class="container" style=" margin-top: 2% ">
-        <center>
-          <a href="./user_details.html"><p id="loginuser" style="font-size: 30px; color: #facb0f; font-weight: 100;">mehi</p></a>
-          </center>
-          <center>
-          <a class="" id= "buttons" style="color: #facb0f; width: 100px; padding:5px"></a></center>
+      <center>
+        <a href="./user_details.html">
+          <p id="loginuser" style="font-size: 30px; color: #facb0f; font-weight: 100;">mehi</p>
+        </a>
+      </center>
+      <center>
+        <a class="" id="buttons" style="color: #facb0f; width: 100px; padding:5px"></a></center>
       <div class="row">
 
         <div class="col">
@@ -216,16 +218,19 @@ function waiter() {
           </style>
 
     <div id="user_info_div">
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
 
-      <h2 >Name:  </h2><h3 id="name"></h3>
-    <br>
-    <br><br>
+      <div class="alert alert-secondary">
+        <h2>Name: </h2>
+        <h3 id="name"></h3>
+      </div>
+      <br>
+      <br><br>
       <div class="alert alert-secondary">
         <h2>Username:</h2>
         <h3 id="username"></h3>
@@ -250,14 +255,16 @@ function waiter() {
       </div>
       <br>
       <br><br>
-      <h2>Registration Status*: <span class="tooltiptext"><p>The registration status will be updated when you pay the fees (Rs. 100).
-      <br/>The status will be updated in 1-2 business days.
-      <br/>In case of any queries check the contact page.</p></span></h2>
+      <h2>Registration Status*: <span class="tooltiptext">
+          <p>The registration status will be updated when you pay the fees (Rs. 100).
+            <br />The status will be updated in 1-2 business days.
+            <br />In case of any queries check the contact page.</p>
+        </span></h2>
       <h3 id="regStatus"></h3>
       <br>
       <br><br>
       <h2>Event Details:</h2>
-      <h3 id ="events">
+      <h3 id="events">
 
       </h3>
 
@@ -266,30 +273,29 @@ function waiter() {
 
 
     <script>
-      user= sessionStorage.getItem('storageName');
-      if (user != null && user != ""){
+      user = sessionStorage.getItem('storageName');
+      if (user != null && user != "") {
 
-    var mess = document.getElementById("loginuser");
-mess.textContent =  "Hi,   " + user + "  ";
-   var logoutlink = document.getElementById("buttons");
-
-
-   logoutlink.innerText = "LOGOUT";
-    logoutlink.addEventListener("click", logout);
- logoutlink.setAttribute('class', 'btn btn-dark');
- //  logoutlink.setAttribute('class', 'btn-info');
-  logoutlink.style.zIndex = "1";
-   // logout linking
-      }
-      else{
         var mess = document.getElementById("loginuser");
-        mess.textContent =  "Hi, Guest";
+        mess.textContent = "Hi,   " + user + "  ";
+        var logoutlink = document.getElementById("buttons");
+
+
+        logoutlink.innerText = "LOGOUT";
+        logoutlink.addEventListener("click", logout);
+        logoutlink.setAttribute('class', 'btn btn-dark');
+        //  logoutlink.setAttribute('class', 'btn-info');
+        logoutlink.style.zIndex = "1";
+        // logout linking
+      } else {
+        var mess = document.getElementById("loginuser");
+        mess.textContent = "Hi, Guest";
       }
 
-      function logout () {
+      function logout() {
         var user = "";
-        sessionStorage.setItem('storageName',user);
-        window.open("https://amitsai28.github.io/Vulcanzy-2k19/","_self");
+        sessionStorage.setItem('storageName', user);
+        window.open("https://amitsai28.github.io/Vulcanzy-2k19/", "_self");
       }
     </script>
 </body>
@@ -339,6 +345,7 @@ mess.textContent =  "Hi,   " + user + "  ";
     document.getElementById("layer3").style.display = "block";
   }
 </script>
- <script src="https://www.gstatic.com/firebasejs/5.8.0/firebase.js"></script>
-   <script src="user_details.js"></script>
+<script src="https://www.gstatic.com/firebasejs/5.8.0/firebase.js"></script>
+<script src="user_details.js"></script>
+
 </html>
