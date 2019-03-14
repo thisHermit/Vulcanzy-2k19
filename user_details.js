@@ -101,6 +101,8 @@ function writeTable(ename,branch,paid)
            cell2 = row.insertCell(1);
            cell1.innerHTML = "Event name";
            tble.style.border="20px";
+           tble.classList.add('.table-hover');
+           tble.classList.add('.table');
            cell1.style.padding="10px";
            cell2.style.padding="10px";
            cell2.innerHTML = "payment status";
