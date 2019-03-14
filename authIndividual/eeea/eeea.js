@@ -1,13 +1,16 @@
  // Initialize Firebase
- var config = {
-    apiKey: "AIzaSyA-_fhup6q8_9awUuH0v3JMl3qPeCDdOM4",
-    authDomain: "vulcanzy-eeea.firebaseapp.com",
-    databaseURL: "https://vulcanzy-eeea.firebaseio.com",
-    projectId: "vulcanzy-eeea",
-    storageBucket: "vulcanzy-eeea.appspot.com",
-    messagingSenderId: "5116633842"
-  };
-  firebase.initializeApp(config);
+
+      // Initialize Firebase
+      var config = {
+        apiKey: "AIzaSyB3urwbUhycDY6jUTCiFloudGHBj7629M4",
+        authDomain: "fir-auth-fb5c8.firebaseapp.com",
+        databaseURL: "https://fir-auth-fb5c8.firebaseio.com",
+        projectId: "fir-auth-fb5c8",
+        storageBucket: "fir-auth-fb5c8.appspot.com",
+        messagingSenderId: "143950457061"
+      };
+      firebase.initializeApp(config);
+   
 // referance message collection
 
 
