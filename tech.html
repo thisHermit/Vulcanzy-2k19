@@ -71,50 +71,50 @@ function waiter() {
                   <center>
                   <a class="" id= "buttons" style="color: #facb0f; width: 100px; padding:5px"></a></center>
               <div class="row">
-               
+
                 <div class="col">
                   <a href="./index.html" style="text-decoration: none ;" class="text-center">
                     <div class="card border-0   bg-transparent rounded  cardPad">
                       <img src="./icons/Eventsy2.jpg" style="height: 210px ;border-radius:50%" class="card-img-top" />
                       <div class="card-body">
-        
+
                         <p style="color: white ; font-size: 25px;font-family: 'Courier New', Courier, monospace; font-weight: bold">
-        
+
                           HOME
                         </p>
-        
+
                       </div>
                     </div>
                   </a>
                 </div>
-        
+
                 <div class="col">
                   <a href="./events.html" style="text-decoration: none ;" class="text-center">
                     <div class="card border-0   bg-transparent rounded  cardPad">
                       <img src="./icons/Eventsy2.jpg" style="height: 210px ;border-radius:50%" class="card-img-top" />
                       <div class="card-body">
-        
+
                         <p style="color: white ; font-size: 25px;font-family: 'Courier New', Courier, monospace; font-weight: bold">
-        
+
                           EVENTS
                         </p>
-        
+
                       </div>
                     </div>
                   </a>
                 </div>
-        
+
                 <div class="col">
                   <a href="./sponsors.html" style="text-decoration: none ;" class="text-center">
                     <div class="card border-0  bg-transparent rounded  cardPad ">
                       <img src="./icons/Sponsory2.jpg" style="height:210px;border-radius: 50%; " class="card-img-top" />
                       <div class="card-body">
-        
+
                         <p style="color: white ; font-size: 25px;font-family: 'Courier New', Courier, monospace; font-weight: bold">
-        
+
                           SPONSORS
                         </p>
-        
+
                       </div>
                     </div>
                   </a>
@@ -127,49 +127,49 @@ function waiter() {
                   <div class="card  border-0  bg-transparent rounded cardPad  ">
                     <img src="./icons/gallerymain.htmly2.jpg" style="height: 210px;border-radius: 50%" class="card-img-top" />
                     <div class="card-body">
-        
+
                       <p style="color: white ; font-size: 25px;font-family: 'Courier New', Courier, monospace; font-weight: bold">
-        
+
                         GALLERY
                       </p>
-        
+
                     </div>
                   </div>
                 </a>
               </div>
-        
-        
-        
-        
+
+
+
+
               <div class="col">
                 <a href="./team.html" style="text-decoration: none ;" class="text-center">
                   <div class="card border-0 bg-transparent rounded  cardPad ">
                     <img src="./icons/webTeamy2.jpg" style="height:210px ;border-radius: 50%" class="card-img-top" />
                     <div class="card-body">
-        
+
                       <p style="color: white ; font-size: 25px;font-family: 'Courier New', Courier, monospace; font-weight: bold">
-        
+
                         TEAM
                       </p>
-        
+
                     </div>
                   </div>
                 </a>
               </div>
-        
-        
-        
+
+
+
               <div class="col">
                 <a href="./contact.html" style="text-decoration: none ;" class="text-center">
                   <div class="card  border-0 bg-transparent rounded  cardPad ">
                     <img src="./icons/Contacty2.jpg" style="height: 210px;border-radius: 50%" class="card-img-top" />
                     <div class="card-body">
-        
+
                       <p style="color: white ; font-size: 25px; font-family: 'Courier New', Courier, monospace; font-weight: bold">
-        
+
                         Contact
                       </p>
-        
+
                     </div>
                   </div>
                 </a>
@@ -376,6 +376,30 @@ function waiter() {
 
           </div>
 
+          <div class="col">
+            <button class="btn bg-transparent csea">
+
+              <div class="card border-0   bg-transparent rounded  cardPad animated  infinite delay-1s" style="animation-duration:1s">
+                <img src="./logos/csea.jpg" style="height: 210px ;border-radius:50%" class="card-img-top" />
+                <div class="card-body  ">
+
+                  <p style="color: white ; font-size: 25px;font-family: 'Courier New', Courier, monospace; font-weight: bold">
+
+                    Paper Presentation
+                  </p>
+
+                </div>
+              </div>
+
+            </button>
+
+
+
+
+
+
+          </div>
+
 
 
 
@@ -400,11 +424,11 @@ function waiter() {
     <script>
       user= sessionStorage.getItem('storageName');
       if (user != null && user != ""){
-        
+
     var mess = document.getElementById("loginuser");
 mess.textContent =  "Hi,   " + user + "  ";
    var logoutlink = document.getElementById("buttons");
-  
+
 
    logoutlink.innerText = "LOGOUT";
     logoutlink.addEventListener("click", logout);
@@ -413,10 +437,10 @@ mess.textContent =  "Hi,   " + user + "  ";
   logoutlink.style.zIndex = "1";
    // logout linking
 
-  
- 
-   
-   
+
+
+
+
       }
       else{
         var mess = document.getElementById("loginuser");
