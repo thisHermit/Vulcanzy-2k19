@@ -1,13 +1,5 @@
  // Initialize Firebase
- var config = {
-    apiKey: "AIzaSyC78h-I2H5DqeYEQp0VX89AXexshpbY7PM",
-    authDomain: "magazine-ed92b.firebaseapp.com",
-    databaseURL: "https://magazine-ed92b.firebaseio.com",
-    projectId: "magazine-ed92b",
-    storageBucket: "magazine-ed92b.appspot.com",
-    messagingSenderId: "245925502155"
-  };
-  firebase.initializeApp(config);
+ 
 // referance message collection
 
 
