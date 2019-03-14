@@ -34,7 +34,7 @@ function submitForm(e){
          window.location.href = "../index.html";
      }
      else 
-     {          window.alert("incorrect username or password..");
+     {          window.alert("incorrect username ...\n\n PLease try again");
                 window.location.href = "../vulcanzy_registration_login/login.html";
      }
 //     leadsRef.on('value', function(snapshot) {
