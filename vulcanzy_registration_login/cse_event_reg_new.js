@@ -20,6 +20,7 @@ function submitForm(e){
 }
 function checkUserPresent(username,col,cod,cry,vir,wor){
       var leadsRef = firebase.database().ref('cse/'+uname);
+    var flag=false;
       leadsRef.on('value', function(snapshot) {
 //           var all=[];
 //           snapshot.forEach(function(childSnapshot) {
@@ -31,7 +32,7 @@ function checkUserPresent(username,col,cod,cry,vir,wor){
 //               var key=childSnapshot.key+"";
 //               keys.push(key+"");
                 var child = snapshot.val();
-                if(child!=null) {writeUserData(username,cod,col,cry,vir,wor,true,main_key);}
+                if(child!=null) {flag=true;writeUserData(username,cod,col,cry,vir,wor,true,flag);}
           });
 //           if(usernames.includes(username)&&flag){
 //               flag=false;
@@ -47,7 +48,7 @@ function checkUserPresent(username,col,cod,cry,vir,wor){
      // });
 }
 
-function writeUserData(username,cod,col,cry,vir,wor) {
+function writeUserData(username,cod,col,cry,vir,wor,isTrue) {
   if(isTrue){
         window.alert("already registered");
         firebase.database().ref('cse').child(username+"").set({
