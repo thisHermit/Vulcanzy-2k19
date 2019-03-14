@@ -1,14 +1,6 @@
  // Initialize Firebase
  // Initialize Firebase
- var config = {
-    apiKey: "AIzaSyB4DNBXSMuqUO5Dsev7yEdvIvK0T7Kc4q0",
-    authDomain: "panph-1613d.firebaseapp.com",
-    databaseURL: "https://panph-1613d.firebaseio.com",
-    projectId: "panph-1613d",
-    storageBucket: "panph-1613d.appspot.com",
-    messagingSenderId: "160729390119"
-  };
-  firebase.initializeApp(config);
+
 
 var messageRef=firebase.database().ref('pnp');
 //event listener for form submit
