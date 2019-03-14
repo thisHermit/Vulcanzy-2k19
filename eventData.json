@@ -27,7 +27,7 @@
       "place": "INDOOR",
       "duration": "3 hrs",
       "roomCapacity": "PSCP LAB and DBMS LAB",
-      "emailid": "411606@student.nitandhra.ac.in",
+      "emailid": "411613@student.nitandhra.ac.in",
       "event": "CODE SPRINT",
       "noOfLevels": "3",
       "description": {
@@ -63,11 +63,11 @@
       "place": "INDOOR",
       "duration": "3 hrs",
       "roomCapacity": "160",
-      "emailid": "alajangibhargavb@gmail.com",
+      "emailid": "alajangibhargavab@gmail.com",
       "event": "PSYCH ARENA",
       "noOfLevels": "3",
       "description": {
-        "small": "",
+        "small": "It is an amusing event filled with bliss whose maxim is revive your light and realize your worth. This includes questions with lateral and rational thinking, Pictionary and many other fillers.",
         "big": " It is an amusing event filled with bliss whose maxim is revive your light and realize your worth. This includes questions with lateral and rational thinking, Pictionary and many other fillers."
       }
 
@@ -83,7 +83,7 @@
       "place": "BOTH",
       "duration": "ONE DAY",
       "roomCapacity": "150",
-      "emailid": "kcjyotsna999@gmail.com, alajangibhargavb@gmail.com",
+      "emailid": "kcjyotsna999@gmail.com, alajangibhargavab@gmail.com",
       "event": "WORKSHOP ON CRYPTOGRAPHY",
       "noOfLevels": "       - ",
       "description": {
@@ -107,6 +107,27 @@
       "noOfLevels": "3",
       "description": {
         "small": "It is an amusing event filled with bliss whose maxim is revive your light and realize your worth. This includes questions with lateral and rational thinking, Pictionary and many other fillers.",
+        "big": " It is an amusing event filled with bliss whose maxim is revive your light and realize your worth. This includes questions with lateral and rational thinking, Pictionary and many other fillers."
+      }
+
+
+    },
+           
+     {
+      "organizers": "SAITEJA. A, SUNANDHINI M",
+      "yearBranch": "3RD CSE",
+      "contact": "9441831645, 9963764834",
+      "regFee": "30/-",
+      "Sno": "1",
+      "max_registrations": "80",
+      "place": "INDOOR",
+      "duration": "3 hrs",
+      "roomCapacity": "160",
+      "emailid": "411667@student.nitandhra.ac.in",
+      "event": "COLLOQUIUM",
+      "noOfLevels": "3",
+      "description": {
+        "small": "Design an Android app that deals with a real life problem or situation. The best one gets a reward",
         "big": " It is an amusing event filled with bliss whose maxim is revive your light and realize your worth. This includes questions with lateral and rational thinking, Pictionary and many other fillers."
       }
 
