@@ -10,13 +10,13 @@ function submitForm(e){
     var total_fee=0;
     var username=document.getElementById("username").value;
     var psych=document.getElementById("cbx1").checked;
-    var psych_fee=100;
+    var psych_fee=0;
     var cod=document.getElementById("cbx2").checked;
-    var  cod_fee=100;
+    var  cod_fee=0;
     var cry=document.getElementById("cbx3").checked;
-    var cry_fee=100;
+    var cry_fee=0;
     var vir=document.getElementById("cbx4").checked;
-    var vir_fee=100;
+    var vir_fee=50;
     var wor=document.getElementById("cbx5").checked;
     var wor_fee=100;
     var and=document.getElementById("cbx6").checked;
@@ -39,7 +39,8 @@ function writeUserData(username,psych,cod,cry,vir,wor,and,total_fee) {
             paid: 0,
             totalfee:total_fee
         });
-        window.alert("registered successfully");
+        window.alert("Registered Successfully");
+        window.location.href='../index.html';
 }
 
 function return_true(flag,value)

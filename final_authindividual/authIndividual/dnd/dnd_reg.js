@@ -37,8 +37,8 @@ function writeUserData(username,meme,boom,tell,short,dance,drama,total_fee) {
       paid: 0,
       totalfee:total_fee
   });
-  window.alert("registered successfully");
-    //window.location.href = "../index.html";
+  window.alert("Registered Successfully");
+        window.location.href='../index.html';
 }
 
 function return_true(flag,value)

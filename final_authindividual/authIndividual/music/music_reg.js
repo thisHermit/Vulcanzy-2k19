@@ -30,7 +30,8 @@ function writeUserData(username,talent,lyrical,guess,insta,total_fee) {
             paid: 0,
             totalfee:total_fee
         });
-        window.alert("registered successfully");
+        window.alert("Registered Successfully");
+        window.location.href='../index.html';
 }
 
 function return_true(flag,value)
