@@ -18,9 +18,9 @@ function submitForm(e){
     var quiz=document.getElementById("cbx4").checked;
     var quiz_fee=0;
   	var caz=document.getElementById("cbx5").checked;
-    var caz_fee=0;
+    var caz_fee=200;
     var maze=document.getElementById("cbx6").checked;
-    var maze_fee=0;
+    var maze_fee=10;
     total_fee=return_true(fore,fore_fee)+return_true(elect,elect_fee)+return_true(work,work_fee)+return_true(maze,maze_fee)+return_true(quiz,quiz_fee)+return_true(caz,caz_fee);
     writeUserData(username,fore,elect,work,maze,quiz,caz,total_fee);
 }
