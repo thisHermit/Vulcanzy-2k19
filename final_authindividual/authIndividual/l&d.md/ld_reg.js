@@ -9,11 +9,11 @@ function submitForm(e){
     e.preventDefault();
     var username=document.getElementById("username").value;
     var talk=document.getElementById("cbx1").checked;
-    var talk_fee=100;
+    var talk_fee=0;
     var show=document.getElementById("cbx2").checked;
-    var show_fee=100;
+    var show_fee=0;
     var the=document.getElementById("cbx3").checked;
-    var the_fee=100;
+    var the_fee=0;
     total_fee=return_true(talk,talk_fee)+return_true(show,show_fee)+return_true(the,the_fee);
     writeUserData(username,talk,show,the,total_fee);
 }

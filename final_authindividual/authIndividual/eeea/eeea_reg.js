@@ -13,11 +13,11 @@ function submitForm(e){
     var archi=document.getElementById("cbx2").checked;
     var archi_fee=0;
     var origin=document.getElementById("cbx3").checked;
-    var origin_fee=50;
+    var origin_fee=0;
     var amalg=document.getElementById("cbx4").checked;
     var amalg_fee=0;
     var deception=document.getElementById("cbx5").checked;
-    var deception_fee=50;
+    var deception_fee=0;
   	var expo=document.getElementById("cbx6").checked;
     var expo_fee=0;
 
