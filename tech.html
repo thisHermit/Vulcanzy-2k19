@@ -412,9 +412,9 @@ function waiter() {
 
       </div>
       <div class="  container information " style=" opacity: .9" id="eventList">
-          
-         
-    
+
+
+
 
       </div>
     </div>
@@ -523,7 +523,7 @@ mess.textContent =  "Hi, Guest";
 
         }
       });
-      $(".layer2_class").append('<a class="btn btn-primary btn-lg" style="top:0;right:0;position:absolute" href="./final_authindividual/authIndividual/csea/csea_reg.html" role="button">Register</a>');
+      $(".layer2_class").append('<a class="btn btn-primary btn-lg" style="top:0;right:0;position:absolute" onclick="registerFirst(\'./final_authindividual/authIndividual/csea/csea_reg.html\'); return false;" role="button">Register</a>');
   });
   $(".ecea").click(function() {
     document.getElementById("menuList").style.display = "none";
@@ -802,6 +802,14 @@ mess.textContent =  "Hi, Guest";
     } else {
       x.style.display = "none";
       elem.innerHTML = "More";
+    }
+  }
+
+  function registerFirst(loc) {
+    if (sessionStorage.getItem("storageName") == null) {
+      window.location.href = "./vulcanzy_registration_login/login.html";
+    } else {
+      window.location.href = loc;
     }
   }
 </script>
