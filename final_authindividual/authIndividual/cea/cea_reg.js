@@ -39,7 +39,7 @@ function writeUserData(username,civil,crack,concrete,askme,ville,total_fee) {
           totalFee:total_fee
       });
       window.alert("Registered Successfully");
-      window.location.href='../../../../index.html';
+      window.location.href='.../index.html';
 }
 function return_true(flag,value)
 {
