@@ -12,11 +12,11 @@ function submitForm(e){
     e.preventDefault();
     var username=document.getElementById("username").value;
     var foren=document.getElementById("cbx1").checked;
-    var foren_fee=100;
+    var foren_fee=50;
     var lumi=document.getElementById("cbx2").checked;
-    var lumi_fee=100;
+    var lumi_fee=0;
     var garden=document.getElementById("cbx3").checked;
-    var garden_fee=100;
+    var garden_fee=50;
     total_fee+=return_true(lumi,lumi_fee)+return_true(foren,foren_fee)+return_true(garden,garden_fee)
     writeUserData(username,foren,lumi,garden,total_fee);
 }
