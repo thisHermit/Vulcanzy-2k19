@@ -8,9 +8,9 @@ function submitForm(e){
     e.preventDefault();
     var username=document.getElementById("username").value;
     var book=document.getElementById("cbx1").checked;
-    var book_fee=100;
+    var book_fee=0;
     var ill=document.getElementById("cbx2").checked;
-    var ill_fee=100;
+    var ill_fee=0;
     total_fee=return_true(book,book_fee)+return_true(ill,ill_fee);
     writeUserData(username,book,ill,total_fee);
 }
