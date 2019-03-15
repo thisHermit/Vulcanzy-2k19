@@ -36,7 +36,7 @@ function writeUserData(username,best,lazy,vdg,lantern,rtw,nb,total_fee) {
             totalfee:total_fee
         });
         window.alert("Registered Successfully");
-        window.location.href='.../index.html';
+        window.location.href='../../../index.html';
 }
 
 function fetchData(username){
