@@ -16,7 +16,7 @@ function submitForm(e){
     var eq=document.getElementById("cbx3").checked;
     var eq_fee=0;
     var ph=document.getElementById("cbx4").checked;
-    var ph_fee=0;
+    var ph_fee=50;
     var bd=document.getElementById("cbx5").checked;
     var bd_fee=0;
     var qg=document.getElementById("cbx6").checked;
@@ -31,7 +31,7 @@ function writeUserData(username,lect,ac,eq,ph,bd,qg,total_fee) {
       LECTURES:lect,
       ALCHEMY:ac,
       EXQUIZITE:eq,
-      PHEONIX:ph,
+      CHEM_PHEONIX:ph,
       BLAST_DARTS:bd,
       QUICKG:qg,
       paid: 0,
@@ -54,7 +54,7 @@ function fetchData(username){
                   document.getElementById("cbx1").checked=child.LECTURES;
                   document.getElementById("cbx2").checked=child.ALCHEMY;
                   document.getElementById("cbx3").checked=child.EXQUIZITE;
-                  document.getElementById("cbx4").checked=child.PHEONIX;
+                  document.getElementById("cbx4").checked=child.CHEM_PHEONIX;
                   document.getElementById("cbx5").checked=child.BLAST_DARTS;
                   document.getElementById("cbx6").checked=child.QUICKG;
                 }
