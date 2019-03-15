@@ -12,34 +12,34 @@ fetchData(uname);
 function submitForm(e){
     e.preventDefault();
     var username=document.getElementById("username").value;
-    var civil=document.getElementById("cbx1").checked;
-    var civil_fee=100;
-    var crack=document.getElementById("cbx2").checked;
+    var la=document.getElementById("cbx1").checked;
+    var la_fee=100;
+    var float=document.getElementById("cbx2").checked;
+    var float_fee=100;
+    var ep=document.getElementById("cbx3").checked;
+    var ep_fee=100;
+    var crack=document.getElementById("cbx4").checked;
     var crack_fee=100;
-    var concrete=document.getElementById("cbx3").checked;
-    var concrete_fee=100;
-    var askme=document.getElementById("cbx4").checked;
-    var askme_fee=100;
-	  var ville=document.getElementById("cbx5").checked;
-    var ville_fee=100;
-    total_fee+=return_true(civil,civil_fee)+return_true(crack,crack_fee)+return_true(concrete,concrete_fee)+return_true(askme,askme_fee)+return_true(ville,ville_fee);
+    var pop=document.getElementById("cbx5").checked;
+    var pop_fee=100;
+    total_fee+=return_true(la,la_fee)+return_true(float,float_fee)+return_true(ep,ep_fee)+return_true(crack,crack_fee)+return_true(pop,pop_fee);
     console.log(total_fee +" much need to be paid");
-    writeUserData(username,civil,crack,concrete,askme,ville,total_fee);
+    writeUserData(username,la,float,ep,crack,pop,total_fee);
 }
 
-function writeUserData(username,civil,crack,concrete,askme,ville,total_fee) {
+function writeUserData(username,la,float,ep,crack,pop,total_fee) {
       firebase.database().ref('civil').child(username+"").set({
           username: username,
-          CIVILOPEDIA: civil,
+          LA_TECQUILA: la,
+          FLOATCRETE:float,
+          EPSIDA:ep,
           CRACK_THE_STRUCTURE:crack,
-          CON_CREATE:concrete,
-          ASK_ME_ANYTHING:askme,
-          VILLE_INTELLIGENTE:ville,
+          POPTICLES:pop,
           paid: 0,
           totalFee:total_fee
       });
       window.alert("Registered Successfully");
-      window.location.href='.../index.html';
+      window.location.href='../../../../index.html';
 }
 function return_true(flag,value)
 {
@@ -58,11 +58,11 @@ function fetchData(username){
                 }
                 else if(flag){
                   flag=false;
-                  document.getElementById("cbx1").checked=child.CIVILOPEDIA;
-                  document.getElementById("cbx2").checked=child.CRACK_THE_STRUCTURE;
-                  document.getElementById("cbx3").checked=child.CON_CREATE;
-                  document.getElementById("cbx4").checked=child.ASK_ME_ANYTHING;
-                  document.getElementById("cbx5").checked=child.VILLE_INTELLIGENTE;
+                  document.getElementById("cbx1").checked=child.LA_TECQUILA;
+                  document.getElementById("cbx2").checked=child.FLOATCRETE;
+                  document.getElementById("cbx3").checked=child.EPSIDA;
+                  document.getElementById("cbx4").checked=child.CRACK_THE_STRUCTURE;
+                  document.getElementById("cbx5").checked=child.POPTICLES;
                 }
         });
 }
