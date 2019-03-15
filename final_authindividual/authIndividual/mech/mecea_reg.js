@@ -10,15 +10,15 @@ function submitForm(e){
     e.preventDefault();
     var username=document.getElementById("username").value;
     var ammc=document.getElementById("cbx1").checked;
-    var ammc_fee=100;
+    var ammc_fee=500;
     var giss=document.getElementById("cbx2").checked;
-    var giss_fee=100;
+    var giss_fee=0;
     var marc=document.getElementById("cbx3").checked;
-    var marc_fee=100;
+    var marc_fee=0;
     var robo=document.getElementById("cbx4").checked;
-    var robo_fee=100;
+    var robo_fee=200;
     var wor=document.getElementById("cbx5").checked;
-    var wor_fee=100;
+    var wor_fee=0;
     total_fee=return_true(ammc,ammc_fee)+return_true(giss,giss_fee)+return_true(marc,marc_fee)+return_true(robo,robo_fee)+return_true(wor,wor_fee);
     writeUserData(username,ammc,giss,marc,robo,wor,total_fee);
 }
