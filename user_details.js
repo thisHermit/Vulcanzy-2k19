@@ -34,33 +34,17 @@ var messageRef=firebase.database().ref('register');
 
         console.log(child.name+"hi");
         createSpace();
-        readEvents(username);
+        readCSE(username);
+     //   readECE(username);
+     //   readEEE(username);
+     //   readCIV(username);
+     //   readBEA(username);
+     //   readMECH(username);
+     //   readCHEM(username);
+       // readMME(username);
       });
 
-function readEvents(username){
 
-        var userRef=firebase.database().ref('cse/'+username);
-        userRef.on('value',function(snapshot){
-        console.log(123);
-        if(snapshot.val()!=null)
-        {
-            console.log(1244);
-            var child=snapshot.val();
-            var ename={data:[
-                {name:"CODE SPRINT",flag:child.code_sprint},
-                {name :"CRYPTACTAEON",flag:child.cryptoceon},
-                {name :"VIRTUALLY TRUE",flag:child.virtually_true},
-                {name: "PSYCH ARENA",flag:child.psycharena},
-                {name: "WORKSHOP ON CRYPTACTEON",flag:child.workshop_on_cryptograpgy}]};
-
-                    }
-            var paid=child.paid;
-
-            writeTable(ename,"CSE",paid);
-            writeTable(ename,"CSE",paid);
-            writeTable(ename,"CSE",paid);
-               });
-        }
 function createSpace()
 {
     var br=document.createElement("br");
@@ -83,10 +67,10 @@ function writeTable(ename,branch,paid)
            var cell2;
 
         for (var i = 0; i < ename.data.length; i++) {
-
+                
                if(!ename.data[i].flag) continue;
 
-
+               console.log(i);
                row = tble.insertRow(0);
                cell1 = row.insertCell(0);
                cell2 = row.insertCell(1);
@@ -110,3 +94,203 @@ function writeTable(ename,branch,paid)
 
            target.appendChild(tble);
 }
+function readCSE(username){
+
+    var userRef=firebase.database().ref('cse/'+username);
+    userRef.on('value',function(snapshot){
+    console.log(123);
+    if(snapshot.val()!=null)
+    {
+        console.log(1244);
+        var child=snapshot.val();
+        var ename={data:[
+            {name:"CODE SPRINT",flag:child.CODE_SPRINT},
+            {name :"CRYPTACTAEON",flag:child.CRYPTACTAEON   },
+            {name :"VIRTUALLY TRUE",flag:child.VIRTUALLY_TRUE},
+            {name: "PSYCH ARENA",flag:child.PSYCH_ARENA},
+            {name: "WORKSHOP ON CRYPTACTEON",flag:child.WORKSHOP_ON_CRYPTOGRAPHY},
+        
+            {name: "ANDROID INNOVATOR",flag:child.ANDROID_INNOVATOR}]};
+
+                }
+        var paid=child.paid;
+        console.log(child.code_sprint);
+        writeTable(ename,"CSE",paid);
+       
+           });
+ }
+function readECE(username){
+
+    var userRef=firebase.database().ref('ece/'+username);
+    userRef.on('value',function(snapshot){
+    console.log(123);
+    if(snapshot.val()!=null)
+    {
+        console.log(1244);
+        var child=snapshot.val();
+        var ename={data:[
+            {name:"CODE SPRINT",flag:child.CODE_SPRINT},
+            {name :"CRYPTACTAEON",flag:child.CRYPTACTAEON   },
+            {name :"VIRTUALLY TRUE",flag:child.VIRTUALLY_TRUE},
+            {name: "PSYCH ARENA",flag:child.PSYCH_ARENA},
+            {name: "WORKSHOP ON CRYPTACTEON",flag:child.WORKSHOP_ON_CRYPTOGRAPHY},
+        
+            {name: "ANDROID INNOVATOR",flag:child.ANDROID_INNOVATOR}]};
+
+                }
+        var paid=child.paid;
+        console.log(child.code_sprint);
+        writeTable(ename,"ECE",paid);
+       
+           });
+    }
+function readEEE(username){
+
+        var userRef=firebase.database().ref('eee/'+username);
+        userRef.on('value',function(snapshot){
+        console.log(123);
+        if(snapshot.val()!=null)
+        {
+            console.log(1244);
+            var child=snapshot.val();
+            var ename={data:[
+                {name:"CODE SPRINT",flag:child.CODE_SPRINT},
+                {name :"CRYPTACTAEON",flag:child.CRYPTACTAEON   },
+                {name :"VIRTUALLY TRUE",flag:child.VIRTUALLY_TRUE},
+                {name: "PSYCH ARENA",flag:child.PSYCH_ARENA},
+                {name: "WORKSHOP ON CRYPTACTEON",flag:child.WORKSHOP_ON_CRYPTOGRAPHY},
+            
+                {name: "ANDROID INNOVATOR",flag:child.ANDROID_INNOVATOR}]};
+    
+                    }
+            var paid=child.paid;
+            console.log(child.code_sprint);
+            writeTable(ename,"EEE",paid);
+           
+               });
+        }
+function readCIV(username){
+
+            var userRef=firebase.database().ref('civil/'+username);
+            userRef.on('value',function(snapshot){
+            console.log(123);
+            if(snapshot.val()!=null)
+            {
+                console.log(1244);
+                var child=snapshot.val();
+                var ename={data:[
+                    {name:"CODE SPRINT",flag:child.CODE_SPRINT},
+                    {name :"CRYPTACTAEON",flag:child.CRYPTACTAEON   },
+                    {name :"VIRTUALLY TRUE",flag:child.VIRTUALLY_TRUE},
+                    {name: "PSYCH ARENA",flag:child.PSYCH_ARENA},
+                    {name: "WORKSHOP ON CRYPTACTEON",flag:child.WORKSHOP_ON_CRYPTOGRAPHY},
+                
+                    {name: "ANDROID INNOVATOR",flag:child.ANDROID_INNOVATOR}]};
+        
+                        }
+                var paid=child.paid;
+                console.log(child.code_sprint);
+                writeTable(ename,"CIVIL",paid);
+               
+                   });
+            }
+function readBEA(username){
+
+                var userRef=firebase.database().ref('biotech/'+username);
+                userRef.on('value',function(snapshot){
+                console.log(123);
+                if(snapshot.val()!=null)
+                {
+                    console.log(1244);
+                    var child=snapshot.val();
+                    var ename={data:[
+                        {name:"CODE SPRINT",flag:child.CODE_SPRINT},
+                        {name :"CRYPTACTAEON",flag:child.CRYPTACTAEON   },
+                        {name :"VIRTUALLY TRUE",flag:child.VIRTUALLY_TRUE},
+                        {name: "PSYCH ARENA",flag:child.PSYCH_ARENA},
+                        {name: "WORKSHOP ON CRYPTACTEON",flag:child.WORKSHOP_ON_CRYPTOGRAPHY},
+                    
+                        {name: "ANDROID INNOVATOR",flag:child.ANDROID_INNOVATOR}]};
+            
+                            }
+                    var paid=child.paid;
+                    console.log(child.code_sprint);
+                    writeTable(ename,"BIO-TECH",paid);
+                   
+                       });
+                }
+function readCHEM(username){
+
+                    var userRef=firebase.database().ref('chem/'+username);
+                    userRef.on('value',function(snapshot){
+                    console.log(123);
+                    if(snapshot.val()!=null)
+                    {
+                        console.log(1244);
+                        var child=snapshot.val();
+                        var ename={data:[
+                            {name:"CODE SPRINT",flag:child.CODE_SPRINT},
+                            {name :"CRYPTACTAEON",flag:child.CRYPTACTAEON   },
+                            {name :"VIRTUALLY TRUE",flag:child.VIRTUALLY_TRUE},
+                            {name: "PSYCH ARENA",flag:child.PSYCH_ARENA},
+                            {name: "WORKSHOP ON CRYPTACTEON",flag:child.WORKSHOP_ON_CRYPTOGRAPHY},
+                        
+                            {name: "ANDROID INNOVATOR",flag:child.ANDROID_INNOVATOR}]};
+                
+                                }
+                        var paid=child.paid;
+                        console.log(child.code_sprint);
+                        writeTable(ename,"CHEM",paid);
+                       
+                           });
+                    }
+function readMECH(username){
+
+                        var userRef=firebase.database().ref('mech/'+username);
+                        userRef.on('value',function(snapshot){
+                        console.log(123);
+                        if(snapshot.val()!=null)
+                        {
+                            console.log(1244);
+                            var child=snapshot.val();
+                            var ename={data:[
+                                {name:"CODE SPRINT",flag:child.CODE_SPRINT},
+                                {name :"CRYPTACTAEON",flag:child.CRYPTACTAEON   },
+                                {name :"VIRTUALLY TRUE",flag:child.VIRTUALLY_TRUE},
+                                {name: "PSYCH ARENA",flag:child.PSYCH_ARENA},
+                                {name: "WORKSHOP ON CRYPTACTEON",flag:child.WORKSHOP_ON_CRYPTOGRAPHY},
+                            
+                                {name: "ANDROID INNOVATOR",flag:child.ANDROID_INNOVATOR}]};
+                    
+                                    }
+                            var paid=child.paid;
+                            console.log(child.code_sprint);
+                            writeTable(ename,"MECH",paid);
+                           
+                               });
+                        }
+function readMME(username){
+
+          var userRef=firebase.database().ref('mme/'+username);
+                      userRef.on('value',function(snapshot){
+                            console.log(123);
+                            if(snapshot.val()!=null)
+                            {
+                                console.log(1244);
+                                var child=snapshot.val();
+                                var ename={data:[
+                                    {name:"CODE SPRINT",flag:child.CODE_SPRINT},
+                                    {name :"CRYPTACTAEON",flag:child.CRYPTACTAEON   },
+                                    {name :"VIRTUALLY TRUE",flag:child.VIRTUALLY_TRUE},
+                                    {name: "PSYCH ARENA",flag:child.PSYCH_ARENA},
+                                    {name: "WORKSHOP ON CRYPTACTEON",flag:child.WORKSHOP_ON_CRYPTOGRAPHY},
+                                
+                                    {name: "ANDROID INNOVATOR",flag:child.ANDROID_INNOVATOR}]};
+                        
+                                        }
+                                var paid=child.paid;
+                                console.log(child.code_sprint);
+                                writeTable(ename,"MME",paid);
+                               
+                                   });
+                            }                        
