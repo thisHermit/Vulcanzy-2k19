@@ -24,7 +24,7 @@ function writeUserData(username,book,ill,total_fee) {
             totalfee:total_fee
         });
        window.alert("Registered Successfully");
-       window.location.href='../../../../index.html';
+       window.location.href='.../index.html';
 
 function return_true(flag,value)
 {
