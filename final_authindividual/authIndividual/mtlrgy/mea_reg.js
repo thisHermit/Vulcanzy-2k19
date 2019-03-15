@@ -10,13 +10,13 @@ function submitForm(e){
     var username=document.getElementById("username").value;
 
     var onet=document.getElementById("cbx1").checked;
-    var onet_fee=100;
+    var onet_fee=50;
     var riddle=document.getElementById("cbx2").checked;
-    var riddle_fee=100;
+    var riddle_fee=0;
     var wax=document.getElementById("cbx3").checked;
-    var wax_fee=100;
+    var wax_fee=50;
     var beyond=document.getElementById("cbx4").checked;
-    var beyond_fee=100;
+    var beyond_fee=0;
     total_fee=return_true(onet,onet_fee)+return_true(riddle,riddle_fee)+return_true(wax,wax_fee)+return_true(beyond,beyond_fee);
     writeUserData(username,onet, riddle, wax,beyond,total_fee);
 }
@@ -32,7 +32,7 @@ function writeUserData(username,onet, riddle, wax,beyond,total_fee) {
             totalfee:total_fee
         });
         window.alert("Registered Successfully");
-        window.location.href='../../../../index.html';
+        window.location.href='../index.html';
 }
 
 function return_true(flag,value)
