@@ -14,8 +14,9 @@ var passwords=[];
 document.getElementById('Main_reg').addEventListener('submit',submitForm);
 //submit form
 var flag=true;
-function submitForm(e){
 
+function submitForm(e){
+	var fee=100;
     e.preventDefault();
     var name=document.getElementById("fullname").value;
     var username=document.getElementById("username").value;
@@ -25,6 +26,7 @@ function submitForm(e){
     var phno=document.getElementById("phno").value;
     
 	var colg=document.getElementById("search_categories").value;
+	if (colg=="NIT Andhra Pradesh") fee=0;
     var gender="M";
 	if(document.getElementById("female").checked){
 	gender="F";
@@ -67,7 +69,7 @@ function submitForm(e){
           all1=[]
           flag=false;
 		//console.log(123);
-          writeUserData(name,username,"000",email,phno,colg,gender);
+          writeUserData(name,username,"000",email,phno,colg,gender,fee);
          
 		window.location.href = "../index.html";
         }
@@ -78,7 +80,7 @@ function submitForm(e){
   }
 }
 
-function writeUserData(name,username,pass1,email,phno,colg,gender) {
+function writeUserData(name,username,pass1,email,phno,colg,gender,fee) {
   firebase.database().ref('register').child(username+"").set({
     clg_name: colg,
     email:email,
@@ -91,10 +93,10 @@ function writeUserData(name,username,pass1,email,phno,colg,gender) {
   });
   flag=true;
   window.alert("User Successfully Registered!\nPlease Login to continue");
-	generatePDF(name,username,email,phno,colg,gender);
+	generatePDF(name,username,email,phno,colg,gender,fee);
 
 }
-function generatePDF(name,username,email,phno,colg,gender)
+function generatePDF(name,username,email,phno,colg,gender,fee)
 {
     var doc = new jsPDF('portrait', 'mm', 'a4');
 	
@@ -111,7 +113,7 @@ function generatePDF(name,username,email,phno,colg,gender)
 		doc.text(21, 105, "Gender : "+gender);
         doc.text(21, 120, "College : "+colg);
         doc.setFontSize(18);
-	    doc.text(21,140,"Amount to be Paid : " + 100 + "/-");
+	    doc.text(21,140,"Amount to be Paid : " + fee + "/-");
 	
 	doc.save(name+"Vulcanzy");
 
