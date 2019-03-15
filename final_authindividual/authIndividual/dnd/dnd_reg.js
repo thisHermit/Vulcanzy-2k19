@@ -10,17 +10,17 @@ function submitForm(e){
     var username=document.getElementById("username").value;
 
     var meme=document.getElementById("cbx1").checked;
-    var meme_fee=100;
+    var meme_fee=0;
     var boom=document.getElementById("cbx2").checked;
-    var boom_fee=100;
+    var boom_fee=0;
     var tell=document.getElementById("cbx3").checked;
-    var tell_fee=100;
+    var tell_fee=0;
     var short=document.getElementById("cbx4").checked;
-    var short_fee=100;
+    var short_fee=0;
     var dance=document.getElementById("cbx5").checked;
-    var dance_fee=100;
+    var dance_fee=0;
 	  var drama=document.getElementById("cbx6").checked;
-    var drama_fee=100;
+    var drama_fee=0;
     total_fee=return_true(meme,meme_fee)+return_true(boom,boom_fee)+return_true(tell,tell_fee)+return_true(short,short_fee)+return_true(dance,dance_fee)+return_true(drama,drama_fee);
     writeUserData(username,meme,boom,tell,short,dance,drama,total_fee);
 }
