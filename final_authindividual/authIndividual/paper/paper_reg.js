@@ -17,5 +17,5 @@ function writeUserData(username,topic) {
             paid: 1,
         });
         window.alert("registered successfully");
-        window.location.href='.../index.html';
+        window.location.href='../../../index.html';
 }
