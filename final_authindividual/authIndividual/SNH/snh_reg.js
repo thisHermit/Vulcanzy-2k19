@@ -8,17 +8,17 @@ function submitForm(e){
     e.preventDefault();
     var username=document.getElementById("username").value;
     var best=document.getElementById("cbx1").checked;
-    var best_fee=100;
+    var best_fee=50;
     var lazy=document.getElementById("cbx2").checked;
-    var lazy_fee=100;
+    var lazy_fee=50;
     var vdg=document.getElementById("cbx3").checked;
-    var vdg_fee=100;
+    var vdg_fee=0;
     var lantern=document.getElementById("cbx4").checked;
-    var lantern_fee=100;
+    var lantern_fee=0;
     var rtw=document.getElementById("cbx5").checked;
-    var rtw_fee=100;
+    var rtw_fee=50;
   	var nb=document.getElementById("cbx6").checked;
-    var nb_fee=100;
+    var nb_fee=0;
     total_fee=return_true(best,best_fee)+return_true(lazy,lazy_fee)+return_true(vdg,vdg_fee)+return_true(lantern,lantern_fee)+return_true(rtw,rtw_fee)+return_true(nb,nb_fee);
     writeUserData(username,best,lazy,vdg,lantern,rtw,nb,total_fee);
 }
