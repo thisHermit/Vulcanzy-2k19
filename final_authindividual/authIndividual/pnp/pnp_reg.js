@@ -45,7 +45,7 @@ function writeUserData(username,hand,art,artathon,paint,adv,photo,mannequin,foto
             totalfee:total_fee
         });
         window.alert("Registered Successfully");
-        window.location.href='.../index.html';
+        window.location.href='../../../index.html';
 }
 
 function fetchData(username){
