@@ -71,7 +71,7 @@ function submitForm(e){
 		//console.log(123);
           writeUserData(name,username,"000",email,phno,colg,gender,fee);
          
-		window.location.href = "../index.html";
+		window.location.href = "login.html";
         }
     });
   }
