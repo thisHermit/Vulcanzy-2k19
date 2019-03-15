@@ -38,7 +38,7 @@ function writeUserData(username,fore,elect,work,maze,quiz,caz,total_fee) {
             totalfee:total_fee
         });
         window.alert("Registered Successfully");
-        window.location.href='.../index.html';
+        window.location.href='../../../index.html';
 }
 
 function return_true(flag,value)
