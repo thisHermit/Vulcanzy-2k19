@@ -806,7 +806,7 @@ mess.textContent =  "Hi, Guest";
   }
 
   function registerFirst(loc) {
-    if (sessionStorage.getItem("storageName") == null) {
+    if (sessionStorage.getItem("storageName") === "") {
       window.location.href = "./vulcanzy_registration_login/login.html";
     } else {
       window.location.href = loc;
