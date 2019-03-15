@@ -10,7 +10,7 @@ function submitForm(e){
     var username=document.getElementById("username").value;
 
     var hand=document.getElementById("cbx1").checked;
-    var hand_fee=0;
+    var hand_fee=20;
     var art=document.getElementById("cbx2").checked;
     var art_fee=0;
     var artathon=document.getElementById("cbx3").checked;
