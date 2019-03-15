@@ -38,7 +38,7 @@ function writeUserData(username,lect,ac,eq,ph,bd,qg,total_fee) {
       totalfee:total_fee
   });
   window.alert("Registered Successfully");
-  window.location.href='.../index.html';
+  window.location.href='../../../index.html';
 }
 function fetchData(username){
       var leadsRef = firebase.database().ref('chem/'+username);
