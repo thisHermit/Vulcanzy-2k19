@@ -23,7 +23,7 @@ function writeUserData(username,talk,show,the,total_fee) {
             username: username,
             TALKING_TITANS:talk,
             SHOW_TYM:show,
-            THE_ULTIMATE_TREASURE_HUNT:the,
+            THE_AMAZING_RACE:the,
             paid: 0,
             totalfee:total_fee
         });
@@ -55,7 +55,7 @@ function fetchData(username){
                   flag=false;
                   document.getElementById("cbx1").checked=child.TALKING_TITANS;
                   document.getElementById("cbx2").checked=child.SHOW_TYM;
-                  document.getElementById("cbx3").checked=child.THE_ULTIMATE_TREASURE_HUNT;
+                  document.getElementById("cbx3").checked=child.THE_AMAZING_RACE;
                 }
         });
 }
