@@ -16,7 +16,7 @@ function submitForm(e){
     var lumi=document.getElementById("cbx2").checked;
     var lumi_fee=0;
     var garden=document.getElementById("cbx3").checked;
-    var garden_fee=50;
+    var garden_fee=0;
     total_fee+=return_true(lumi,lumi_fee)+return_true(foren,foren_fee)+return_true(garden,garden_fee)
     writeUserData(username,foren,lumi,garden,total_fee);
 }
