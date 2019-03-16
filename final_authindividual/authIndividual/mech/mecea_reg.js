@@ -30,7 +30,7 @@ function writeUserData(username,ammc,giss,marc,robo,wor,total_fee) {
             GISS_GODAVARI_INNOVATION_FOR_SOCIETY_SUMMIT:giss,
             MARC_MECHANISM_AND_ROBOTICS_CHAMPIONSHIP:marc,
             ROBO_WAR:robo,
-            WORKSHOP_QUIZES:wor,
+            WHAT_S_BEYOND:wor,
             paid: 0,
             totalfee:total_fee
         });
@@ -64,7 +64,7 @@ function fetchData(username){
                   document.getElementById("cbx2").checked=child.GISS_GODAVARI_INNOVATION_FOR_SOCIETY_SUMMIT;
                   document.getElementById("cbx3").checked=child.MARC_MECHANISM_AND_ROBOTICS_CHAMPIONSHIP;
                   document.getElementById("cbx4").checked=child.ROBO_WAR;
-                  document.getElementById("cbx5").checked=child.WORKSHOP_QUIZES;
+                  document.getElementById("cbx5").checked=child.WHAT_S_BEYOND;
                 }
         });
 }
