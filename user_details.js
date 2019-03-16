@@ -254,7 +254,7 @@ function readMECH(username){
                                 {name :"GISS(Godavari Innovation for Society Summit)",flag:child.GISS_Godavari_Innovation_for_Society_Summit_   },
                                 {name :"MARC(Mechanism and Robotics Championship)",flag:child.MARC_Mechanism_and_Robotics_Championship_},
                                 {name: "ROBO-WAR",flag:child.ROBO_WAR},
-                                {name: "WORKSHOP & QUIZES",flag:child.WORKSHOP___QUIZES}]};
+                                {name: "WHAT'S BEYOND",flag:child.WHAT_S_BEYOND}]};
                     
                                     }
                             var paid=child.paid;
