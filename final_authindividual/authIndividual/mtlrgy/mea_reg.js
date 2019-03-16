@@ -14,7 +14,7 @@ function submitForm(e){
     var riddle=document.getElementById("cbx2").checked;
     var riddle_fee=0;
     var wax=document.getElementById("cbx3").checked;
-    var wax_fee=50;
+    var wax_fee=0;
     var beyond=document.getElementById("cbx4").checked;
     var beyond_fee=0;
     total_fee=return_true(onet,onet_fee)+return_true(riddle,riddle_fee)+return_true(wax,wax_fee)+return_true(beyond,beyond_fee);
@@ -24,7 +24,7 @@ function writeUserData(username,onet, riddle, wax,beyond,total_fee) {
 
         firebase.database().ref('mme').child(username+"").set({
             username: username,
-            ONE_THRUST_2_0:onet,
+            ONE_THRUST:onet,
             RIDDLE_HURDLES:riddle,
             WAX_MOCK_UP:wax,
             WHAT_S_BEYOND:beyond,
@@ -57,7 +57,7 @@ function fetchData(username){
                 }
                 else if(flag){
                   flag=false;
-                  document.getElementById("cbx1").checked=child.ONE_THRUST_2_0;
+                  document.getElementById("cbx1").checked=child.ONE_THRUST;
                   document.getElementById("cbx2").checked=child.RIDDLE_HURDLES;
                   document.getElementById("cbx3").checked=child.WAX_MOCK_UP;
                   document.getElementById("cbx4").checked=child.WHAT_S_BEYOND;
