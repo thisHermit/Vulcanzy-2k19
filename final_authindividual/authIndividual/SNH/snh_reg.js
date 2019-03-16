@@ -35,7 +35,12 @@ function writeUserData(username,best,lazy,vdg,lantern,rtw,nb,total_fee) {
             paid: 0,
             totalfee:total_fee
         });
-        window.alert("Registered Successfully");
+        if(total_fee==0){
+            window.alert("Registered Successfully");   
+        }
+        else{
+            window.alert("Registered Successfully\nYou have to pay total of Rs. "+total_fee);
+        }
         window.location.href='../../../index.html';
 }
 
@@ -50,7 +55,7 @@ function fetchData(username){
                 }
                 else if(flag){
                   flag=false;
-                  document.getElementById("cbx1").checked=child.PSYBEST_OUT_OF_WASTECH_ARENA;
+                  document.getElementById("cbx1").checked=child.BEST_OUT_OF_WASTE;
                   document.getElementById("cbx2").checked=child.LAZY_HOVER_V1_0;
                   document.getElementById("cbx3").checked=child.VAN_DE_GRAFF_GENERATOR;
                   document.getElementById("cbx4").checked=child.LANTERN_MAKING;

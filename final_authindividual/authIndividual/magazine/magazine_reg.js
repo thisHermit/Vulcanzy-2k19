@@ -23,7 +23,12 @@ function writeUserData(username,book,ill,total_fee) {
             paid: 0,
             totalfee:total_fee
         });
-       window.alert("Registered Successfully");
+       if(total_fee==0){
+            window.alert("Registered Successfully");   
+        }
+        else{
+            window.alert("Registered Successfully\nYou have to pay total of Rs. "+total_fee);
+        }
        window.location.href='../../../index.html';
 }
 function return_true(flag,value)

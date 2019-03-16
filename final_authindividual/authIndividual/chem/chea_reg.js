@@ -37,7 +37,12 @@ function writeUserData(username,lect,ac,eq,ph,bd,qg,total_fee) {
       paid: 0,
       totalfee:total_fee
   });
-  window.alert("Registered Successfully");
+    if(total_fee==0){
+            window.alert("Registered Successfully");   
+        }
+        else{
+            window.alert("Registered Successfully\nYou have to pay total of Rs. "+total_fee);
+        }
   window.location.href='../../../index.html';
 }
 function fetchData(username){
