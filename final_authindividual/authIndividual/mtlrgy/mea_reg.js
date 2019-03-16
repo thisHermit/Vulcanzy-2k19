@@ -14,7 +14,7 @@ function submitForm(e){
     var riddle=document.getElementById("cbx2").checked;
     var riddle_fee=0;
     var wax=document.getElementById("cbx3").checked;
-    var wax_fee=50;
+    var wax_fee=0;
     var beyond=document.getElementById("cbx4").checked;
     var beyond_fee=0;
     total_fee=return_true(onet,onet_fee)+return_true(riddle,riddle_fee)+return_true(wax,wax_fee)+return_true(beyond,beyond_fee);
