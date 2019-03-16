@@ -19,7 +19,7 @@ function submitForm(e){
     var bd_fee=0;
     var qg=document.getElementById("cbx6").checked;
     var qg_fee=0;
-    total_fee=return_true(lect,lect_fee)+return_true(ac,ac_fee)+return_true(eq,eq_fee)+return_true(ph,ph_fee)+return_true(bd,bd_fee)+return_true(qg,qg_fee);
+    total_fee=return_true(lect,lect_fee)+return_true(eq,eq_fee)+return_true(ph,ph_fee)+return_true(bd,bd_fee)+return_true(qg,qg_fee);
     writeUserData(username,lect,eq,ph,bd,qg,total_fee);
 }
 
