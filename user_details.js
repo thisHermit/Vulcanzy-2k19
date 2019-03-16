@@ -226,7 +226,6 @@ function readCHEM(username){
                         var child=snapshot.val();
                         var ename={data:[
                             {name:"LECTURES",flag:child.LECTURES},
-                            {name :"ALCHEMY",flag:child.ALCHEMY   },
                             {name :"EXQUIZITE",flag:child.EXQUIZITE},
                             {name: "CHEM PHEONIX",flag:child.CHEM_PHEONIX},
                             {name: "BLAST DARTS",flag:child.BLAST_DARTS},
