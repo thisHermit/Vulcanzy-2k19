@@ -627,7 +627,7 @@
     }
   }
   function registerFirst(loc) {
-    if (sessionStorage.getItem("storageName") === "") {
+    if (sessionStorage.getItem("storageName") === ""|| sessionStorage.getItem("storageName") === null) {
       window.location.href = "./vulcanzy_registration_login/login.html";
     } else {
       window.location.href = loc;
