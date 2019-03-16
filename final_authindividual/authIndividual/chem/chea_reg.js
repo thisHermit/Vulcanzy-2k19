@@ -11,8 +11,6 @@ function submitForm(e){
     var username=document.getElementById("username").value;
     var lect=document.getElementById("cbx1").checked;
     var lect_fee=0;
-    var ac=document.getElementById("cbx2").checked;
-    var ac_fee=0;
     var eq=document.getElementById("cbx3").checked;
     var eq_fee=0;
     var ph=document.getElementById("cbx4").checked;
@@ -22,14 +20,13 @@ function submitForm(e){
     var qg=document.getElementById("cbx6").checked;
     var qg_fee=0;
     total_fee=return_true(lect,lect_fee)+return_true(ac,ac_fee)+return_true(eq,eq_fee)+return_true(ph,ph_fee)+return_true(bd,bd_fee)+return_true(qg,qg_fee);
-    writeUserData(username,lect,ac,eq,ph,bd,qg,total_fee);
+    writeUserData(username,lect,eq,ph,bd,qg,total_fee);
 }
 
-function writeUserData(username,lect,ac,eq,ph,bd,qg,total_fee) {
+function writeUserData(username,lect,eq,ph,bd,qg,total_fee) {
   firebase.database().ref('chem').child(username+"").set({
       username: username,
       LECTURES:lect,
-      ALCHEMY:ac,
       EXQUIZITE:eq,
       CHEM_PHEONIX:ph,
       BLAST_DARTS:bd,
@@ -57,7 +54,6 @@ function fetchData(username){
                 else if(flag){
                   flag=false;
                   document.getElementById("cbx1").checked=child.LECTURES;
-                  document.getElementById("cbx2").checked=child.ALCHEMY;
                   document.getElementById("cbx3").checked=child.EXQUIZITE;
                   document.getElementById("cbx4").checked=child.CHEM_PHEONIX;
                   document.getElementById("cbx5").checked=child.BLAST_DARTS;
