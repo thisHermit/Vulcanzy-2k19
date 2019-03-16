@@ -35,7 +35,7 @@ function writeUserData(username,best,lazy,vdg,lantern,rtw,nb,total_fee) {
             paid: 0,
             totalfee:total_fee
         });
-        window.alert("Registered Successfully");
+        window.alert("Registered Successfully \n You have to pay total of Rs. "+total_fee);
         window.location.href='../../../index.html';
 }
 
