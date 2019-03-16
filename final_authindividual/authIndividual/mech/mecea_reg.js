@@ -26,11 +26,11 @@ function writeUserData(username,ammc,giss,marc,robo,wor,total_fee) {
 
         firebase.database().ref('mech').child(username+"").set({
             username: username,
-            AMMC_Aircraft_Modelling_and_Maneuvering_Challange_:ammc,
-            GISS_Godavari_Innovation_for_Society_Summit_:giss,
-            MARC_Mechanism_and_Robotics_Championship_:marc,
+            AMMC_AIRCRAFT_MODELLING_AND_MANEUVERING_CHALLANGE:ammc,
+            GISS_GODAVARI_INNOVATION_FOR_SOCIETY_SUMMIT:giss,
+            MARC_MECHANISM_AND_ROBOTICS_CHAMPIONSHIP:marc,
             ROBO_WAR:robo,
-            WORKSHOP___QUIZES:wor,
+            WORKSHOP_QUIZES:wor,
             paid: 0,
             totalfee:total_fee
         });
@@ -60,11 +60,11 @@ function fetchData(username){
                 }
                 else if(flag){
                   flag=false;
-                  document.getElementById("cbx1").checked=child.AMMC_Aircraft_Modelling_and_Maneuvering_Challange_;
-                  document.getElementById("cbx2").checked=child.GISS_Godavari_Innovation_for_Society_Summit_;
-                  document.getElementById("cbx3").checked=child.MARC_Mechanism_and_Robotics_Championship_;
+                  document.getElementById("cbx1").checked=child.AMMC_AIRCRAFT_MODELLING_AND_MANEUVERING_CHALLANGE;
+                  document.getElementById("cbx2").checked=child.GISS_GODAVARI_INNOVATION_FOR_SOCIETY_SUMMIT;
+                  document.getElementById("cbx3").checked=child.MARC_MECHANISM_AND_ROBOTICS_CHAMPIONSHIP;
                   document.getElementById("cbx4").checked=child.ROBO_WAR;
-                  document.getElementById("cbx5").checked=child.WORKSHOP___QUIZES;
+                  document.getElementById("cbx5").checked=child.WORKSHOP_QUIZES;
                 }
         });
 }
