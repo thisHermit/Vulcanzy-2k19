@@ -35,13 +35,13 @@ var messageRef=firebase.database().ref('register');
         console.log(child.name+"hi");
         createSpace();
         readCSE(username);
-     //   readECE(username);
-     //   readEEE(username);
-     //   readCIV(username);
-     //   readBEA(username);
-     //   readMECH(username);
-     //   readCHEM(username);
-       // readMME(username);
+        readECE(username);
+        readEEE(username);
+        readCIV(username);
+        readBEA(username);
+        readMECH(username);
+        readCHEM(username);
+        readMME(username);
       });
 
 
