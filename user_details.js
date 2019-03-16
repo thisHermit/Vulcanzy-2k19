@@ -77,7 +77,7 @@ function writeTable(ename,branch,paid)
 
 
                cell1.innerHTML = ename.data[i].name;
-               cell2.innerHTML = paid?"PAYMENT STATUS PENDING":"PAID";
+               cell2.innerHTML = !paid?"PAYMENT STATUS PENDING":"PAID";
            }
 
            row = tble.insertRow(0);
