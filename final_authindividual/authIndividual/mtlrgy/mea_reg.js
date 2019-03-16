@@ -24,7 +24,7 @@ function writeUserData(username,onet, riddle, wax,beyond,total_fee) {
 
         firebase.database().ref('mme').child(username+"").set({
             username: username,
-            ONE_THRUST_2_0:onet,
+            ONE_THRUST:onet,
             RIDDLE_HURDLES:riddle,
             WAX_MOCK_UP:wax,
             WHAT_S_BEYOND:beyond,
@@ -57,7 +57,7 @@ function fetchData(username){
                 }
                 else if(flag){
                   flag=false;
-                  document.getElementById("cbx1").checked=child.ONE_THRUST_2_0;
+                  document.getElementById("cbx1").checked=child.ONE_THRUST;
                   document.getElementById("cbx2").checked=child.RIDDLE_HURDLES;
                   document.getElementById("cbx3").checked=child.WAX_MOCK_UP;
                   document.getElementById("cbx4").checked=child.WHAT_S_BEYOND;
