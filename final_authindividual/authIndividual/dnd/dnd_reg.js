@@ -16,7 +16,7 @@ function submitForm(e){
     var tell=document.getElementById("cbx3").checked;
     var tell_fee=0;
     var short=document.getElementById("cbx4").checked;
-    var short_fee=0;
+    var short_fee=50;
     var dance=document.getElementById("cbx5").checked;
     var dance_fee=0;
 	  var drama=document.getElementById("cbx6").checked;
