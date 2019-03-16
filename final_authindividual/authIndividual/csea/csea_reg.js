@@ -10,7 +10,7 @@ function submitForm(e){
     var total_fee=0;
     var username=document.getElementById("username").value;
     var psych=document.getElementById("cbx1").checked;
-    var psych_fee=30;
+    var psych_fee=50;
     var cod=document.getElementById("cbx2").checked;
     var  cod_fee=0;
     var cry=document.getElementById("cbx3").checked;
