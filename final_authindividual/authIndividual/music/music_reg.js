@@ -23,10 +23,10 @@ function writeUserData(username,talent,lyrical,guess,insta,total_fee) {
 
         firebase.database().ref('music').child(username+"").set({
             username: username,
-            TALENT_HUNT:talent,
+            VULCANZY_IDOL:talent,
             LYRICAL_MAESTRO:lyrical,
             GUESS_IT_WIN_IT:guess,
-            INSTAGRAM_VIDEOS:insta,
+            SONG_SLAM:insta,
             paid: 0,
             totalfee:total_fee
         });
@@ -56,10 +56,10 @@ function fetchData(username){
                 }
                 else if(flag){
                   flag=false;
-                  document.getElementById("cbx1").checked=child.TALENT_HUNT;
+                  document.getElementById("cbx1").checked=child.VULCANZY_IDOL;
                   document.getElementById("cbx2").checked=child.LYRICAL_MAESTRO;
                   document.getElementById("cbx3").checked=child.GUESS_IT_WIN_IT;
-                  document.getElementById("cbx4").checked=child.INSTAGRAM_VIDEOS;
+                  document.getElementById("cbx4").checked=child.SONG_SLAM;
                 }
         });
 }
