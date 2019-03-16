@@ -12,7 +12,7 @@ function submitForm(e){
     var fore=document.getElementById("cbx1").checked;
     var fore_fee=0;
     var work=document.getElementById("cbx2").checked;
-    var work_fee=0;
+    var work_fee=50;
     var elect=document.getElementById("cbx3").checked;
     var elect_fee=0;
     var quiz=document.getElementById("cbx4").checked;
