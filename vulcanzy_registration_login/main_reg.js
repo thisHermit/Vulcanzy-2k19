@@ -15,6 +15,16 @@ document.getElementById('Main_reg').addEventListener('submit',submitForm);
 //submit form
 var flag=true;
 
+const scriptURL = 'https://script.google.com/macros/s/AKfycbxGxzOljTxHXgdAFAaz1pkEIIQuyP12_oyppIz2WI-ND8xqRDI/exec'
+  const form = document.forms['submit-to-google-sheet']
+
+//   form.addEventListener('submit', e => {
+//     e.preventDefault()
+//     fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+//       .then(response => console.log('Success!', response))
+//       .catch(error => console.error('Error!', error.message))
+//   })
+
 function submitForm(e){
 	var fee=100;
 	var paid=0;
@@ -82,7 +92,13 @@ function submitForm(e){
 }
 
 function writeUserData(name,username,pass1,email,phno,colg,gender,fee,paid) {
-  firebase.database().ref('register').child(username+"").set({
+  
+	fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => console.log('Success!', response))
+      .catch(error => console.error('Error!', error.message))
+	
+	//to firebase
+	firebase.database().ref('register').child(username+"").set({
     clg_name: colg,
     email:email,
     gender: gender,
