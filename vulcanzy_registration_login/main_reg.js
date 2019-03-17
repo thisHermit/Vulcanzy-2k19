@@ -17,6 +17,7 @@ var flag=true;
 
 function submitForm(e){
 	var fee=100;
+	var paid=0;
     e.preventDefault();
     var name=document.getElementById("fullname").value;
     var username=document.getElementById("username").value;
@@ -26,7 +27,7 @@ function submitForm(e){
     var phno=document.getElementById("phno").value;
     
 	var colg=document.getElementById("search_categories").value;
-	if (colg=="NIT Andhra Pradesh") fee=0;
+	if (colg=="NIT Andhra Pradesh") {fee=0;paid=1;}
     var gender="M";
 	if(document.getElementById("female").checked){
 	gender="F";
@@ -69,7 +70,7 @@ function submitForm(e){
           all1=[]
           flag=false;
 		//console.log(123);
-          writeUserData(name,username,"000",email,phno,colg,gender,fee);
+          writeUserData(name,username,"000",email,phno,colg,gender,fee,paid);
          
 		window.location.href = "login.html";
         }
@@ -80,13 +81,13 @@ function submitForm(e){
   }
 }
 
-function writeUserData(name,username,pass1,email,phno,colg,gender,fee) {
+function writeUserData(name,username,pass1,email,phno,colg,gender,fee,paid) {
   firebase.database().ref('register').child(username+"").set({
     clg_name: colg,
     email:email,
     gender: gender,
     name:name,
-    paid:0,
+    paid:paid,
     password:pass1,
     phone_number:phno,
     username: username
