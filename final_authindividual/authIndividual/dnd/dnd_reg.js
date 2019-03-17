@@ -32,7 +32,7 @@ function writeUserData(username,meme,boom,tell,short,dance,drama,total_fee) {
       BOOMERANG:boom,
       TELL_A_TALE:tell,
       LIGHTS_CAMERA_ACTION:short,
-      DANZOMANIA:dance,
+      DANZOMANIO:dance,
       DRAMEBAAZ:drama,
       paid: 0,
       totalfee:total_fee
@@ -67,7 +67,7 @@ function fetchData(username){
                   document.getElementById("cbx2").checked=child.BOOMERANG;
                   document.getElementById("cbx3").checked=child.TELL_A_TALE;
                   document.getElementById("cbx4").checked=child.LIGHTS_CAMERA_ACTION;
-                  document.getElementById("cbx5").checked=child.DANZOMANIA;
+                  document.getElementById("cbx5").checked=child.DANZOMANIO;
                   document.getElementById("cbx6").checked=child.DRAMEBAAZ;
                 }
         });
