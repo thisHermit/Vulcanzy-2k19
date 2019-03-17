@@ -14,16 +14,22 @@ function submitForm(e){
     var show_fee=0;
     var the=document.getElementById("cbx3").checked;
     var the_fee=0;
-    total_fee=return_true(talk,talk_fee)+return_true(show,show_fee)+return_true(the,the_fee);
-    writeUserData(username,talk,show,the,total_fee);
+    var ext=document.getElementById("cbx4").checked;
+    var ext_fee=0;
+    var talkm=document.getElementById("cbx5").checked;
+    var talkm_fee=0;
+    total_fee=return_true(talk,talk_fee)+return_true(show,show_fee)+return_true(the,the_fee)++return_true(ext,ext_fee)eturn_true(talkm,talkm_fee)+return_true(the,the_fee);
+    writeUserData(username,talk,show,the,ext,talkm,total_fee);
 }
-function writeUserData(username,talk,show,the,total_fee) {
+function writeUserData(username,talk,show,the,ext,talkm,total_fee) {
 
         firebase.database().ref('lnd').child(username+"").set({
             username: username,
             TALKING_TITANS:talk,
             SHOW_TYM:show,
             THE_AMAZING_RACE:the,
+            EXTEMPORE:ext,
+            TALK_MASTERS:talkm,
             paid: 0,
             totalfee:total_fee
         });
@@ -56,6 +62,8 @@ function fetchData(username){
                   document.getElementById("cbx1").checked=child.TALKING_TITANS;
                   document.getElementById("cbx2").checked=child.SHOW_TYM;
                   document.getElementById("cbx3").checked=child.THE_AMAZING_RACE;
+                  document.getElementById("cbx4").checked=child.EXTEMPORE;
+                  document.getElementById("cbx5").checked=child.TALKING_MASTERS;
                 }
         });
 }
