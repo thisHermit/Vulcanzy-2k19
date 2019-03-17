@@ -221,7 +221,7 @@
       "noOfLevels": "-",
       "description": {
         "small": " Participants have to design  and build a car which is capable of escaping the maze in the shortest possible time. The car should only be built using limited components given by us . The model must be able to drive through the maze from one corner to another. The car should be controlled using an app.",
-        "big": "R u interested in mechatronics?? If yes, then here is the platform to showcase your interest in it and win exciting prizes!!! All u need is to design and build a car by the components given by us and control it using a mobile app and clear the track given by us.! \nP.S. May sound techy but it is tricky and loads of fun guaranteed."
+        "big": "R u interested in mechatronics?? If yes, then here is the platform to showcase your interest in it and win exciting prizes!!! All u need is to design and build a car by the components given by us and control it using a mobile app and clear the track given by us.! \nP.S. May sound techy but it is tricky and loads of fun guaranteed. REGISTRATIONS ARE CLOSED"
       }
     },
     {
@@ -895,7 +895,7 @@
       "event": "Bookfie",
       "noOfLevels": "1",
       "description": {
-        "small": "SELFIE WITH YOUR FAVOURITE BOOK",
+        "small": "SELFIE WITH YOUR FAVOURITE BOOK. Send your selfie to nitandhramagazine@gmail.com",
         "big": "Upload a selfie with your favourite book with a caption describing why you like that book, why you feel that book was exciting and why you couldn't stop reading it. "
       }
     },
@@ -1282,6 +1282,42 @@
       "description": {
         "small": "As the name suggests the hunt will be indeed an ultimate one as multiple clubs are involved in it. The event will be triggered off by literary and debate club and catalogued by other clubs.",
         "big": "Do you have a knack for problem-solving ? Do you have a competitive streak that can't be satisfied ? Grab your shoes and put on your thinking caps because Literature & Debate club in association with Science & Hobbies and Music club brings you a race that'll tax both your brain and your body. Crack the code and beat your opponents to the next code snippets which will eventually lead you to the grand prize. A race like no other,thatll leave you scratching your head in frustration while wishing for more."
+      }
+    },
+      {
+      "organizers": "Eswar Prasad Clinton, Niraj",
+      "yearBranch": "cse 3rd",
+      "contact": "8056548745, 8003171254",
+      "regFee": "-",
+      "Sno": "-",
+      "max_registrations": "unlimited",
+      "place": "offline",
+      "duration": "-",
+      "roomCapacity": "-",
+      "emailid": "esuclintblazer@gmail.com",
+      "event": "Extempore",
+      "noOfLevels": "Nan",
+      "description": {
+        "small": "Admiration comes easily to a person who is endowed with the fine art of public speaking. Do you believe you are adorn with an elegant speaking style? Literature and Debate Club is providing you a platform to showcase your thoughts in front of a vast concourse of onlookers. What are you waiting for, load your mind with thoughts, shape your thoughts into words and stand out of the masses to prove your eloquence.",
+        "big": "Admiration comes easily to a person who is endowed with the fine art of public speaking. Do you believe you are adorn with an elegant speaking style? Literature and Debate Club is providing you a platform to showcase your thoughts in front of a vast concourse of onlookers. What are you waiting for, load your mind with thoughts, shape your thoughts into words and stand out of the masses to prove your eloquence."
+      }
+    },
+       {
+      "organizers": "Umesh Yadav, Shreyas Sahay",
+      "yearBranch": "cse 3rd",
+      "contact": "8789853068, 9121528369",
+      "regFee": "-",
+      "Sno": "-",
+      "max_registrations": "unlimited",
+      "place": "offline",
+      "duration": "-",
+      "roomCapacity": "-",
+      "emailid": "umeshyadav199@gmail.com",
+      "event": "Talk Masters",
+      "noOfLevels": "Nan",
+      "description": {
+        "small": "",
+        "big": "Good speaking is the most enduring job skill. The literary and debate club brings an event-Talk masters to provide you an opportunity to debate on.It is rightly said that If you can speak,you can influence.If you can influence,you can change lives.This event can invoke you to deliver the message that you want to,to the audience ,along with arguments to figure out an effective way of solution to the problems that our society faces."
       }
     }
   ]
