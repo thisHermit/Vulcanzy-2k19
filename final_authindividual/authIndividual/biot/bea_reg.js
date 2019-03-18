@@ -6,6 +6,7 @@ var uname=sessionStorage.getItem("storageName");
 document.getElementById("username").value=uname;
 document.getElementById('biot').addEventListener('submit',submitForm);
 const scriptURL = 'https://script.google.com/macros/s/AKfycbwSJ-RjlxO5Rby8TTjBUobEdxOJgyvWamWiN5Pr-m2FZZP3ycu3/exec'
+
   const form = document.forms['biot-form']
 var total_fee=0;
 fetchData(uname);
