@@ -33,12 +33,13 @@ function submitForm(e){
 }
 function writeUserData(username,hand,art,artathon,paint,adv,photo,mannequin,foto,total_fee) {
 
+       fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => console.log('Success!', response))
+      .catch(error => console.error('Error!', error.message));
+            
         firebase.database().ref('pnp').child(username+"").set({
             
-            fetch(scriptURL, { method: 'POST', body: new FormData(form)})
-      .then(response => console.log('Success!', response))
-      .catch(error => console.error('Error!', error.message))
-            
+           
             username: username,
             HAND_PAINTING:hand,
             ART_IN_LINE:art,
