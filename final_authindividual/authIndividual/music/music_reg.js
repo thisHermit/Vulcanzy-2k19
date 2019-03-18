@@ -2,7 +2,8 @@ var messageRef=firebase.database().ref('music');
 var uname=sessionStorage.getItem("storageName");
 document.getElementById("username").value=uname;
 document.getElementById('music').addEventListener('submit',submitForm);
-
+const scriptURL = 'https://script.google.com/macros/s/AKfycbxRLM9whFMC9n53gb1kcWhmYKHwe6BLVzFpm2RnMOjD1aEMnEw1/exec'
+  const form = document.forms['music-form']
 var total_fee=0;
 fetchData(uname);
 function submitForm(e){
@@ -21,6 +22,11 @@ function submitForm(e){
 }
 function writeUserData(username,talent,lyrical,guess,insta,total_fee) {
 
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => console.log('Success!', response))
+      .catch(error => console.error('Error!', error.message))
+    
+    
         firebase.database().ref('music').child(username+"").set({
             username: username,
             VULCANZY_IDOL:talent,
