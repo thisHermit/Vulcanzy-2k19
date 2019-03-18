@@ -742,8 +742,7 @@ p{margin-bottom:.3em;}
 
     <script src="https://www.gstatic.com/firebasejs/5.8.4/firebase.js"></script>
     <script>
-      // Initialize Firebase
-      var config = {
+     var config = {
         apiKey: "AIzaSyB3urwbUhycDY6jUTCiFloudGHBj7629M4",
         authDomain: "fir-auth-fb5c8.firebaseapp.com",
         databaseURL: "https://fir-auth-fb5c8.firebaseio.com",
@@ -752,5 +751,21 @@ p{margin-bottom:.3em;}
         messagingSenderId: "143950457061"
       };
       firebase.initializeApp(config);
+      firebase.auth().onAuthStateChanged(function(user) {
+        if (user) {
+          console.log('User signed In');
+          console.log(user);
+          document.getElementById("username").value = user.email;
+          doNext(user);
+
+        } else {
+          console.log('User signed out');
+          // Send to sign in page
+          window.alert('Please Login or Signin!');
+          localStorage.setItem('user', '');
+          window.location.href = '../../../index.html'
+          // signIn();
+        }
+      });
     </script>
     <script src="cea_reg.js"></script>
