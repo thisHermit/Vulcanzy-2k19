@@ -2,6 +2,8 @@ var messageRef=firebase.database().ref('eee');
 var uname=sessionStorage.getItem("storageName");
 document.getElementById("username").value=uname;
 document.getElementById('eeea').addEventListener('submit',submitForm);
+const scriptURL = 'https://script.google.com/macros/s/AKfycbxRLM9whFMC9n53gb1kcWhmYKHwe6BLVzFpm2RnMOjD1aEMnEw1/exec'
+  const form = document.forms['eeea-form']
 var total_fee=0;
 fetchData(uname);
 function submitForm(e){
@@ -26,6 +28,10 @@ function submitForm(e){
 }
 
 function writeUserData(username,ckts, archi, origin,amalg,deception,expo,total_fee) {
+    
+     fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => console.log('Success!', response))
+      .catch(error => console.error('Error!', error.message))
 
         firebase.database().ref('eee').child(username+"").set({
             username: username,
