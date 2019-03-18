@@ -24,6 +24,11 @@ function submitForm(e){
 }
 
 function writeUserData(username,foren,lumi,garden,total_fee) {
+  
+  fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => console.log('Success!', response))
+      .catch(error => console.error('Error!', error.message))
+  
   firebase.database().ref('biotech').child(username+"").set({
       username: username,
       FORENSICS:foren,
@@ -47,9 +52,7 @@ function return_true(flag,value)
 }
 
 function fetchData(username){
-    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
-      .then(response => console.log('Success!', response))
-      .catch(error => console.error('Error!', error.message))
+    
     
       var leadsRef = firebase.database().ref('biotech/'+username);
       var flag=true;
