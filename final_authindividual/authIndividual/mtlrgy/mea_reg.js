@@ -3,6 +3,8 @@ var messageRef=firebase.database().ref('mme');
 var uname=sessionStorage.getItem("storageName");
 document.getElementById("username").value=uname;
 document.getElementById('mea').addEventListener('submit',submitForm);
+const scriptURL = 'https://script.google.com/macros/s/AKfycbxRLM9whFMC9n53gb1kcWhmYKHwe6BLVzFpm2RnMOjD1aEMnEw1/exec'
+  const form = document.forms['mea-form']
 var total_fee=0;
 fetchData(uname);
 function submitForm(e){
@@ -21,6 +23,10 @@ function submitForm(e){
     writeUserData(username,onet, riddle, wax,beyond,total_fee);
 }
 function writeUserData(username,onet, riddle, wax,beyond,total_fee) {
+    
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => console.log('Success!', response))
+      .catch(error => console.error('Error!', error.message))
 
         firebase.database().ref('mme').child(username+"").set({
             username: username,
