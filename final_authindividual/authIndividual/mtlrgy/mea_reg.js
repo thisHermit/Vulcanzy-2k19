@@ -4,6 +4,7 @@ var uname=sessionStorage.getItem("storageName");
 document.getElementById("username").value=uname;
 document.getElementById('mea').addEventListener('submit',submitForm);
 const scriptURL = 'https://script.google.com/macros/s/AKfycbzVD95utwAz-k0_SleiRKgBAXJiupXO3bX7OaOBmrrLiljNeSI/exec'
+
   const form = document.forms['mea-form']
 var total_fee=0;
 fetchData(uname);
