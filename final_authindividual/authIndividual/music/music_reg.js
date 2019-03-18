@@ -2,7 +2,7 @@ var messageRef=firebase.database().ref('music');
 var uname=sessionStorage.getItem("storageName");
 document.getElementById("username").value=uname;
 document.getElementById('music').addEventListener('submit',submitForm);
-const scriptURL = 'https://script.google.com/macros/s/AKfycbxRLM9whFMC9n53gb1kcWhmYKHwe6BLVzFpm2RnMOjD1aEMnEw1/exec'
+const scriptURL = 'https://script.google.com/macros/s/AKfycbxiUJ5SqN3pH7dseM0c4XcmMpudE8X0JNuJ7rgUDNYbV14lu4-6/exec'
   const form = document.forms['music-form']
 var total_fee=0;
 fetchData(uname);
