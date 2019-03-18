@@ -3,7 +3,7 @@ var uname=sessionStorage.getItem("storageName");
 document.getElementById("username").value=uname;
 document.getElementById('mgz').addEventListener('submit',submitForm);
 
-const scriptURL = 'https://script.google.com/macros/s/AKfycbxRLM9whFMC9n53gb1kcWhmYKHwe6BLVzFpm2RnMOjD1aEMnEw1/exec'
+const scriptURL = 'https://script.google.com/macros/s/AKfycbxhNxBWU3BS8Aio5jxB8XiE9-1e6HgsArpk_Sx8RWwz1J1Y7cCv/exec'
   const form = document.forms['magz-form']
 var total_fee=0;
 fetchData(uname);
