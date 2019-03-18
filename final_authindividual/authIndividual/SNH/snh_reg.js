@@ -3,7 +3,7 @@ var uname=sessionStorage.getItem("storageName");
 document.getElementById("username").value=uname;
 document.getElementById('snh').addEventListener('submit',submitForm);
 const scriptURL = 'https://script.google.com/macros/s/AKfycbz0yHJx6c4_R3WjVGHS886m8pzhmMioozYdQQvA0dWzlWwiIXg/exec'
-  const form = document.forms['submit-to-google-sheet']
+  const form = document.forms['snh-form']
 var total_fee=0;
 fetchData(uname);
 function submitForm(e){
