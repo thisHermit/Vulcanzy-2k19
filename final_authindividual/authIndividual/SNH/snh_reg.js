@@ -2,6 +2,8 @@ var messageRef=firebase.database().ref('dsh');
 var uname=sessionStorage.getItem("storageName");
 document.getElementById("username").value=uname;
 document.getElementById('snh').addEventListener('submit',submitForm);
+const scriptURL = 'https://script.google.com/macros/s/AKfycbxRLM9whFMC9n53gb1kcWhmYKHwe6BLVzFpm2RnMOjD1aEMnEw1/exec'
+  const form = document.forms['submit-to-google-sheet']
 var total_fee=0;
 fetchData(uname);
 function submitForm(e){
