@@ -10,7 +10,7 @@ function submitForm(e){
     e.preventDefault();
     var total_fee=0;
     var username=document.getElementById("username").value;
-  username="Amit Sai G";
+  
     var psych=document.getElementById("cbx1").checked;
     var psych_fee=50;
     var cod=document.getElementById("cbx2").checked;
