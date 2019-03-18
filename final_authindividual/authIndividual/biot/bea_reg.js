@@ -5,6 +5,8 @@ var messageRef=firebase.database().ref('biotech');
 var uname=sessionStorage.getItem("storageName");
 document.getElementById("username").value=uname;
 document.getElementById('biot').addEventListener('submit',submitForm);
+const scriptURL = 'https://script.google.com/macros/s/AKfycbxRLM9whFMC9n53gb1kcWhmYKHwe6BLVzFpm2RnMOjD1aEMnEw1/exec'
+  const form = document.forms['biot-form']
 var total_fee=0;
 fetchData(uname);
 function submitForm(e){
@@ -45,6 +47,10 @@ function return_true(flag,value)
 }
 
 function fetchData(username){
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => console.log('Success!', response))
+      .catch(error => console.error('Error!', error.message))
+    
       var leadsRef = firebase.database().ref('biotech/'+username);
       var flag=true;
       leadsRef.on('value', function(snapshot) {
