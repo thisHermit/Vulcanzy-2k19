@@ -3,7 +3,7 @@ var messageRef=firebase.database().ref('pnp');
 var uname=sessionStorage.getItem("storageName");
 document.getElementById("username").value=uname;
 document.getElementById('pnp').addEventListener('submit',submitForm);
-const scriptURL = 'https://script.google.com/macros/s/AKfycbxRLM9whFMC9n53gb1kcWhmYKHwe6BLVzFpm2RnMOjD1aEMnEw1/exec'
+const scriptURL = 'https://script.google.com/macros/s/AKfycbxowqCUVGN6sBTPAQHNX2agjbIsnfzxGZyWRCDD89iKx7CnP-Q/exec'
   const form = document.forms['pnp-form']
 var total_fee=0;
 fetchData(uname);
