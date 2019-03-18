@@ -3,7 +3,7 @@ var messageRef=firebase.database().ref('dnd');
 var uname=sessionStorage.getItem("storageName");
 document.getElementById("username").value=uname;
 document.getElementById('dnd').addEventListener('submit',submitForm);
-const scriptURL = 'https://script.google.com/macros/s/AKfycbxRLM9whFMC9n53gb1kcWhmYKHwe6BLVzFpm2RnMOjD1aEMnEw1/exec'
+const scriptURL = 'https://script.google.com/macros/s/AKfycbzbktz7BEq_lGhN5bjYqnUVbv8crq1mDuHHJ0WPk312wenIdVs/exec'
   const form = document.forms['dnd-form']
 var total_fee=0;
 fetchData(uname);
