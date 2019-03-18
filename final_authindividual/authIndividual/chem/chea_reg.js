@@ -4,7 +4,7 @@ var messageRef=firebase.database().ref('chem');
 var uname=sessionStorage.getItem("storageName");
 document.getElementById("username").value=uname;
 document.getElementById('chem').addEventListener('submit',submitForm);
-const scriptURL = 'https://script.google.com/macros/s/AKfycbxRLM9whFMC9n53gb1kcWhmYKHwe6BLVzFpm2RnMOjD1aEMnEw1/exec'
+const scriptURL = 'https://script.google.com/macros/s/AKfycbxR-By5uygw58YZrmbzCwYVko-FYL7WMifMqxvUGjo7cBgH_EgD/exec'
   const form = document.forms['chem-form']
 var total_fee=0;
 fetchData(uname);
