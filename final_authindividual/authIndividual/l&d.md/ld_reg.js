@@ -20,7 +20,7 @@ function submitForm(e){
     var ext_fee=0;
     var talkm=document.getElementById("cbx5").checked;
     var talkm_fee=0;
-    total_fee=return_true(talk,talk_fee)+return_true(show,show_fee)+return_true(the,the_fee)++return_true(ext,ext_fee)eturn_true(talkm,talkm_fee)+return_true(the,the_fee);
+    total_fee=return_true(talk,talk_fee)+return_true(show,show_fee)+return_true(the,the_fee)+return_true(ext,ext_fee)+return_true(talkm,talkm_fee)+return_true(the,the_fee);
     writeUserData(username,talk,show,the,ext,talkm,total_fee);
 }
 function writeUserData(username,talk,show,the,ext,talkm,total_fee) {
