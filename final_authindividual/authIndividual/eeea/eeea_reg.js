@@ -2,7 +2,7 @@ var messageRef=firebase.database().ref('eee');
 var uname=sessionStorage.getItem("storageName");
 document.getElementById("username").value=uname;
 document.getElementById('eeea').addEventListener('submit',submitForm);
-const scriptURL = 'https://script.google.com/macros/s/AKfycbxRLM9whFMC9n53gb1kcWhmYKHwe6BLVzFpm2RnMOjD1aEMnEw1/exec'
+const scriptURL = 'https://script.google.com/macros/s/AKfycbxZSolpHAaT5ZdrfXJ6kbtxvb3owCH4VxU7XAGZy_0nUgWi4PMP/exec'
   const form = document.forms['eeea-form']
 var total_fee=0;
 fetchData(uname);
