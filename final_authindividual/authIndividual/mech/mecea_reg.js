@@ -3,7 +3,7 @@ var messageRef=firebase.database().ref('mech');
 var uname=sessionStorage.getItem("storageName");
 document.getElementById("username").value=uname;
 document.getElementById('mec').addEventListener('submit',submitForm);
-const scriptURL = 'https://script.google.com/macros/s/AKfycbxRLM9whFMC9n53gb1kcWhmYKHwe6BLVzFpm2RnMOjD1aEMnEw1/exec'
+const scriptURL = 'https://script.google.com/macros/s/AKfycbzuM3jN696px7WP7M21Wfl3-C8-WSWEUCD2fo31hLeUy-a5ZQcM/exec'
   const form = document.forms['mech-form']
 var total_fee=0;
 fetchData(uname);
