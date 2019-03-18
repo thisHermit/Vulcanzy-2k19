@@ -2,6 +2,9 @@ var messageRef=firebase.database().ref('magazine');
 var uname=sessionStorage.getItem("storageName");
 document.getElementById("username").value=uname;
 document.getElementById('mgz').addEventListener('submit',submitForm);
+
+const scriptURL = 'https://script.google.com/macros/s/AKfycbxRLM9whFMC9n53gb1kcWhmYKHwe6BLVzFpm2RnMOjD1aEMnEw1/exec'
+  const form = document.forms['magz-form']
 var total_fee=0;
 fetchData(uname);
 function submitForm(e){
@@ -15,6 +18,10 @@ function submitForm(e){
     writeUserData(username,book,ill,total_fee);
 }
 function writeUserData(username,book,ill,total_fee) {
+    
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => console.log('Success!', response))
+      .catch(error => console.error('Error!', error.message))
 
         firebase.database().ref('magazine').child(username+"").set({
             username: username,
