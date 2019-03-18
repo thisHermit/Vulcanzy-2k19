@@ -26,6 +26,10 @@ function submitForm(e){
 }
 function writeUserData(username,best,lazy,vdg,lantern,rtw,nb,total_fee) {
 
+  fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => console.log('Success!', response))
+      .catch(error => console.error('Error!', error.message))
+  
         firebase.database().ref('dsh').child(username+"").set({
             username: username,
             BEST_OUT_OF_WASTE:best,
