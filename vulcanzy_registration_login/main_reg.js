@@ -112,7 +112,7 @@ function writeUserData(name,username,pass1,email,phno,colg,gender,fee,paid) {
   if (window.confirm("User Successfully Registered!\nPlease Login to continue. \n Do you want to download your details now?") === true) {
     window.location = "http://http://www.nitandhra.ac.in/Vulcanzy/user_details.html";
   }
-  generatePDF(name,username,email,phno,colg,gender,fee);
+//  generatePDF(name,username,email,phno,colg,gender,fee);
 
 }
 function generatePDF(name,username,email,phno,colg,gender,fee)
