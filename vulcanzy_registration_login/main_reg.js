@@ -35,7 +35,7 @@ function submitForm(e){
     var pass2="000";
     var email=document.getElementById("email").value;
     var phno=document.getElementById("phno").value;
-    
+
 	var colg=document.getElementById("search_categories").value;
 	if (colg=="NIT Andhra Pradesh") {fee=0;paid=1;}
     var gender="M";
@@ -60,8 +60,8 @@ function submitForm(e){
             all.push(str+"");
             all1.push(str1+"");
         });
-    
-      
+
+
         if(all.includes(username) && all1.includes(password) && (all1[all.indexOf(username)]+""==password) &&flag){
             flag=false;
             all=[]
@@ -81,7 +81,7 @@ function submitForm(e){
           flag=false;
 		//console.log(123);
           writeUserData(name,username,"000",email,phno,colg,gender,fee,paid);
-         
+
 		window.location.href = "login.html";
         }
     });
@@ -92,11 +92,11 @@ function submitForm(e){
 }
 
 function writeUserData(name,username,pass1,email,phno,colg,gender,fee,paid) {
-  
+
 	fetch(scriptURL, { method: 'POST', body: new FormData(form)})
       .then(response => console.log('Success!', response))
       .catch(error => console.error('Error!', error.message))
-	
+
 	//to firebase
 	firebase.database().ref('register').child(username+"").set({
     clg_name: colg,
@@ -109,16 +109,18 @@ function writeUserData(name,username,pass1,email,phno,colg,gender,fee,paid) {
     username: username
   });
   flag=true;
-  window.alert("User Successfully Registered!\nPlease Login to continue");
-	generatePDF(name,username,email,phno,colg,gender,fee);
+  if (window.confirm("User Successfully Registered!\nPlease Login to continue. \n Do you want to download your details now?") === true) {
+    window.location = "http://http://www.nitandhra.ac.in/Vulcanzy/user_details.html";
+  }
+  generatePDF(name,username,email,phno,colg,gender,fee);
 
 }
 function generatePDF(name,username,email,phno,colg,gender,fee)
 {
     var doc = new jsPDF('portrait', 'mm', 'a4');
-	
- 
-	
+
+
+
 		doc.setFontSize(22);
 		doc.setTextColor(92, 76, 76);
 		doc.text(33,25,"VULCANZY 2K19 REGISTRATION FORM")
@@ -131,7 +133,7 @@ function generatePDF(name,username,email,phno,colg,gender,fee)
         doc.text(21, 120, "College : "+colg);
         doc.setFontSize(18);
 	    doc.text(21,140,"Amount to be Paid : " + fee + "/-");
-	
+
 	doc.save(name+"Vulcanzy");
 
 }
